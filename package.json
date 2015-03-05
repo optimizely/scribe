@@ -17,10 +17,14 @@
   },
   "homepage": "https://github.com/optimizely/scribe",
   "dependencies": {
+    "del": "^1.1.1",
     "gulp": "^3.8.10",
-    "gulp-marked": "^1.0.0",
     "gulp-file-include": "^0.8.0",
     "gulp-front-matter": "^1.2.2",
+    "gulp-marked": "^1.0.0",
     "gulp-wrap": "^0.11.0"
+  },
+  "devDependencies": {
+    "gulp-replace": "^0.5.3"
   }
 }
