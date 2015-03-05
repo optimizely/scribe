@@ -1,0 +1,26 @@
+{
+  "name": "scribe",
+  "version": "0.0.1",
+  "description": "Long-form static, reponsive HTML publishing engine for Optimizely.",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/optimizely/scribe"
+  },
+  "author": "Tom Genoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/optimizely/scribe/issues"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "homepage": "https://github.com/optimizely/scribe",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-marked": "^1.0.0",
+    "gulp-file-include": "^0.8.0",
+    "gulp-front-matter": "^1.2.2",
+    "gulp-wrap": "^0.11.0"
+  }
+}
