@@ -16,8 +16,8 @@ gulp.task('build', function() {
       property: 'data'
     }))
     .pipe(marked())
-    .pipe(replace('<p>[[section]]</p>', '<section>'))
-    .pipe(replace('<p>[[/section]]</p>', '</section>'))
+    // [[tag]] and [[/tag]] == <tag> and </tag>
+    .pipe(replace(/<p>\[\[(.*)\]\]<\/p>/gi, "<$1>"))
     .pipe(wrap({
       src: 'templates/template.html'
     }))
