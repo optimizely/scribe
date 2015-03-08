@@ -1,27 +1,29 @@
-var gulp = require('gulp');
-var marked = require('gulp-marked');
-var frontMatter = require('gulp-front-matter');
-var fileinclude = require('gulp-file-include');
-var wrap = require("gulp-wrap");
-var replace = require("gulp-replace");
-var del = require("del");
+var gulp        = require('gulp')
+    frontMatter = require('gulp-front-matter'),
+    wrap        = require('gulp-wrap'),
+    replace     = require('gulp-replace'),
+    del         = require('del'),
+    swig        = require('gulp-swig'),
+    marked      = require('swig-marked'),
+    opts        = {
+      setup: function(swig) {
+        marked.useTag(swig, 'markdown');
+      }
+};
 
 gulp.task('build', function() {
-  gulp.src('content/page.md')
-    .pipe(fileinclude({
-      prefix: '@@',
-      basepath: './partials/'
-    }))
+  gulp.src('content/page.html')
     .pipe(frontMatter({
       property: 'data'
     }))
-    .pipe(marked())
-    // [[tag]] and [[/tag]] == <tag> and </tag>
-    .pipe(replace(/<p>\[\[(.*)\]\]<\/p>/gi, "<$1>"))
+    .pipe(swig(opts))
+     // [[tag]] foo [[/tag]] == <div class="tag"> foo </div>
+    .pipe(replace(/<p>\[\[\/(.*)\]\]<\/p>/gi, '</div>'))
+    .pipe(replace(/<p>\[\[(.*)\]\]<\/p>/gi, '<div class="$1">'))
     .pipe(wrap({
       src: 'templates/template.html'
     }))
-    .pipe(gulp.dest('build'));
+    .pipe(gulp.dest('./build/'))
 });
 
 gulp.task('assets', function() {

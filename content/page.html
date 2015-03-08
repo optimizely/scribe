@@ -1,0 +1,37 @@
+---
+title: Bananas
+---
+
+{% include "../partials/introduction.html" {
+  title: 'tacos',
+  subject: 'horchata',
+  description: 'foo'
+}%}
+
+{% markdown %}
+
+## Title
+
+foobar
+
+[[foo bar]]
+
+foo bar
+
+[[/foo bar]]
+
+[[jo]]
+
+## This is a jo
+
+this is a jo
+
+[[/jo]]
+
+{% endmarkdown %}
+
+{% include "../partials/introduction.html" {
+  title: 'tacos',
+  subject: 'horchata',
+  description: 'foo'
+}%}
