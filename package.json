@@ -20,9 +20,10 @@
     "del": "^1.1.1",
     "gulp": "^3.8.10",
     "gulp-front-matter": "^1.2.2",
-    "gulp-wrap": "^0.11.0",
     "gulp-replace": "^0.5.3",
-    "swig-marked": "^0.0.1",
-    "gulp-swig": "^0.7.4"
+    "gulp-swig": "^0.7.4",
+    "gulp-wrap": "^0.11.0",
+    "path": "^0.11.14",
+    "swig-marked": "^0.0.1"
   }
 }

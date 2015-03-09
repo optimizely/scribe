@@ -5,9 +5,13 @@ var gulp        = require('gulp')
     del         = require('del'),
     swig        = require('gulp-swig'),
     marked      = require('swig-marked'),
+    path        = require('path'),
     opts        = {
       setup: function(swig) {
-        marked.useTag(swig, 'markdown');
+        marked.useTag(swig, 'markdown'); // Use markdown inside markdown tags.
+        swig.setDefaults({
+          loader: swig.loaders.fs(__dirname + '/partials/') // Set partial path.
+        });
       }
 };
 
@@ -17,9 +21,8 @@ gulp.task('build', function() {
       property: 'data'
     }))
     .pipe(swig(opts))
-     // [[tag]] foo [[/tag]] == <div class="tag"> foo </div>
-    .pipe(replace(/<p>\[\[\/(.*)\]\]<\/p>/gi, '</div>'))
-    .pipe(replace(/<p>\[\[(.*)\]\]<\/p>/gi, '<div class="$1">'))
+    .pipe(replace(/<p>\[\[\/(.*)\]\]<\/p>/gi, '</div>'))  // [[/tag]] == </div>
+    .pipe(replace(/<p>\[\[(.*)\]\]<\/p>/gi, '<div class="$1">'))  // [[tag]] == <div class="tag">
     .pipe(wrap({
       src: 'templates/template.html'
     }))
