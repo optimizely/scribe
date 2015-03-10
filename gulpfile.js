@@ -10,7 +10,7 @@ var gulp        = require('gulp')
       setup: function(swig) {
         marked.useTag(swig, 'markdown'); // Use markdown inside markdown tags.
         swig.setDefaults({
-          loader: swig.loaders.fs(__dirname + '/partials/') // Set partial path.
+          loader: swig.loaders.fs(__dirname + '/partials/') // Set partial path root.
         });
       }
 };
