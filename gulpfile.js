@@ -9,7 +9,7 @@ var gulp        = require('gulp')
     opts        = {
       setup: function(swig) {
         swig.setDefaults({
-          loader: swig.loaders.fs(__dirname + '/partials/') // Set partial path root.
+          loader: swig.loaders.fs(__dirname + '/includes/') // Set partial path root.
         });
       }
 };
