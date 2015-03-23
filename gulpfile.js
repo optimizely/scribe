@@ -15,13 +15,13 @@ var gulp        = require('gulp')
 };
 
 gulp.task('build', function() {
-  gulp.src('content/page.html')
+  gulp.src('content/**/*.html')
     .pipe(frontMatter({
       property: 'data',
       html: true
     }))
     .pipe(swig(opts))
-    .pipe(replace(/\[\[\/.*\]\]/gi, '</div>'))  // [[/tag]] == </div>
+    .pipe(replace(/\[\[\/\]\]/gi, '</div>'))  // [[/]] == </div>
     .pipe(replace(/\[\[(.*)\]\]/gi, '<div class="$1">'))  // [[tag]] == <div class="tag">
     .pipe(md({
       preset: 'commonmark'
