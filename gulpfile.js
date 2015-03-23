@@ -1,14 +1,13 @@
 var gulp        = require('gulp')
-    frontMatter = require('gulp-front-matter'),
-    wrap        = require('gulp-wrap'),
-    replace     = require('gulp-replace'),
     del         = require('del'),
+    frontMatter = require('gulp-front-matter'),
+    md          = require('gulp-remarkable');
     swig        = require('gulp-swig'),
-    marked      = require('swig-marked'),
+    replace     = require('gulp-replace'),
+    wrap        = require('gulp-wrap'),
     path        = require('path'),
     opts        = {
       setup: function(swig) {
-        marked.useTag(swig, 'markdown'); // Use markdown inside markdown tags.
         swig.setDefaults({
           loader: swig.loaders.fs(__dirname + '/partials/') // Set partial path root.
         });
@@ -18,11 +17,15 @@ var gulp        = require('gulp')
 gulp.task('build', function() {
   gulp.src('content/page.html')
     .pipe(frontMatter({
-      property: 'data'
+      property: 'data',
+      html: true
     }))
     .pipe(swig(opts))
-    .pipe(replace(/<p>\[\[\/(.*)\]\]<\/p>/gi, '</div>'))  // [[/tag]] == </div>
-    .pipe(replace(/<p>\[\[(.*)\]\]<\/p>/gi, '<div class="$1">'))  // [[tag]] == <div class="tag">
+    .pipe(replace(/\[\[\/.*\]\]/gi, '</div>'))  // [[/tag]] == </div>
+    .pipe(replace(/\[\[(.*)\]\]/gi, '<div class="$1">'))  // [[tag]] == <div class="tag">
+    .pipe(md({
+      preset: 'commonmark'
+    }))
     .pipe(wrap({
       src: 'templates/template.html'
     }))
@@ -38,4 +41,4 @@ gulp.task('clean', function (cb) {
   del('./build/', cb);
 });
 
-gulp.task('default', ['build','assets']);
+gulp.task('default', ['build', 'assets']);
