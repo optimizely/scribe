@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+#wrap {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bleed {
+  background: red;
+  position: relative;
+  box-shadow: 500px 0 0 red;
+  padding: 20px 0;
+}
+
+.bleed:before {
+  content: "";
+  background: red;
+  top: 0;
+  left: -999px;
+  bottom: 0;
+  position: absolute;
+  right: 100%;
+  z-index: -1;
+}
