@@ -1,12 +1,12 @@
 <div class="introduction">
-  {% if subject %}
-  <div class="subject">{{ subject }}</div>
+  {% if foo.subject %}
+  <div class="subject">{{ foo.subject }}</div>
   {% endif %}
 
-  ### {{ title }}
+  ### {{ foo.title }}
 
-  {% if description %}
-  <div class="description">{{ description }}</div>
+  {% if foo.description %}
+  <div class="description">{{ foo.description }}</div>
   {% endif %}
 
 </div>
