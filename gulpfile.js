@@ -3,6 +3,7 @@ var gulp        = require('gulp')
     frontMatter = require('gulp-front-matter'),
     md          = require('gulp-remarkable');
     swig        = require('gulp-swig'),
+    toc         = require('gulp-toc'),
     replace     = require('gulp-replace'),
     wrap        = require('gulp-wrap'),
     path        = require('path'),
@@ -28,6 +29,11 @@ gulp.task('build', function() {
     }))
     .pipe(wrap({
       src: 'templates/template.html'
+    }))
+    .pipe(toc({
+      header: '<h<%= level %> id="<%= anchor %>"><%= header %></h<%= level %>>',
+      tocMax: 2,
+      anchorMax: 2
     }))
     .pipe(gulp.dest('./build/'))
 });
