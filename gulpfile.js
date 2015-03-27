@@ -4,6 +4,7 @@ var gulp        = require('gulp')
     md          = require('gulp-remarkable');
     swig        = require('gulp-swig'),
     browserSync = require('browser-sync'),
+    changed     = require('gulp-changed'),
     reload      = browserSync.reload,
     toc         = require('gulp-toc'),
     replace     = require('gulp-replace'),
@@ -21,8 +22,7 @@ var gulp        = require('gulp')
 gulp.task('build', function() {
   gulp.src('content/**/*.md')
     .pipe(frontMatter({
-      property: 'data',
-      html: true
+      property: 'data'
     }))
     .pipe(swig(opts))
     .pipe(replace(/\[\[\/\]\]/gi, '</div>'))  // [[/]] == </div>
@@ -45,8 +45,19 @@ gulp.task('build', function() {
 
 gulp.task('assets', function() {
   gulp.src('assets/**/')
-    .pipe(gulp.dest('build/assets'));
+    .pipe(gulp.dest('build/assets'))
+    .pipe(reload({stream:true}));
 });
+
+
+gulp.task('assets', function() {
+  gulp.src('assets/**/')
+    .pipe(changed('./build/assets/'))
+    .pipe(gulp.dest('./build/assets/'))
+    .pipe(reload({stream:true}));
+});
+
+
 
 gulp.task('browser-sync', function() {
   browserSync({
@@ -65,7 +76,10 @@ gulp.task('clean', function (cb) {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('content/**/*.md', ['build', 'assets']);
+    gulp.watch('content/**/*.md', ['build']);
+    gulp.watch('templates/**/*.html', ['build']);
+    gulp.watch('includes/**/*.html', ['build']);
+    gulp.watch('assets/**/*{js,css,png,jpg,svg}', ['assets']);
 });
 
 gulp.task('default', ['build', 'assets', 'browser-sync', 'watch']);

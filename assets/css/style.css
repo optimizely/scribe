@@ -26,6 +26,12 @@ body {
   flex: 1;
 }
 
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
 .bleed {
   background: red;
   position: relative;
