@@ -1,0 +1,188 @@
+// # Popover
+// Information bubbles on hover. Almost always used with `postition: absolute`.
+
+// ## Usage
+// Used when the text is too long or too complicated for a poptip. Can also be
+// used for navigation menus when dropdowns cannot be used, for exammple, when
+// the menu extends to the right or left of the trigger.
+
+// ## Examples
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-top-left">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-top-center">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-top-right">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-right-top">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-right-center">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-right-bottom">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-bottom-right">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-bottom-center">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-bottom-left">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-left-bottom">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-left-center">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+//[hc]
+//     <ul class="lego-popover lego-popover--arrow-left-top">
+//       <li class="lego-popover__content">
+//         <div class="lego-popover__title">Title</div>
+//         <p>Ipsa officiis bad-news minus earum a aperiam! Aperiam reiciendis vitae nihil libero et, hic!</p>
+//       </li>
+//     </ul>
+//[/hc]
+
+
+$popover-background: map-get($ui-color, white);
+$popover-border: map-get($ui-color, base);
+
+%lego-popover,
+.lego-popover {
+  @extend %lego-block-list-group;
+  background: map-get($background-color, white);
+  max-width: 250px;
+  display: inline-block;
+  box-shadow: 0 2px map-get($shadow, light);
+
+  &__content p {
+    @extend %kill-last-child-margin;
+  }
+
+  &__title {
+    font-weight: map-get($font-weight, bold);
+  }
+
+  // Arrow options. 12 possible positions.
+
+  &--arrow-top-left {
+    @include arrow(top, left, $popover-background, $popover-border);
+  }
+
+  &--arrow-top-center {
+    @include arrow(top, center, $popover-background, $popover-border);
+  }
+
+  &--arrow-top-right {
+    @include arrow(top, right, $popover-background, $popover-border);
+  }
+
+  &--arrow-right-top {
+    @include arrow(right, top, $popover-background, $popover-border);
+  }
+
+  &--arrow-right-center {
+    @include arrow(right, center, $popover-background, $popover-border);
+  }
+
+  &--arrow-right-bottom {
+    @include arrow(right, bottom, $popover-background, $popover-border);
+  }
+
+  &--arrow-bottom-right {
+    @include arrow(bottom, right, $popover-background, $popover-border);
+  }
+
+  &--arrow-bottom-center {
+    @include arrow(bottom, center, $popover-background, $popover-border);
+  }
+
+  &--arrow-bottom-left {
+    @include arrow(bottom, left, $popover-background, $popover-border);
+  }
+
+  &--arrow-left-bottom {
+    @include arrow(left, bottom, $popover-background, $popover-border);
+  }
+
+  &--arrow-left-center {
+    @include arrow(left, center, $popover-background, $popover-border);
+  }
+
+  &--arrow-left-top {
+    @include arrow(left, top, $popover-background, $popover-border);
+  }
+}

@@ -1,0 +1,18 @@
+.recommended {
+  @include layout-fence;
+  margin-bottom: spacer(6);
+
+  .image {
+    height: 200px;
+    background: red;
+    margin-bottom: spacer(2);
+    background-size: cover;
+  }
+
+  .category {
+    text-transform: uppercase;
+    font-size: map-get($font-size, milli);
+    font-weight: map-get($font-weight, bold);
+    letter-spacing: 1px;
+  }
+}

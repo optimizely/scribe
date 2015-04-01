@@ -1,0 +1,18 @@
+blockquote {
+  p {
+    font-weight: 600;
+    font-size: 19px;
+  }
+}
+
+blockquote.full {
+  margin: spacer(4) 0;
+  text-align: center;
+}
+
+blockquote.half {
+  float: right;
+  width: 35%;
+  margin-right: -(spacer(6));
+  margin-left: spacer(3);
+}

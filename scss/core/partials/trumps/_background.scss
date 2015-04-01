@@ -1,0 +1,42 @@
+// # Background Trumps
+// Adding background colors via classes.
+
+.background--white {
+  background-color: map-get($background-color, white) !important;
+}
+
+.background--faint {
+  background-color: map-get($background-color, faint) !important;
+}
+
+.background--light {
+  background-color: map-get($background-color, light) !important;
+}
+
+.background--muted {
+  background-color: map-get($background-color, muted) !important;
+}
+
+.background--medium {
+  background-color: map-get($background-color, medium) !important;
+}
+
+.background--brand {
+  background-color: map-get($background-color, brand) !important;
+}
+
+.background--brand-dark {
+  background-color: map-get($background-color, brand-dark) !important;
+}
+
+.background--warning {
+  background-color: map-get($background-color, warning) !important;
+}
+
+.background--bad-news {
+  background-color: map-get($background-color, bad-news) !important;
+}
+
+.background--good-news {
+  background-color: map-get($background-color, good-news) !important;
+}

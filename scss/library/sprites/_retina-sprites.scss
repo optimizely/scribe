@@ -1,0 +1,90 @@
+// # Retina Sprites
+// This is a modified version of [Simple CSS retina sprite with Sass and Compass](https://medium.com/front-end-wtf/simple-css-retina-sprite-with-sass-and-compass-5e667cdeec3f).
+
+// ## Example
+// Here we are creating two different sets of sprites. Each one will generate a retina and non-retina sprite and all the CSS classes you need to reference the image. Inspect the CSS output for the class names you'll need to use.
+
+//[c]
+//     @include make-sprite("foobar","foo/*.png","foo-2x/*.png");
+//     @include make-sprite("zoobar","zoo/*.png","zoo-2x/*.png");
+//[/c]
+
+// ### Notes
+
+// - 'foobar' is the name of the sprite you want use to use.
+// - 'foo/*.png' is the path to the non-retina pngs
+// - 'foo-2x/*.png' is the path to the retina pngs
+// - Both retina and non-retina images should be named the same.
+// - Include the mixin at the root of your SCSS file. Don't nest inside a selector.
+
+// ### Example Output
+
+//[c]
+//     ...
+//
+//     .foobar {
+//       background: url('/path/to/sprite/foo-s036be48d59.png');
+//       display: inline-block;
+//     }
+
+//     @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+//       .foobar {
+//         background: url('/path/to/sprite/foo-2x-se93ac016b6.png');
+//         -moz-background-size: 104px 1700px;
+//         -o-background-size: 104px 1700px;
+//         -webkit-background-size: 104px 1700px;
+//         background-size: 104px 1700px;
+//       }
+//     }
+
+//     .foobar-item-filename {
+//       background-position: 0 0;
+//       height: 104px;
+//       width: 104px;
+//     }
+//
+//     ...
+//[/c]
+
+@mixin make-sprite($name, $img-path, $img-path-2x) {
+
+  $img-normal: sprite-map($img-path, $spacing: 10px);
+  $img-retina: sprite-map($img-path-2x, $spacing: 20px);
+
+  .#{$name} {
+    background: $img-normal;
+    display: inline-block;
+    @include bp-retina {
+      background: $img-retina no-repeat;
+      @include background-size(image-width(sprite-path($img-normal)) image-height(sprite-path($img-normal)));
+    }
+  }
+
+  @each $i in sprite_names($img-normal){
+    .#{$name}-item-#{$i} {
+      background-position: sprite-position($img-normal, $i);
+      @include sprite-dimensions($img-normal, $i);
+    }
+  }
+
+  @include bp-retina {
+    @each $i in sprite_names($img-normal){
+      .#{$name}-item-#{$i} {
+        $ypos: round(nth(sprite-position($img-retina, $i), 2) / 2);
+        background-position: 0 $ypos;
+      }
+    }
+  }
+}
+
+@mixin bp-retina {
+ @media
+   only screen and (-webkit-min-device-pixel-ratio: 2),
+   only screen and ( min-moz-device-pixel-ratio: 2),
+   only screen and ( -o-min-device-pixel-ratio: 2/1),
+   only screen and ( min-device-pixel-ratio: 2),
+   only screen and ( min-resolution: 192dpi),
+   only screen and ( min-resolution: 2dppx) {
+   @content;
+ }
+}

@@ -1,0 +1,33 @@
+// # Rules
+// Adds styling to an `<hr>`. Use this between blocks of text or other elements to provide separation.
+
+// ## Examples
+
+//[hc]
+//     <hr class="lego-rule" />
+//[/hc]
+
+//[hc]
+//     <hr class="lego-rule lego-rule--dotted" />
+//[/hc]
+
+//[hc]
+//     <hr class="lego-rule lego-rule--dashed" />
+//[/hc]
+
+%lego-rule,
+.lego-rule {
+  border: 0;
+  height: 0;
+  border-top: 1px solid map-get($ui-color, base);
+  margin-top: spacer(1) - 1px;
+  margin-bottom: spacer(1);
+
+  &--dotted {
+    border-top-style: dotted;
+  }
+
+  &--dashed {
+    border-top-style: dashed;
+  }
+}

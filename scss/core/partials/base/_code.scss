@@ -1,0 +1,31 @@
+// # Code
+// For monospace code snippets, both inline and multiline.
+
+//[hc]
+//     Text can have <code>code snippets</code> in a sentence.
+//[/hc]
+
+code {
+  font-family: map-get($font-family, monospace);
+}
+
+.lego-pre {
+  margin-bottom: spacer(1);
+  white-space: pre-wrap;
+
+  code {
+    padding: spacer(1);
+    background: map-get($background-color, faint);
+    overflow-x: auto;
+    display: block;
+    border-radius: map-get($border-radius, base);
+    border: 1px solid map-get($ui-color, base);
+  }
+}
+
+.lego-code {
+  background: map-get($background-color, faint);
+  border-radius: map-get($border-radius, base);
+  border: 1px solid map-get($ui-color, base);
+  padding: 1px 3px;
+}

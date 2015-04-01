@@ -1,0 +1,100 @@
+// # Spinner
+// Loading spinner. Target `lego-spinner-wrap` to position as needed.
+
+// ## Example
+
+//[hc]
+//     <div class="lego-spinner-wrap">
+//       <div class="lego-spinner"></div>
+//     </div>
+//     <div class="lego-spinner-wrap">
+//       <div class="lego-spinner lego-spinner--small"></div>
+//     </div>
+//     <div class="lego-spinner-wrap">
+//       <div class="lego-spinner lego-spinner--tiny"></div>
+//     </div>
+//[/hc]
+
+// ### With Overlay
+// This gets inserted into an element and blocks user interaction. Requires a parent div with positioning (absolute or relative).
+
+//[c]
+//     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cum iusto repudiandae earum porro reprehenderit perspiciatis iste delectus ipsam, accusantium ad sunt, rem mollitia, omnis illum explicabo facere quibusdam qui.</div>
+//     <div class="lego-overlay">
+//       <div class="lego-spinner lego-spinner--small"></div>
+//     </div>
+//[/c]
+
+// Note: To position spinner target `.lego-spinner-wrap`.
+
+.lego-overlay {
+  @include display(flex);
+  @include justify-content(center);;
+  @include align-items(center);
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+@-webkit-keyframes lego-spin {
+  100% {
+    -webkit-transform: rotate(360deg); // Safari
+  }
+}
+
+@keyframes lego-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.lego-spinner {
+  display: inline-block;
+  width: map-get($spinner, size-default);
+  height: map-get($spinner, size-default);
+  border-radius: 50%;
+  border: map-get($spinner, border-width) solid map-get($spinner, border-color-light);
+  position: relative;
+  -webkit-animation: lego-spin map-get($spinner, speed) infinite linear;
+  animation: lego-spin map-get($spinner, speed) infinite linear;
+
+  &::before {
+    content: '';
+    width: map-get($spinner, size-default);
+    height: map-get($spinner, size-default);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: -(map-get($spinner, border-width));
+    top: -(map-get($spinner, border-width));
+    border-width: map-get($spinner, border-width);
+    border-style: solid;
+    border-right-color: map-get($spinner, border-color-light);
+    border-top-color: map-get($spinner, border-color-light);
+    border-left-color: map-get($ui-color, brand);
+    border-bottom-color: map-get($spinner, border-color-light);
+  }
+
+  &--small,
+  &--small::before {
+    width: map-get($spinner, size-small);
+    height: map-get($spinner, size-small);
+    border-width: map-get($spinner, border-width-small);
+    left: -(map-get($spinner, border-width-small));
+    top: -(map-get($spinner, border-width-small));
+  }
+
+  &--tiny,
+  &--tiny::before {
+    width: map-get($spinner, size-tiny);
+    height: map-get($spinner, size-tiny);
+    border-width: map-get($spinner, border-width-tiny);
+    left: -(map-get($spinner, border-width-tiny));
+    top: -(map-get($spinner, border-width-tiny));
+  }
+}

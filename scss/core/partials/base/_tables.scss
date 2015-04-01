@@ -1,0 +1,281 @@
+// # Tables
+// Tables will often require heavier use of helper classes than normal. This helps keeps
+// the number of core table variations low.
+
+// ## HTML Examples
+
+// ### Basic Table
+
+//[hc]
+//     <table class="lego-table">
+//       <thead>
+//         <tr>
+//           <th>Experiment</th>
+//           <th class="numerical">Numbers</th>
+//           <th class="cell-collapse">Status</th>
+//         </tr>
+//       </thead>
+//       <tbody>
+//         <tr>
+//           <td>Experiment name one</td>
+//           <td class="numerical">258</td>
+//           <td>Up</td>
+//         </tr>
+//         <tr>
+//           <td>Experiment name two that runs longer</td>
+//           <td class="numerical">19</td>
+//           <td>Down</td>
+//         </tr>
+//         <tr>
+//           <td>Experiment name three</td>
+//           <td class="numerical">400</td>
+//           <td>Up</td>
+//         </tr>
+//       </tbody>
+//     </table>
+//[/hc]
+
+
+// ### Table Walled
+
+//[hc]
+//     <table class="lego-table lego-table--wall">
+//       <thead>
+//         <tr>
+//           <th>Experiment</th>
+//           <th class="numerical">Numbers</th>
+//           <th class="cell-collapse">Status</th>
+//         </tr>
+//       </thead>
+//       <tbody>
+//         <tr>
+//           <td>Experiment name one</td>
+//           <td class="numerical">258</td>
+//           <td>Up</td>
+//         </tr>
+//         <tr>
+//           <td>Experiment name two that runs longer</td>
+//           <td class="numerical">19</td>
+//           <td>Down</td>
+//         </tr>
+//         <tr>
+//           <td>Experiment name three</td>
+//           <td class="numerical">400</td>
+//           <td>Up</td>
+//         </tr>
+//       </tbody>
+//     </table>
+//[/hc]
+
+
+// ### Table Rule
+
+//[hc]
+//     <table class="lego-table lego-table--rule">
+//       <thead>
+//         <tr>
+//           <th>Experiment</th>
+//           <th class="numerical">Numbers</th>
+//           <th class="cell-collapse">Status</th>
+//         </tr>
+//       </thead>
+//       <tbody>
+//         <tr>
+//           <td>Experiment name one</td>
+//           <td class="numerical">258</td>
+//           <td>Up</td>
+//         </tr>
+//         <tr>
+//           <td>Experiment name two that runs longer</td>
+//           <td class="numerical">19</td>
+//           <td>Down</td>
+//         </tr>
+//         <tr>
+//           <td>Experiment name three</td>
+//           <td class="numerical">400</td>
+//           <td>Up</td>
+//         </tr>
+//       </tbody>
+//     </table>
+//[/hc]
+
+
+// ### Table Rule with Active Row and Hover
+
+//[hc]
+//     <table class="lego-table lego-table--rule lego-table--hover">
+//       <thead>
+//         <tr>
+//           <th>Experiment</th>
+//           <th class="numerical">Numbers</th>
+//           <th class="cell-collapse">Status</th>
+//         </tr>
+//       </thead>
+//       <tbody>
+//         <tr>
+//           <td>Experiment name one</td>
+//           <td class="numerical">258</td>
+//           <td>Up</td>
+//         </tr>
+//         <tr class="lego-table-row--active">
+//           <td>Experiment name two that runs longer</td>
+//           <td class="numerical">19</td>
+//           <td>Down</td>
+//         </tr>
+//         <tr>
+//           <td>Experiment name three</td>
+//           <td class="numerical">400</td>
+//           <td>Up</td>
+//         </tr>
+//       </tbody>
+//     </table>
+//[/hc]
+
+
+%lego-table,
+.lego-table {
+  width: 100%;
+  font-size: inherit;
+
+  th,
+  td {
+    padding-left: spacer(2);
+    padding-top: spacer(0.5);
+    padding-bottom: spacer(0.5);
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+
+  th {
+    text-transform: uppercase;
+    font-weight: map-get($font-weight, bold);
+    font-size: map-get($font-size, micro);
+    color: map-get($font-color, muted);
+    text-align: left;
+
+    // For columns that are sortable.
+
+    &[field] {
+      cursor: pointer;
+    }
+  }
+
+  td {
+    vertical-align: top;
+  }
+
+  // ## Cell Alignments
+  // Defaults for cell alignments with one helper class for numbers.
+
+  [rowspan] {
+    vertical-align: middle;
+  }
+
+  [rowspan="1"] {
+    vertical-align: top;
+  }
+
+  [colspan] {
+    text-align: center;
+  }
+
+  [colspan="1"] {
+    text-align: left;
+  }
+
+  .numerical {
+    text-align: right;
+  }
+
+  .cell-collapse {
+    width: 1%;
+  }
+
+
+  // ## Table Variations
+  // We're using direct decendent selectors so any child tables do not inherit styles.
+
+  &--rule {
+
+    > thead {
+
+      > th {
+        padding-bottom: spacer(1);
+      }
+
+      > tr {
+        border-bottom: 1px solid map-get($ui-color, base);
+      }
+    }
+
+    > tbody > tr {
+      border-bottom: 1px solid map-get($ui-color, light);
+
+      // If no `thead` is present we'll have a border top.
+
+      &:first-child {
+        border-bottom: 1px solid map-get($ui-color, light);
+      }
+    }
+
+  }
+
+  &--wall {
+
+    > thead > tr > th,
+    > tbody > tr > td {
+      border-left: 1px solid map-get($ui-color, light);
+      padding-right: spacer(1);
+
+      &:first-child {
+        border-left: 0;
+      }
+    }
+  }
+
+  &--hover {
+
+    > tbody > tr {
+
+      &:hover {
+        background-color: map-get($background-color, brand-light);
+        cursor: pointer;
+      }
+    }
+
+    > thead > tr > th:first-child,
+    > tbody > tr > td:first-child {
+      padding-left: spacer(1);
+    }
+
+    > thead > tr > th:last-child,
+    > tbody > tr > td:last-child {
+      padding-right: spacer(1);
+    }
+  }
+
+  // Add/Remove Rows
+
+  &--add-row {
+    &__controls {
+      vertical-align: middle !important;
+      width: 65px;
+
+      .flex {
+        width: 100%;
+
+        .link--bad-news {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}
+
+// Added to the table row.
+
+.lego-table-row--active {
+  background-color: map-get($background-color, faint);
+}

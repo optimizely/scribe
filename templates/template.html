@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="initial-scale=1, width=device-width">
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title><%= title %></title>
-</head>
-<body>
-<div id="wrap-content">
+{% include "common/head.html" %}
+{% include "common/header.html" %}
+{% include "figures/hero.html" %}
+
+<div class="ebook-wrap">
   <!-- toc -->
-  <div id="content"><%= contents %></div>
+  <div class="ebook-text">
+    <%= contents %>
+  </div>
 </div>
-</body>
-</html>
+
+{% include "objects/cta.html" %}
+{% include "objects/recommended.html" %}
+{% include "common/footer.html" %}
+{% include "common/foot.html" %}

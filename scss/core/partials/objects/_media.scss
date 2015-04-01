@@ -1,0 +1,71 @@
+// # Media
+// Place any image- and text-like content side-by-side.
+
+// ## Examples
+
+//[hc]
+//     <div class="lego-media">
+//       <img src="http://fillmurray.com/50/50" alt="" class="lego-media__img">
+//       <div class="lego-media__body">
+//         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero similique aut iste, labore esse delectus molestias, beatae sapiente nemo voluptates quam corporis velit harum quia eaque accusantium nam sint fugit!</p>
+//       </div>
+//     </div>
+//[/hc]
+
+//### Reversed
+
+//[hc]
+//     <div class="lego-media">
+//       <div class="lego-media__body">
+//         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero similique aut iste, labore esse delectus molestias, beatae sapiente nemo voluptates quam corporis velit harum quia eaque accusantium nam sint fugit!</p>
+//       </div>
+//       <img src="http://fillmurray.com/50/50" alt="" class="lego-media__img--rev">
+//     </div>
+//[/hc]
+
+// ### Nested
+
+//[hc]
+//     <div class="lego-media">
+//       <img src="http://fillmurray.com/50/50" alt="" class="lego-media__img">
+//       <div class="lego-media__body">
+//         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero similique aut iste, labore esse delectus molestias, beatae sapiente nemo voluptates quam corporis velit harum quia eaque accusantium nam sint fugit!</p>
+
+//         <div class="lego-media push--bottom">
+//           <img src="http://fillmurray.com/25/25" alt="" class="lego-media__img">
+//           <div class="lego-media__body">
+//             <p class="micro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero similique aut iste, labore esse delectus molestias, beatae sapiente nemo voluptates quam nam sint fugit!</p>
+//           </div>
+//         </div>
+
+//         <div class="lego-media">
+//           <img src="http://fillmurray.com/25/25" alt="" class="lego-media__img">
+//           <div class="lego-media__body">
+//             <p class="micro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero similique aut iste, labore esse delectus molestias, beatae sapiente nemo voluptates quam nam sint fugit!</p>
+//           </div>
+//         </div>
+
+//       </div>
+//     </div>
+//[/hc]
+
+%lego-media,
+.lego-media {
+  @include display(flex);
+  @include align-items(flex-start);;
+
+  &__img {
+    margin-right: spacer(1);
+    margin-top: 0.7%; // Aligns image better with text.
+  }
+
+  &__img--rev {
+    margin-left: spacer(1);
+    margin-top: 0.7%; // Aligns image better with text.
+  }
+
+  &__body {
+    @include flex(1);
+    @extend %kill-last-child-margin;
+  }
+}

@@ -1,0 +1,45 @@
+@mixin layout-fence {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fence {
+  @include layout-fence;
+}
+
+.ebook-wrap {
+  @include display(flex);
+  @include layout-fence;
+
+  h2:first-of-type {
+    padding-top: 0;
+  }
+
+  h6 + h2 {
+    padding-top: spacer(1);
+  }
+
+  p, ul, ol {
+    margin-bottom: spacer(1);
+  }
+}
+
+.toc {
+  width: 300px;
+}
+
+.ebook-text {
+  @include flex(1);
+  margin-bottom: spacer(6);
+
+  ul {
+    list-style: disc;
+    margin-left: spacer(3);
+  }
+
+  ol {
+    list-style: numeric;
+    margin-left: spacer(3);
+  }
+}
