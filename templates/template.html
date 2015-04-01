@@ -1,9 +1,19 @@
 {% include "common/head.html" %}
 {% include "common/header.html" %}
-{% include "figures/hero.html" %}
+{% include "images/hero.html" %}
 
 <div class="ebook-wrap">
-  <!-- toc -->
+  <div class="ebook-toc">
+    <div class="ebook-toc__title">Table of Contents</div>
+    <!-- toc -->
+    <div class="ebook-toc__footer">
+      <ul>
+        <li>Download</li>
+        <li>Tweet</li>
+        <li>Share</li>
+      </ul>
+    </div>
+  </div>
   <div class="ebook-text">
     <%= contents %>
   </div>

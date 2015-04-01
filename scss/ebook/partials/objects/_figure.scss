@@ -1,0 +1,8 @@
+figure {
+  margin: 0 0 spacer(4);
+
+  figcaption {
+    margin-top: spacer(1);
+    color: map-get($font-color, medium);
+  }
+}

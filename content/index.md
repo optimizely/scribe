@@ -10,7 +10,7 @@ hero:
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed tempora similique blanditiis reprehenderit.
 
-## Define Your Audience
+## Define Your Audience and a Super Long Title That Should Wrap
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
@@ -27,6 +27,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
+{% include "images/figure.html"
+  {
+    image: 'assets/i/temp.jpg',
+    caption: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe.',
+  }
+%}
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
 
 {% include "objects/blockquote.html"
   {

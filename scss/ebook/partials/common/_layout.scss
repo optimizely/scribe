@@ -1,5 +1,7 @@
 @mixin layout-fence {
   max-width: 900px;
+  padding-left: spacer(2);
+  padding-right: spacer(2);
   margin-left: auto;
   margin-right: auto;
 }
@@ -25,8 +27,13 @@
   }
 }
 
-.toc {
-  width: 250px;
+.ebook-toc {
+  width: 200px;
+
+  @include breakpoint($max: 800px) {
+    display: none;
+  }
+
 }
 
 .ebook-text {

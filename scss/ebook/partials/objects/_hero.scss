@@ -1,14 +1,17 @@
 .hero {
   @include display(flex);
   margin-bottom: spacer(5);
+  padding-left: spacer(2);
+  padding-right: spacer(2);
   height: 400px;
   background-position: center center;
   background-size: cover;
 
   h1 {
     margin: auto;
-    font-size: 60px;
+    font-size: 50px;
     color: #fff;
     text-shadow: 0 0 3px rgba(0,0,0,.3);
+    text-align: center;
   }
 }

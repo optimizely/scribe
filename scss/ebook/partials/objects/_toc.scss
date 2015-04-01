@@ -1,9 +1,52 @@
-.toc {
-  position: relative;
-}
+.ebook-toc {
 
-.toc ul {
-  // position: fixed;
-  list-style: none;
-  margin: 0;
+  margin-right: spacer(5);
+
+  &__title {
+    margin-bottom: spacer(1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: map-get($font-weight, bold);
+    font-size: map-get($font-size, milli);
+  }
+
+  &__footer {
+    width: 50%;
+    border-top: 1px solid map-get($ui-color, base);
+    margin-top: spacer(2);
+    padding-top: spacer(2.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: map-get($font-weight, bold);
+    font-size: map-get($font-size, milli);
+
+    li {
+      margin-bottom: spacer(0.5);
+    }
+  }
+
+  .toc {
+    li {
+      margin-bottom: spacer(0.5);
+    }
+
+    a {
+      color: map-get($font-color, base);
+      display: block;
+      position: relative;
+
+      &:hover {
+        color: map-get($link-color, base);
+
+        &:before {
+          content:"";
+          border-left: 2px solid map-get($ui-color, brand);
+          position: absolute;
+          top: 0;
+          left: -10px;
+          bottom: 0;
+        }
+      }
+    }
+  }
 }
