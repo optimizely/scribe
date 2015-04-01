@@ -1,8 +1,8 @@
 ---
-title: Bananas
+title: Statistics for Beginners
 template: templates/template.html
 hero:
-  title: The e-book title goes here
+  title: Statistics for Beginners
   background: assets/i/temp.jpg
 ---
 
