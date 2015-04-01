@@ -35,7 +35,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
   }
 %}
 
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
 
@@ -56,6 +55,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
+{% include "images/person.html"
+  {
+    image: 'assets/i/jules.jpg',
+    name: 'Krista Mista',
+    company: 'Google'
+  }
+%}
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae
 eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
@@ -63,6 +70,16 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 
 - Illo unde nihil impedit placeat quia.
 - Illo unde nihil impedit placeat quia.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
+
+## Another Section
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae
+eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
