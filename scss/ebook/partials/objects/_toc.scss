@@ -7,7 +7,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: map-get($font-weight, bold);
-    font-size: map-get($font-size, milli);
+    font-size: map-get($font-size, micro);
   }
 
   &__footer {
@@ -18,7 +18,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: map-get($font-weight, bold);
-    font-size: map-get($font-size, milli);
+    font-size: map-get($font-size, micro);
 
     li {
       margin-bottom: spacer(0.5);
@@ -28,6 +28,7 @@
   .toc {
     li {
       margin-bottom: spacer(0.5);
+      font-size: map-get($font-size, milli);
     }
 
     a {

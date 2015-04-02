@@ -1,7 +1,11 @@
 blockquote {
   p {
-    font-weight: 600;
-    font-size: 19px;
+    font-size: map-get($font-size, gamma);
+    font-weight: map-get($font-weight, bold);
+  }
+
+  .attribution {
+    font-size: map-get($font-size, milli);
   }
 }
 
@@ -15,6 +19,7 @@ blockquote.half {
   width: 35%;
   margin-right: -(spacer(6));
   margin-left: spacer(3);
+  margin-bottom: spacer(1);
 
   @include breakpoint($max: 1050px) {
     margin-right: 0;

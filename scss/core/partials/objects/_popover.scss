@@ -128,7 +128,7 @@ $popover-border: map-get($ui-color, base);
   display: inline-block;
   box-shadow: 0 2px map-get($shadow, light);
 
-  &__content p {
+  &__content {
     @extend %kill-last-child-margin;
   }
 

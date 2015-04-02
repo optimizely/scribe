@@ -14,7 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed tempora similique 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
-{% include "objects/blockquote.html"
+{% include "blockquote.html"
   {
     size: 'half',
     quote: 'Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe.',
@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
-{% include "images/figure.html"
+{% include "figure.html"
   {
     image: 'assets/i/temp.jpg',
     caption: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe.',
@@ -38,7 +38,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
 
-{% include "objects/blockquote.html"
+{% include "blockquote.html"
   {
     size: 'full',
     quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe.',
@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
-{% include "images/person.html"
+{% include "person.html"
   {
     image: 'assets/i/jules.jpg',
     name: 'Krista Mista',
@@ -77,6 +77,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 ## Another Section
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
+{% include "callout.html"
+  {
+    title: 'This is the Title',
+    items: [
+      'This is item one.',
+      'And another item that could go as long as it needs to.',
+      'Yet one more item.'
+    ]
+  }
+%}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae
 eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
