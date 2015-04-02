@@ -1,5 +1,14 @@
 .callout {
   padding: spacer(2);
-  border: 1px solid #ddd;
+  padding-bottom: 0;
+  border: 1px solid map-get($ui-color, base);
   margin: spacer(4) 0;
+
+  h4 {
+    text-transform: uppercase;
+  }
+
+  ul {
+    font-size: map-get($font-size, milli);
+  }
 }
