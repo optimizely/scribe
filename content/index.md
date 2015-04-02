@@ -24,6 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
@@ -78,16 +79,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
-{% include "callout.html"
-  {
-    title: 'This is the Title',
-    items: [
-      'This is item one.',
-      'And another item that could go as long as it needs to.',
-      'Yet one more item.'
-    ]
-  }
-%}
+[[callout]]
+
+### Callout Title
+
+- foo
+- bar
+
+[[/]]
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae
 eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
