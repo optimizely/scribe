@@ -1,0 +1,28 @@
+table {
+  margin: spacer(4) 0;
+  width: 100%;
+
+  th, td {
+    padding: spacer(1);
+    vertical-align: top;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  th {
+    text-align: left;
+  }
+
+  tbody {
+    tr {
+      border-top: 1px solid map-get($ui-color, base);
+    }
+  }
+
+}

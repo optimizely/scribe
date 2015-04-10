@@ -27,8 +27,10 @@
   }
 }
 
-.ebook-toc {
+.ebook-toc-wrap {
+  position: relative;
   width: 200px;
+  margin-right: spacer(5);
 
   @include breakpoint($max: 800px) {
     display: none;
@@ -46,7 +48,7 @@
   }
 
   ol {
-    list-style: numeric;
+    list-style: decimal;
     margin-left: spacer(3);
   }
 }

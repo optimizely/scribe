@@ -39,7 +39,11 @@ gulp.task('build', function() {
     .pipe(replace(/\[\[\/\]\]/gi, '</div>'))  // [[/]] == </div>
     .pipe(replace(/\[\[(.*)\]\]/gi, '<div class="$1">'))  // [[tag]] == <div class="tag">
     .pipe(md({
-      preset: 'commonmark'
+      preset: 'full',
+      remarkableOptions: {
+        html: true
+      }
+
     }))
     .pipe(wrap({
       src: 'templates/template.html'

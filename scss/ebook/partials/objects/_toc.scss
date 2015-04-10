@@ -1,5 +1,5 @@
 .ebook-toc {
-
+  width: 200px;
   margin-right: spacer(5);
 
   &__title {
@@ -49,5 +49,10 @@
         }
       }
     }
+  }
+
+  .toc-sticky & {
+    position: fixed;
+    top: 40px;
   }
 }
