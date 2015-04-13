@@ -2,6 +2,16 @@
   width: 200px;
   margin-right: spacer(5);
 
+  a {
+    color: map-get($font-color, base);
+    display: block;
+    position: relative;
+
+    &:hover {
+      color: map-get($link-color, base);
+    }
+  }
+
   &__title {
     margin-bottom: spacer(1);
     text-transform: uppercase;
@@ -32,13 +42,7 @@
     }
 
     a {
-      color: map-get($font-color, base);
-      display: block;
-      position: relative;
-
       &:hover {
-        color: map-get($link-color, base);
-
         &:before {
           content:"";
           border-left: 2px solid map-get($ui-color, brand);
@@ -49,6 +53,11 @@
         }
       }
     }
+  }
+
+  .fa {
+    font-size: 16px;
+    margin-right: 5px;
   }
 
   .toc-sticky & {
