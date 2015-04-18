@@ -1,11 +1,13 @@
-blockquote {
-  p {
-    font-size: map-get($font-size, gamma);
-    font-weight: map-get($font-weight, bold);
-  }
+.cta-box {
+  border: 1px solid map-get($ui-color, base);
+  padding: spacer(2);
+  margin: spacer(4) 0;
+  border-radius: map-get($border-radius, base);
+  text-align: center;
+  background: #f9f9f9;
 
-  .attribution {
-    font-size: map-get($font-size, milli);
+  &__title {
+    margin-bottom: spacer(1);
   }
 
   &.half {
@@ -25,10 +27,5 @@ blockquote {
       width: auto;
       text-align: center;
     }
-  }
-
-  &.full {
-    margin: spacer(4) 0;
-    text-align: center;
   }
 }
