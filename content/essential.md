@@ -1,5 +1,5 @@
 ---
-template: template
+template: full
 title: The Experience Optimization Playbook for Digital Marketers
 template: templates/template.html
 hero:

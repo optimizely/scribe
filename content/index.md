@@ -1,5 +1,5 @@
 ---
-template: template
+template: full
 title: Statistics for Beginners
 template: templates/template.html
 hero:
