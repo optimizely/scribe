@@ -1,6 +1,7 @@
 blockquote {
+
   p {
-    font-size: map-fetch($font, size gamma);
+    font-size: map-fetch($font, size delta);
     font-weight: map-fetch($font, weight bold);
   }
 
@@ -9,20 +10,8 @@ blockquote {
   }
 
   &.half {
-    float: right;
-    width: 35%;
-    margin-right: -(spacer(6));
-    margin-left: spacer(3);
-    margin-bottom: spacer(1);
-
-    @include breakpoint($max: 1050px) {
-      margin-right: 0;
-    }
-
+    @include float-obj;
     @include breakpoint($max: 650px) {
-      margin: spacer(4) 0;
-      float: none;
-      width: auto;
       text-align: center;
     }
   }

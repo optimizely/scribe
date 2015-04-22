@@ -4,12 +4,8 @@
   padding-bottom: spacer(0);
   border-radius: map-fetch($border-radius, base);
   background: #f9f9f9;
-  float: right;
-  width: 35%;
-  margin-top: spacer(2);
-  margin-right: -(spacer(6));
-  margin-left: spacer(3);
-  margin-bottom: spacer(2);
+
+  @include float-obj;
 
   > ul {
     list-style: none;
@@ -22,14 +18,14 @@
   }
 
   &__title {
-    font-size: 14px;
-    line-height: 1;
+    font-size: map-fetch($font, size milli);
     margin-bottom: spacer(.5);
+    line-height: 1;
   }
 
   &__data {
-    font-size: 30px;
-    font-weight: 500;
+    font-size: map-fetch($font, size gamma);
+    font-weight: map-fetch($font, weight bold);
     line-height: 1;
   }
 
@@ -37,14 +33,8 @@
     margin-bottom: spacer(1.5);
   }
 
-  @include breakpoint($max: 1050px) {
-    margin-right: 0;
-  }
 
   @include breakpoint($max: 650px) {
-    margin: spacer(4) 0;
-    float: none;
-    width: auto;
     text-align: center;
 
     > img {
@@ -54,10 +44,10 @@
     }
 
     ul {
-      display: flex;
+      @include display(flex);
 
       > li {
-        flex: 1;
+        @include flex(1);
       }
     }
   }

@@ -13,7 +13,7 @@
   &__img {
     height: 140px;
     width: 140px;
-    border-radius: 50%;
+    border-radius: map-fetch($border-radius, full);
     margin-bottom: spacer(1);
     margin-left: auto;
     margin-right: auto;

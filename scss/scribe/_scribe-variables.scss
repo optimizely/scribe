@@ -2,18 +2,18 @@ $font: map-extend($font,
   (
     size: (
       base                     : 16px,
-      micro                    : 14px,
-      milli                    : 12px,
+      milli                    : 14px,
+      micro                    : 12px,
       alpha                    : 40px, // h1
       beta                     : 30px, // h2
-      gamma                    : 20px, // h3
+      gamma                    : 24px, // h3
       delta                    : 20px, // h4
       epsilon                  : 16px, // h5
       zeta                     : 12px // h6
     ),
 
     family: (
-      base                     : 'Proxima, Helvetica, Verdana, sans-serif',
+      base                     : unquote('Proxima, Helvetica, Verdana, sans-serif'),
     ),
 
     weight: (

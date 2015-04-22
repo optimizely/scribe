@@ -13,7 +13,7 @@
     text-transform: uppercase;
     font-size: map-fetch($font, size milli);
     font-weight: map-fetch($font, weight bold);
-    letter-spacing: 1px;
+    letter-spacing: map-fetch($font, letter-spacing loose);
     color: map-fetch($color, text base);
   }
 
@@ -30,5 +30,4 @@
       }
     }
   }
-
 }
