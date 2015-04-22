@@ -1,0 +1,34 @@
+blockquote {
+  p {
+    font-size: map-fetch($font, size gamma);
+    font-weight: map-fetch($font, weight bold);
+  }
+
+  .attribution {
+    font-size: map-fetch($font, size milli);
+  }
+
+  &.half {
+    float: right;
+    width: 35%;
+    margin-right: -(spacer(6));
+    margin-left: spacer(3);
+    margin-bottom: spacer(1);
+
+    @include breakpoint($max: 1050px) {
+      margin-right: 0;
+    }
+
+    @include breakpoint($max: 650px) {
+      margin: spacer(4) 0;
+      float: none;
+      width: auto;
+      text-align: center;
+    }
+  }
+
+  &.full {
+    margin: spacer(4) 0;
+    text-align: center;
+  }
+}

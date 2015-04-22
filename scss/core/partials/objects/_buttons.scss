@@ -1,0 +1,245 @@
+// ---
+// title: Buttons
+// description: These are the default button styles.
+// ---
+
+// ### Button Row Left
+
+// <div class="example language-html">
+//   <div class="lego-button-row--left">
+//     <button class="lego-button">Button</button>
+//     <button class="lego-button lego-button--brand">Button</button>
+//     <button class="lego-button lego-button--highlight">Button</button>
+//     <button class="lego-button lego-button--danger">Button</button>
+//   </div>
+// </div>
+
+// ### Button Row Center
+
+// <div class="example html">
+//   <div class="lego-button-row--center">
+//     <button class="lego-button">Button</button>
+//     <button class="lego-button lego-button--brand">Button</button>
+//     <button class="lego-button lego-button--highlight">Button</button>
+//     <button class="lego-button lego-button--danger">Button</button>
+//   </div>
+// </div>
+
+// ### Button Row Right
+
+// <div class="example html">
+//   <div class="lego-button-row--right">
+//     <button class="lego-button">Button</button>
+//     <button class="lego-button lego-button--brand">Button</button>
+//     <button class="lego-button lego-button--highlight">Button</button>
+//     <button class="lego-button lego-button--danger">Button</button>
+//   </div>
+// </div>
+
+// ### Button Small
+
+// <div class="example html">
+//   <div class="lego-button-row--left">
+//     <button class="lego-button lego-button--small">Button</button>
+//     <button class="lego-button lego-button--small lego-button--brand">Button</button>
+//     <button class="lego-button lego-button--small lego-button--highlight">Button</button>
+//     <button class="lego-button lego-button--small lego-button--danger">Button</button>
+//   </div>
+// </div>
+
+// ### Button Full
+
+// <div class="example html">
+//     <button class="lego-button lego-button--brand lego-button--full">Button</button>
+// </div>
+
+// ### Full Spread Buttons
+
+// <div class="example html">
+//   <div class="lego-grid lego-grid--gutter">
+//     <div class="lego-grid__cell">
+//         <button class="lego-button lego-button--brand lego-button--full">Button</button>
+//     </div>
+//     <div class="lego-grid__cell">
+//         <button class="lego-button lego-button--brand lego-button--full">Button</button>
+//     </div>
+//     <div class="lego-grid__cell">
+//         <button class="lego-button lego-button--brand lego-button--full">Button</button>
+//     </div>
+//   </div>
+// </div>
+
+// ### Button Disabled
+
+// <div class="example html">
+//   <div class="lego-button-row--left">
+//     <button class="lego-button lego-button--disabled">Button</button>
+//     <button class="lego-button lego-button--brand lego-button--disabled">Button</button>
+//   </div>
+// </div>
+
+// [---]
+
+// ### Button Variables
+// Shadows for buttons.
+
+%lego-button,
+.lego-button {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-family: inherit;
+  cursor: pointer;
+  border: 0;
+  margin: 0;
+  line-height: 1;
+
+  font-size: map-fetch($button, size base font-size);
+  font-weight: map-fetch($button, size base font-weight);
+  border-radius: map-fetch($button, size base border-radius);
+  height: map-fetch($button, size base height);
+  padding: 0 10px; // Use spacer.
+
+
+  background-color: map-fetch($button, type base background);
+  color: map-fetch($color, text base);
+
+  &:hover {
+    background: map-fetch($button, type base hover background);
+  }
+
+  &:active {
+    background: map-fetch($button, type base active background);
+  }
+
+  &:hover,
+  &:active,
+  &:visited,
+  &:focus {
+    outline: none;
+    color: map-fetch($color, text base);
+  }
+
+  &--brand {
+    background-color: map-fetch($button, type brand background);
+    color: map-fetch($color, text white);
+
+    &:hover {
+      background: map-fetch($button, type brand hover background);
+    }
+
+    &:active {
+      background: map-fetch($button, type brand active background);
+    }
+
+    &:hover,
+    &:active,
+    &:visited,
+    &:focus {
+      color: map-fetch($color, text white);
+    }
+  }
+
+  &--highlight {
+    background-color: map-fetch($button, type highlight background);
+    color: map-fetch($color, text white);
+
+    &:hover {
+      background: map-fetch($button, type highlight hover background);
+    }
+
+    &:active {
+      background: map-fetch($button, type highlight active background);
+    }
+
+    &:hover,
+    &:active,
+    &:visited,
+    &:focus {
+      color: map-fetch($color, text white);
+    }
+  }
+
+  &--danger {
+    background-color: map-fetch($button, type danger background);
+    color: map-fetch($color, text white);
+
+    &:hover {
+      background: map-fetch($button, type danger hover background);
+    }
+
+    &:active {
+      background: map-fetch($button, type danger active background);
+    }
+
+    &:hover,
+    &:active,
+    &:visited,
+    &:focus {
+      color: map-fetch($color, text white);
+    }
+  }
+
+  // ### Button Sizes
+  // Button size variations.
+
+  &--small {
+    font-size: map-fetch($button, size small font-size);
+    font-weight: map-fetch($button, size small font-weight);
+    border-radius: map-fetch($button, size small border-radius);
+    height: map-fetch($button, size small height);
+    padding: 0 7px; // Use spacer.
+  }
+
+  &--full {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  // ### With Icon
+  // Some extra help is needed to get the icon and text to line up.
+
+  &--icon {
+    line-height: 1.4;
+
+    .lego-icon {
+      vertical-align: sub;
+    }
+  }
+
+  // ### Disabled State
+  // Used either an attribute or a class, depending on the use case.
+
+  &[disabled],
+  &[disabled]:hover,
+  &[disabled]:active,
+  &[disabled]:focus,
+  &--disabled,
+  &--disabled:hover,
+  &--disabled:active,
+  &--disabled:focus {
+    cursor: base;
+    box-shadow: none;
+    background: #F8F8F8;
+    color: map-fetch($color, text medium);
+    border-color: map-fetch($color, ui base);
+    opacity: map-fetch($opacity, medium);
+
+    + .lego-button--brand {
+      background-color: map-fetch($button, type brand background);
+      color: map-fetch($color, text white);
+    }
+
+    + .lego-button--highlight {
+      background-color: map-fetch($button, type highlight background);
+      color: map-fetch($color, text white);
+    }
+
+    + .lego-button--danger {
+      background-color: map-fetch($button, type danger background);
+      color: map-fetch($color, text white);
+    }
+  }
+}

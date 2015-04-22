@@ -1,0 +1,10 @@
+// Compass Polyfills
+// These remove dependencies on Compass.
+
+@import 'polyfills/animations';
+@import 'polyfills/box-sizing';
+@import 'polyfills/mixins';
+@import 'polyfills/prefixer';
+@import 'polyfills/tint';
+@import 'polyfills/transform';
+@import 'polyfills/transitions';

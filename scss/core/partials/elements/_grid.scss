@@ -1,0 +1,176 @@
+// ---
+// title: Grids
+// description: Fluid and nestable grid system with responsive option.
+// ---
+
+// ### Responsive
+// To include a responsive grid in your Sass...
+
+//     .mygrid {
+//       @include lego-grid($responsive: 500px);
+//     }
+
+// This will cause the grid to stack vertically when the browser window is less than 500px.
+
+// ### Basic Grid
+// A gutter is set by default.
+
+// <div class="example html">
+//   <div class="lego-grid">
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//   </div>
+// </div>
+
+// <div class="example html">
+//   <div class="lego-grid lego-grid--gutter--narrow">
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//   </div>
+// </div>
+
+// <div class="example html">
+//   <div class="lego-grid lego-grid--gutter--wide">
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//   </div>
+// </div>
+
+// ### Grid Flush
+
+// <div class="example html">
+//   <div class="lego-grid lego-grid--flush">
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//     <div class="lego-grid__cell">
+//       <div class="doc-placeholder">even width cells</div>
+//     </div>
+//   </div>
+// </div>
+
+// ### Different Widths
+
+// <div class="example html">
+//   <div class="lego-grid">
+//     <div class="lego-grid__cell width-3-5">
+//       <div class="doc-placeholder">3/5</div>
+//     </div>
+//     <div class="lego-grid__cell width-1-5">
+//       <div class="doc-placeholder">1/5</div>
+//     </div>
+//     <div class="lego-grid__cell width-1-5">
+//       <div class="doc-placeholder">1/5</div>
+//     </div>
+//   </div>
+// </div>
+
+// [---]
+
+@mixin lego-grid($responsive: null) {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  margin-left: -(spacer(2));
+
+  &__cell {
+    @include flex(1);
+    padding-left: spacer(2);
+  }
+
+  &--gutter--narrow {
+    margin-left: -(spacer(1));
+
+    > .lego-grid__cell {
+      padding-left: spacer(1);
+    }
+  }
+
+  &--gutter--wide {
+    margin-left: -(spacer(4));
+
+    > .lego-grid__cell {
+      padding-left: spacer(4);
+    }
+  }
+
+  &--flush {
+    margin-left: 0;
+
+    > .lego-grid__cell {
+      padding-left: 0;
+    }
+  }
+
+  @if ($responsive) {
+    @include breakpoint($max: $responsive) {
+      display: block;
+      margin-left: 0;
+
+      &__cell {
+        @include flex(none);
+        padding-left: 0;
+        margin-bottom: spacer(2);
+      }
+
+      &--gutter--wide,
+      &--gutter--narrow {
+        margin-left: 0;
+      }
+    }
+  }
+
+  // ## Grid Alignment
+  // Moves grid cells to align center or anchored at the bottom of the grid.
+
+  &--center {
+    @include align-items(center);
+  }
+
+  &--bottom {
+    @include align-items(flex-end);
+  }
+
+  // ## Grid Widths
+
+  // If a width is specificed on a cell__grid then have to disable the
+  // default `flex` value otherwise it won't obey the width.
+
+  // [c]
+  //   <div class="lego-grid__cell width-1-3">grid cell</div>
+  // [/c]
+
+  &__cell[class*="width-"] {
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+  }
+}
+
+%lego-grid,
+.lego-grid {
+  @include lego-grid;
+}

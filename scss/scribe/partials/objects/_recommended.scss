@@ -1,0 +1,34 @@
+.recommended {
+  @include layout-fence;
+  margin-bottom: spacer(6);
+
+  .image {
+    height: 200px;
+    margin-bottom: spacer(1);
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .category {
+    text-transform: uppercase;
+    font-size: map-fetch($font, size milli);
+    font-weight: map-fetch($font, weight bold);
+    letter-spacing: 1px;
+    color: map-fetch($color, text base);
+  }
+
+  .title {
+    color: map-fetch($color, text base);
+  }
+
+  @include breakpoint($max: 630px) {
+    .lego-grid {
+      @include flex-direction(column);
+
+      &__cell {
+        margin-bottom: spacer(3);
+      }
+    }
+  }
+
+}

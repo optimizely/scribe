@@ -1,0 +1,85 @@
+// ---
+// title: Button Group
+// description: For buttons that are flush against each other. Also possible to include an text input.
+// ---
+
+// ### Button Group
+
+// <div class="example html">
+//   <div class="lego-button-group">
+//     <button class="lego-button">Button</button>
+//     <button class="lego-button">Button</button>
+//     <button class="lego-button">Button</button>
+//   </div>
+// </div>
+
+// ### Button Group with Active
+
+// <div class="example html">
+//   <div class="lego-button-group">
+//     <button class="lego-button">Button</button>
+//     <button class="lego-button lego-button--brand">Button</button>
+//     <button class="lego-button">Button</button>
+//   </div>
+// </div>
+
+// ### Button Group with Text Input
+
+// <div class="example html">
+//   <div class="lego-button-group">
+//     <button class="lego-button">Select <span class="lego-arrow-inline--down"></span></button>
+//     <input type="text" class="lego-text-input">
+//   </div>
+// </div>
+
+// ### Button Group with Text Input
+
+// <div class="example html">
+//   <div class="lego-button-group">
+//     <input type="text" class="lego-text-input">
+//     <button class="lego-button">Button</button>
+//   </div>
+// </div>
+
+// [---]
+
+%lego-button-group,
+.lego-button-group {
+  @include display(flex);
+
+  > * {
+    margin-left: 0;
+    margin-right: 1px;
+    border-radius: 0;
+
+    &:hover,
+    &:focus {
+      position: relative;
+    }
+
+    &:first-child {
+      border-radius: map-fetch($border-radius, base) 0 0 map-fetch($border-radius, base);
+    }
+
+    &:last-child {
+      border-radius: 0 map-fetch($border-radius, base) map-fetch($border-radius, base) 0;
+    }
+  }
+
+  > .lego-button--brand {
+    position: relative;
+  }
+
+  > .lego-text-input {
+    @include flex(1);
+    width: auto;
+  }
+
+  // If inside a button group bring the colored buttons to the top so that the borders are intact.
+
+  .lego-button--highlight,
+  .lego-button--danger,
+  .lego-button--brand {
+    z-index: 1;
+  }
+}

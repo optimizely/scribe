@@ -1,0 +1,92 @@
+// # Links
+
+// Links will use the `map-fetch($color, link base)`. You can also apply a `.link` class to an element.
+
+// ## HTML Examples
+
+// <div class="example html">
+//     Text can have <span class="link">link color</span> when not a HTML anchor.
+// </div>
+
+// <div class="example html">
+//     Links can be <a href="#" class="link--disabled">disabled</a> if need be.
+// </div>
+
+a,
+%link,
+.link {
+  color: map-fetch($color, link base);
+  cursor: pointer;
+
+  &:visited,
+  &:active {
+    color: map-fetch($color, link base);
+  }
+
+  &:hover {
+    color: lighten(map-fetch($color, link base), 10%);
+  }
+}
+
+%link--dark,
+.link--dark {
+  color: map-fetch($color, text base);
+  cursor: pointer;
+
+  &:visited,
+  &:active {
+    color: map-fetch($color, text base);
+  }
+
+  &:hover {
+    color: map-fetch($color, link base);
+  }
+}
+
+%link--bad-news,
+.link--bad-news {
+  color: map-fetch($color, text base);
+  cursor: pointer;
+
+  &:visited,
+  &:hover,
+  &:active {
+    color: map-fetch($color, link bad-news);
+  }
+}
+
+%link--reverse,
+.link--reverse {
+  color: map-fetch($color, link white) !important;
+  cursor: pointer;
+
+  &:hover {
+    color: lighten(map-fetch($color, link brand-light), 15%) !important;
+  }
+}
+
+%link--disabled,
+.link--disabled {
+  color: map-fetch($color, text muted);
+
+  &:visited,
+  &:hover,
+  &:active {
+    color: map-fetch($color, text muted);
+    cursor: default;
+  }
+}
+
+
+// Targets anchors without an `href` attribute and not a lego-button.
+
+a:not([href]):not(.lego-button) {
+  color: map-fetch($color, link base);
+
+  &:visited,
+  &:hover,
+  &:active {
+    color: map-fetch($color, link base);
+    cursor: default;
+  }
+}

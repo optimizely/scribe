@@ -1,0 +1,87 @@
+// ---
+// title: Matrix
+// description: Creates rows of elements with one parent, extending `lego-grid`.
+// ---
+
+// <div class="example html">
+//   <ul class="lego-matrix lego-matrix--1-2">
+//     <li><div class="doc-placeholder">matrix 1</div></li>
+//     <li><div class="doc-placeholder">matrix 2</div></li>
+//     <li><div class="doc-placeholder">matrix 3</div></li>
+//     <li><div class="doc-placeholder">matrix 4</div></li>
+//     <li><div class="doc-placeholder">matrix 5</div></li>
+//     <li><div class="doc-placeholder">matrix 6</div></li>
+//     <li><div class="doc-placeholder">matrix 7</div></li>
+//   </ul>
+// </div>
+
+// <div class="example html">
+//   <ul class="lego-matrix lego-matrix--1-3">
+//     <li><div class="doc-placeholder">matrix 1</div></li>
+//     <li><div class="doc-placeholder">matrix 2</div></li>
+//     <li><div class="doc-placeholder">matrix 3</div></li>
+//     <li><div class="doc-placeholder">matrix 4</div></li>
+//     <li><div class="doc-placeholder">matrix 5</div></li>
+//     <li><div class="doc-placeholder">matrix 6</div></li>
+//     <li><div class="doc-placeholder">matrix 7</div></li>
+//   </ul>
+// </div>
+
+// <div class="example html">
+//   <ul class="lego-matrix lego-matrix--1-4">
+//     <li><div class="doc-placeholder">matrix 1</div></li>
+//     <li><div class="doc-placeholder">matrix 2</div></li>
+//     <li><div class="doc-placeholder">matrix 3</div></li>
+//     <li><div class="doc-placeholder">matrix 4</div></li>
+//     <li><div class="doc-placeholder">matrix 5</div></li>
+//     <li><div class="doc-placeholder">matrix 6</div></li>
+//     <li><div class="doc-placeholder">matrix 7</div></li>
+//   </ul>
+// </div>
+
+// [---]
+
+@mixin lego-matrix($responsive: null) {
+  @extend %lego-grid;
+  margin-left: -(spacer(2));
+
+  > li {
+    padding-left: spacer(2);
+  }
+
+  &--1-2 {
+    > li {
+      width: 50%;
+    }
+  }
+
+  &--1-3 {
+    > li {
+      width: 33.333%;
+    }
+  }
+
+  &--1-4 {
+    > li {
+      width: 25%;
+    }
+  }
+
+  @if ($responsive) {
+    @include breakpoint($max: $responsive) {
+      display: block;
+      margin-left: 0;
+
+      > li {
+        padding-left: 0;
+        margin-bottom: spacer(2);
+        width: auto;
+      }
+    }
+  }
+}
+
+%lego-matrix,
+.lego-matrix {
+  @include lego-matrix;
+}

@@ -1,0 +1,9 @@
+figure {
+  margin: spacer(4) 0;
+
+  figcaption {
+    margin-top: spacer(1);
+    color: map-fetch($color, text medium);
+    font-size: map-fetch($font, size milli);
+  }
+}

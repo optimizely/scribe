@@ -1,0 +1,147 @@
+// # Datepicker Skin
+// Overrides jQuery's default styling for the Datepicker.
+
+#ui-datepicker-div {
+  display: none;
+  background: map-fetch($color, background white);
+  border: 1px solid map-fetch($color, ui base);
+  padding: spacer(2);
+  font-size: map-fetch($font, size epsilon);
+  overflow: hidden;
+  border-radius: 0 !important;
+
+  .ui-widget-header {
+    background: none; // Legacy override.
+    border: 0; // Legacy override.
+    padding: 0; // Legacy override.
+  }
+
+  .ui-datepicker-header {
+    position: relative;
+  }
+
+  &.ui-datepicker-multi-2 .ui-datepicker-group {
+    width: 50%;
+  }
+
+  .ui-datepicker-row-break {
+    clear: both;
+    width: 100%;
+    font-size: 0;
+  }
+
+  .ui-datepicker-group {
+    float: left;
+    font-size: map-fetch($font, size zeta);
+  }
+
+  .ui-datepicker-group-first {
+    padding-right: spacer(2);
+    border-right: 1px solid map-fetch($color, ui base);
+  }
+
+  .ui-datepicker-group-last {
+    padding-left: spacer(2);
+  }
+
+  .ui-datepicker-title {
+    font-weight: map-fetch($font, weight bold);
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .ui-datepicker-calendar {
+    width: 100%;
+    margin: 0;
+
+    th {
+      color: map-fetch($color, text light);
+      font-weight: map-fetch($font, weight normal);
+      font-size: map-fetch($font, size milli);
+      text-transform: uppercase;
+    }
+
+    td {
+      font-size: map-fetch($font, size milli);
+
+      a,
+      &.ui-state-disabled span {
+        text-align: center;
+        display: block;
+        padding: 4px;
+        border: 1px solid transparent;
+        background: #fff !important;
+        color: map-fetch($color, link base);
+      }
+
+      &.ui-state-disabled span {
+        color: map-fetch($color, text light);
+        background: #fff !important;
+      }
+    }
+
+    .ui-state-active,
+    .ui-state-hover {
+      border: 1px solid map-fetch($color, ui brand);
+      background: map-fetch($color, background brand-light);
+      border-radius: map-fetch($border-radius, base);
+    }
+  }
+
+  .ui-datepicker-buttonpane { // Hiding nav buttons.
+    display: none;
+  }
+
+  .ui-datepicker-prev,
+  .ui-datepicker-next {
+    position: absolute;
+    top: 2px; // Moving into correct position.
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    border: 1px solid transparent;
+
+    &:hover {
+      border: 1px solid map-fetch($color, ui brand);
+      background: map-fetch($color, background brand-light);
+      border-radius: map-fetch($border-radius, base);
+    }
+
+    &::before {
+      @extend %lego-arrow-inline;
+      position: absolute;
+      top: 5px;
+      content: "";
+    }
+
+    .ui-icon {
+      display: block;
+      text-indent: -99999px; // Moving default prev/next text off screen.
+      overflow: hidden;
+      position: static; // Legacy override.
+      background: none; // Legacy override.
+    }
+
+    &.ui-state-disabled {
+      display: none;
+    }
+  }
+
+  .ui-datepicker-prev {
+    left: 0;
+
+    &::before {
+      @extend %lego-arrow-inline--left;
+      left: 2px;
+    }
+  }
+
+  .ui-datepicker-next {
+    right: 0;
+
+    &::before {
+      @extend %lego-arrow-inline--right;
+      left: 3px;
+    }
+  }
+}

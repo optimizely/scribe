@@ -1,0 +1,18 @@
+//# Main
+// High level defaults establishing font and color.
+
+html {
+  color: map-fetch($color, text base);
+  background-color: map-fetch($color, background base);
+  font-family: map-fetch($font, family base);
+  font-size: map-fetch($font, size base);
+  line-height: map-fetch($font, line-height base);
+}
+
+p {
+  margin-bottom: spacer(1);
+}
+
+b {
+  font-weight: map-fetch($font, weight bold);
+}

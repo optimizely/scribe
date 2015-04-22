@@ -1,0 +1,63 @@
+// ## Spacer
+// Using this function requires that the value passed be a multiple of .5
+// This encourages greater spacing consistentcy. The following example
+// will output 25px. It will test to see if value is multiple of .5. If not
+// it will provide a warning.
+
+// Usage:
+
+// [c]
+//     padding: spacer(2.5);
+// [/c]
+
+@function spacer($value) {
+  @if ($value * 2) % 1 != 0 {
+    @warn 'Spacer value must be a multiple of 0.5';
+    @return 'Spacer value must be a multiple of 0.5';
+  } @else {
+    @return $spacer-unit * $value;
+  }
+}
+
+// ## Map Fetch
+// Retrieves values from any map, nested or not.
+// Adapted from https://gist.github.com/jlong/8760275 - added errors.
+
+@function map-fetch($map, $keys) {
+  $key: nth($keys, 1);
+  $length: length($keys);
+  $value: map-get($map, $key);
+  @if ($length > 1) {
+    $rest: ();
+    @for $i from 2 through $length {
+      $rest: append($rest, nth($keys, $i));
+    }
+    @if ($value == null) {
+      @error "The value '#{$key}' doesn't exist in the map.";
+    }
+    @return map-fetch($value, $rest)
+  } @else {
+    @if ($value == null) {
+      @error "The value '#{$key}' doesn't exist in the map.";
+    }
+    @return $value;
+  }
+}
+
+// ## Map Extend
+// Extends Sass maps.
+// Adapted from http://www.sitepoint.com/extra-map-functions-sass/
+
+@function map-extend($map, $maps...) {
+  $max: length($maps);
+  @for $i from 1 through $max {
+    $current: nth($maps, $i);
+    @each $key, $value in $current {
+      @if type-of($value) == 'map' and type-of(map-get($map, $key)) == 'map' {
+        $value: map-extend(map-get($map, $key), $value, true);
+      }
+      $map: map-merge($map, ($key: $value));
+    }
+  }
+  @return $map;
+}

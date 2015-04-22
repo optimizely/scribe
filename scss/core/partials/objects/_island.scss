@@ -1,0 +1,23 @@
+// # Island
+// Simple, boxed off content, as per: [Island Object](http://tinyurl.com/kgu5w9k)
+
+// ## Example
+
+// <div class="example html">
+//     <div class="lego-island">
+//        I am boxed off.
+//     </div>
+// </div>
+
+%lego-island,
+.lego-island {
+  @extend %kill-last-child-margin;
+  border: 1px solid map-fetch($color, ui light);
+  border-radius: map-fetch($border-radius, base);
+  background: map-fetch($color, background faint);
+  padding: spacer(1);
+
+  &--center {
+    text-align: center;
+  }
+}

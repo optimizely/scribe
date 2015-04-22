@@ -1,0 +1,64 @@
+.case-study-box {
+  border: 1px solid map-fetch($color, ui base);
+  padding: spacer(2);
+  padding-bottom: spacer(0);
+  border-radius: map-fetch($border-radius, base);
+  background: #f9f9f9;
+  float: right;
+  width: 35%;
+  margin-top: spacer(2);
+  margin-right: -(spacer(6));
+  margin-left: spacer(3);
+  margin-bottom: spacer(2);
+
+  > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    > li {
+      margin-bottom: spacer(2);
+    }
+  }
+
+  &__title {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: spacer(.5);
+  }
+
+  &__data {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  > img {
+    margin-bottom: spacer(1.5);
+  }
+
+  @include breakpoint($max: 1050px) {
+    margin-right: 0;
+  }
+
+  @include breakpoint($max: 650px) {
+    margin: spacer(4) 0;
+    float: none;
+    width: auto;
+    text-align: center;
+
+    > img {
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    ul {
+      display: flex;
+
+      > li {
+        flex: 1;
+      }
+    }
+  }
+}

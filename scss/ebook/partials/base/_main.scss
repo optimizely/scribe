@@ -1,7 +1,0 @@
-html {
-  font-size: map-get($font-size, base);
-  font-family: map-get($font-family, base);
-  line-height: map-get($line-height, base);
-  font-weight: map-get($font-weight, base);
-  @include font-smoothing;
-}

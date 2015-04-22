@@ -1,0 +1,38 @@
+// # Search
+// A clear-able search box. Works with the clearable_search Vue directive.
+
+// <div class="example html">
+//     <div class="lego-search" v-clearable-search clearevent="clearSearch">
+//       <input type="text" class="lego-text-input lego-text-input--search width-200" placeholder="Filter by Name"
+//         v-on="keyup: setStringFilter($event)"
+//         v-model="filters.string" />
+//     </div>
+// </div>
+
+.lego-search {
+  position: relative;
+
+  // Using background-image here to avoid hacky CSS.
+
+  .lego-text-input--search {
+    padding-left: spacer(3);
+    padding-right: spacer(3);
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGZpbGw9IiM4NDg0ODQiIGQ9Ik0zODQsMTkyQzM4NCw4NiwyOTgsMCwxOTIsMFMwLDg2LDAsMTkyczg2LDE5MiwxOTIsMTkyUzM4NCwyOTgsMzg0LDE5MnogTTE5MiwzMzYNCgkJYy03OS40LDAtMTQ0LTY0LjYtMTQ0LTE0NFMxMTIuNiw0OCwxOTIsNDhzMTQ0LDY0LjYsMTQ0LDE0NFMyNzEuNCwzMzYsMTkyLDMzNnoiLz4NCgk8cGF0aCBmaWxsPSIjODQ4NDg0IiBkPSJNNDk3LjksNDMwLjFMMzgwLjUsMzEyLjZjLTE3LjUsMjcuMi00MC43LDUwLjQtNjcuOSw2Ny45bDExNy41LDExNy41YzE4LjgsMTguOCw0OS4yLDE4LjgsNjcuOSwwDQoJCUM1MTYuNyw0NzkuMiw1MTYuNyw0NDguOCw0OTcuOSw0MzAuMXoiLz4NCjwvZz4NCjwvc3ZnPg0K');
+    background-repeat: no-repeat;
+    background-position: left 8px center;
+    background-size: 16px 16px;
+  }
+
+  .lego-icon {
+    @include transform(translateY(-50%));
+    position: absolute;
+    top: 50%;
+    right: spacer(1);
+    cursor: pointer;
+    display: none;
+  }
+}
+
+.lego-search--active .lego-icon {
+  display: block;
+}
