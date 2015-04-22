@@ -43,7 +43,6 @@ gulp.task('build', function() {
       remarkableOptions: {
         html: true
       }
-
     }))
     .pipe(wrap({
       src: 'templates/template.html'
