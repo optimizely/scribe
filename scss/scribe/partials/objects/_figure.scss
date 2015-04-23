@@ -1,6 +1,10 @@
 figure {
   margin: spacer(4) 0;
 
+  > img {
+    width: 100%;
+  }
+
   figcaption {
     margin-top: spacer(1);
     color: map-fetch($color, text medium);

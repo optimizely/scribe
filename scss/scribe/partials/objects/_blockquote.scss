@@ -2,7 +2,7 @@ blockquote {
 
   p {
     font-size: map-fetch($font, size delta);
-    font-weight: map-fetch($font, weight bold);
+    font-weight: map-fetch($font, weight semi);
   }
 
   .attribution {

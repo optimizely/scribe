@@ -26,7 +26,7 @@
 
   &__data {
     font-size: map-fetch($font, size gamma);
-    font-weight: map-fetch($font, weight bold);
+    font-weight: map-fetch($font, weight semi);
   }
 
   > img {

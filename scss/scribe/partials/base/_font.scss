@@ -38,17 +38,17 @@ $hosting-url: '//dhm5hy2vn8l0l.cloudfront.net/proxima/';
   src: url($hosting-url + 'proximanova-regit.woff2') format('woff2'), url($hosting-url + 'proximanova-regit.woff') format('woff');
 }
 
-// ### Proxima Bold
+// ### Proxima Semi Bold
 
 @font-face {
   font-family: 'Proxima';
   font-weight: 500;
-  src: url($hosting-url + 'proximanova-bold.woff2') format('woff2'), url($hosting-url + 'proximanova-bold.woff') format('woff');
+  src: url($hosting-url + 'proximanova-sbold.woff2') format('woff2'), url($hosting-url + 'proximanova-sbold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Proxima';
   font-weight: 500;
   font-style: italic;
-  src: url($hosting-url + 'proximanova-boldit.woff2') format('woff2'), url($hosting-url + 'proximanova-boldit.woff') format('woff');
+  src: url($hosting-url + 'proximanova-sboldit.woff2') format('woff2'), url($hosting-url + 'proximanova-sboldit.woff') format('woff');
 }
