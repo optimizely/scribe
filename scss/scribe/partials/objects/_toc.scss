@@ -60,16 +60,16 @@
     margin-right: spacer(.5);
   }
 
-  [toc-position='0'] & {
+  [data-toc-position='0'] & {
     position: static;
   }
 
-  [toc-position='1'] & {
+  [data-toc-position='1'] & {
     position: fixed;
     top: 40px;
   }
 
-  [toc-position='2'] & {
+  [data-toc-position='2'] & {
     position: absolute;
   }
 }

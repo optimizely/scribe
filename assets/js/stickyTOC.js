@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   function tocPosition() {
 
-    var s = $(window).scrollTop();
+    var scrollTop = $(window).scrollTop();
 
     toc = {
       height: $(".ebook-toc").outerHeight(),
@@ -19,22 +19,24 @@ $(document).ready(function(){
       bottom: toc.column.top + toc.column.height - toc.height - 40
     }
 
-    var tocStop = toc.column.top + toc.column.height - toc.height;
-
-    if ( s < toc.threshold.top ) {
-      $("body").attr("toc-position", 0);
-    } else if ( s > toc.threshold.bottom ) {
-      $("body").attr("toc-position", 2);
-      $(".ebook-toc").css("top", tocStop)
-    } else {
-      $(".ebook-toc").removeAttr("style");
-      $("body").attr("toc-position", 1);
+    toc.stop = {
+      bottom: toc.column.top + toc.column.height - toc.height
     }
 
-    $("#marker").css("top", toc.column.top + toc.column.height - toc.height);
+    switch (true) {
+      case ( scrollTop < toc.threshold.top ):
+        $("body").attr("data-toc-position", 0);
+        break;
+      case ( scrollTop > toc.threshold.bottom ):
+        $("body").attr("data-toc-position", 2);
+        $(".ebook-toc").css("top", toc.stop.bottom)
+        break;
+      default:
+        $(".ebook-toc").removeAttr("style");
+        $("body").attr("data-toc-position", 1);
+    }
 
   }
-
 
   $(window).scroll(function(){
     tocPosition();
