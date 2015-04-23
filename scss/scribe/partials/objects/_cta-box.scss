@@ -1,0 +1,17 @@
+.cta-box {
+  border: 1px solid map-fetch($color, ui base);
+  background: map-fetch($color, background faint);
+  border-radius: map-fetch($border-radius, base);
+  padding: spacer(2);
+  margin: spacer(4) 0;
+  text-align: center;
+
+  &__title {
+    margin-bottom: spacer(1);
+  }
+
+  &.half {
+    @include right-hang;
+    @include right-hang-reset;
+  }
+}

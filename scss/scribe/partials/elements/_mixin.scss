@@ -1,4 +1,4 @@
-@mixin float-obj() {
+@mixin right-hang() {
   float: right;
   clear: right;
   width: 35%;
@@ -9,7 +9,9 @@
   @include breakpoint($max: 1050px) {
     margin-right: 0;
   }
+}
 
+@mixin right-hang-reset() {
   @include breakpoint($max: 650px) {
     margin: spacer(4) 0;
     float: none;

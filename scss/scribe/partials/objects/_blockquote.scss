@@ -10,7 +10,8 @@ blockquote {
   }
 
   &.half {
-    @include float-obj;
+    @include right-hang;
+    @include right-hang-reset;
     @include breakpoint($max: 650px) {
       text-align: center;
     }

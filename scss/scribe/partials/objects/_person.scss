@@ -1,14 +1,8 @@
 .person {
-  float: right;
+  @include right-hang;
   width: 140px;
-  margin-right: -(spacer(6));
-  margin-left: spacer(3);
   text-align: center;
   font-size: map-fetch($font, size milli);
-
-  @include breakpoint($max: 1050px) {
-    margin-right: 0;
-  }
 
   &__img {
     height: 140px;

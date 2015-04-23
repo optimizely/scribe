@@ -1,11 +1,11 @@
 .callout {
   border: 1px solid map-fetch($color, ui base);
+  margin: spacer(4) 0;
   padding: spacer(2);
   padding-bottom: 0;
-  margin: spacer(4) 0;
   border-radius: map-fetch($border-radius, base);
 
-  > * {
+  *:first-child {
     padding-top: 0;
   }
 
@@ -14,7 +14,7 @@
   }
 
   &.callout--big {
-    background: #edf9ff;
-    border-color: transparent;
+    background: map-fetch($color, background brand-light);
+    border: none;
   }
 }

@@ -5,7 +5,8 @@
   border-radius: map-fetch($border-radius, base);
   background: #f9f9f9;
 
-  @include float-obj;
+  @include right-hang;
+  @include right-hang-reset;
 
   > ul {
     list-style: none;
@@ -14,19 +15,18 @@
 
     > li {
       margin-bottom: spacer(2);
+      line-height: 1;
     }
   }
 
   &__title {
     font-size: map-fetch($font, size milli);
     margin-bottom: spacer(.5);
-    line-height: 1;
   }
 
   &__data {
     font-size: map-fetch($font, size gamma);
     font-weight: map-fetch($font, weight bold);
-    line-height: 1;
   }
 
   > img {
