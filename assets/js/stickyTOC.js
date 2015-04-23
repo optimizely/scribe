@@ -1,29 +1,49 @@
 $(document).ready(function(){
 
-  // var offset = $(".ebook-toc").offset();
+  function tocPosition() {
 
-  // $(window).scroll(function() {
-  //   var s = $(window).scrollTop();
+    var s = $(window).scrollTop();
 
-  //   var tocOffset = ($(".ebook-toc-wrap").offset()).top;
-  //   var tocWrapHeight = $(".ebook-toc-wrap").height();
-  //   var tocHeight = $(".ebook-toc").height();
+    toc = {
+      height: $(".ebook-toc").outerHeight(),
+      top: ($(".ebook-toc").offset()).top,
+    }
 
-  //   var spaceTop = offset.top - 40;
-  //   var spaceBot = tocOffset + tocWrapHeight - tocHeight - 80;
+    toc.column = {
+      top: ($(".ebook-toc-wrap").offset()).top,
+      height: $(".ebook-text").innerHeight()
+    }
 
-  //   if ( s > spaceTop && s < spaceBot) {
-  //     $("body").addClass("toc-stick-top");
-  //     $("body").removeClass("toc-stick-bottom");
-  //     $(".ebook-toc").removeAttr("style");
-  //   } else {
-  //     if ( spaceBot < s ) {
-  //       var tocBottomOffset = ($(".ebook-toc").offset()).top;
-  //       $("body").removeClass("toc-stick-top");
-  //       $("body").addClass("toc-stick-bottom");
-  //       $(".ebook-toc").css("top", "3721px")
-  //     }
-  //   }
-  // });
+    toc.threshold = {
+      top: toc.column.top - 40,
+      bottom: toc.column.top + toc.column.height - toc.height - 40
+    }
+
+    var tocStop = toc.column.top + toc.column.height - toc.height;
+
+    if ( s < toc.threshold.top ) {
+      $("body").attr("toc-position", 0);
+    } else if ( s > toc.threshold.bottom ) {
+      $("body").attr("toc-position", 2);
+      $(".ebook-toc").css("top", tocStop)
+    } else {
+      $(".ebook-toc").removeAttr("style");
+      $("body").attr("toc-position", 1);
+    }
+
+    $("#marker").css("top", toc.column.top + toc.column.height - toc.height);
+
+  }
+
+
+  $(window).scroll(function(){
+    tocPosition();
+  });
+
+  $(window).resize(function(){
+    tocPosition();
+  });
+
+  tocPosition();
 
 });

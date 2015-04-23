@@ -29,12 +29,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
 
-{% include "video.html"
+<!-- {% include "video.html"
   {
     api_key: 'NwKq3T25SKMK4fLZopFjww'
   }
 %}
-
+ -->
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
