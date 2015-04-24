@@ -5,7 +5,7 @@ $(document).ready(function(){
     var scrollTop = $(window).scrollTop();
 
     toc = {
-      height: $(".ebook-toc").outerHeight(),
+      height: $(".ebook-toc").height(),
       top: ($(".ebook-toc").offset()).top,
     }
 
@@ -23,20 +23,23 @@ $(document).ready(function(){
       bottom: toc.column.top + toc.column.height - toc.height
     }
 
+    console.log(toc.column.height);
+
     switch (true) {
-      case ( scrollTop < toc.threshold.top ):
+      case ( scrollTop < toc.threshold.top ): // if scrolled to top
         $("body").attr("data-toc-position", 0);
         break;
-      case ( scrollTop > toc.threshold.bottom ):
+      case ( scrollTop > toc.threshold.bottom ): // if scrolled to bottom
         $("body").attr("data-toc-position", 2);
         $(".ebook-toc").css("top", toc.stop.bottom)
         break;
-      default:
+      default: // if scrolling between top and bottom
         $(".ebook-toc").removeAttr("style");
         $("body").attr("data-toc-position", 1);
     }
 
   }
+
 
   $(window).scroll(function(){
     tocPosition();
@@ -45,7 +48,5 @@ $(document).ready(function(){
   $(window).resize(function(){
     tocPosition();
   });
-
-  tocPosition();
 
 });
