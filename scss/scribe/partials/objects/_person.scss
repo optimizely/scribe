@@ -17,7 +17,7 @@
 
   &__company {
     text-transform: uppercase;
-    font-weight: map-fetch($font, weight semi);
+    font-weight: map-fetch($font, weight medium);
     font-size: map-fetch($font, size micro);
     letter-spacing: 1px;
   }

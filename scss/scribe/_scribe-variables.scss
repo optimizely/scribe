@@ -1,3 +1,10 @@
+// Include only the weights you want to use.
+
+$hosted-fonts:(
+  weights: 300 400 500,
+  italics: true
+);
+
 $font: map-extend($font,
   (
     size: (
@@ -10,14 +17,6 @@ $font: map-extend($font,
       delta                    : 20px, // h4
       epsilon                  : 16px, // h5
       zeta                     : 12px // h6
-    ),
-
-    family: (
-      base                     : unquote('Proxima, Helvetica, Verdana, sans-serif'),
-    ),
-
-    weight: (
-      semi                     : 500
     )
   )
 );

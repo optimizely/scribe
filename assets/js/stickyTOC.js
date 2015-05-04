@@ -23,8 +23,6 @@ $(document).ready(function(){
       bottom: toc.column.top + toc.column.height - toc.height
     }
 
-    console.log(toc.column.height);
-
     switch (true) {
       case ( scrollTop < toc.threshold.top ): // if scrolled to top
         $("body").attr("data-toc-position", 0);
@@ -39,7 +37,6 @@ $(document).ready(function(){
     }
 
   }
-
 
   $(window).scroll(function(){
     tocPosition();

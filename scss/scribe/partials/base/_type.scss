@@ -31,7 +31,7 @@
 //[/hc]
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: map-fetch($font, weight semi);
+  font-weight: map-fetch($font, weight medium);
 }
 
 h1,
@@ -91,13 +91,13 @@ h4 {
 
 h5 {
   margin-bottom: spacer(1.5);
-  font-weight: map-fetch($font, weight semi);
+  font-weight: map-fetch($font, weight medium);
 }
 
 h6 {
   margin-bottom: spacer(0.5);
   padding-top: spacer(4);
-  font-weight: map-fetch($font, weight semi);
+  font-weight: map-fetch($font, weight medium);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
