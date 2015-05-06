@@ -16,7 +16,7 @@
     margin-bottom: spacer(1);
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: map-fetch($font, weight medium);
+    font-weight: 500;
     font-size: map-fetch($font, size micro);
   }
 
@@ -25,7 +25,7 @@
     border-top: 1px solid map-fetch($color, ui base);
     margin-top: spacer(2);
     padding-top: spacer(2.5);
-    font-weight: map-fetch($font, weight medium);
+    font-weight: 500;
     font-size: map-fetch($font, size micro);
     text-transform: uppercase;
     letter-spacing: 1px;
