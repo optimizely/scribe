@@ -4,9 +4,9 @@ var gulp        = require('gulp')
     md          = require('gulp-remarkable');
     notify      = require('gulp-notify'),
     swig        = require('gulp-swig'),
+    sass        = require('gulp-sass'),
     browserSync = require('browser-sync'),
     changed     = require('gulp-changed'),
-    compass     = require('gulp-compass'),
     reload      = browserSync.reload,
     toc         = require('gulp-toc'),
     replace     = require('gulp-replace'),
@@ -58,12 +58,10 @@ gulp.task('build', function() {
     .pipe(reload({stream:true}));
 });
 
-gulp.task('compass', function() {
+gulp.task('sass', function() {
   gulp.src('scss/**/*.scss')
-    .pipe(compass({
-      css: './build/assets/css/',
-      sass: 'scss'
-    }))
+    .pipe(sass())
+    .pipe(gulp.dest('./build/assets/css/'))
     .on('error', reportError)
     .pipe(reload({stream:true}));
 });
@@ -92,11 +90,11 @@ gulp.task('clean', function (cb) {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('scss/**/*.scss', ['compass']);
+    gulp.watch('scss/**/*.scss', ['sass']);
     gulp.watch('content/**/*.md', ['build']);
     gulp.watch('templates/**/*.html', ['build']);
     gulp.watch('includes/**/*.html', ['build']);
     gulp.watch('assets/**/*', ['assets']);
 });
 
-gulp.task('default', ['build', 'assets', 'compass', 'browser-sync', 'watch']);
+gulp.task('default', ['build', 'assets', 'sass', 'browser-sync', 'watch']);
