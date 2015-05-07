@@ -12,10 +12,6 @@ var gulp        = require('gulp')
     replace     = require('gulp-replace'),
     wrap        = require('gulp-wrap'),
     path        = require('path'),
-    config      = require('./config').dev.options.variables,
-    src         = path.join(config.src, 'scribe.scss'),
-    dest        = config.dist,
-
     opts        = {
       setup: function(swig) {
         swig.setDefaults({
