@@ -2,31 +2,31 @@
 // Root file driving the scribe CSS.
 
 // Compass polyfills
-@import '../node_modules/lego/src/core/core-polyfills';
+@import 'core/core-polyfills';
 
 // ## Core functions and mixins
-@import '../node_modules/lego/src/core/partials/elements/functions';
-@import '../node_modules/lego/src/core/partials/elements/mixins';
+@import 'core/partials/elements/functions';
+@import 'core/partials/elements/mixins';
 
 // ## Core and scribe variables
 // Import `core` and `scribe` variables
 
-@import '../node_modules/lego/src/core/core-variables';
+@import 'core/core-variables';
 @import 'scribe/scribe-variables';
 
 // ## Core and scribe partials
 // Import `core` and `scribe` partials
 
-@import '../node_modules/lego/src/core/core-partials';
+@import 'core/core-partials';
 @import 'scribe/scribe-partials';
 
 // ## Trumps
 // Trumps use `!important` classes for overrides and should always be loaded last.
 
-@import '../node_modules/lego/src/core/partials/trumps/background';
-@import '../node_modules/lego/src/core/partials/trumps/layout';
-@import '../node_modules/lego/src/core/partials/trumps/margin';
-@import '../node_modules/lego/src/core/partials/trumps/padding';
-@import '../node_modules/lego/src/core/partials/trumps/type';
-@import '../node_modules/lego/src/core/partials/trumps/sizing';
+@import 'core/partials/trumps/background';
+@import 'core/partials/trumps/layout';
+@import 'core/partials/trumps/margin';
+@import 'core/partials/trumps/padding';
+@import 'core/partials/trumps/type';
+@import 'core/partials/trumps/sizing';
 

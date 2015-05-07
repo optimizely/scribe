@@ -12,6 +12,10 @@ var gulp        = require('gulp')
     replace     = require('gulp-replace'),
     wrap        = require('gulp-wrap'),
     path        = require('path'),
+    config      = require('./config').dev.options.variables,
+    src         = path.join(config.src, 'scribe.scss'),
+    dest        = config.dist,
+
     opts        = {
       setup: function(swig) {
         swig.setDefaults({
@@ -60,7 +64,12 @@ gulp.task('build', function() {
 
 gulp.task('sass', function() {
   gulp.src('scss/**/*.scss')
-    .pipe(sass())
+    .pipe(sass({
+      errLogToConsole: true,
+      includePaths : [
+        require('lego').includePath
+      ]
+    }))
     .pipe(gulp.dest('./build/assets/css/'))
     .on('error', reportError)
     .pipe(reload({stream:true}));
