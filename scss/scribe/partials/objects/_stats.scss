@@ -1,0 +1,17 @@
+.stats {
+  background: #eee;
+  padding-top: spacer(2);
+  padding-bottom: spacer(2);
+
+  .lego-stat-group {
+    @include layout-fence;
+    @include justify-content(space-between);
+  }
+
+  .lego-stat {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+}

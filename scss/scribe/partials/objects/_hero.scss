@@ -1,6 +1,5 @@
 .hero {
   @include display(flex);
-  margin-bottom: spacer(5);
   padding-left: spacer(2);
   padding-right: spacer(2);
   height: 400px;

@@ -13,6 +13,7 @@
 .ebook-wrap {
   @include display(flex);
   @include layout-fence;
+  margin-top: spacer(5);
 
   h2:first-of-type {
     padding-top: 0;
