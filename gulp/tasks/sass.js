@@ -1,18 +1,9 @@
 var gulp         = require('gulp')
     paths        = require('../../config').paths,
-    handleErrors = require('../utils/errors'),
+    handleErrors = require('../utils/handleErrors'),
     sass         = require('gulp-sass'),
     browserSync  = require('browser-sync'),
     reload       = browserSync.reload;
-
-function swallowError(error) {
-  this.emit('end');
-}
-
-function reportError(error) {
-  notify.onError().apply(this, arguments);
-  this.emit('end');
-}
 
 gulp.task('sass', function() {
   gulp.src(paths.scss + '**/*.scss')
@@ -23,6 +14,6 @@ gulp.task('sass', function() {
       ]
     }))
     .pipe(gulp.dest(paths.built.css))
-    .on('error', reportError)
+    .on('error', handleErrors)
     .pipe(reload({stream:true}));
 });

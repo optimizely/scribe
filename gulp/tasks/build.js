@@ -1,16 +1,18 @@
-var gulp        = require('gulp')
-    wrap        = require('gulp-wrap'),
-    frontMatter = require('gulp-front-matter'),
-    folders     = require('gulp-folders'),
-    md          = require('gulp-remarkable');
-    swig        = require('gulp-swig'),
-    browserSync = require('browser-sync'),
-    changed     = require('gulp-changed'),
-    reload      = browserSync.reload,
-    toc         = require('gulp-toc'),
-    replace     = require('gulp-replace'),
-    path        = require('path');
-    paths        = require('../../config').paths;
+var gulp         = require('gulp')
+    wrap         = require('gulp-wrap'),
+    frontMatter  = require('gulp-front-matter'),
+    folders      = require('gulp-folders'),
+    md           = require('gulp-remarkable'),
+    swig         = require('gulp-swig'),
+    browserSync  = require('browser-sync'),
+    changed      = require('gulp-changed'),
+    reload       = browserSync.reload,
+    toc          = require('gulp-toc'),
+    replace      = require('gulp-replace'),
+    path         = require('path'),
+    paths        = require('../../config').paths,
+    handleErrors = require('../utils/handleErrors');
+
 
 var swigOps = {
   setup: function(swig) {
@@ -47,6 +49,7 @@ gulp.task('build', folders(paths.content, function(folder) {
       tocMax: 2,
       anchorMax: 2
     }))
+    .on('error', handleErrors)
     .pipe(gulp.dest(paths.build + folder))
     .pipe(reload({stream:true}));
 }));
