@@ -13,12 +13,11 @@ var gulp         = require('gulp')
     paths        = require('../../config').paths,
     handleErrors = require('../utils/handleErrors');
 
-
 var swigOps = {
   setup: function(swig) {
     swig.setDefaults({
       cache: false,
-      loader: swig.loaders.fs('./includes/') // Set partial path root.
+      loader: swig.loaders.fs(paths.includes) // Set partial path root.
     });
   }
 };
