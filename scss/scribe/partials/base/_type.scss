@@ -37,31 +37,26 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 .alpha {
   font-size: map-fetch($font, size alpha);
-  line-height: 1.1;
 }
 
 h2,
 .beta {
   font-size: map-fetch($font, size beta);
-  line-height: 1.1;
 }
 
 h3,
 .gamma {
   font-size: map-fetch($font, size gamma);
-  line-height: 1.2;
 }
 
 h4,
 .delta {
   font-size: map-fetch($font, size delta);
-  line-height: 1.2;
 }
 
 h5,
 .epsilon {
   font-size: map-fetch($font, size epsilon);
-  line-height: 1.2;
 }
 
 h6,
@@ -69,29 +64,34 @@ h6,
   font-size: map-fetch($font, size zeta);
 }
 
-// ## Heading Margin Defaults
+// ## Heading Defaults
 
 h1 {
   margin-bottom: spacer(2);
+  line-height: 1.1;
 }
 
 h2 {
   padding-top: spacer(3);
   margin-bottom: spacer(2);
+  line-height: 1.1;
 }
 
 h3 {
   padding-top: spacer(2);
   margin-bottom: spacer(1.5);
+  line-height: 1.2;
 }
 
 h4 {
   margin-bottom: spacer(1);
+  line-height: 1.2;
 }
 
 h5 {
   margin-bottom: spacer(1.5);
   font-weight: 500;
+  line-height: 1.2;
 }
 
 h6 {

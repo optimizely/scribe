@@ -14,4 +14,8 @@
     text-align: center;
   }
 
+  .stat__value {
+    font-size: map-fetch($font, size alpha);
+    line-height: 1;
+  }
 }
