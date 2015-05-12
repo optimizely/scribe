@@ -41,12 +41,13 @@ function reportError(error) {
   this.emit('end');
 }
 
+// Main task runs over each content directory, mapping to same-named template.
 gulp.task('build', folders(pathToFolder, function(folder) {
   return gulp.src(path.join(pathToFolder, folder, '*.md'))
     .pipe(frontMatter({
       property: 'data'
     }))
-    .pipe(swig(opts))
+    .pipe(swig(opts)) // Pulls in local includes for blockquotes, figures, etc.
     .pipe(replace(/\[\[\/\]\]/gi, '</div>'))  // [[/]] == </div>
     .pipe(replace(/\[\[(.*)\]\]/gi, '<div class="$1">'))  // [[tag]] == <div class="tag">
     .pipe(md({
@@ -58,14 +59,15 @@ gulp.task('build', folders(pathToFolder, function(folder) {
     .pipe(wrap({
       src: 'templates/'+folder+'.html'
     }))
-    .pipe(swig(opts))
+    .pipe(swig(opts)) // Operates on template includes for header, footer, etc.
     .pipe(toc({
       // Overrides the default method of building IDs in the content.
       header: '<h<%= level %> id="<%= anchor %>"><%= header %></h<%= level %>>',
       tocMax: 2,
       anchorMax: 2
     }))
-    .pipe(gulp.dest('build/' + folder));
+    .pipe(gulp.dest('build/' + folder))
+    .pipe(reload({stream:true}));
 }));
 
 

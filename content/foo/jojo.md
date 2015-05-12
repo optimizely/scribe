@@ -1,7 +1,7 @@
 ---
-title: Statistics for Beginners
+title: Jojo
 hero:
-  title: Statistics for Beginners
+  title: Jojo
   background: /assets/i/temp.jpg
 ---
 
