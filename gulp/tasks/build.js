@@ -5,7 +5,6 @@ var gulp         = require('gulp')
     md           = require('gulp-remarkable'),
     swig         = require('gulp-swig'),
     browserSync  = require('browser-sync'),
-    changed      = require('gulp-changed'),
     reload       = browserSync.reload,
     toc          = require('gulp-toc'),
     replace      = require('gulp-replace'),
