@@ -3,7 +3,7 @@ title: The Experience Optimization Playbook for Digital Marketers
 hero:
   title: The Experience Optimization Playbook for Digital Marketers
   subtitle: Let Your Customers Uncover Your Next Big Win
-  background: assets/i/temp.jpg
+  background: /assets/i/temp.jpg
 ---
 
 ## Introduction

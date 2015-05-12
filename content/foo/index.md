@@ -2,7 +2,7 @@
 title: Statistics for Beginners
 hero:
   title: Statistics for Beginners
-  background: assets/i/temp.jpg
+  background: /assets/i/temp.jpg
 ---
 
 ## Introduction
