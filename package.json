@@ -32,5 +32,9 @@
     "gulp-wrap": "^0.11.0",
     "lego": "git+ssh://git@github.com:optimizely/lego.git#core-shuffle",
     "path": "^0.11.14"
+  },
+  "devDependencies": {
+    "gulp-folders": "^1.1.0",
+    "gulp-template": "^3.0.0"
   }
 }

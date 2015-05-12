@@ -1,7 +1,5 @@
 ---
-template: full
 title: The Experience Optimization Playbook for Digital Marketers
-template: templates/template.html
 hero:
   title: The Experience Optimization Playbook for Digital Marketers
   subtitle: Let Your Customers Uncover Your Next Big Win

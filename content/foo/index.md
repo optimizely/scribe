@@ -1,6 +1,5 @@
 ---
 title: Statistics for Beginners
-template: templates/template.html
 hero:
   title: Statistics for Beginners
   background: assets/i/temp.jpg
