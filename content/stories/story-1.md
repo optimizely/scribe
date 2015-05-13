@@ -7,7 +7,7 @@ hero:
 
 ## Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed tempora similique blanditiis reprehenderit.
+asdfad ipsum dolor sit amet, consectetur adipisicing elit. Sed tempora similique blanditiis reprehenderit.
 
 ## Define Your Audience and a Super Long Title That Should Wrap
 

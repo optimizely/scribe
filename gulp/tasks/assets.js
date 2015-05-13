@@ -2,7 +2,7 @@ var gulp        = require('gulp')
     paths       = require('../../config').paths,
     changed     = require('gulp-changed'),
     browserSync = require('browser-sync'),
-    reload      = browserSync.reload,
+    reload      = browserSync.reload;
 
 gulp.task('assets', function() {
   gulp.src(paths.assets + '**/*')
