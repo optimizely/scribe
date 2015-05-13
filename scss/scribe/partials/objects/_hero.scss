@@ -1,5 +1,6 @@
 .hero {
   @include display(flex);
+  @include align-items(center);
   padding-left: spacer(2);
   padding-right: spacer(2);
   height: 400px;
@@ -7,6 +8,7 @@
   background-size: cover;
 
   .content {
+    max-width: 100%;
     margin: auto;
 
     h1 {
