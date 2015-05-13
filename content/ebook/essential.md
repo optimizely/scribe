@@ -4,6 +4,19 @@ hero:
   title: The Experience Optimization Playbook for Digital Marketers
   subtitle: Let Your Customers Uncover Your Next Big Win
   background: /assets/i/temp.jpg
+stats:
+  1:
+    value: 200
+    title: Visitors
+  2:
+    value: 70000
+    title: Views
+  3:
+    value: 8,500
+    title: Following
+  4:
+    value: 9,600
+    title: Followers
 ---
 
 ## Introduction
