@@ -5,9 +5,11 @@ hero:
   background: /assets/i/temp.jpg
 ---
 
-## Introduction
+[[intro]]
 
-asdfad ipsum dolor sit amet, consectetur adipisicing elit. Sed tempora similique blanditiis reprehenderit.
+Introductory parapgraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fuga natus cupiditate architecto eligendi excepturi veniam earum neque provident, qui, harum laborum officia voluptatum quibusdam quasi in delectus adipisci dolores.
+
+[[/]]
 
 ## Define Your Audience and a Super Long Title That Should Wrap
 

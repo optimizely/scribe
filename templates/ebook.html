@@ -3,12 +3,12 @@
 {% include "hero.html" %}
 {% include "stats.html" %}
 
-<div class="ebook-wrap">
-  <div class="ebook-toc-wrap">
-    <div class="ebook-toc">
-      <div class="ebook-toc__title">Table of Contents</div>
+<div class="content-wrap ebook">
+  <div class="toc-wrap">
+    <div class="toc-block">
+      <div class="toc-block__title">Table of Contents</div>
       <!-- toc -->
-      <div class="ebook-toc__footer">
+      <div class="toc-block__footer">
         <ul>
           <li><a href="#"><i class="fa fa-print"></i> Print</a></li>
           <li><a href="#"><i class="fa fa-twitter"></i> Tweet</a></li>
@@ -17,7 +17,7 @@
       </div>
     </div>
   </div>
-  <div class="ebook-text">
+  <div class="content-text">
     <%= contents %>
   </div>
 </div>

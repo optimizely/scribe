@@ -10,7 +10,7 @@
   @include layout-fence;
 }
 
-.ebook-wrap {
+.content-wrap {
   @include display(flex);
   @include layout-fence;
   margin-top: spacer(5);
@@ -28,7 +28,7 @@
   }
 }
 
-.ebook-toc-wrap {
+.toc-wrap {
   width: 200px;
   margin-right: spacer(5);
 
@@ -38,7 +38,7 @@
 
 }
 
-.ebook-text {
+.content-text {
   @include flex(1);
   margin-bottom: spacer(6);
 
@@ -50,5 +50,19 @@
   ol {
     list-style: decimal;
     margin-left: spacer(3);
+  }
+}
+
+.intro {
+  font-size: map-fetch($font, size gamma);
+  margin-bottom: spacer(4);
+}
+
+// Specific Content Types
+
+.customer-stories {
+  h2 {
+    text-transform: uppercase;
+    font-size: map-fetch($font, size epsilon);
   }
 }
