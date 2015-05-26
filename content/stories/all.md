@@ -75,9 +75,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 {% include "case-study-box.html"
   {
     image: '/assets/i/upworthy-logo.svg',
-    industry: 'Travel',
-    experimentType: 'Mobile',
-    improvement: '15%'
+    value_1: 'Travel',
+    title_1: 'Industry',
+    value_2: 'Travel',
+    title_2: 'Industry',
+    value_3: 'Travel',
+    title_3: 'Industry'
   }
 %}
 
