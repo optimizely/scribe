@@ -1,9 +1,12 @@
-{% include "common/head.html" %}
-{% include "common/header.html" %}
-{% include "hero.html" %}
-{% include "stats.html" %}
+{% include 'common/head.html' {
+    page: 'ebook'
+  }
+%}
+{% include 'common/header.html' %}
+{% include 'hero.html' %}
+{% include 'stats.html' %}
 
-<div class="content-wrap ebook">
+<div class="content-wrap">
   <div class="toc-wrap">
     <div class="toc-block">
       <div class="toc-block__title">Table of Contents</div>
@@ -22,7 +25,7 @@
   </div>
 </div>
 
-{% include "cta-footer.html" %}
-{% include "recommended.html" %}
-{% include "common/footer.html" %}
-{% include "common/foot.html" %}
+{% include 'cta-footer.html' %}
+{% include 'recommended.html' %}
+{% include 'common/footer.html' %}
+{% include 'common/foot.html' %}

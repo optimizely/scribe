@@ -1,30 +1,31 @@
 ---
-title: Statistics for Beginners
+title: 12 Million New Students
 hero:
-  title: Statistics for Beginners
+  title: 12 Million New Students
+  subtitle: Let Your Customers Uncover Your Next Big Win
   background: /assets/i/temp.jpg
 stats:
   1:
-    value: 200
-    title: Visitors
+    value: 8,000
+    title: Experiments run in 2014
   2:
-    value: 70000
-    title: Views
+    value: 3
+    title: Team members
   3:
-    value: 8,500
-    title: Following
+    value: 39%
+    title: Improvement in lift
   4:
-    value: 9,600
-    title: Followers
+    value: 2
+    title: Years using Optimizely
 ---
 
 [[intro]]
 
-Introductory parapgraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fuga natus cupiditate architecto eligendi excepturi veniam earum neque provident, qui, harum laborum officia voluptatum quibusdam quasi in delectus adipisci dolores.
+Introductory parapgraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fuga natus cupiditate architecto.
 
 [[/]]
 
-## Define Your Audience and a Super Long Title That Should Wrap
+## THE CHALLENGE
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
@@ -41,6 +42,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
+Year  | Moment | What it means
+------------- | ------------- | ----------------
+1993  | The first public web browser, Mosaic (later Netscape), appears. | Users around the world can easily access and navigate the internet.
+1994  | eBay and Amazon launch. | Online shopping is born. Internet users can log in and purchase goods and services with just a few clicks.
 
 
 <!-- {% include "video.html"

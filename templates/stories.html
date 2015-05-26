@@ -1,7 +1,10 @@
-{% include "common/head.html" %}
-{% include "common/header.html" %}
-{% include "hero.html" %}
-{% include "stats.html" %}
+{% include 'common/head.html' {
+    page: 'stories'
+  }
+%}
+{% include 'common/header.html' %}
+{% include 'hero.html' %}
+{% include 'stats.html' %}
 
 <div class="content-wrap customer-stories">
   <div class="content-text">
@@ -9,7 +12,7 @@
   </div>
 </div>
 
-{% include "cta-footer.html" %}
-{% include "recommended.html" %}
-{% include "common/footer.html" %}
-{% include "common/foot.html" %}
+{% include 'cta-footer.html' %}
+{% include 'recommended.html' %}
+{% include 'common/footer.html' %}
+{% include 'common/foot.html' %}

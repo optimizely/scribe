@@ -1,9 +1,15 @@
 @mixin layout-fence {
-  max-width: 900px;
   padding-left: spacer(2);
   padding-right: spacer(2);
   margin-left: auto;
   margin-right: auto;
+
+  .page--stories & {
+    max-width: 750px;
+  }
+  .page--ebook & {
+    max-width: 900px;
+  }
 }
 
 .fence {
@@ -61,8 +67,10 @@
 // Specific Content Types
 
 .customer-stories {
+
   h2 {
     text-transform: uppercase;
     font-size: map-fetch($font, size epsilon);
+    font-weight: 600;
   }
 }

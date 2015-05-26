@@ -7,6 +7,7 @@
   .lego-stat-group {
     @include layout-fence;
     @include justify-content(space-between);
+    max-width: 900px !important;
 
     @include breakpoint($max: 500px) {
       @include flex-wrap(wrap);
@@ -38,5 +39,9 @@
     @include breakpoint($max: 630px) {
       font-size: 30px;
     }
+  }
+
+  .stat__title {
+    color: map-fetch($color, text muted);
   }
 }
