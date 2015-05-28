@@ -120,7 +120,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 {% include "blockquote.html"
   {
     size: 'full',
-    quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe.',
+    quote: 'With Optimizely, we were not only able introduce nearly 1 in 4 U.S. students to computer science, but we were able to launch the fastest growing web-service ever last week, which reached 15 million users in 5 days, faster than Facebook, Twitter, Instagram and Tumblr, combined.',
     attribution: 'Jessie Ren, Optimizely'
   }
 %}
