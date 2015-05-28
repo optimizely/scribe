@@ -21,7 +21,7 @@ stats:
 
 [[intro]]
 
-Introductory parapgraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fuga natus cupiditate architecto.
+Code.org is a nonprofit dedicated to expanding participation in computer science education by making it part of the core curriculum in education.
 
 [[/]]
 
@@ -56,8 +56,6 @@ Year  | Moment | What it means
 %}
  -->
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
 {% include "cta-box.html"
   {
     size: 'half',
@@ -66,7 +64,26 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
   }
 %}
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
+[[callout callout--big]]
+
+### Optimization in action: Better experiences baked into every customer touchpoint
+
+To get a better feel for experience optimization, let’s take a look at one company who does it right–HubSpot. HubSpot’s Amanda Sibley explains how they tests various forms of personalization throughout their entire website, and almost all content they post across all marketing channels. According to Amanda, her team puts significant effort behind optimization because they know they’ll see better results in the long run.
+
+*More customers:*
+
+Our blog has millions of viewers each month and is one of the better lead generation channels for our marketing team.
+
+We recently tested two different types of CTAs to see what resonated best with our audience–our original CTA, located at the bottom of each blog post, versus a slide-in CTA located closer to the top of the page. We wanted to understand if a CTA that was “more disruptive” would attract more clicks and convert more leads than the typical bottom-of-the-page button.
+
+Site visitors responded significantly better to the “more disruptive” variation–with a 106% increase in click-throughs and a 38% increase in leads generated. To better serve our visitors (and increase conversions) going forward, we implemented slide-in CTAs on most of our top-performing blog posts.
+
+[[/]]
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
@@ -77,10 +94,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
     image: '/assets/i/upworthy-logo.svg',
     value_1: 'Travel',
     title_1: 'Industry',
-    value_2: 'Travel',
-    title_2: 'Industry',
-    value_3: 'Travel',
-    title_3: 'Industry'
+    value_2: 'Mobile',
+    title_2: 'Business Type',
+    value_3: 'Brussels',
+    title_3: 'Location'
   }
 %}
 

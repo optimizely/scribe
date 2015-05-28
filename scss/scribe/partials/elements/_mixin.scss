@@ -5,6 +5,7 @@
   margin-right: -(spacer(6));
   margin-left: spacer(3);
   margin-bottom: spacer(1);
+  margin-top: 0;
 
   @include breakpoint($max: 1050px) {
     margin-right: 0;

@@ -3,7 +3,7 @@
   padding: spacer(2);
   padding-bottom: spacer(0);
   border-radius: map-fetch($border-radius, base);
-  background: #f9f9f9;
+  background: map-fetch($color, background white);
 
   @include right-hang;
   @include right-hang-reset;
@@ -19,14 +19,14 @@
     }
   }
 
-  &__title {
-    font-size: map-fetch($font, size milli);
+  &__value {
+    font-size: map-fetch($font, size gamma);
+    font-weight: 500;
     margin-bottom: spacer(.5);
   }
 
-  &__data {
-    font-size: map-fetch($font, size gamma);
-    font-weight: 500;
+  &__title {
+    font-size: map-fetch($font, size milli);
   }
 
   > img {

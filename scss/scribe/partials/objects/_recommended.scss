@@ -21,13 +21,12 @@
     color: map-fetch($color, text base);
   }
 
-  @include breakpoint($max: 630px) {
-    .lego-grid {
-      @include flex-direction(column);
+  .recommended-grid {
+    @include lego-grid($responsive: 630px);
+    margin-left: -(spacer(5));
 
-      &__cell {
-        margin-bottom: spacer(3);
-      }
+    &__cell {
+      padding-left: spacer(5);
     }
   }
 }

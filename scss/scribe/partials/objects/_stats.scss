@@ -3,7 +3,6 @@
   padding-top: spacer(2);
   padding-bottom: spacer(2);
 
-
   .lego-stat-group {
     @include layout-fence;
     @include justify-content(space-between);
@@ -43,5 +42,6 @@
 
   .stat__title {
     color: map-fetch($color, text muted);
+    font-size: 14px;
   }
 }
