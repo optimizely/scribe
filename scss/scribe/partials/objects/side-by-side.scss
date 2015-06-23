@@ -1,0 +1,17 @@
+.side-by-side {
+  margin-bottom: spacer(6);
+
+  &__items {
+    display: flex;
+    list-style: none !important;
+    margin: 0 0 0 spacer(-2) !important;
+    padding: 0;
+  }
+
+  &__item {
+    @include flex(1);
+    padding-left: spacer(2);
+    margin: 0;
+  }
+
+}

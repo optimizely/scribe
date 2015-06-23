@@ -6,7 +6,7 @@ var gulp         = require('gulp')
     reload       = browserSync.reload;
 
 gulp.task('sass', function() {
-  gulp.src(paths.scss + '**/*.scss')
+  gulp.src(paths.scss + 'scribe.scss')
     .pipe(sass({
       errLogToConsole: true,
       includePaths : [

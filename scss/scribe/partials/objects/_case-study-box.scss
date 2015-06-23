@@ -27,12 +27,12 @@
 
   &__title {
     font-size: map-fetch($font, size milli);
+    line-height: 1;
   }
 
   > img {
     margin-bottom: spacer(1.5);
   }
-
 
   @include breakpoint($max: 650px) {
     text-align: center;

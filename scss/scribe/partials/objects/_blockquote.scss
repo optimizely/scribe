@@ -19,6 +19,7 @@ blockquote {
 
   &.full {
     margin: spacer(4) 0;
+    border-left: none;
     text-align: center;
   }
 }

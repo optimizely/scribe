@@ -1,23 +1,9 @@
 <div class="case-study-box half">
   {% if image %}<img src="{{image}}" alt=""/>{% endif %}
   <ul>
-  {% if value_1 %}
-  <li>
-    <div class="case-study-box__value">{{value_1}}</div>
-    <div class="case-study-box__title">{{title_1}}</div>
-  </li>
-  {% endif %}
-  {% if value_2 %}
-  <li>
-    <div class="case-study-box__value">{{value_2}}</div>
-    <div class="case-study-box__title">{{title_2}}</div>
-  </li>
-  {% endif %}
-  {% if value_3 %}
-  <li>
-    <div class="case-study-box__value">{{value_3}}</div>
-    <div class="case-study-box__title">{{title_3}}</div>
-  </li>
-  {% endif %}
+  {% for item in metadata %}
+  <div class="case-study-box__title">{{item.title}}</div>
+  <div class="case-study-box__value">{{item.value}}</div>
+  {% endfor %}
   </ul>
 </div>

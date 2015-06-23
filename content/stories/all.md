@@ -29,6 +29,32 @@ Code.org is a nonprofit dedicated to expanding participation in computer science
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
+
+{% include "side-by-side.html"
+  {
+    images: [
+      '../assets/i/screenshot.png',
+      '../assets/i/screenshot.png'
+    ],
+    caption: 'This is the caption for the screenshots or whatever goes here.'
+  }
+%}
+
+{% include "side-by-side.html"
+  {
+    images: [
+      '../assets/i/screenshot.png',
+      '../assets/i/screenshot.png',
+      '../assets/i/screenshot.png'
+    ],
+    caption: 'This is the caption for the screenshots or whatever goes here.'
+  }
+%}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
 {% include "blockquote.html"
   {
     size: 'half',
@@ -37,9 +63,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
   }
 %}
 
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
 
@@ -92,12 +120,20 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, a
 {% include "case-study-box.html"
   {
     image: '/assets/i/upworthy-logo.svg',
-    value_1: 'Travel',
-    title_1: 'Industry',
-    value_2: 'Mobile',
-    title_2: 'Business Type',
-    value_3: 'Brussels',
-    title_3: 'Location'
+    metadata: {
+      1: {
+        value: 'Travel',
+        title: 'Industry'
+      },
+      2: {
+        value: 'Mobile',
+        title: 'Business Type'
+      },
+      3: {
+        value: 'Brussels',
+        title: 'Location'
+      }
+    }
   }
 %}
 
