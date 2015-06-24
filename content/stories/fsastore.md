@@ -10,6 +10,7 @@ hero:
 {% include "case-study-box.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsa-store/fsalogo.png',
+<<<<<<< HEAD
     value_1: 'Retail',
     title_1: 'Industry',
     value_3: 'New York, NY',
@@ -17,6 +18,22 @@ hero:
   }
 %}
 
+=======
+    metadata: {
+      1: {
+        value: 'Retail',
+        title: 'Industry'
+      },
+      2: {
+        value: 'New York, NY',
+        title: 'Location'
+      }
+    }
+  }
+%}
+
+
+>>>>>>> origin/master
 [[intro]]
 
 FSAstore.com is a one-stop-destination for Flexible Spending Accounts, where visitors can buy FSA eligible products, search for services, and learn more about their FSA.
@@ -75,7 +92,11 @@ Now, FSAstore.com’s culture is focused on optimizing each customer touch point
 
 #### Takeaways
 
+<<<<<<< HEAD
 - *COMMUNICATION IS KEY:* Like Ujjwal and his team, successful testing organizations put a high focus on information sharing, communicating goals, strategy, and outcomes to their colleagues on a regular basis. This helps validate optimization spend, secure buy-in from stakeholders, and engrain experimentation and data into company culture. 
+=======
+- *COMMUNICATION IS KEY:* Like Ujjwal and his team, successful testing organizations put a high focus on information sharing, communicating goals, strategy, and outcomes to their colleagues on a regular basis. This helps validate optimization spend, secure buy-in from stakeholders, and engrain experimentation and data into company culture.
+>>>>>>> origin/master
 
 - *TEST FOR HIGH IMPACT:* When it comes to optimization, the possibilities of what to test are endless. Buy taking stock of key challenges in the purchase funnel and assessing which changes will drive the most impact, Ujjwal and his team were able to prioritize in a smart way and garner some critical wins for their business. They also take into account how long it will take to build and run each experiment, ensuring they’re spending time and resources on optimization initiatives that will move the needle.
 

@@ -19,12 +19,29 @@ stats:
 {% include "case-study-box.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/spreadshirt/spreadshirt_logo.jpg',
+<<<<<<< HEAD
     value_1: 'Retail',
     title_1: 'Industry',
     value_2: 'Desktop Web',
     title_2: 'Experiment Type',
     value_3: 'Boston, MA',
     title_3: 'Location'
+=======
+    metadata: {
+      1: {
+        value: 'Retail',
+        title: 'Industry'
+      },
+      2: {
+        value: 'Desktop Web',
+        title: 'Experiment Type'
+      },
+      3: {
+        value: 'Boston, MA',
+        title: 'Location'
+      }
+    }
+>>>>>>> origin/master
   }
 %}
 
@@ -34,6 +51,7 @@ Spreadshirt is an online store and marketplace that lets visitors create and upl
 
 [[/]]
 
+<<<<<<< HEAD
 In January 2013, Spreadshirt welcomed a new creative director, Do Kil, to spearhead a complete rebrand of spreadshirt.com. Charged with giving the company’s online presence a facelift and a fresh message, Kil started on a website redesign that would focus on displaying the marketplace of designs more prominently. 
 
 At Spreadshirt, marketers, analysts, designers, copywriters, and developers have all used Optimizely since April 2012. With a strong optimization culture in place, the team tests all website changes before making anything permanent. The team shares results widely and data from previous tests helped them identify pain points to address in the redesign. 
@@ -41,6 +59,15 @@ At Spreadshirt, marketers, analysts, designers, copywriters, and developers have
 ## HYPOTHESIS
 
 Kil hoped the new homepage would have a positive effect on overall user engagement, ultimately leading more visitors to buy or upload designs. They hypothesized that simplifying high impact areas of the page – like the “Start Selling” call-to-action – would achieve this. 
+=======
+In January 2013, Spreadshirt welcomed a new creative director, Do Kil, to spearhead a complete rebrand of spreadshirt.com. Charged with giving the company’s online presence a facelift and a fresh message, Kil started on a website redesign that would focus on displaying the marketplace of designs more prominently.
+
+At Spreadshirt, marketers, analysts, designers, copywriters, and developers have all used Optimizely since April 2012. With a strong optimization culture in place, the team tests all website changes before making anything permanent. The team shares results widely and data from previous tests helped them identify pain points to address in the redesign.
+
+## HYPOTHESIS
+
+Kil hoped the new homepage would have a positive effect on overall user engagement, ultimately leading more visitors to buy or upload designs. They hypothesized that simplifying high impact areas of the page – like the “Start Selling” call-to-action – would achieve this.
+>>>>>>> origin/master
 
 ## TEST
 
@@ -74,9 +101,15 @@ Kil tracked 25 individual goals to best understand how the redesigned homepage p
 
 ## RESULTS
 
+<<<<<<< HEAD
 The redesigned homepage outperformed the original homepage across many of the team’s key goals – including a staggering 606% increase in conversions from the “Start Selling” CTA. 
 
 The redesigned homepage directly affected the company’s bottom line, with an 4% increase in total views of the order confirmation page. Overall, the redesign increased engagement by 8%. Kil’s hypothesis was correct – simplifying high impact areas of the homepage increased both conversions and engagement. As she continues to test elements of the website redesign, Kil plans to keep this learning in mind, building similar hypotheses across other pages on spreadshirt.com. 
+=======
+The redesigned homepage outperformed the original homepage across many of the team’s key goals – including a staggering 606% increase in conversions from the “Start Selling” CTA.
+
+The redesigned homepage directly affected the company’s bottom line, with an 4% increase in total views of the order confirmation page. Overall, the redesign increased engagement by 8%. Kil’s hypothesis was correct – simplifying high impact areas of the homepage increased both conversions and engagement. As she continues to test elements of the website redesign, Kil plans to keep this learning in mind, building similar hypotheses across other pages on spreadshirt.com.
+>>>>>>> origin/master
 
 [[callout]]
 
@@ -85,5 +118,9 @@ The redesigned homepage directly affected the company’s bottom line, with an 4
 - *MACROCONVERSIONS VS. MICROCONVERSIONS:* Kil tracked 25 different types of conversions on the redesigned homepage. Some of these were macroconversions – actions that drove the business’s bottom line, like t-shirt purchases and seller sign-ups. Others were microconversions – actions that revealed more nuanced information about user behavior, like engagement. Tracking both macro- and micro- goals can paint a fuller picture of how users interact with your site and help inform future experiments.
 - *LEARN FROM PAST TESTS:* When planning tests for the redesign, Kil looked to the team’s previous A/B tests for inspiration. Analyzing learnings from past tests is a great way to draw inspiration for the future. For instance, if a particular variation worked well on your site’s homepage, try testing a similar change in paid search ads or on your product pages. Or try honing in on those results even further, testing a smaller aspect of a bigger win to boost conversions further.
 - *COMPLEMENT GREAT DESIGN WITH STRONG DATA:* Spreadshirt’s product and design teams worked closely together to test design variations before building them into the site. Testing first to understand what best resonated with users on Spreadshirt’s homepage informed decisions the design team made on other pages across the site. Optimizing the homepage helped the team save time and build a compelling user experience that increased business.
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> origin/master
 [[/]]

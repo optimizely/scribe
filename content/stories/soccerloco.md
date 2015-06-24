@@ -6,6 +6,7 @@ hero:
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/soccerloco/soccerloco-hero.jpg
 ---
 
+<<<<<<< HEAD
 {% include "case-study-box.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/soccerloco/soccerloco.png',
@@ -13,6 +14,22 @@ hero:
     title_1: 'Industry',
     value_3: 'San Diego, CA',
     title_3: 'Location'
+=======
+
+{% include "case-study-box.html"
+  {
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/soccerloco/soccerloco.png',
+    metadata: {
+      1: {
+        value: 'Retail',
+        title: 'Industry'
+      },
+      2: {
+        value: 'San Diego, CA',
+        title: 'Location'
+      }
+    }
+>>>>>>> origin/master
   }
 %}
 
