@@ -1,11 +1,7 @@
 ---
 title: Romney 2012 Campaign Optimizely Case Study
 hero:
-<<<<<<< HEAD
-  title: Testing at the Romney 2012 Campaign Drives Voter Engagement and Online Fundraising 
-=======
   title: Testing at the Romney 2012 Campaign Drives Voter Engagement and Online Fundraising
->>>>>>> origin/master
   subtitle: Website optimizaiton drove six-figure donation total
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/romney-rally.jpg
 stats:
@@ -17,28 +13,11 @@ stats:
     title: Increase in CTA Clicks
   3:
     value: 6x
-<<<<<<< HEAD
-    title: Increase in Sign Ups 
-=======
     title: Increase in Sign Ups
->>>>>>> origin/master
   4:
     value: 19%
     title: Increase in State Specific Sign Ups
 ---
-
-<<<<<<< HEAD
-{% include "case-study-box.html"
-  {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/romney-logo.png',
-    value_1: 'Political Campaign',
-    title_1: 'Industry',
-    value_3: 'Boston, MA',
-    title_3: 'Location'
-  }
-%}
-
-=======
 
 {% include "case-study-box.html"
   {
@@ -57,7 +36,6 @@ stats:
 %}
 
 
->>>>>>> origin/master
 [[intro]]
 
 From day one, Mitt Romney’s digital campaign team understood a common truth: the campaign is not a creativity contest – what looks best and what works best for the website is not always the same.
@@ -80,15 +58,9 @@ Knowing how beneficial email was to raising money for the campaign, they tested 
 
 Between May 2011 and November 2012, the Romney Campaign’s 140-person digital team along with Targeted Victory ran hundreds of tests.
 
-<<<<<<< HEAD
-“Once we saw the ease of using Optimizely, the ideas started flying. We wanted to start testing just about everything,” Meerstein says. “We started on the splash page and when we saw success, we continued to build from there.” 
-
-## Call-to-action button test 
-=======
 “Once we saw the ease of using Optimizely, the ideas started flying. We wanted to start testing just about everything,” Meerstein says. “We started on the splash page and when we saw success, we continued to build from there.”
 
 ## Call-to-action button test
->>>>>>> origin/master
 
 The team started optimizing for  donations with a test on the main call-to-action in the right upper corner of the homepage. They wanted to see whether button color – blue, green, yellow or red – and word choice – “Contribute,” “Support”, or “Donate” – impacted the likelihood of a visitor to click.
 
@@ -100,11 +72,7 @@ The team started optimizing for  donations with a test on the main call-to-actio
 
 Overall they found that color did not have a definitive impact, but the word “Contribute” did show a statistically significant improvement of 10%
 
-<<<<<<< HEAD
-Knowing that “Contribute” converted visitors to click more often than “Donate,” the team changed verbiage all over the site – and in all email messaging – to reflect the test results. 
-=======
 Knowing that “Contribute” converted visitors to click more often than “Donate,” the team changed verbiage all over the site – and in all email messaging – to reflect the test results.
->>>>>>> origin/master
 
 ## Home Page Carousel Test
 
@@ -140,11 +108,7 @@ Next, the team used geographic location as a pull to encourage visitors to sign 
   }
 %}
 
-<<<<<<< HEAD
-The data clearly showed success in personalizing the message. With this test as testament, the team decided to make the splash page specific for each state. They used geotargeting in Optimizely to send visitors from each state to a page with a message specific to that state. So no two visitors to mittromney.com from different states saw the same message. They tested personalized call-to-actions based on absentee states and early vote states. Visitors from Ohio saw messages directing them to early voting locations and the hours they were open.  Visitors from Colorado saw targeted messages for how to get an absentee ballot. 
-=======
 The data clearly showed success in personalizing the message. With this test as testament, the team decided to make the splash page specific for each state. They used geotargeting in Optimizely to send visitors from each state to a page with a message specific to that state. So no two visitors to mittromney.com from different states saw the same message. They tested personalized call-to-actions based on absentee states and early vote states. Visitors from Ohio saw messages directing them to early voting locations and the hours they were open.  Visitors from Colorado saw targeted messages for how to get an absentee ballot.
->>>>>>> origin/master
 
 {% include "blockquote.html"
   {

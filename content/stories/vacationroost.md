@@ -6,16 +6,6 @@ hero:
   background: /assets/i/temp.jpg
 ---
 
-<<<<<<< HEAD
-
-{% include "case-study-box.html"
-  {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/vacationroost/vacationroost-logo.png',
-    value_1: 'Travel',
-    title_1: 'Industry',
-    value_3: 'Salt Lake City, UT',
-    title_3: 'Location'
-=======
 {% include "case-study-box.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/vacationroost/vacationroost-logo.png',
@@ -29,21 +19,11 @@ hero:
         title: 'Location'
       }
     }
->>>>>>> origin/master
   }
 %}
 
 [[intro]]
 
-<<<<<<< HEAD
-VacationRoost manages multiple travel-lodging websites for visitors searching for travel rental properties, destinations, or deals. Visitors to these sites typically enter the VacationRoost online experience through a targeted landing page based on the location they are traveling to or the type of rental property they are searching for. 
-
-[[/]]
-
-VacationRoost’s main objective is to drive visitors into the site’s search results pages, which can be accessed directly from each landing page. According to Ryan Hutchings, VacationRoost’s Director of online marketing, customers who enter search result pages are three to four times more likely to convert than those who don’t advance into search. 
-
-“Our goal is always to say – how quickly can we get somebody into viewing properties in search results? We know that the conversion rate significantly increases when they do that. Any page that acts as an entry point into that funnel should have the highest possible CTR in order to rise the overall conversion rate on the entire site,” explains Ryan. 
-=======
 VacationRoost manages multiple travel-lodging websites for visitors searching for travel rental properties, destinations, or deals. Visitors to these sites typically enter the VacationRoost online experience through a targeted landing page based on the location they are traveling to or the type of rental property they are searching for.
 
 [[/]]
@@ -51,17 +31,12 @@ VacationRoost manages multiple travel-lodging websites for visitors searching fo
 VacationRoost’s main objective is to drive visitors into the site’s search results pages, which can be accessed directly from each landing page. According to Ryan Hutchings, VacationRoost’s Director of online marketing, customers who enter search result pages are three to four times more likely to convert than those who don’t advance into search.
 
 “Our goal is always to say – how quickly can we get somebody into viewing properties in search results? We know that the conversion rate significantly increases when they do that. Any page that acts as an entry point into that funnel should have the highest possible CTR in order to rise the overall conversion rate on the entire site,” explains Ryan.
->>>>>>> origin/master
 
 Ryan’s vision is to maximize conversions on each of these landing pages. Using Optimizely, he built and executed a planto tackle this goal.
 
 ## HYPOTHESIS
 
-<<<<<<< HEAD
-Ryan believed that two particular groups would provide the biggest conversion lift quickly – 1.) The company’s top performing landing pages – those that had already had the least friction and the most motivation for the customer to jump into on-page search results. 2.) Landing pages which could be optimized in groups, such as similar “Destination” or “Property” pages. Ryan calls these groups the “low hanging fruit”. 
-=======
 Ryan believed that two particular groups would provide the biggest conversion lift quickly – 1.) The company’s top performing landing pages – those that had already had the least friction and the most motivation for the customer to jump into on-page search results. 2.) Landing pages which could be optimized in groups, such as similar “Destination” or “Property” pages. Ryan calls these groups the “low hanging fruit”.
->>>>>>> origin/master
 
 Ryan hypothesized that optimizing VacationRoosts’s “low-hanging fruit” pages first would provide his team results quickly – helping them better understand what changes to test and implement across other pages on the site.TEST: Ryan used Optimizely to test VacationRoosts’s “low hanging fruit” pages through a series of multipage experiments, quickly implementing and tracking changes across groups of landing pages simultane-ously. Multipage testing allows users to build test variations just once, and then serve up that same experience across several pages at the same time.
 
@@ -93,20 +68,12 @@ Across each test, Ryan tracked two primary goals – click-throughs to VacationR
 
 ## RESULTS
 
-<<<<<<< HEAD
-Testing with Optimizely provided a number of valuable customer insights that Ryan was able apply across the company’s landing pages – increasing conversions across the board. 
-=======
 Testing with Optimizely provided a number of valuable customer insights that Ryan was able apply across the company’s landing pages – increasing conversions across the board.
->>>>>>> origin/master
 
 * Security seals and logos boosted user engagement
 * Large, orange CTA button provided the big-gest lift in conversions
 * Longer pages won most of the time—more content, personalization, and security seals all decreased bounce rates and increased CTR
-<<<<<<< HEAD
-* Increasing click options (multiple CTA but-tons and text links) increased the number of users who entered the funnel 
-=======
 * Increasing click options (multiple CTA but-tons and text links) increased the number of users who entered the funnel
->>>>>>> origin/master
 * Adding mini-filters or search options to pages increased engagement
 
 
@@ -116,7 +83,7 @@ Testing with Optimizely provided a number of valuable customer insights that Rya
 
 - *TEST...AND THEN ITERATE:* VacationRoost made an art of iterative testing – test-ing large-scale design changes followed up by more granular, subtle revisions like CTA copy or security seal placement. This mix of testing “big” and “small” elements helped Ryan hone in on the best possible design to drive the most revenue from VacationRoost’s landing pages.
 <<<<<<< HEAD
-- *FOR FAST RESULTS, TEST TO HIGHLY TRAFFICKED PAGES:* By focusing on landing pages that already drove solid traffic and those that were easy to test as a group, Ryan and VacationRoost were able to make changes and gain quantifiable results quickly. 
+- *FOR FAST RESULTS, TEST TO HIGHLY TRAFFICKED PAGES:* By focusing on landing pages that already drove solid traffic and those that were easy to test as a group, Ryan and VacationRoost were able to make changes and gain quantifiable results quickly.
 =======
 - *FOR FAST RESULTS, TEST TO HIGHLY TRAFFICKED PAGES:* By focusing on landing pages that already drove solid traffic and those that were easy to test as a group, Ryan and VacationRoost were able to make changes and gain quantifiable results quickly.
 >>>>>>> origin/master
