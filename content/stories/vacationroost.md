@@ -82,11 +82,7 @@ Testing with Optimizely provided a number of valuable customer insights that Rya
 #### TESTING TAKEAWAYS
 
 - *TEST...AND THEN ITERATE:* VacationRoost made an art of iterative testing – test-ing large-scale design changes followed up by more granular, subtle revisions like CTA copy or security seal placement. This mix of testing “big” and “small” elements helped Ryan hone in on the best possible design to drive the most revenue from VacationRoost’s landing pages.
-<<<<<<< HEAD
 - *FOR FAST RESULTS, TEST TO HIGHLY TRAFFICKED PAGES:* By focusing on landing pages that already drove solid traffic and those that were easy to test as a group, Ryan and VacationRoost were able to make changes and gain quantifiable results quickly.
-=======
-- *FOR FAST RESULTS, TEST TO HIGHLY TRAFFICKED PAGES:* By focusing on landing pages that already drove solid traffic and those that were easy to test as a group, Ryan and VacationRoost were able to make changes and gain quantifiable results quickly.
->>>>>>> origin/master
 - *TEST ACROSS MULTIPLE PAGES AT ONCE:* For a website with many similar pages (product pages, landing pages, etc.) it often makes sense to test the same experiment across each page to ensure site visitors’ enter consistent experiences across your site. Multipage testing not only ensures seamless user experiences. In Ryan’s case, forexample, it also helped test and lift conversions across many pages on the site all at once.
 
 [[/]]

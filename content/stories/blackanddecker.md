@@ -127,11 +127,7 @@ In this case, inconclusive results were actually a win for the team, helping the
 #### TAKEAWAYS
 
 - *UNDERSTAND YOUR AUDIENCE:* “We always say that following best practices alone doesn’t guarantee a site’s success; it all depends on a number of factors. The goal of testing is to figure out how a particular audience best responds.” explains Paul. While research suggested site visitors consumed content in the “Z” pattern, testing helped Viget and SB&D discover that this was not the case for their audience.
-<<<<<<< HEAD
 - *OPTIMIZE CALLS-TO-ACTION:* CTAs are often the biggest revenue driver on a website, so it’s important to get them right. Viget found that providing more clarity around Dewalt’s CTAs (‘Buy Now’ and ‘Nearby Retailer’) significantly improved conversions across the website, with a staggering six-figure online revenue improvement from the ‘Buy Now’ test alone.
-=======
-- *OPTIMIZE CALLS-TO-ACTION:* CTAs are often the biggest revenue driver on a website, so it’s important to get them right. Viget found that providing more clarity around Dewalt’s CTAs (‘Buy Now’ and ‘Nearby Retailer’) significantly improved conversions across the website, with a staggering six-figure online revenue improvement from the ‘Buy Now’ test alone.
->>>>>>> origin/master
 
 [[/]]
 
