@@ -3,7 +3,14 @@ Long-form static, reponsive HTML publishing engine for Optimizely.
 
 ## Installing
 
-In the terminal:
+After cloning repo run
+
+    npm install
+    gulp
+
+## Troubleshooting
+
+If your computer does not have `npm` installed, run the following in the terminal:
 
 - Hombrew
   - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
