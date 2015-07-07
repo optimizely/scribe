@@ -25,7 +25,6 @@ hero:
 
 Trunk Club is a men’s clothing service where the #1 focus is style. Trunk Club members sign up to have their own personal stylist build their wardrobe, online or in person. Their mission is to help men build an amazing wardrobe, without a lot of work. They want their website and mobile app to do the same. 
 
-
 [[/]]
 
 {% include "blockquote.html"
