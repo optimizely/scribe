@@ -1,5 +1,5 @@
 ---
-title: Bigstock Optimizely Customer Story
+title: Bigstock Optimizely Case Study
 hero:
   title: New Search Algorithm Improves Bigstock's Entire Download Funnel
   subtitle: Running a simple test with Optimizely led to a 10% increase in conversions

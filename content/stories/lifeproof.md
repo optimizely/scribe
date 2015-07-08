@@ -1,5 +1,5 @@
 ---
-title: Lifeproof Optimizely Customer Story
+title: Lifeproof Optimizely Case Study
 hero:
   title: Lifeproof Builds A Data-Driven Testing Culture From the Ground Up
   subtitle: Three types of testing wins that helped drive fast adoption of optimization

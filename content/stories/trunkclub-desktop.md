@@ -1,5 +1,5 @@
 ---
-title: Trunk Club Optimizely Customer Story Desktop Web
+title: Trunk Club Optimizely Case Study Desktop Web
 hero:
   title: Optimizing Men's Style ... and Sign-Ups
   subtitle: How Trunk Club improved ts sign-up flow to increase conversions 133%
