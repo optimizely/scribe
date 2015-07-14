@@ -4,6 +4,8 @@ var gulp         = require('gulp')
     folders      = require('gulp-folders'),
     md           = require('gulp-remarkable'),
     swig         = require('gulp-swig'),
+    swig         = require('gulp-swig'),
+    argv         = require('yargs').argv,
     browserSync  = require('browser-sync'),
     reload       = browserSync.reload,
     toc          = require('gulp-toc'),
@@ -12,7 +14,12 @@ var gulp         = require('gulp')
     paths        = require('../../config').paths,
     handleErrors = require('../utils/handleErrors');
 
+var marketingCompileValue = (argv.marketingCompile === undefined) ? false : true;
+
 var swigOps = {
+  data: {
+    marketingCompile: marketingCompileValue
+  },
   setup: function(swig) {
     swig.setDefaults({
       cache: false,

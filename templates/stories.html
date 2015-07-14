@@ -1,8 +1,24 @@
-{% include 'common/head.html' {
-    page: 'stories'
-  }
-%}
-{% include 'common/header.html' %}
+{% if marketingCompile %}
+---
+layout: wrapper
+TR_seo_title: "Case Studies"
+TR_visible_title: "Case Studies"
+no_container: true
+page_script: customer-stories.js
+body_class:
+- page--stories
+---
+{% endif %}
+
+{% if !marketingCompile %}
+  {% include 'common/head.html' {
+      page: 'stories'
+    }
+  %}
+  {% include 'common/header.html' %}
+{% endif %}
+
+
 {% include 'hero.html' %}
 {% include 'stats.html' %}
 
@@ -14,5 +30,8 @@
 
 {% include 'cta-footer.html' %}
 {% include 'recommended.html' %}
-{% include 'common/footer.html' %}
-{% include 'common/foot.html' %}
+
+{% if !marketingCompile %}
+  {% include 'common/footer.html' %}
+  {% include 'common/foot.html' %}
+{% endif %}
