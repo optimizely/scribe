@@ -29,23 +29,25 @@ Liftopia is a hub for skiers and snowboarders to find discounted lift tickets re
 
 Liftopia uses search engine marketing (SEM) advertisements to drive potential customers to ski deals on its site. SEM drives highly-qualified traffic — searchers who already have a specific resort in mind — to a landing page midway through Liftopia’s purchase funnel. From there, Liftopia’s goal is to provide the best user experience possible in order to drive more purchases and revenue from site. 
 
+{% include "blockquote.html"
+  {
+    size: 'full',
+    quote: 'Optimizely has taken the debate aspect out of design and design-by-committee. We let our users tell us what designs are the best layout. If we have a question about what the best design is, we test it.',
+    attribution: 'Dave Nuffer, Product Manager, Liftopia'
+  }
+%}
+
 In the past, this presented a hurdle — pages in Liftopia’s purchase funnel offered numerous options for cross-sell via a sidebar column and a search widget. When visitors landed on a page from SEM, they had the option to either buy the results, search for new results, or click directly on deals to other resorts. Liftopia wanted to determine whether tailoring their funnel pages around the resort promoted in the SEM advertisement would drive more visitors down the funnel to purchase the package.
 
 ## HYPOTHESIS
 
 Since they knew what SEM-traffic was searching for already, the team hypothesized that showing a tailored experience with exactly what visitors had searched for – instead of options they didn’t want in the first place – would increase purchase conversions and decrease bounce rates. 
 
-{% include "blockquote.html"
-  {
-    size: 'full',
-    quote: 'If you’re searching for a Squaw Valley deal, our goal is to bring you into our site, remove all distractions from other resorts’ deals and offers, and keep you moving down our funnel.',
-    attribution: 'Dave Nuffer, Product Manager, Liftopia'
-  }
-%}
+'If you’re searching for a Squaw Valley deal, our goal is to bring you into our site, remove all distractions from other resorts’ deals and offers, and keep you moving down our funnel,' said Dave Nuffer, a Product Manager at Liftopia.
 
 ## THE TEST
 
-Liftopia used Optimizely to test different experiences within the SEM purchase funnel and measure which converted more visitors into customers. They set up a multi-page experiment to ensure a unified experience throughout the flow.
+Dave and the Liftopia team used Optimizely to test different experiences within the SEM purchase funnel and measure which converted more visitors into customers. They set up a multi-page experiment to ensure a unified experience throughout the flow.
 
 ### Original Flow
 
@@ -75,23 +77,9 @@ To execute the test, they created two variations across their funnel pages. The 
 
 ## Results
 
-After running the test for just seven days, a statistically significant result emerged: the variation flow increased conversions by 23.7%.
-
-{% include "figure.html"
-  {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/liftopia/liftopia-results.png',
-  }
-%}
+After running the test for just seven days, a statistically significant result emerged: *the variation flow increased conversions by 23.7%.*
 
 Dave and his team used Optimizely to push 100% of SEM traffic to the winning variation while their engineers worked to implement the improved experience into their site code. Using Optimizely’s traffic allocation feature, the team could instantly realize the increase in revenue from their SEM ads. 
-
-{% include "blockquote.html"
-  {
-    size: 'full',
-    quote: 'Optimizely has taken the debate aspect out of design and design-by-committee. We let our users tell us what designs are the best layout. If we have a question about what the best design is, we test it.',
-    attribution: 'Dave Nuffer, Product Manager, Liftopia'
-  }
-%}
 
 [[callout]]
 

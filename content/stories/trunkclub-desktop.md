@@ -2,7 +2,7 @@
 title: Trunk Club Optimizely Case Study Desktop Web
 hero:
   title: Optimizing Men's Style ... and Sign-Ups
-  subtitle: How Trunk Club improved ts sign-up flow to increase conversions 133%
+  subtitle: How Trunk Club improved its sign-up flow to increase conversions 133%
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunk-club/trunk-club-hero.png
 ---
 {% include "case-study-box.html"
@@ -23,17 +23,9 @@ hero:
 
 [[intro]]
 
-Trunk Club is a men’s clothing service where the #1 focus is style. Trunk Club members sign up to have their own personal stylist build their wardrobe, online or in person. Their mission is to help men build an amazing wardrobe, without a lot of work. They want their website and mobile app to do the same. 
+Trunk Club is a men’s clothing service where the number one focus is style. Trunk Club members sign up to have their own personal stylist build their wardrobe, online or in person. Their mission is to help men build an amazing wardrobe, without a lot of work. They want their website and mobile app to do the same. 
 
 [[/]]
-
-{% include "blockquote.html"
-  {
-    size: 'half',
-    quote: 'Since using Optimizely, we’ve improved our customer experience and made interaction design and visual design a higher priority.',
-    attribution: 'Mike Wolf, Product Design Lead, Trunk Club'
-  }
-%}
 
 ## Background
 
@@ -41,27 +33,19 @@ At Trunk Club, testing is built into the company’s DNA. They’ve been testing
 
 A cross-functional team keeps tabs on the optimization process at Trunk Club. They meet a few times each month to generate ideas and see how current tests are stacking up. Representatives from each part of the company participate: Sales, Product, Merch, Creative and Design.
 
-“Whenever we’re curious, confused or in doubt, we run a test and let the data speak for itself,” explains Mike Wolf, Trunk Club’s Product Design Lead. 
-
 {% include "blockquote.html"
   {
-    size: 'half',
+    size: 'full',
     quote: 'Testing fits in almost everywhere at Trunk Club. We test everything from box sizes and packaging, to taglines on our homepage. We’re constantly trying to improve our service and we validate success through qualitative feedback and data.',
     attribution: 'Mike Wolf, Product Design Lead, Trunk Club'
   }
 %}
 
+“Whenever we’re curious, confused or in doubt, we run a test and let the data speak for itself,” explains Mike Wolf, Trunk Club’s Product Design Lead. 
+
 ## Launch, Test, Iterate
 
 A strong testing culture helps Trunk Club launch products and designs more quickly, and then fine-tune each experience to be as effective as possible. According to Mike, the launch, test, iterate practice has been wildly successful at Trunk Club. It helps them understand visitors’ preferences and deliver optimized experiences accordingly. 
-
-{% include "blockquote.html"
-  {
-    size: 'half',
-    quote: 'I like to compare optimization to tuning an engine of a car. The first version of something we build is never performing at it’s maximum and we know it’s going to take a few tweaks to get it just right. Without testing, we’d be guessing and would never know the potential impact even a small change could have.',
-    attribution: 'Mike Wolf, Product Design Lead, Trunk Club'
-  }
-%}
 
 Providing great user experiences is critical to Trunk Club’s success. They face an interesting challenge in this regard, as they have two very different types of users: stylists and members. Optimization allows them to understand the unique needs and preferences of both of these groups and serve up experiences catered directly to them. 
 
@@ -93,6 +77,8 @@ To achieve this, Mike decided to test a different type of sign-up flow. The new 
     caption: 'One of six steps in the variation onboarding flow, which emphasized visuals and smaller, broken-out steps.',
   }
 %}
+
+However, lengthening the onboarding process was a risk. Introducing more steps for new users increased the number of opportunities for them to bounce on a given page, and would potentially lead to fewer new customers for the business. Mike put the new six-step flow to the test to measure the impact it would have on conversions.
 
 ## Building the Test
 

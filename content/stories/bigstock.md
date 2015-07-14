@@ -33,25 +33,17 @@ stats:
 
 [[intro]]
 
-Since “falling in love with Optimizely”, Boris Masis, a product manager at Bigstock says that testing now has a significant impact on their product rollout strategy.
-
 As a stock image website, Bigstock aims to provide an intuitive and fluid experience for finding appropriate images of all types. Every potential customer’s experience typically begins with a search. The easier it is to find the right image, the better Bigstock’s bottom line and customer happiness.
 
 [[/]]
 
-How can Bigstock improve the search experience for users to rapidly find the image they are looking for?
+Boris Masis, a product manager at Bigstock, uses testing to guide Bigstock's product rollout strategy. Running controlled experiments with Optimizely helps to determine whether product improvements and new features are making a measurable impact on the users' experience.
+
+When it came time to revamp Bigstock's website search functionality, Boris and his team asked: How can Bigstock improve the search experience for users to rapidly find the image they are looking for?
 
 ## Hypothesis
 
 The success of an image search on Bigstock depends on the search term and the search algorithm. Since the method a visitor uses to arrive at the perfect image is subjective, Bigstock examined the search algorithm, a static code that controls the results a user sees. They thought trying a different search algorithm might improve overall user experience and lead to more downloaded images.
-
-{% include "blockquote.html"
-  {
-    size: 'half',
-    quote: 'We try to run every large project through A/B testing before we call it done to make sure it’s actually helping.',
-    attribution: 'Boris Masis, Product Manager, Bigstock'
-  }
-%}
 
 ## The Test
 
@@ -82,7 +74,7 @@ With Google Analytics, they were also able to see significant improvements throu
 {% include "blockquote.html"
   {
     size: 'full',
-    quote: 'Testing ensures that the work is adding value and quantifes that value. Of course, we also do testing when we are unsure of which path to take.',
+    quote: 'Testing ensures that our work is adding value and quantifes that value. Of course, we also do testing when we are unsure of which path to take.',
     attribution: 'Boris Masis, Product Manager, Bigstock'
   }
 %}

@@ -24,7 +24,7 @@ stats:
         title: 'Industry'
       },
       3: {
-        value: 'San Diego, CA',
+        value: 'Fort Collins, CO',
         title: 'Location'
       }
     }
@@ -94,18 +94,27 @@ In hopes of increasing purchases of Lifeproof’s Total Water Protection (TWP) f
 
 After only 5 days, it became clear that pre-checking TWP was causing more harm than good. Users who saw the pre-checked variation were actually more likely to remove the feature, resulting in a drop in overall conversion rates. 
 
-Pre-checking TWP equated to an 11% decrease in monthly revenue projections. 
-
 {% include "blockquote.html"
   {
     size: 'full',
-    quote: 'By testing this hypothesis before setting it live on the full site, Lifeproof was able to avoid making a costly long-term decision.',
+    quote: 'By testing this hypothesis before setting it live on the full site, Lifeproof was able to avoid making a costly long-term decision that would have led to a decrease in conversions.',
   }
 %}
+
+Pre-checking TWP equated to an 11% decrease in monthly revenue projections. 
 
 ## RESULTS
 
 After several months of regular testing with Optimizely, the culture at LifeProof has shifted dramatically. Lifeproof’s Analytics, Marketing, Design, UX, and Strategy teams are always on the lookout for information that could support possible site changes and optimizations. 
 
 “Both in regular status meetings and with on-the-fly site changes, the folks at Lifeproof almost always ask ‘can we test that?’,” says Eric. “Testing is used to validate requests to upper management and aesthetic design choices on a regular basis.” 
+
+[[callout]]
+
+#### TAKEAWAYS
+
+- *FOCUS ON EARLY WINS*: To validate the decision to begin optimizing, focus on straightforward opportunities to run tests that have a good chance of demonstrating lift. In the first month, aim to have one winner to showcase to the rest of the organization and promote buy-in.
+- *TESTS CAN HELP CHOOSING NOT TO ACT*: Sometimes, testing can help to ensure that there's not a missed opportunity in not taking action. Running an A/B test is a low-overhead way to try out new ideas, determine the impact, and then decide to build it. In the case of a neutral result, the decision to not build that idea becomes much easier.
+
+[[/]]
 
