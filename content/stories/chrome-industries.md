@@ -1,30 +1,20 @@
 ---
-title: Smart Wool and Blue Acorn Optimizely Case Study
+title: Chrome Industries Optimizely Case Study
 hero:
-  title: 
-  subtitle: How Trunk Club improved ts sign-up flow to increase conversions 133%
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunk-club/trunk-club-hero.png
-stats:
-  1:
-    value: 13%
-    title: More Homepage Conversions
-  2:
-    value: 16%
-    title: Projected Revenue Increase
-  3:
-    value: Digital Operative
-    title: Optimizely Solutions Partner
+  title: Chrome Industries Uses Data to Shape the Customer Experience
+  subtitle: Optimization through A/B testing informs promotions, product pages, a redesign, and more
+  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/chrome-industries/chrome-hero2.png
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunk-club/trunk-club-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/chrome-industries/chrome-industries-logo.png',
     metadata: {
       1: {
         value: 'Retail',
         title: 'Industry'
       },
       3: {
-        value: 'Chicago, IL',
+        value: 'San Francisco, CA',
         title: 'Location'
       }
     }
@@ -33,6 +23,17 @@ stats:
 
 [[intro]]
 
-It’s not too difficult for an experienced conversion optimization consultant to look at a horrid web design and have a strong feeling as to what changes will result in higher conversion rates. But when the original design is beautiful and already nails best practices, even expert intuition is good for nothing more than a hypothesis. Testing is essential.
+Website optimization is changing the way Chrome Industries does digital marketing. That’s thanks to Chrome’s Director of e-Commerce, Kyle Duford, who brought Optimizely into Chrome’s digital marketing arsenal in early 2013. In a video filmed at Chrome’s office and showroom in downtown San Francisco, Kyle explains why relying on data is critical to the growth of their online business.
 
 [[/]]
+
+<script type='text/javascript' id='vidyard_embed_code_1A7TKlo7azF1ZxTbFKYQyA' src='//play.vidyard.com/1A7TKlo7azF1ZxTbFKYQyA.js?v=3.1.1&type=inline'></script>
+
+
+“The end-game for us is to get people to engage more with our brand and ultimately purchase some products,” he says. “Understanding data with Optimizely is the best way to quickly and effectively create a page which is the best experience for our overall user.”
+
+But for Kyle’s team, the benefits of testing go well beyond clicks and conversions. Optimizely helps Chrome Industries save time and resources, and deploy changes to their website quickly.
+
+“E-Commerce is a 24-hour business and the needs change every day. When we launched our new website, we were able to use Optimizely as a response tactic,” explains Eddie Castillo, User Experience Manager at Chrome. “For instance, we had products go out of stock and hadn’t completely thought out the functionality of our site to update that messaging. We were able to update the “out of stock” product page with Optimizely on the fly, directing customers to similar products that were still available.”
+
+From deploying quick fixes to maximizing online revenue streams, website optimization has changed the way Chrome Industries does business.
