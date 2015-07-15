@@ -28,6 +28,7 @@
     "gulp-remarkable": "^1.1.2",
     "gulp-replace": "^0.5.3",
     "gulp-sass": "^2.0.1",
+    "gulp-shell": "^0.4.2",
     "gulp-swig": "^0.7.4",
     "gulp-tap": "^0.1.3",
     "gulp-template": "^3.0.0",
