@@ -37,6 +37,7 @@
     "optimizely-lego": "^0.0.1",
     "path": "^0.11.14",
     "require-dir": "^0.3.0",
+    "shelljs": "^0.5.1",
     "yargs": "^3.15.0"
   },
   "devDependencies": {
