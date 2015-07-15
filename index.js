@@ -1,5 +1,5 @@
-require('shelljs/global');
+var shell = require('shelljs');
 
 module.exports = function() {
-  exec('./node_modules/.bin/gulp');
+  shell.exec('./node_modules/.bin/gulp');
 };
