@@ -2,7 +2,7 @@
   "name": "scribe",
   "version": "0.0.1",
   "description": "Long-form static, reponsive HTML publishing engine for Optimizely.",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/optimizely/scribe"
