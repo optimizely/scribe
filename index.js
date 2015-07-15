@@ -1,6 +1,5 @@
-var gulp  = require('gulp');
-var shell = require('gulp-shell');
+require('shelljs/global');
 
 module.exports = function() {
-  gulp.task('default', shell.task('gulp --marketingCompile'))
+  exec('./node_modules/.bin/gulp');
 };

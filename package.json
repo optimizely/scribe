@@ -13,7 +13,7 @@
     "url": "https://github.com/optimizely/scribe/issues"
   },
   "scripts": {
-    "gulp": "gulp"
+    "start": "./node_modules/.bin/gulp"
   },
   "homepage": "https://github.com/optimizely/scribe",
   "dependencies": {
@@ -38,5 +38,8 @@
     "path": "^0.11.14",
     "require-dir": "^0.3.0",
     "yargs": "^3.15.0"
+  },
+  "devDependencies": {
+    "shelljs": "^0.5.1"
   }
 }
