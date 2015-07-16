@@ -671,7 +671,11 @@ li > ol {
   .lego-table--add-row__controls {
     vertical-align: middle !important; }
     .lego-table--add-row__controls .flex {
-      width: 50px; }
+      width: 60px; }
+      .lego-table--add-row__controls .flex > * {
+        -webkit-flex: none;
+        -ms-flex: none;
+        flex: none; }
       .lego-table--add-row__controls .flex .link--bad-news,
       .lego-table--add-row__controls .flex .lego-button--remove {
         margin-left: auto; }
