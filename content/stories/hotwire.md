@@ -2,7 +2,7 @@
 title: Hotwire Optimizely Case Study
 hero:
   title: Hotwire Optimizes Mobile Web Experience to Improve Bookings
-  subtitle: Focused prioritization and research generated a huge win for the team
+  subtitle: Focused prioritization and research generated the biggest win of the year
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/hotwire/hotwire-hero.jpg
 ---
 {% include "case-study-box.html"
@@ -63,10 +63,9 @@ They kept the experiment simple and tested the control against one redesigned va
       'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/hotwire/hotwire-mobile-test-control.png',
       'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/hotwire/hotwire-mobile-car-test.jpeg'
     ],
-    caption: 'The control experience (Left) was stale and needed a refresh. The variation (Right) mimicked the look and feel of Hotwire's mobile apps.'
+    caption: 'The control experience (Left) was stale and needed a refresh. The variation (Right) mimicked the look and feel of Hotwire’s mobile apps.'
   }
 %}
-
 
 ## The Results
 

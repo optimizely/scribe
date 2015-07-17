@@ -2,10 +2,23 @@
 title: Secret Escapes Optimizely Case Study
 hero:
   title: Optimization Increases Lifetime Value of Travel Deal Seekers
-  subtitle: Secret Escapes doubled their signup rate while optimizing customer acquisition 
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-hero.jpg
+  subtitle: Secret Escapes doubled mobile signup rate while optimizing customer acquisition 
+  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-hero-2.jpg
 ---
 {% include "case-study-box.html"
+  {
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-logo.png',
+    metadata: {
+      1: {
+        value: 'Travel',
+        title: 'Industry'
+      },
+      3: {
+        value: 'London, UK',
+        title: 'Location'
+      }
+    }
+  }
 %}
 
 [[intro]]
@@ -35,21 +48,25 @@ The impact of a mandatory gate on customer lifetime value was also a considerati
 
 “So we said, let’s do what we always do when we can’t decide: Let’s test it,” Fallert said.
 
-{% include "side-by-side.html"
+The product team used Optimizely’s iOS SDK to create and test two different mobile onboarding experiences concurrently. One experience allowed new users to skip or close the signup screen; in the second experience, signup was required, no skip button at all. With the experiment running, the team released the initial version of Secret Escapes to the App Store.
+
+{% include "figure.html"
   {
-    images: [
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-app-register-screen.jpg',
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-mobile-web-join-screen.jpg'
-    ],
-    caption: 'The original signup screen allowed users to skip registering or logging in (Left), while the variation made registration mandatory (Right).'
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-app.png',
+    caption: 'The original app signup screen allowed users to skip registering or logging in (Left), while the variation made registration mandatory (Right).',
   }
 %}
 
-The product team used Optimizely’s iOS SDK to create and test two different mobile onboarding experiences concurrently. One experience allowed new users to skip or close the signup screen; in the second experience, signup was required, no skip button at all. With the experiment running, the team released the initial version of Secret Escapes to the App Store.
+{% include "figure.html"
+  {
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-mobile-web.png',
+    caption: 'The mobile website landing page allowed users to skip registering or logging in (Left). Secret Escapes tested making registration mandatory (Right).',
+  }
+%}
 
 ## Results and business impact
 
-Contrary to what the team expected, a mandatory signup gate was the more optimal experience. It more than doubled the signup rate and did not lead to negative reviews or comments.
+*Contrary to what the team expected, a mandatory signup gate was the more optimal experience. It more than doubled the signup rate and did not lead to negative reviews or comments.*
 
 This experiment also revealed a pivotal discovery about Secret Escapes’ marketing funnel efficiency. Making signup mandatory justified the cost of mobile ad spend for acquisition by increasing the average lifetime value of each user. In other words, the LTV:CAC ratio was positive: all of the money spent to acquire the user will be matched or exceeded by what Secret Escapes receives from that user.
 

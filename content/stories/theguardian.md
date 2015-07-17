@@ -53,7 +53,7 @@ Kerstin wondered if the current landing page was confusing first time visitors. 
       'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/landingpg-control.png',
       'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/landngpg-variation.png'
     ],
-    caption: 'The variation (Right) showcases more profiles as part of the landing experience than the control (Left).'
+    caption: 'The original landing page displayed the user’s profile with a large yellow call-to-action box in the center of the page. The variation gave site visitors more options by showing the user’s profile, similar profiles, search functionality, and user testimonials.'
   }
 %}
 
@@ -83,10 +83,10 @@ Kerstin pitted the original homepage carousel against one that replaced the quir
 {% include "side-by-side.html"
   {
     images: [
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/landingpg-control.png',
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/landngpg-variation.png'
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/guardian-homepg-control.png',
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/guardian-homepg-variation.png'
     ],
-    caption: 'The variation (Right) showcases more profiles as part of the landing experience than the control (Left).'
+    caption: 'The original homepage carousel displayed photos and quirky taglines for several single men and women on the site. The variation homepage carousel replaced the quirky taglines with the age and location of each featured user.'
   }
 %}
 

@@ -2,9 +2,8 @@
 title: FSAstore Optimizely Case Study
 hero:
   title: E-commerce Marketing Team Optimizes for Revenue
-  subtitle: How FSAstore.com Increased Revenue Per Visitor by 54%
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsa-store/fsa-store-hero.jpg
-
+  subtitle: FSAstore.com increased revenue per visitor by 54%
+  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsa-store/fsastore-firstaid.jpg
 ---
 
 {% include "case-study-box.html"
@@ -36,6 +35,14 @@ Their marketing team, led by CMO Ujjwal Dhoot, uses A/B testing and optimization
 
 The team meets monthly to strategize around new test ideas and then on a weekly basis to track current tests. During these meetings, Ujjwal’s team prioritizes which tests to take on based on impact and time involved to get each one up and running. They focus on areas of the conversion funnel where they know testing will have the greatest impact: the homepage, category pages, product pages, cart pages, and checkout pages. From there, they build a list of elements to test on each page (or across multiple pages) and prioritize based on believed impact. They also use Google Analytics to track user behaviors and patterns, and integrate that information directly into Optimizely to inform hypotheses.
 
+{% include "blockquote.html"
+  {
+    size: 'full',
+    quote: 'We really take the concept of optimizing the campaign through every single channel we have. We want to make sure our customers are getting the best experience possible, and that we are also maximizing the marketing dollars spent to acquire them.',
+    attribution: 'Ujjwal Dhoot, Chief Marketing Officer, FSAstore'
+  }
+%}
+
 FSAstore.com’s primary conversion goal is to consistently increase revenue per visitor (RPV). One particular challenge in reaching this goal is a high level of drop-off in the website’s customer purchase funnel.
 
 ## TEST
@@ -45,6 +52,7 @@ Ujjwal and his team believed that site visitors were getting distracted by too m
 {% include "figure.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsa-store/fsastore-1.png',
+    caption: 'The original FSAstore navication experience on a category page.'
   }
 %}
 
@@ -53,6 +61,7 @@ Ujjwal hypothesized that removing the sub-categories would help site visitors fo
 {% include "figure.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsa-store/fsastore-2.png',
+    caption: 'The variation experience removed the top-level navigation from category pages.'
   }
 %}
 
@@ -60,7 +69,7 @@ He set 50/50 traffic to each variation and watched as the results came in.
 
 ## RESULTS
 
-The improvement was unmistakable. Removing the sub-categories from FSAstore.com’s category pages increased revenue per visitor by 53.8%. Ujjwal and his team used Optimizely to quickly deploy the winning variation to 100% of site visitors, without having to wait for their design and development teams to build the changes into the site.
+The improvement was unmistakable. *Removing the sub-categories from FSAstore.com’s category pages increased revenue per visitor by 53.8%.* Ujjwal and his team used Optimizely to quickly deploy the winning variation to 100% of site visitors, without having to wait for their design and development teams to build the changes into the site.
 
 ## Sharing in successes (and failures)
 
@@ -69,14 +78,6 @@ In building their testing culture, Ujjwal has found one thing to be particularly
 “You can’t argue numbers,” says Ujjwal. “We absolutely believe in sharing results with everyone internally because you never know what tests on our homepage could affect customer service and what ideas they might have.”
 
 Now, FSAstore.com’s culture is focused on optimizing each customer touch point, whether it’s outbound phone calls, postcards and emails to customers, copy and landing pages for PPC campaigns, or their website.
-
-{% include "blockquote.html"
-  {
-    size: 'full',
-    quote: 'We really take the concept of optimizing the campaign through every single channel we have. We want to make sure our customers are getting the best experience possible, and that we are also maximizing the marketing dollars spent to acquire them.',
-    attribution: 'Ujjwal Dhoot, Chief Marketing Officer, FSAstore'
-  }
-%}
 
 [[callout]]
 

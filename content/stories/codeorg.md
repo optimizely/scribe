@@ -1,23 +1,25 @@
 ---
-title: 12 Million New Students
+title: Code.org Optimizely Case Study
 hero:
-  title: 12 Million New Students
-  subtitle: Let Your Customers Uncover Your Next Big Win
-  background: /assets/i/temp.jpg
-stats:
-  1:
-    value: 8,000
-    title: Experiments run in 2014
-  2:
-    value: 3
-    title: Team members
-  3:
-    value: 39%
-    title: Improvement in lift
-  4:
-    value: 2
-    title: Years using Optimizely
+  title: Code.org Generates 15 Million Online Participants in Five Days
+  subtitle: Testing amplified their cause and boosted visitor engagement
+  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/nonprofits/hero.png
 ---
+{% include "case-study-box.html"
+    {
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/code-org/code-org-logo.png',
+    metadata: {
+      1: {
+        value: 'Nonprofit',
+        title: 'Industry'
+      },
+      3: {
+        value: 'Seattle, WA',
+        title: 'Location'
+      }
+    }
+  }
+%}
 
 [[intro]]
 
@@ -25,28 +27,42 @@ Code.org is a nonprofit dedicated to expanding participation in computer science
 
 [[/]]
 
-## THE CHALLENGE
+Code.org’s Founder Hadi Partovi is striving to ensure that every student in every school has the opportunity to learn to code. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+Since founding the nonprofit in 2013, Hadi has focused on website optimization as a method garnering support and engaging more teachers and students in Code.org’s campaigns. He hired Roxanne Emadi in September to run testing.
 
 {% include "blockquote.html"
   {
-    size: 'half',
-    quote: 'Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe.',
-    attribution: 'Jessie Ren, Optimizely'
+    size: 'full',
+    quote: 'With Optimizely, we were not only able introduce nearly 1 in 4 U.S. students to computer science, but we were able to launch the fastest growing web service ever, which reached 15 million users in 5 days, faster than Facebook, Twitter, Instagram and Tumblr, combined.',
+    attribution: 'Roxanne Emandi, Grassroots & Social Strategist, Code.org'
   }
 %}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+The Hour of Code campaign aims to introduce millions of students across the country to computer science in just one hour. To say the campaign had a phenomenal turnout rate is an understatement. Code.org signed up 15 million users in five days—over half of which Hadi and Roxanne credit to A/B testing. Here’s how they did it.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+## Challenge: Engaging More Teachers and Students
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
+Hadi and Roxanne wanted to improve the CTA and messaging on the Hour of Code registration pages to drive more sign-ups. They hypothesized that messaging that emphasized a sense of community around the movement would encourage greater participation.
 
-Year  | Moment | What it means
-------------- | ------------- | ----------------
-1993  | The first public web browser, Mosaic (later Netscape), appears. | Users around the world can easily access and navigate the internet.
-1994  | eBay and Amazon launch. | Online shopping is born. Internet users can log in and purchase goods and services with just a few clicks.
+## Optimizing Registrations
+
+Text on original registration page for the Hour of Code campaign read — “Welcome to the 21st Century. Help us introduce 10 million students to computer science. All it takes is one Hour of Code.” 
+
+The original CTA read “Learn more”. 
+
+Hadi and Roxanne tested the original messaging against new messaging that emphasized the community aspect. The variation CTA read “Join us”. 
+
+{% include "figure.html"
+  {
+    image: '/assets/i/temp.jpg',
+    caption: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe.',
+  }
+%}
+
+
+RESULTS: The “community-focused” variation lead to a staggering 29% increase in signups for the Hour of Code.Hadi and Roxanne credit this experiment for generating about 8 million student sign-ups to the campaign.
+
 
 
 <!-- {% include "video.html"
@@ -56,118 +72,6 @@ Year  | Moment | What it means
 %}
  -->
 
-{% include "cta-box.html"
-  {
-    size: 'half',
-    title: 'This is a CTA to try out Optimizely.',
-    button: 'Get Started'
-  }
-%}
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-[[callout callout--big]]
-
-### Optimization in action: Better experiences baked into every customer touchpoint
-
-To get a better feel for experience optimization, let’s take a look at one company who does it right–HubSpot. HubSpot’s Amanda Sibley explains how they tests various forms of personalization throughout their entire website, and almost all content they post across all marketing channels. According to Amanda, her team puts significant effort behind optimization because they know they’ll see better results in the long run.
-
-*More customers:*
-
-Our blog has millions of viewers each month and is one of the better lead generation channels for our marketing team.
-
-We recently tested two different types of CTAs to see what resonated best with our audience–our original CTA, located at the bottom of each blog post, versus a slide-in CTA located closer to the top of the page. We wanted to understand if a CTA that was “more disruptive” would attract more clicks and convert more leads than the typical bottom-of-the-page button.
-
-Site visitors responded significantly better to the “more disruptive” variation–with a 106% increase in click-throughs and a 38% increase in leads generated. To better serve our visitors (and increase conversions) going forward, we implemented slide-in CTAs on most of our top-performing blog posts.
-
-[[/]]
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-{% include "case-study-box.html"
-  {
-    image: '/assets/i/upworthy-logo.svg',
-    value_1: 'Travel',
-    title_1: 'Industry',
-    value_2: 'Mobile',
-    title_2: 'Business Type',
-    value_3: 'Brussels',
-    title_3: 'Location'
-  }
-%}
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-{% include "figure.html"
-  {
-    image: '/assets/i/temp.jpg',
-    caption: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe.',
-  }
-%}
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-
-{% include "blockquote.html"
-  {
-    size: 'full',
-    quote: 'With Optimizely, we were not only able introduce nearly 1 in 4 U.S. students to computer science, but we were able to launch the fastest growing web-service ever last week, which reached 15 million users in 5 days, faster than Facebook, Twitter, Instagram and Tumblr, combined.',
-    attribution: 'Jessie Ren, Optimizely'
-  }
-%}
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-
-###### Interview
-
-## This is an interview
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-{% include "person.html"
-  {
-    image: '/assets/i/jules.jpg',
-    name: 'Krista Mista',
-    company: 'Google'
-  }
-%}
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae
-eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-- Illo unde nihil impedit placeat quia.
-- Illo unde nihil impedit placeat quia.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-
-## Another Section
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-[[callout]]
-
-#### Callout Title
-
-- foo
-- bar
-
-[[/]]
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae
-eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident hic error, accusantium quod rem, quam, recusandae eligendi amet odit at non saepe. Nisi facilis aliquid eveniet itaque vel expedita. Beatae.
-
+# TESTING TAKEAWAYS: 
+* SMALL CHANGES CAN PRODUCE INCREDIBLE RESULTS: You don’t have to revamp your entire website to achieve your conversion goals. Tweaking four short sentences and a call-to-action generated a huge win for Hadi and Roxanne—helping them reach 8 million additional students with their campaign. 
+*A/B TESTING IS THE MOST IMPORTANT TOOL FOR ANY GROWTH HACKER: Whether you work at non-profit, small business, or global enterprise, chances are you want to increase efficiency to achieve (and surpass) business goals. Website optimization with Optimizely is quick and easy – saving you time and helping you maximize your reach.
