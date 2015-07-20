@@ -31,7 +31,7 @@ As a high-growth business in the extremely competitive online travel market, Sec
 
 “Virtually no change will go live on the website just like that. Everything is tested,” Sebastian Fallert, the company’s UK General Manager, said.
 
-As a result of three Optimizely experiments, Secret Escapes has been able to:
+As a result of  Optimizely experiments, Secret Escapes has been able to:
 
 * Generate positive ROI from paid mobile marketing
 * Increase purchase conversion rates
@@ -41,6 +41,14 @@ As a result of three Optimizely experiments, Secret Escapes has been able to:
 ## Experiment: The New User Mobile Onboarding Flow
 
 Before the Secret Escapes team first released their mobile app, they had a very important question to answer that faces many mobile app developers: should the app require users to sign up in order to view travel deals?
+
+{% include "blockquote.html"
+  {
+    size: 'half',
+    quote: 'Virtually no change will go live on the website just like that. Everything is tested.',
+    attribution: 'Sebastian Fallert, General Manager, Secret Escapes'
+  }
+%}
 
 They had differing opinions on this question. On one hand, they thought a mandatory signup gate would create an exclusive community of registered users, which pleased the hotel partners offering highly discounted deals through the app. Advice from other businesses with similar models said an open app was the better option, and that mandating signup would cause signup rates to plummet and users to submit negative app reviews.
 
@@ -68,13 +76,11 @@ The product team used Optimizely’s iOS SDK to create and test two different mo
 
 *Contrary to what the team expected, a mandatory signup gate was the more optimal experience. It more than doubled the signup rate and did not lead to negative reviews or comments.*
 
-This experiment also revealed a pivotal discovery about Secret Escapes’ marketing funnel efficiency. Making signup mandatory justified the cost of mobile ad spend for acquisition by increasing the average lifetime value of each user. In other words, the LTV:CAC ratio was positive: all of the money spent to acquire the user will be matched or exceeded by what Secret Escapes receives from that user.
+This experiment also revealed a pivotal discovery about Secret Escapes’ marketing funnel efficiency. *Making signup mandatory justified the cost of mobile ad spend for acquisition by increasing the average lifetime value of each user.* In other words, the LTV:CAC ratio was positive: all of the money spent to acquire the user will be matched or exceeded by what Secret Escapes receives from that user.
 
 “If the skip button was part of the onboarding flow, we would not be able to do paid marketing on mobile. It would be very inefficient for us,” Fallert said. “We can acquire valuable users at attractive CPLs, which we are confident are going to be profitable after our targeted window—and that’s kind of a biggie.”
 
 With the data from this test on the first-time user experience and their understanding of lifetime value for each customer, Secret Escapes can make smarter decisions about their advertising spend. They know exactly the amount of money they’re prepared to pay for a new user if they want a full return on investment.
-
-This was the first major experiment on Secret Escapes’ app that had a drastic impact on the direction of their business model.
 
 ## Continuing to measure new experiences
 
