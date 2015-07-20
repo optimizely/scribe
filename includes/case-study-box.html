@@ -2,8 +2,10 @@
   {% if image %}<img src="{{image}}" alt=""/>{% endif %}
   <ul>
   {% for item in metadata %}
+  <li>
   <div class="case-study-box__title">{{item.title}}</div>
   <div class="case-study-box__value">{{item.value}}</div>
+  </li>
   {% endfor %}
   </ul>
 </div>

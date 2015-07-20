@@ -1,8 +1,9 @@
 blockquote {
 
   p {
-    font-size: map-fetch($font, size delta);
-    font-weight: 500;
+    font-size: map-fetch($font, size beta);
+    font-weight: 300;
+    line-height: 1.2;
   }
 
   .attribution {
@@ -18,7 +19,8 @@ blockquote {
   }
 
   &.full {
-    margin: spacer(4) 0;
+    padding: 0;
+    margin: spacer(4) -40px;
     border-left: none;
     text-align: center;
   }
