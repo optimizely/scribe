@@ -18,11 +18,7 @@
 // Import `core` and `scribe` partials
 
 @import 'core/core-partials';
-
-// Namespacing all classes to avoid conflicts.
-.scribe {
-  @import 'scribe/scribe-partials';
-}
+@import 'scribe/scribe-partials';
 
 // ## Trumps
 // Trumps use `!important` classes for overrides and should always be loaded last.
@@ -33,4 +29,3 @@
 @import 'core/partials/trumps/padding';
 @import 'core/partials/trumps/type';
 @import 'core/partials/trumps/sizing';
-

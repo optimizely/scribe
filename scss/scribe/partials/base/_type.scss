@@ -30,128 +30,131 @@
 //     <h5 class="gamma">Heading 5 with class</h5>
 //[/hc]
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-}
+.scribe {
 
-h1,
-.alpha {
-  font-size: map-fetch($font, size alpha);
-}
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+  }
 
-h2,
-.beta {
-  font-size: map-fetch($font, size beta);
-}
+  h1,
+  .alpha {
+    font-size: map-fetch($font, size alpha);
+  }
 
-h3,
-.gamma {
-  font-size: map-fetch($font, size gamma);
-}
+  h2,
+  .beta {
+    font-size: map-fetch($font, size beta);
+  }
 
-h4,
-.delta {
-  font-size: map-fetch($font, size delta);
-}
+  h3,
+  .gamma {
+    font-size: map-fetch($font, size gamma);
+  }
 
-h5,
-.epsilon {
-  font-size: map-fetch($font, size epsilon);
-}
+  h4,
+  .delta {
+    font-size: map-fetch($font, size delta);
+  }
 
-h6,
-.zeta {
-  font-size: map-fetch($font, size zeta);
-}
+  h5,
+  .epsilon {
+    font-size: map-fetch($font, size epsilon);
+  }
 
-// ## Heading Defaults
+  h6,
+  .zeta {
+    font-size: map-fetch($font, size zeta);
+  }
 
-h1 {
-  margin-bottom: spacer(2);
-  line-height: 1.1;
-}
+  // ## Heading Defaults
 
-h2 {
-  padding-top: spacer(3);
-  margin-bottom: spacer(2);
-  line-height: 1.1;
-}
+  h1 {
+    margin-bottom: spacer(2);
+    line-height: 1.1;
+  }
 
-h3 {
-  padding-top: spacer(2);
-  margin-bottom: spacer(1.5);
-  line-height: 1.2;
-}
+  h2 {
+    padding-top: spacer(3);
+    margin-bottom: spacer(2);
+    line-height: 1.1;
+  }
 
-h4 {
-  margin-bottom: spacer(1);
-  line-height: 1.2;
-}
+  h3 {
+    padding-top: spacer(2);
+    margin-bottom: spacer(1.5);
+    line-height: 1.2;
+  }
 
-h5 {
-  margin-bottom: spacer(1.5);
-  font-weight: 500;
-  line-height: 1.2;
-}
+  h4 {
+    margin-bottom: spacer(1);
+    line-height: 1.2;
+  }
 
-h6 {
-  margin-bottom: spacer(0.5);
-  padding-top: spacer(4);
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
+  h5 {
+    margin-bottom: spacer(1.5);
+    font-weight: 500;
+    line-height: 1.2;
+  }
 
-// ## Heading Group
+  h6 {
+    margin-bottom: spacer(0.5);
+    padding-top: spacer(4);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 
-// Heading groups and generic any-heading class.
-// To target any heading of any level simply apply a class of `.hN`, e.g.:
+  // ## Heading Group
 
-//[hc]
-//     <hgroup>
-//        <h3 class="hN">Heading</h3>
-//        <h4 class="hN">Another Heading Here</h4>
-//     </hgroup>
-//[/hc]
+  // Heading groups and generic any-heading class.
+  // To target any heading of any level simply apply a class of `.hN`, e.g.:
 
-hgroup .hn {
-  margin-bottom: 0;
-}
+  //[hc]
+  //     <hgroup>
+  //        <h3 class="hN">Heading</h3>
+  //        <h4 class="hN">Another Heading Here</h4>
+  //     </hgroup>
+  //[/hc]
 
-// ## Small Text
+  hgroup .hn {
+    margin-bottom: 0;
+  }
 
-// A couple classes for setting small type.
+  // ## Small Text
 
-//[c]
-//     <div class="milli">Text</div>
-//[/c]
+  // A couple classes for setting small type.
 
-.milli {
-  font-size: map-fetch($font, size milli);
-}
+  //[c]
+  //     <div class="milli">Text</div>
+  //[/c]
 
-.micro {
-  font-size: map-fetch($font, size micro);
-}
+  .milli {
+    font-size: map-fetch($font, size milli);
+  }
+
+  .micro {
+    font-size: map-fetch($font, size micro);
+  }
 
 
-// ## Large Heading
+  // ## Large Heading
 
-// A series of classes for setting massive type; for use in heroes, mastheads,
-// promos, etc.
+  // A series of classes for setting massive type; for use in heroes, mastheads,
+  // promos, etc.
 
-//[c]
-//     <div class="giga">Text</div>
-//[/c]
+  //[c]
+  //     <div class="giga">Text</div>
+  //[/c]
 
-.giga {
-  font-size: map-fetch($font, size giga);
-}
+  .giga {
+    font-size: map-fetch($font, size giga);
+  }
 
-.mega {
-  font-size: map-fetch($font, size mega);
-}
+  .mega {
+    font-size: map-fetch($font, size mega);
+  }
 
-.kilo {
-  font-size: map-fetch($font, size kilo);
+  .kilo {
+    font-size: map-fetch($font, size kilo);
+  }
 }
