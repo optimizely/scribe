@@ -1,4 +1,4 @@
-{% if marketingCompile %}---
+{% if headless %}---
 layout: wrapper
 TR_seo_title: "Case Studies"
 TR_visible_title: "Case Studies"
@@ -11,7 +11,7 @@ body_class:
 - page--stories
 ---{% endif %}
 
-{% if !marketingCompile %}
+{% if !headless %}
   {% include 'common/head.html' {
       page: 'stories'
     }
@@ -28,6 +28,6 @@ body_class:
 
 {% include 'cta-footer.html' %}
 {% include 'recommended.html' %}
-{% if !marketingCompile %}
+{% if !headless %}
   {% include 'common/foot.html' %}
 {% endif %}

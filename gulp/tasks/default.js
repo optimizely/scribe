@@ -8,3 +8,10 @@ gulp.task('default', function(callback) {
     'browser-sync',
     callback);
 });
+
+gulp.task('marketing', function(callback) {
+  runSequence('recommended',
+    ['build', 'assets','sass'],
+    'cleanup',
+    callback);
+});

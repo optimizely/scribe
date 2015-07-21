@@ -13,12 +13,12 @@ var gulp         = require('gulp')
     paths        = require('../../config').paths,
     handleErrors = require('../utils/handleErrors');
 
-var marketingCompileValue = (argv.marketingCompile === undefined) ? false : true;
+var headlessValue = (argv.headless === undefined) ? false : true;
 var tocHeaders = '<h<%= level %> id="<%= anchor %>"><%= header %></h<%= level %>>';
 
 var swigOps = {
   data: {
-    marketingCompile: marketingCompileValue
+    headless: headlessValue
   },
   setup: function(swig) {
     swig.setDefaults({
