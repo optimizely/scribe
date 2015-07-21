@@ -1,5 +1,6 @@
 ---
 title: Obama 2012 Campaign Optimizely Case Study
+category: mobile
 hero:
   title: 12 Million New Students
   subtitle: Let Your Customers Uncover Your Next Big Win
@@ -14,6 +15,13 @@ stats:
   3:
     value: 161%
     title: Improvement in Email Sign Ups
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
     {

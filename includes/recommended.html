@@ -1,7 +1,7 @@
 <div class="recommended">
   <div class="recommended-grid">
   {% for item in recommended %}
-    {% set recommended_file = 'tmp/stories_recommended/' + item.page + '.html' %}
+    {% set recommended_file = 'tmp/stories_recommended/' + item.story + '.html' %}
     {% include recommended_file %}
   {% endfor %}
   </div>

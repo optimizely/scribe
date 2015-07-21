@@ -1,9 +1,17 @@
 ---
 title: Soccerloco Digital Operative Case Study
+category: mobile
 hero:
   title: Data-Driven Redesign Sells 26% More Soccer Gear
   subtitle: Testing through redesign helps soccerloco avoid conversion pitfalls
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/soccerloco/soccerloco-hero.jpg
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 
 {% include "case-study-box.html"

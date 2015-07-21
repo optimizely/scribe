@@ -17,11 +17,11 @@ stats:
     title: Increase in Checkout Conversions
 recommended:
   1:
-    page: sony
+    story: french-girls
   2:
-    page: sony
+    story: secret-escapes
   3:
-    page: sony
+    story: obama2012
 ---
 
 {% include "case-study-box.html"

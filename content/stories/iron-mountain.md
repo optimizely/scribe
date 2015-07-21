@@ -1,9 +1,17 @@
 ---
 title: Iron Mountain iProspect Optimizely Case Study
+category: mobile
 hero:
   title: Iron Mountain Optimizes Lead Generation Process
   subtitle: Partnering with iProspect improves lead quality by 140%
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron-mountain/ironmountain-hero.jpg
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
     {
@@ -27,7 +35,7 @@ As a large B2B company, Iron Mountain is constantly striving to drive sales and 
 
 [[/]]
 
-Iron Mountain wanted to increase the quality of inbound leads acquired from the lead generation form on its website. Many site visitors were completing the form, but most submissions contained incomplete or irrelevant information. While the goal was to gather information from site visitors interested in Iron Mountain’s business solutions, some visitors used the form fields to inquire about career opportunities or customer support. Others provided phone numbers in a format incompatible with the way the sales team captured and measure online activity. 
+Iron Mountain wanted to increase the quality of inbound leads acquired from the lead generation form on its website. Many site visitors were completing the form, but most submissions contained incomplete or irrelevant information. While the goal was to gather information from site visitors interested in Iron Mountain’s business solutions, some visitors used the form fields to inquire about career opportunities or customer support. Others provided phone numbers in a format incompatible with the way the sales team captured and measure online activity.
 
 {% include "blockquote.html"
   {
@@ -41,19 +49,19 @@ Iron Mountain wanted to find a way to make the form more efficient, providing co
 
 ## Hypothesis
 
-The team hypothesized that revamping the lead generation form would improve lead quality and drive more revenue. They partnered with iProspect, a digital marketing agency, to test out this hypothesis. iProspect first performed an audit of the current form to identify major pain points. Then, they hypothesized ways they could address each one with testing. 
+The team hypothesized that revamping the lead generation form would improve lead quality and drive more revenue. They partnered with iProspect, a digital marketing agency, to test out this hypothesis. iProspect first performed an audit of the current form to identify major pain points. Then, they hypothesized ways they could address each one with testing.
 
 Challenge  | Hypothesis
 ---------- | -------------
-Form completion is unclear; users are leaving required fields incomplete. | Visual form validation will guide users to complete the form correctly. 
+Form completion is unclear; users are leaving required fields incomplete. | Visual form validation will guide users to complete the form correctly.
 Phone numbers are incompatible with Salesforce.com, the platform Iron Mountain’s sales team uses to capture lead information. | A modified phone number field will ensure numbers match the correct format.
 Site visitors do not understand the overall purpose of the form – to inquire about Iron Mountain’s business solutions. | Changes to the headline will help visitors understand the form’s purpose.
 
 ## Test
 
-Using Optimizely, iProspect created a modified version of the lead generation form. The variation form differed from the original in a number of ways. To clarify what information was needed in each form field, the team replaced the descriptions above each field with descriptions located inside each field. 
+Using Optimizely, iProspect created a modified version of the lead generation form. The variation form differed from the original in a number of ways. To clarify what information was needed in each form field, the team replaced the descriptions above each field with descriptions located inside each field.
 
-They changed the form’s headline from “Contact us today” to “Request a quote” to clarify the form’s purpose. They used the custom JavaScript editor to code new validation functionality for each form field. For example, an error message was displayed if an incompatible phone number was entered, ensuring the prospective customer corrected the information before submitting. 
+They changed the form’s headline from “Contact us today” to “Request a quote” to clarify the form’s purpose. They used the custom JavaScript editor to code new validation functionality for each form field. For example, an error message was displayed if an incompatible phone number was entered, ensuring the prospective customer corrected the information before submitting.
 
 {% include "side-by-side.html"
   {

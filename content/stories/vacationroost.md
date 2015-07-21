@@ -1,9 +1,17 @@
 ---
 title: VacationRoost Optimizely Customer Story
+category: mobile
 hero:
   title: Travel Site Revamps Landing Pages to Maximize Revenue
   subtitle: Multipage testing increases conversions across several landing pages at once
   background: /assets/i/temp.jpg
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 
 {% include "case-study-box.html"

@@ -1,9 +1,17 @@
 ---
 title: 1 800 Dentist Optimizely Case Study
+category: mobile
 hero:
   title: 1-800-DENTIST Optimizes Checkout to Boost Sign-ups 23.3%
   subtitle: Reducing sign-up field friction converts more site visitors to customers
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800-dentist/1800dentist-hero.jpg
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
     {
@@ -53,7 +61,7 @@ To test the hypothesis, the team considered how to best simplify the first step 
   }
 %}
 
-To measure the success of each variation, the product team set up two types of goals: Pageview goals and click goals. Views of the “Thank You” page where users landed after submitting their final information was used as a macro-goal to track overall conversions. Several micro-goals — like clicks on each button in the funnel — tracked pageviews throughout each step to discover what made users bounce in the first place. 
+To measure the success of each variation, the product team set up two types of goals: Pageview goals and click goals. Views of the “Thank You” page where users landed after submitting their final information was used as a macro-goal to track overall conversions. Several micro-goals — like clicks on each button in the funnel — tracked pageviews throughout each step to discover what made users bounce in the first place.
 
 ## Results
 

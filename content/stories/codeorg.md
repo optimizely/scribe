@@ -1,9 +1,17 @@
 ---
 title: Code.org Optimizely Case Study
+category: mobile
 hero:
   title: Code.org Generates 15 Million Online Participants in Five Days
   subtitle: Testing amplified their cause and boosted visitor engagement
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/nonprofits/hero.png
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
     {
@@ -27,7 +35,7 @@ Code.org is a nonprofit dedicated to expanding participation in computer science
 
 [[/]]
 
-Code.org’s Founder Hadi Partovi is striving to ensure that every student in every school has the opportunity to learn to code. 
+Code.org’s Founder Hadi Partovi is striving to ensure that every student in every school has the opportunity to learn to code.
 
 Since founding the nonprofit in 2013, Hadi has focused on website optimization as a method garnering support and engaging more teachers and students in Code.org’s campaigns. He hired Roxanne Emadi in September to run testing.
 
@@ -47,11 +55,11 @@ Hadi and Roxanne wanted to improve the CTA and messaging on the Hour of Code reg
 
 ## Optimizing Registrations
 
-Text on original registration page for the Hour of Code campaign read — “Welcome to the 21st Century. Help us introduce 10 million students to computer science. All it takes is one Hour of Code.” 
+Text on original registration page for the Hour of Code campaign read — “Welcome to the 21st Century. Help us introduce 10 million students to computer science. All it takes is one Hour of Code.”
 
-The original CTA read “Learn more”. 
+The original CTA read “Learn more”.
 
-Hadi and Roxanne tested the original messaging against new messaging that emphasized the community aspect. The variation CTA read “Join us”. 
+Hadi and Roxanne tested the original messaging against new messaging that emphasized the community aspect. The variation CTA read “Join us”.
 
 {% include "figure.html"
   {
@@ -72,6 +80,6 @@ RESULTS: The “community-focused” variation lead to a staggering 29% increase
 %}
  -->
 
-# TESTING TAKEAWAYS: 
-* SMALL CHANGES CAN PRODUCE INCREDIBLE RESULTS: You don’t have to revamp your entire website to achieve your conversion goals. Tweaking four short sentences and a call-to-action generated a huge win for Hadi and Roxanne—helping them reach 8 million additional students with their campaign. 
+# TESTING TAKEAWAYS:
+* SMALL CHANGES CAN PRODUCE INCREDIBLE RESULTS: You don’t have to revamp your entire website to achieve your conversion goals. Tweaking four short sentences and a call-to-action generated a huge win for Hadi and Roxanne—helping them reach 8 million additional students with their campaign.
 *A/B TESTING IS THE MOST IMPORTANT TOOL FOR ANY GROWTH HACKER: Whether you work at non-profit, small business, or global enterprise, chances are you want to increase efficiency to achieve (and surpass) business goals. Website optimization with Optimizely is quick and easy – saving you time and helping you maximize your reach.

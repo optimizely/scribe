@@ -1,5 +1,6 @@
 ---
 title: 12 Million New Students
+category: mobile
 hero:
   title: INFINITY New Students
   subtitle: Let Your Customers Uncover Your Next Big Win
@@ -17,6 +18,13 @@ stats:
   4:
     value: 2
     title: Years using Optimizely
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 
 [[intro]]

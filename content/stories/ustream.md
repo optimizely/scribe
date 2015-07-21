@@ -1,9 +1,17 @@
 ---
 title: Ustream Optimizely Case Study
+category: mobile
 hero:
   title: Video Publisher Tests Call-to-Action Broadcast Button
   subtitle: Simple button variation increases clicks by 12%
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/ustream/ustream-hero.jpg
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
     {
@@ -63,4 +71,4 @@ Ustream tested the main call-to-action button on the homepage of their opt-in be
 
 ## Takeaway
 
-* *Test new features before rolling them out across the entire site.* With Optimizely, Ustream was able to quickly measure the impacts of two potential designs prior to rolling them out to the entire Ustream user community.  After running the test for four days, they were able to find a clear winner and ensure that the optimal design was being implemented. Rather than acting on hunches or feelings, the team could confidently assess and measure the value of their work. 
+* *Test new features before rolling them out across the entire site.* With Optimizely, Ustream was able to quickly measure the impacts of two potential designs prior to rolling them out to the entire Ustream user community.  After running the test for four days, they were able to find a clear winner and ensure that the optimal design was being implemented. Rather than acting on hunches or feelings, the team could confidently assess and measure the value of their work.

@@ -1,9 +1,17 @@
 ---
 title: Hotwire Optimizely Case Study
+category: mobile
 hero:
   title: Hotwire Optimizes Mobile Web Experience to Improve Bookings
   subtitle: Focused prioritization and research generated the biggest win of the year
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/hotwire/hotwire-hero.jpg
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
   {
@@ -23,7 +31,7 @@ hero:
 
 [[intro]]
 
-Hotwire, an Expedia, Inc. company, provides hotel bookings, car rentals, and airfare to customers through a variety of digital experiences, including the web and native mobile apps. 
+Hotwire, an Expedia, Inc. company, provides hotel bookings, car rentals, and airfare to customers through a variety of digital experiences, including the web and native mobile apps.
 
 [[/]]
 
@@ -47,7 +55,7 @@ The goal of the experiment was to update the look and feel of the car detail pag
 
 ## Hypothesis
 
-The team’s hypothesis was: “If we refresh the design of our car mweb product then we can increase our Car mobile conversion rate because we will be able to provide a better visual and interaction experience to our mobile users.” 
+The team’s hypothesis was: “If we refresh the design of our car mweb product then we can increase our Car mobile conversion rate because we will be able to provide a better visual and interaction experience to our mobile users.”
 
 Many of the friction points on mobile had already been accounted for in the mobile app experience, and the team thought that introducing that consistency to the mobile web experience would be a straightforward win.
 

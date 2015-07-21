@@ -1,5 +1,6 @@
 ---
 title: Bigstock Optimizely Case Study
+category: mobile
 hero:
   title: New Search Algorithm Improves Bigstock's Entire Download Funnel
   subtitle: Running a simple test with Optimizely led to a 10% increase in conversions
@@ -14,6 +15,13 @@ stats:
   3:
     value: 3%
     title: More Images Downloaded
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
   {
@@ -47,7 +55,7 @@ The success of an image search on Bigstock depends on the search term and the se
 
 ## The Test
 
-The original search algorithm – an exact auto suggest – populated results based exactly off the word entered in the search field. For example, when entering “c-a-l-a,” the top result would be “calamari.” Most often, people searching “c-a-l-a” were actually searching for images of a calendar and just misspelling the word. Showing users top results for calamari instead of calendars might deter people from finding the perfect image, Bigstock thought. 
+The original search algorithm – an exact auto suggest – populated results based exactly off the word entered in the search field. For example, when entering “c-a-l-a,” the top result would be “calamari.” Most often, people searching “c-a-l-a” were actually searching for images of a calendar and just misspelling the word. Showing users top results for calamari instead of calendars might deter people from finding the perfect image, Bigstock thought.
 
 One of their developers created a “fuzzy auto suggest” algorithm that predicted the intended search term for commonly misspelled words. Now, “c-a-l-a” would populate “calendar” as the first search result, since it’s such a common search term. Bigstock needed to determine if their site visitors would be more likely to select results with the fuzzy or the exact search algorithm.
 

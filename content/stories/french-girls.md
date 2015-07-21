@@ -1,9 +1,17 @@
 ---
 title: French Girls Optimizely Case Study
+category: mobile
 hero:
   title: French Girls More than Doubles User Activation Rate
   subtitle: Testing user onboarding dramatically improved app engagement and retention
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/french-girls/frenchgirls-hero.jpg
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
   {
@@ -69,7 +77,7 @@ They found that *Experience 1 (take a selfie then draw a portrait) doubled activ
 
 The French Girls team hypothesized that slight differences in tone and style would have a strong effect on conversion. Here’s what they tried:
 
-1. *Original:* Draw a stranger! Now it’s time for you to be an artist. Tap the pencil to draw a stranger! 
+1. *Original:* Draw a stranger! Now it’s time for you to be an artist. Tap the pencil to draw a stranger!
 2. Draw a stranger! Tap the pencil to draw a stranger. Don’t worry, it doesn’t have to be a masterpiece! Have fun!
 3. Draw a stranger! Now let’s draw somebody. You don’t have to be a great artist, just have fun!
 4. Draw a stranger! Tap the pencil to draw a stranger. You don’t have to be a great artist, just have fun!
