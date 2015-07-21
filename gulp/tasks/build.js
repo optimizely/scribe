@@ -34,7 +34,7 @@ gulp.task('recommended', folders(paths.content, function(folder, cb) {
       property: 'data'
     }))
     .pipe(wrap({
-      src: paths.templates_objects+ 'recommended.html'
+      src: paths.templates.objects+ 'recommended.html'
     }))
     .pipe(swig(swigOps)) // Operates on template includes for header, footer, etc.
     .on('error', handleErrors)
@@ -58,7 +58,7 @@ gulp.task('build', folders(paths.content, function(folder) {
       }
     }))
     .pipe(wrap({
-      src: paths.templates_pages + folder + '.html'
+      src: paths.templates.pages + folder + '.html'
     }))
     .pipe(swig(swigOps)) // Operates on template includes for header, footer, etc.
     .pipe(toc({
