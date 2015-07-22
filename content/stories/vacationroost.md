@@ -12,6 +12,7 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
+recommended_image:  /assets/i/temp.jpg
 ---
 
 {% include "case-study-box.html"
