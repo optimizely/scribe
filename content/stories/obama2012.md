@@ -22,7 +22,7 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/obama2012/obama2012-hero.jpg
+recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/obama2012/obama2012-hero-medium.jpg
 ---
   {% include "case-study-box.html"
       {
@@ -65,7 +65,7 @@ To uncover conversion improvements that would convert visitors to email subscrib
 
 ## Test 1: Restaurant Menu Psychology
 
-Optimizing donation forms was a constant testing theme on the campaign. Many hypotheses were tested to gauge which triggers potential donors were most sensitive to. 
+Optimizing donation forms was a constant testing theme on the campaign. Many hypotheses were tested to gauge which triggers potential donors were most sensitive to.
 
 A member of the Obama Digital team had learned that high-end restaurants remove dollar signs from their menus because diners tend to spend more money without them. The team decided to test omitting dollar signs from the site’s donation form to determine whether the change would positively impact donation conversions.
 
@@ -82,9 +82,9 @@ The result of the experiment was a statistical tie. The team then moved on to te
 
 One promotion that the Obama Digital team ran was an opportunity for supporters to win dinner with the President. Just like with the original donation form, their goal was to increase conversions on the sweepstakes donation form.
 
-When designing the form’s mobile web experience, the team thought keeping the form as simple as possible and removing all unnecessary elements would be best. They decided to remove the image of the President found on the desktop website experience since it wasn’t essential to the donation. 
+When designing the form’s mobile web experience, the team thought keeping the form as simple as possible and removing all unnecessary elements would be best. They decided to remove the image of the President found on the desktop website experience since it wasn’t essential to the donation.
 
-However, in other experiments with imagery, the Obama Digital team had found that donors responded positively to imagery of the President. They decided to test adding an image back into the mobile experience. 
+However, in other experiments with imagery, the Obama Digital team had found that donors responded positively to imagery of the President. They decided to test adding an image back into the mobile experience.
 
 {% include "figure.html"
   {
@@ -104,7 +104,7 @@ Kyle Rush calls this test the “gradual incline versus the steep slope.”
 
 The donation form was a long, multi-step process that required visitors to input lots of information. The Obama Digital team knew from usability best practices that they were losing potential donors from the long form.
 
-But when it comes to donations, federal law requires specific information, which meant the team couldn’t just throw out unnecessary form fields. Instead, they set about making the form appear shorter by breaking it into pieces. And rather than just making the order of fields arbitrary, they went the extra step by analyzing validation errors of each field in order to put the easiest ones first. 
+But when it comes to donations, federal law requires specific information, which meant the team couldn’t just throw out unnecessary form fields. Instead, they set about making the form appear shorter by breaking it into pieces. And rather than just making the order of fields arbitrary, they went the extra step by analyzing validation errors of each field in order to put the easiest ones first.
 
 {% include "figure.html"
   {
@@ -113,7 +113,7 @@ But when it comes to donations, federal law requires specific information, which
   }
 %}
 
-The team then proved their hypotheses were correct through testing. Breaking the form into four smaller parts *increased the donation conversion rate by more than 5%*. 
+The team then proved their hypotheses were correct through testing. Breaking the form into four smaller parts *increased the donation conversion rate by more than 5%*.
 
 The team successfully identified a usability issue, implemented a solution, and proved that their solution worked through testing. To squeeze out a 5% lift on the campaign’s primary donation form was a big accomplishment for a matured testing organization and roadmap. It’s an important reminder that with a little creativity and effort, there are always conversion improvements to be found on your own site.
 

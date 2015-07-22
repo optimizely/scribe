@@ -22,7 +22,7 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/spreadshirt/spreadshirt-hero2.jpg
+recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/spreadshirt/spreadshirt-hero2-medium.jpg
 ---
 
 {% include "case-study-box.html"

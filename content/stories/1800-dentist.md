@@ -12,7 +12,7 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800-dentist/1800dentist-medium.jpg
+recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800-dentist/1800dentist-hero-medium.jpg
 ---
 {% include "case-study-box.html"
     {

@@ -25,7 +25,7 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/resources/shana-testing/stanleyblackanddecker/powertool.jpg
+recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/resources/shana-testing/stanleyblackanddecker/powertool-medium.jpg
 ---
 
 
