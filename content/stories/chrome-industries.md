@@ -7,11 +7,11 @@ hero:
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/chrome-industries/chrome-hero2.png
 recommended:
   1:
-    story: french-girls
+    story: smartwool
   2:
-    story: secret-escapes
+    story: veggietales
   3:
-    story: obama2012
+    story: electronic_arts
 recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/chrome-industries/chrome-medium2.png
 ---
 {% include "case-study-box.html"
@@ -32,9 +32,11 @@ recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-ass
 
 [[intro]]
 
-Website optimization is changing the way Chrome Industries does digital marketing. That’s thanks to Chrome’s Director of e-Commerce, Kyle Duford, who brought Optimizely into Chrome’s digital marketing arsenal in early 2013. In a video filmed at Chrome’s office and showroom in downtown San Francisco, Kyle explains why relying on data is critical to the growth of their online business.
+Website optimization is changing the way Chrome Industries does digital marketing. That’s thanks to Chrome’s Director of e-Commerce, Kyle Duford, who brought Optimizely into Chrome’s digital marketing arsenal in early 2013.
 
 [[/]]
+
+In a video filmed at Chrome’s office and showroom in downtown San Francisco, Kyle explains why relying on data is critical to the growth of their online business.
 
 <script type='text/javascript' id='vidyard_embed_code_1A7TKlo7azF1ZxTbFKYQyA' src='//play.vidyard.com/1A7TKlo7azF1ZxTbFKYQyA.js?v=3.1.1&type=inline'></script>
 

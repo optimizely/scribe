@@ -17,11 +17,11 @@ stats:
     title: Optimizely Solutions Partner
 recommended:
   1:
-    story: french-girls
+    story: soccerloco
   2:
-    story: secret-escapes
+    story: veggietales
   3:
-    story: obama2012
+    story: sony
 recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/nonprofits/hero.png
 ---
 {% include "case-study-box.html"

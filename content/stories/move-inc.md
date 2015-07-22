@@ -1,15 +1,15 @@
 ---
 title: Move, Inc. Optimizely Case Study
-category: mobile
+category: real estate
 hero:
   title: How Move, Inc. Reaches Revenue Optimization Goals
-  subtitle: The in-house optimization team is staffed for aggressive optimization
+  subtitle: Meet an in-house optimization team staffed for aggressive optimization
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move-inc/move-hero.jpg
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: electronic_arts
   3:
     story: obama2012
 recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move-inc/move-hero-medium.jpg
@@ -32,7 +32,7 @@ recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-ass
 
 [[intro]]
 
-Move, Inc. (operator of Realtor.com), a News Corp company, is a provider of online real estate services for consumers and real estate professionals to help navigate all stages of the home-buying process. The company is heavily invested in understanding its target audience, with teams devoted to both analytics and .
+Move, Inc. (operator of Realtor.com), a News Corp company, is a provider of online real estate services for consumers and real estate professionals to help navigate all stages of the home-buying process. The company is heavily invested in understanding its target audience, with teams devoted to both analytics and user research.
 
 [[/]]
 
@@ -58,7 +58,11 @@ On the search results page, conversions on right-rail content were relatively lo
 
 Suma and her team added a module (outlined in red) that highlighted getting pre-qualified and checking a credit score as logical next steps for visitors.
 
-
+{% include "figure.html"
+  {
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move_inc/move-inc-right-rail-content-experiment.png',
+  }
+%}
 
 *The Result:* The change in right-rail content didn’t improve conversions, but it did provide an opportunity for further testing. The team was able to move on from the type of content surfaced to exploring other elements of the right rail functionality, and how it could improve the visitor experience.
 
@@ -68,10 +72,13 @@ In usability studies, Move researchers found that when viewing listing pages for
 
 The optimization team hypothesized that adding a “Back to search” link would help users understand where to navigate once they were ready to leave a listing page.
 
-
 A “Back to search” link was added to the navigation elements, next to a breadcrumb. This experiment focused on helping visitors to engage with multiple listings during their sessions, increasing the likelihood that they would advance further down the conversion funnel.
 
-
+{% include "figure.html"
+  {
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move_inc/move-inc-navigation-experiment.png',
+  }
+%}
 
 *The Result:* The change positively affected the engagement of visitors on listing and search pages, demonstrating that the researched change made a quantifiable impact on the visitor experience.
 
@@ -80,6 +87,15 @@ A “Back to search” link was added to the navigation elements, next to a brea
 By maintaining close alignment and open communication with their analytics and user research peers, the Move, Inc. team is able to consistently produce high-quality experiments that help each group to accomplish and measure their goals while improving the usability of their site and overall customer experience.
 
 As Move’s optimization program has become more visible and successful, many other teams have started to brainstorm areas where they wanted to test and optimize. Suma hopes that in 2015, the team will successfully scale best practices for ideating, prioritizing, and executing experiments.
+
+
+{% include "blockquote.html"
+  {
+    size: 'full',
+    quote: 'WMany teams come to us with ideas that either are something they’re stuck on, or a small change they want to make. We take a step back and look at the big picture, help them to unpack the problem and design a meaningful experiment.',
+    attribution: 'Suma Warrier, Senior Optimization Manager, Move, Inc.'
+  }
+%}
 
 “Many teams come to us with ideas that either are something they’re stuck on, or a small change they want to make. We take a step back and look at the big picture, help them to unpack the problem and design a meaningful experiment.”
 

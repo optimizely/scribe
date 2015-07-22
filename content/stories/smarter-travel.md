@@ -1,6 +1,6 @@
 ---
-title: For Smarter Travel, Speed Wins
-category: mobile
+title: Smarter Travel Optimizely Case Study
+category: travel
 hero:
   title: For Smarter Travel, Speed Wins
   subtitle: Travel Company Doubles Revenue in First Month of Optimization

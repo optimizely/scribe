@@ -1,6 +1,6 @@
 ---
 title: Lifeproof Optimizely Case Study
-category: mobile
+category: e-commerce
 hero:
   title: Lifeproof Builds A Data-Driven Testing Culture From the Ground Up
   subtitle: Three types of testing wins that helped drive fast adoption of optimization
@@ -17,11 +17,11 @@ stats:
     title: Optimizely Solutions Partner
 recommended:
   1:
-    story: french-girls
+    story: veggietales
   2:
-    story: secret-escapes
+    story: sony
   3:
-    story: obama2012
+    story: smartwool
 recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/lifeproof/lifeproof-hero.png
 ---
 {% include "case-study-box.html"
