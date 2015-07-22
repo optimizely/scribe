@@ -1,5 +1,6 @@
 ---
 title: Romney 2012 Campaign Optimizely Case Study
+category: mobile
 hero:
   title: Testing at the Romney 2012 Campaign Drives Voter Engagement and Online Fundraising
   subtitle: Website optimizaiton drove six-figure donation total
@@ -17,6 +18,13 @@ stats:
   4:
     value: 19%
     title: Increase in State Specific Sign Ups
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 
 {% include "case-study-box.html"

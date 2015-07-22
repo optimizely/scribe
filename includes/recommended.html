@@ -1,25 +1,8 @@
 <div class="recommended">
   <div class="recommended-grid">
-    <div class="recommended-grid__cell">
-      <a href="#">
-        <div class="image" style="background-image:url(../assets/i/rec-1.jpg);"></div>
-        <div class="category">Ebook</div>
-        <div class="title">Statistics for the Digtial Age</div>
-      </a>
-    </div>
-    <div class="recommended-grid__cell">
-      <a href="#">
-        <div class="image" style="background-image:url(../assets/i/rec-2.jpg);"></div>
-        <div class="category">Ebook</div>
-        <div class="title">Statistics for the Digtial Age</div>
-      </a>
-    </div>
-    <div class="recommended-grid__cell">
-      <a href="#">
-        <div class="image" style="background-image:url(../assets/i/rec-3.jpg);"></div>
-        <div class="category">Ebook</div>
-        <div class="title">Statistics for the Digtial Age</div>
-      </a>
-    </div>
+  {% for item in recommended %}
+    {% set recommended_file = 'tmp/stories_recommended/' + item.story + '.html' %}
+    {% include recommended_file %}
+  {% endfor %}
   </div>
 </div>

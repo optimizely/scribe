@@ -4,7 +4,6 @@ var gulp         = require('gulp')
     folders      = require('gulp-folders'),
     md           = require('gulp-remarkable'),
     swig         = require('gulp-swig'),
-    swig         = require('gulp-swig'),
     argv         = require('yargs').argv,
     browserSync  = require('browser-sync'),
     reload       = browserSync.reload,
@@ -14,11 +13,12 @@ var gulp         = require('gulp')
     paths        = require('../../config').paths,
     handleErrors = require('../utils/handleErrors');
 
-var marketingCompileValue = (argv.marketingCompile === undefined) ? false : true;
+var headlessValue = (argv.headless === undefined) ? false : true;
+var tocHeaders = '<h<%= level %> id="<%= anchor %>"><%= header %></h<%= level %>>';
 
 var swigOps = {
   data: {
-    marketingCompile: marketingCompileValue
+    headless: headlessValue
   },
   setup: function(swig) {
     swig.setDefaults({
@@ -28,7 +28,20 @@ var swigOps = {
   }
 };
 
-var tocHeaders = '<h<%= level %> id="<%= anchor %>"><%= header %></h<%= level %>>';
+gulp.task('recommended', folders(paths.content, function(folder, cb) {
+  return gulp.src(path.join(paths.content, folder, '*.md'))
+    .pipe(frontMatter({
+      property: 'data'
+    }))
+    .pipe(wrap({
+      src: paths.templates.objects+ 'recommended.html'
+    }))
+    .pipe(swig(swigOps)) // Operates on template includes for header, footer, etc.
+    .on('error', handleErrors)
+    .pipe(gulp.dest("./includes/tmp/" + folder + "_recommended"));
+    cb(err);
+}));
+
 
 gulp.task('build', folders(paths.content, function(folder) {
   return gulp.src(path.join(paths.content, folder, '*.md'))
@@ -45,7 +58,7 @@ gulp.task('build', folders(paths.content, function(folder) {
       }
     }))
     .pipe(wrap({
-      src: paths.templates + folder + '.html'
+      src: paths.templates.pages + folder + '.html'
     }))
     .pipe(swig(swigOps)) // Operates on template includes for header, footer, etc.
     .pipe(toc({
@@ -58,3 +71,5 @@ gulp.task('build', folders(paths.content, function(folder) {
     .pipe(gulp.dest(paths.build + folder))
     .pipe(reload({stream:true}));
 }));
+
+

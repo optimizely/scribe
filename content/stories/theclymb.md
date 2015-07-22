@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD
 title: The Clymb Lytics Optimizely Case Study
+=======
+title: 12 Million New Students
+category: mobile
+>>>>>>> origin/master
 hero:
   title: Personalized Merchandising Grows Sales by 12%
   subtitle: How the Clymb uses digital user personas to sell more adventure gear
@@ -12,8 +17,23 @@ stats:
     value: 3
     title: Team members
   3:
+<<<<<<< HEAD
     value: Lytics
     title: Optimizely Technology Integration
+=======
+    value: 39%
+    title: Improvement in lift
+  4:
+    value: 2
+    title: Years using Optimizely
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
+>>>>>>> origin/master
 ---
 {% include "case-study-box.html"
   {

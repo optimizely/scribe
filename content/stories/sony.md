@@ -1,5 +1,6 @@
 ---
 title: Sony Optimizely Case Study
+category: mobile
 hero:
   title: Electronics Giant Unlocks Suprising Wins with Segmentation
   subtitle: Sony optimizes to drive 20% more visitors through the configuration checkout funnel
@@ -14,7 +15,15 @@ stats:
   3:
     value: 20%
     title: Increase in Checkout Conversions
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
+
 {% include "case-study-box.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/sony/sony.png',
@@ -41,7 +50,7 @@ Evelien Geerens is a web merchandiser at Sony who uses Optimizely to increase co
 
 ## CHALLENGE #1: Low Banner Ad Conversion
 
-The banner ads in question presented two different calls-to-action – one advertising the customizable Sony Vaio notebooks and one promoting a recent sitewide offer for a free memory upgrade. 
+The banner ads in question presented two different calls-to-action – one advertising the customizable Sony Vaio notebooks and one promoting a recent sitewide offer for a free memory upgrade.
 
 Evelien hypothesized that displaying dual CTA messages was confusing and overwhelming to site visitors, making them less likely to click through on
 the banner. However, her team’s usability research suggested otherwise. In Sony’s UX tests, Evelien learned that some site visitors were actually put off by the customizable laptop option. These visitors believed the customization process would be too timeintensive and not worth the outcome.
@@ -172,7 +181,7 @@ an informed choice on the customizable components page. This, in turn, would
 drive more visitors to continue through the
 checkout funnel.
 
-## Test 
+## Test
 
 Using Optimizely, Evelien set up an
 A/B test, pitting the original funnel page
@@ -226,4 +235,4 @@ back up Evelien’s hypothesis and convince her team to keep the campaign runnin
 * SOMETIMES LESS IS MORE. REDUCE CHOICES TO INCREASE CONVERSIONS. Evelien’s tests
 on Sony’s webstore revealed that paring down options and information throughout the
 checkout funnel can actually provide a more clear path for site visitors. Test different
-options to understand how much information your site visitors prefer. 
+options to understand how much information your site visitors prefer.

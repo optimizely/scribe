@@ -1,5 +1,6 @@
 ---
 title: Smart Wool and Blue Acorn Optimizely Case Study
+category: mobile
 hero:
   title: Smart Wool Optimizes Online Product Sales with Blue Acorn
   subtitle: Testing after a redesign improved conversions and boosted revenue 17%
@@ -14,6 +15,13 @@ stats:
   3:
     value: Blue Acorn
     title: Optimizely Solutions Partner
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
   {

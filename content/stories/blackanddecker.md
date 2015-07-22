@@ -1,5 +1,6 @@
 ---
 title: Stanley Black & Decker Case Study
+category: mobile
 hero:
   title: Data Drives Revenue at Stanley Black & Decker
   subtitle: Website Optimization Yields Six-Figure Impact in Online Revenue
@@ -17,6 +18,13 @@ stats:
   4:
     value: Viget
     title: Optimizely Solutions Partner
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 
 

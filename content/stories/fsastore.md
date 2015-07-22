@@ -1,9 +1,17 @@
 ---
 title: FSAstore Optimizely Case Study
+category: mobile
 hero:
   title: E-commerce Marketing Team Optimizes for Revenue
   subtitle: FSAstore.com increased revenue per visitor by 54%
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsa-store/fsastore-firstaid.jpg
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 
 {% include "case-study-box.html"

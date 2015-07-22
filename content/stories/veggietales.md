@@ -1,5 +1,6 @@
 ---
 title: VeggieTales Optimizely Case Study
+category: mobile
 hero:
   title: VeggieTales Optimizes Online Sales with Blue Acorn
   subtitle: Continuous testing increased RPV by 38%
@@ -17,6 +18,13 @@ stats:
   4:
     value: Blue Acorn
     title: Optimizely Solutions Partner
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
   {
@@ -36,7 +44,7 @@ stats:
 
 [[intro]]
 
-VeggieTales is an animated children’s TV series, hugely popular with pre-schoolers in the United States. Since 1993, they have sold over 70 million videos, 15 million books, 7 million CDs, and all sorts of accessories touting the iconic vegetable characters. 
+VeggieTales is an animated children’s TV series, hugely popular with pre-schoolers in the United States. Since 1993, they have sold over 70 million videos, 15 million books, 7 million CDs, and all sorts of accessories touting the iconic vegetable characters.
 
 [[/]]
 
@@ -140,7 +148,7 @@ The original homepage had a strong callout for free shipping, which is never a b
 
 However, we didn’t just want to move the social icons to the header, we wanted visitors to be aware of the immense size of the VeggieTales community, which serves as a confidence builder.
 
-*Hypothesis:* By adding social icons to the header and making visitors aware of the size of the VeggieTales community, visitors will be more likely to have social interactions within the community and consumer confidence will increase. 
+*Hypothesis:* By adding social icons to the header and making visitors aware of the size of the VeggieTales community, visitors will be more likely to have social interactions within the community and consumer confidence will increase.
 
 {% include "side-by-side.html"
   {

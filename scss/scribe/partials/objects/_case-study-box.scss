@@ -19,19 +19,17 @@
     }
   }
 
-  &__value {
-    font-size: map-fetch($font, size gamma);
-    font-weight: 500;
-    margin-bottom: spacer(.5);
-  }
-
   &__title {
-    font-size: map-fetch($font, size milli);
+    margin-bottom: spacer(.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    font-size: map-fetch($font, size micro);
     line-height: 1;
   }
 
   > img {
-    margin-bottom: spacer(1.5);
+    margin-bottom: spacer(2);
   }
 
   @include breakpoint($max: 650px) {

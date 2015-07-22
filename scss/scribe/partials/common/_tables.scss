@@ -1,27 +1,30 @@
-table {
-  margin: spacer(4) 0;
-  width: 100%;
+.scribe {
+  table {
+    margin: spacer(4) 0;
+    width: 100%;
 
-  th, td {
-    padding: spacer(1);
-    vertical-align: top;
+    th, td {
+      padding: spacer(1);
+      vertical-align: top;
 
-    &:first-child {
-      padding-left: 0;
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
     }
 
-    &:last-child {
-      padding-right: 0;
+    th {
+      text-align: left;
     }
-  }
 
-  th {
-    text-align: left;
-  }
-
-  tbody {
-    tr {
-      border-top: 1px solid map-fetch($color, ui base);
+    tbody {
+      tr {
+        border-top: 1px solid map-fetch($color, ui base);
+      }
     }
   }
 }
+

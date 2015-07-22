@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD
 title: Blu Dot Clearhead Optimizely Case Study
+=======
+title: 12 Million New Students
+category: mobile
+>>>>>>> origin/master
 hero:
   title: Thriving on the Journey of Continuous Optimizaiton
   subtitle: Furniture retailer Blu Dot partners with Clearhead to build a thriving, optimization-driven e-commerce business
@@ -12,8 +17,23 @@ stats:
     value: 3
     title: Team members
   3:
+<<<<<<< HEAD
     value: Clearhead
     title: Optimizely Solutions Partner
+=======
+    value: 39%
+    title: Improvement in lift
+  4:
+    value: 2
+    title: Years using Optimizely
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
+>>>>>>> origin/master
 ---
 {% include "case-study-box.html"
     {

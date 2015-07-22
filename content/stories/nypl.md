@@ -1,10 +1,18 @@
 ---
 title: New York Public Library Optimizely Case Study
+category: mobile
 hero:
   title: Building Awareness of Century-Old Content With Optimization
   subtitle: Testing improved convesions and expanded the reach of email marketing
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/new-york-public-library/nypl-hero.jpg
 
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 
 {% include "case-study-box.html"

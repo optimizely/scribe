@@ -1,9 +1,17 @@
 ---
 title: Liftopia Optimizely Case Study
+category: mobile
 hero:
-  title: Ski Commerce Provider Optimizes for SEM Traffic Conversions 
+  title: Ski Commerce Provider Optimizes for SEM Traffic Conversions
   subtitle: Less content and more personalized experiences increases purchases 23.7%
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/liftopia/liftopia-hero.jpg
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
   {
@@ -27,7 +35,7 @@ Liftopia is a hub for skiers and snowboarders to find discounted lift tickets re
 
 [[/]]
 
-Liftopia uses search engine marketing (SEM) advertisements to drive potential customers to ski deals on its site. SEM drives highly-qualified traffic — searchers who already have a specific resort in mind — to a landing page midway through Liftopia’s purchase funnel. From there, Liftopia’s goal is to provide the best user experience possible in order to drive more purchases and revenue from site. 
+Liftopia uses search engine marketing (SEM) advertisements to drive potential customers to ski deals on its site. SEM drives highly-qualified traffic — searchers who already have a specific resort in mind — to a landing page midway through Liftopia’s purchase funnel. From there, Liftopia’s goal is to provide the best user experience possible in order to drive more purchases and revenue from site.
 
 {% include "blockquote.html"
   {
@@ -41,7 +49,7 @@ In the past, this presented a hurdle — pages in Liftopia’s purchase funnel o
 
 ## HYPOTHESIS
 
-Since they knew what SEM-traffic was searching for already, the team hypothesized that showing a tailored experience with exactly what visitors had searched for – instead of options they didn’t want in the first place – would increase purchase conversions and decrease bounce rates. 
+Since they knew what SEM-traffic was searching for already, the team hypothesized that showing a tailored experience with exactly what visitors had searched for – instead of options they didn’t want in the first place – would increase purchase conversions and decrease bounce rates.
 
 'If you’re searching for a Squaw Valley deal, our goal is to bring you into our site, remove all distractions from other resorts’ deals and offers, and keep you moving down our funnel,' said Dave Nuffer, a Product Manager at Liftopia.
 
@@ -73,13 +81,13 @@ Dave and the Liftopia team used Optimizely to test different experiences within 
   }
 %}
 
-To execute the test, they created two variations across their funnel pages. The original flow included the search widget and other cross-sell options throughout the funnel. The variation flow removed the search widget and additional offer links altogether. The Liftopia team targeted the test to apply solely to SEM traffic — this gave them the ability to provide a highly customized experience to visitors entering their site from search. 
+To execute the test, they created two variations across their funnel pages. The original flow included the search widget and other cross-sell options throughout the funnel. The variation flow removed the search widget and additional offer links altogether. The Liftopia team targeted the test to apply solely to SEM traffic — this gave them the ability to provide a highly customized experience to visitors entering their site from search.
 
 ## Results
 
 After running the test for just seven days, a statistically significant result emerged: *the variation flow increased conversions by 23.7%.*
 
-Dave and his team used Optimizely to push 100% of SEM traffic to the winning variation while their engineers worked to implement the improved experience into their site code. Using Optimizely’s traffic allocation feature, the team could instantly realize the increase in revenue from their SEM ads. 
+Dave and his team used Optimizely to push 100% of SEM traffic to the winning variation while their engineers worked to implement the improved experience into their site code. Using Optimizely’s traffic allocation feature, the team could instantly realize the increase in revenue from their SEM ads.
 
 [[callout]]
 

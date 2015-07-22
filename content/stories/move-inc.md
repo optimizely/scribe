@@ -1,9 +1,17 @@
 ---
 title: Move, Inc. Optimizely Case Study
+category: mobile
 hero:
   title: How Move, Inc. Reaches Revenue Optimization Goals
   subtitle: The in-house optimization team is staffed for aggressive optimization
   background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move-inc/move-hero.jpg
+recommended:
+  1:
+    story: french-girls
+  2:
+    story: secret-escapes
+  3:
+    story: obama2012
 ---
 {% include "case-study-box.html"
   {
@@ -37,7 +45,7 @@ At Move, the Optimization team is housed within the Analytics department. For th
 
 As the optimization team became comfortable with their communication and process, speed and cadence became a priority. In order to take advantage of the benefits of optimization, Suma wanted to ensure that the team could rapidly test many ideas, quickly make decisions, and incorporate customer data into their process. By laying a strong foundation, *the team was able to reach a pace of launching 1 new experiment every 2 weeks.*
 
-Suma credits the Move team’s success with rapid testing to two factors. First, the optimization tool (Optimizely.) A key criteria in choosing the team’s tool was finding one that would enable rapid testing and empower the end-users. This would become very important to ensuring the team would meet their optimization goals, but also showcased the value of switching to a new tool. 
+Suma credits the Move team’s success with rapid testing to two factors. First, the optimization tool (Optimizely.) A key criteria in choosing the team’s tool was finding one that would enable rapid testing and empower the end-users. This would become very important to ensuring the team would meet their optimization goals, but also showcased the value of switching to a new tool.
 
 The second factor was the team’s focus, which allowed them to ask more questions about their customer behavior and find answers faster, while moving the product as a whole in the right direction. As Suma puts it, the risk of not moving quickly is that ideas will be deliberated, but never executed. Their team took the opposite approach, and was able to reach very tangible, quantifiable goals for their business.
 
@@ -58,7 +66,7 @@ Suma and her team added a module (outlined in red) that highlighted getting pre-
 In usability studies, Move researchers found that when viewing listing pages for home, it was generally simple to complete an action on the page (saving, requesting details, etc.). When it came time to navigate away from the page, visitors were getting stuck. They wanted to see other houses and view other results from their searches.
 
 The optimization team hypothesized that adding a “Back to search” link would help users understand where to navigate once they were ready to leave a listing page.
- 
+
 
 A “Back to search” link was added to the navigation elements, next to a breadcrumb. This experiment focused on helping visitors to engage with multiple listings during their sessions, increasing the likelihood that they would advance further down the conversion funnel.
 
@@ -70,7 +78,7 @@ A “Back to search” link was added to the navigation elements, next to a brea
 
 By maintaining close alignment and open communication with their analytics and user research peers, the Move, Inc. team is able to consistently produce high-quality experiments that help each group to accomplish and measure their goals while improving the usability of their site and overall customer experience.
 
-As Move’s optimization program has become more visible and successful, many other teams have started to brainstorm areas where they wanted to test and optimize. Suma hopes that in 2015, the team will successfully scale best practices for ideating, prioritizing, and executing experiments. 
+As Move’s optimization program has become more visible and successful, many other teams have started to brainstorm areas where they wanted to test and optimize. Suma hopes that in 2015, the team will successfully scale best practices for ideating, prioritizing, and executing experiments.
 
 “Many teams come to us with ideas that either are something they’re stuck on, or a small change they want to make. We take a step back and look at the big picture, help them to unpack the problem and design a meaningful experiment.”
 

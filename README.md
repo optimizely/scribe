@@ -4,7 +4,7 @@ Long-form static, reponsive HTML publishing engine for Optimizely.
 ## Running
 
 - `gulp`: runs all tasks
-- `gulp build assets --marketingCompile`: builds minimal file for marketing website
+- `gulp build assets --headless`: builds minimal file for marketing website
 
 ## Installing
 

@@ -1,11 +1,13 @@
 .cta-footer {
-  background: map-fetch($color, background faint);
+  background: #67b4d6;
   padding: spacer(5) 0;
   margin-bottom: spacer(6);
   text-align: center;
 
   &__title {
-    font-size: map-fetch($font, size gamma);
+    font-size: map-fetch($font, size beta);
+    font-weight: 300;
     margin-bottom: spacer(2);
+    color: #fff;
   }
 }

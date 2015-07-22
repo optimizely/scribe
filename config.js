@@ -9,7 +9,10 @@ var paths = {
   includes: 'includes/',
   assets: 'assets/',
   build: 'build/',
-  templates: 'templates/',
+  templates: {
+    pages: 'templates/pages/',
+    objects: 'templates/objects/'
+  },
   built : {
     assets: 'build/assets/',
     css: 'build/assets/css/'

@@ -1,19 +1,21 @@
-{% if marketingCompile %}---
+{% if headless %}---
 layout: wrapper
 TR_seo_title: "Case Studies"
 TR_visible_title: "Case Studies"
 no_container: true
+page_css:
+- scribe.css
 page_script: customer-stories.js
 body_class:
+- scribe
 - page--stories
 ---{% endif %}
 
-{% if !marketingCompile %}
+{% if !headless %}
   {% include 'common/head.html' {
       page: 'stories'
     }
   %}
-  {% include 'common/header.html' %}
 {% endif %}
 {% include 'hero.html' %}
 {% include 'stats.html' %}
@@ -26,7 +28,6 @@ body_class:
 
 {% include 'cta-footer.html' %}
 {% include 'recommended.html' %}
-{% if !marketingCompile %}
-  {% include 'common/footer.html' %}
+{% if !headless %}
   {% include 'common/foot.html' %}
 {% endif %}
