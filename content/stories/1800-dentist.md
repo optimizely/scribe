@@ -51,22 +51,22 @@ To test the hypothesis, the team considered how to best simplify the first step 
 {% include "figure.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800-dentist/1800d-original.png',
-    caption: 'The original variation of the 1-800-DENTIST funnel include three form fields on the homepage: ZIP code, dental need, and insurance/payment method.',
+    caption: 'The original variation of the 1-800-DENTIST funnel includes three form fields on the homepage: ZIP code, dental need, and insurance/payment method.',
   }
 %}
 
 {% include "figure.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800-dentist/1800d-variation.png',
-    caption: 'The winning variation moved dental need and insurance/payment method to pages later in the funnel. Only the ZIP code form field remained on the homepage.',
+    caption: 'The winning variation moved fields for dental need and insurance/payment method to pages later in the funnel. Only the ZIP code form field remained on the homepage.',
   }
 %}
 
-To measure the success of each variation, the product team set up two types of goals: Pageview goals and click goals. Views of the “Thank You” page where users landed after submitting their final information was used as a macro-goal to track overall conversions. Several micro-goals — like clicks on each button in the funnel — tracked pageviews throughout each step to discover what made users bounce in the first place.
+To measure the success of each variation, the product team set up two types of goals: pageview and click goals. Views of the “Thank You” page where users landed after submitting their final information was used as a macro-goal to track overall conversions. Several micro-goals — like clicks on each button in the funnel — tracked pageviews throughout each step to discover what made users bounce in the first place.
 
 ## Results
 
-In less than a week, the team found that shortening the first step of the checkout funnel increased conversions by 23.3%
+In less than a week, the team found that *shortening the first step of the checkout funnel increased conversions by 23.3%.*
 
 ## Takeaways
 
