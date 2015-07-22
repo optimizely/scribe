@@ -1,10 +1,10 @@
 ---
+short_name: spreadshirt
 title: Spreadshirt Optimizely Case Study
 category: mobile
 hero:
   title: Spreadshirt Optimizes to Get the Most Out of a Redesign
   subtitle: Using data to inform design choices grew t-shirt orders by 4%
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/spreadshirt/spreadshirt-hero2.jpg
 stats:
   1:
     value: 6x
@@ -17,12 +17,11 @@ stats:
     title: Improvement in Engagement
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/spreadshirt/spreadshirt-hero2-medium.jpg
 ---
 
 {% include "case-study-box.html"

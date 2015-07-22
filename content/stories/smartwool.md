@@ -1,10 +1,10 @@
 ---
+short_name: smartwool
 title: Smart Wool and Blue Acorn Optimizely Case Study
 category: mobile
 hero:
   title: Smart Wool Optimizes Online Product Sales with Blue Acorn
   subtitle: Testing after a redesign improved conversions and boosted revenue 17%
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smartwool/smartwool-hero-blueacorn.png
 stats:
   1:
     value: 17%
@@ -17,12 +17,11 @@ stats:
     title: Optimizely Solutions Partner
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smartwool/smartwool-hero-blueacorn.png
 ---
 {% include "case-study-box.html"
   {

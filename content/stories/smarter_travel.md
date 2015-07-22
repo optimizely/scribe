@@ -1,10 +1,10 @@
 ---
+short_name: smarter_travel
 title: For Smarter Travel, Speed Wins
 category: mobile
 hero:
   title: For Smarter Travel, Speed Wins
   subtitle: Travel Company Doubles Revenue in First Month of Optimization
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smartertravel/smartertravel-hero.jpg
 stats:
   1:
     value: 8
@@ -17,12 +17,11 @@ stats:
     title: Tests run each month at present
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smartertravel/smartertravel-hero-medium.jpg
 ---
 
 [[intro]]

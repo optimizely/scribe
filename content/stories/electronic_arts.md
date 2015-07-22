@@ -1,10 +1,10 @@
 ---
+short_name: electronic_arts
 title: Electronic Arts Optimizes SimCity Game Launch
 category: mobile
 hero:
   title: Electronic Arts Optimizes SimCity Game Launch
   subtitle: Removing Promotional Offer Increases Revenue by 43%
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/ea/simcity-ea-hero.jpg
 stats:
   1:
     value: 43%
@@ -17,12 +17,11 @@ stats:
     title: Of total sales were digital downloads
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/ea/simcity-ea-hero-medium.jpg
 ---
 
 [[intro]]

@@ -1,18 +1,17 @@
 ---
+short_name: iron_mountain
 title: Iron Mountain iProspect Optimizely Case Study
 category: mobile
 hero:
   title: Iron Mountain Optimizes Lead Generation Process
   subtitle: Partnering with iProspect improves lead quality by 140%
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron-mountain/ironmountain-hero.jpg
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron-mountain/ironmountain-hero-medium.jpg
 ---
 {% include "case-study-box.html"
     {

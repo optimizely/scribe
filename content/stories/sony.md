@@ -1,10 +1,10 @@
 ---
+short_name: sony
 title: Sony Optimizely Case Study
 category: mobile
 hero:
   title: Electronics Giant Unlocks Suprising Wins with Segmentation
   subtitle: Sony optimizes to drive 20% more visitors through the configuration checkout funnel
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/sony/sony-hero.png
 stats:
   1:
     value: 6%
@@ -17,12 +17,11 @@ stats:
     title: Increase in Checkout Conversions
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/sony/sony-hero.png
 ---
 
 {% include "case-study-box.html"

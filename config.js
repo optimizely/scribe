@@ -16,7 +16,11 @@ var paths = {
   built : {
     assets: 'build/assets/',
     css: 'build/assets/css/'
-  }
+  },
+  cdn: {
+    customer_stories: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/'
+  },
+  bsyncCSS: 'position:fixed;top:5px;right:5px;width:10px;height:10px;background:#c82144;border-radius:50%;overflow:hidden;color:#c82144;z-index:99999'
 };
 
 module.exports = {

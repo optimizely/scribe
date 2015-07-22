@@ -1,18 +1,17 @@
 ---
+short_name: ustream
 title: Ustream Optimizely Case Study
 category: mobile
 hero:
   title: Video Publisher Tests Call-to-Action Broadcast Button
   subtitle: Simple button variation increases clicks by 12%
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/ustream/ustream-hero.jpg
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/ustream/ustream-hero-medium.jpg
 ---
 {% include "case-study-box.html"
     {
