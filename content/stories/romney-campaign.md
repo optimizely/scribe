@@ -3,7 +3,7 @@ title: Romney 2012 Campaign Optimizely Case Study
 hero:
   title: Testing at the Romney 2012 Campaign Drives Voter Engagement and Online Fundraising
   subtitle: Website optimizaiton drove six-figure donation total
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/romney-rally.jpg
+  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/romney-hero.jpg
 stats:
   1:
     value: $182 Million

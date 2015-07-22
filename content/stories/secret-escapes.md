@@ -38,7 +38,7 @@ As a result of  Optimizely experiments, Secret Escapes has been able to:
 * Increase new user signups by personalizing PPC landing pages to keywords
 * Continuously measure the impact of new app and web changes
 
-## Experiment: The New User Mobile Onboarding Flow
+## Experiment: The New User Mobile App Onboarding Flow
 
 Before the Secret Escapes team first released their mobile app, they had a very important question to answer that faces many mobile app developers: should the app require users to sign up in order to view travel deals?
 
@@ -60,15 +60,8 @@ The product team used Optimizely’s iOS SDK to create and test two different mo
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-app.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-app-updated.png',
     caption: 'The original app signup screen allowed users to skip registering or logging in (Left), while the variation made registration mandatory (Right).',
-  }
-%}
-
-{% include "figure.html"
-  {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-mobile-web.png',
-    caption: 'The mobile website landing page allowed users to skip registering or logging in (Left). Secret Escapes tested making registration mandatory (Right).',
   }
 %}
 
