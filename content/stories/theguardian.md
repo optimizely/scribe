@@ -7,9 +7,9 @@ hero:
   subtitle: Optimizing landing pages, navigation, and the homepage grew subscriptions
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
 ---

@@ -21,9 +21,9 @@ stats:
     title: Years using Optimizely
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
 recommended_image: /assets/i/temp-medium.jpg

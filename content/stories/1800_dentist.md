@@ -7,9 +7,9 @@ hero:
   subtitle: Reducing sign-up field friction converts more site visitors to customers
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
 ---

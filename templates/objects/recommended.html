@@ -1,5 +1,5 @@
 <div class="recommended-grid__cell">
-  <a href="#">
+  <a href="{{ short_name }}.html" onclick="ga('send', 'event', 'Case Study Suggested Content', 'Click', '{{ short_name }}');">
     <div class="image" style="background-image:url({{ cdn.customer_stories + short_name }}/{{ short_name }}-hero-medium.jpg)"></div>
     <div class="category">{{ category }}</div>
     <div class="title">{{ title }}</div>

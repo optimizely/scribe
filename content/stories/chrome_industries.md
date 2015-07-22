@@ -7,9 +7,9 @@ hero:
   subtitle: Optimization through A/B testing informs promotions, product pages, a redesign, and more
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
 ---

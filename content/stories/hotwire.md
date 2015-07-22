@@ -7,9 +7,9 @@ hero:
   subtitle: Focused prioritization and research generated the biggest win of the year
 recommended:
   1:
-    story: french-girls
+    story: french_girls
   2:
-    story: secret-escapes
+    story: secret_escapes
   3:
     story: obama2012
 ---
