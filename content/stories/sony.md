@@ -4,7 +4,7 @@ category: mobile
 hero:
   title: Electronics Giant Unlocks Suprising Wins with Segmentation
   subtitle: Sony optimizes to drive 20% more visitors through the configuration checkout funnel
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/sony/sony-hero.png
+  background: sony/sony-hero.png
 stats:
   1:
     value: 6%
