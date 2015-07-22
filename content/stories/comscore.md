@@ -34,7 +34,6 @@ recommended:
   }
 %}
 
-
 [[intro]]
 
 comScore is an internet analytics company providing marketing data to many of the world’s largest enterprises, publishers, and agencies. Their primary optimization goal is to increase the quantity and quality of enterprise leads for their sales team.
