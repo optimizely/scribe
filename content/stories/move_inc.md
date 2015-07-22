@@ -1,10 +1,10 @@
 ---
+short_name: move_inc
 title: Move, Inc. Optimizely Case Study
 category: mobile
 hero:
   title: How Move, Inc. Reaches Revenue Optimization Goals
   subtitle: The in-house optimization team is staffed for aggressive optimization
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move-inc/move-hero.jpg
 recommended:
   1:
     story: french-girls
@@ -12,7 +12,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move-inc/move-hero-medium.jpg
 ---
 {% include "case-study-box.html"
   {

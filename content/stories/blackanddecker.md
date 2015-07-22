@@ -1,10 +1,10 @@
 ---
+short_name: blackanddecker
 title: Stanley Black & Decker Case Study
 category: mobile
 hero:
   title: Data Drives Revenue at Stanley Black & Decker
   subtitle: Website Optimization Yields Six-Figure Impact in Online Revenue
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/resources/shana-testing/stanleyblackanddecker/powertool.jpg
 stats:
   1:
     value: 6-Figure
@@ -25,7 +25,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/resources/shana-testing/stanleyblackanddecker/powertool-medium.jpg
 ---
 
 

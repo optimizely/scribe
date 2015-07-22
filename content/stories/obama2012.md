@@ -1,10 +1,10 @@
 ---
+short_name: obama2012
 title: Obama 2012 Campaign Optimizely Case Study
 category: mobile
 hero:
   title: Obama for America’s Digital Fundraising Machine
   subtitle: The Obama Digital team optimized to increase donation conversions 49% over 20 months
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/obama2012/obama2012-hero.jpg
 stats:
   1:
     value: 500+
@@ -22,7 +22,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/obama2012/obama2012-hero-medium.jpg
 ---
   {% include "case-study-box.html"
       {

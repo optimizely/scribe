@@ -1,10 +1,10 @@
 ---
+short_name: comscore
 title: comScore Optimizely Case Study
 category: mobile
 hero:
   title: comScore Tests Brand Validation and Social Proof
   subtitle: Improving customer testimonials on product pages increased conversions by 69%
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/comscore/comscore-hero.jpg
 recommended:
   1:
     story: french-girls
@@ -12,7 +12,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/comscore/comscore-hero-medium.jpg
 ---
 
 {% include "case-study-box.html"

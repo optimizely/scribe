@@ -1,4 +1,5 @@
 ---
+short_name: vacationroost
 title: VacationRoost Optimizely Customer Story
 category: mobile
 hero:

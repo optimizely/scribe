@@ -1,10 +1,10 @@
 ---
+short_name: bleacher_report
 title: Bleacher Report Optimizely Case Study
 category: mobile
 hero:
   title: How Bleacher Report Increased Social Shares by 764%
   subtitle: Testing improved social engagement to convert readers to loyal users
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/bleacher-report/bleacher-report-hero.jpg
 recommended:
   1:
     story: french-girls
@@ -12,7 +12,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/bleacher-report/bleacher-report-hero-medium.jpg
 ---
 {% include "case-study-box.html"
     {

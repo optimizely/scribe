@@ -18,7 +18,10 @@ var tocHeaders = '<h<%= level %> id="<%= anchor %>"><%= header %></h<%= level %>
 
 var swigOps = {
   data: {
-    headless: headlessValue
+    headless: headlessValue,
+    cdn: {
+      customer_stories: paths.cdn.customer_stories
+    }
   },
   setup: function(swig) {
     swig.setDefaults({

@@ -1,10 +1,10 @@
 ---
+short_name: codeorg
 title: Code.org Optimizely Case Study
 category: mobile
 hero:
   title: Code.org Generates 15 Million Online Participants in Five Days
   subtitle: Testing amplified their cause and boosted visitor engagement
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/nonprofits/hero.png
 recommended:
   1:
     story: french-girls
@@ -12,7 +12,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/nonprofits/hero.png
 ---
 {% include "case-study-box.html"
     {

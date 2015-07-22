@@ -1,10 +1,10 @@
 ---
+short_name: secret_escapes
 title: Secret Escapes Optimizely Case Study
 category: mobile
 hero:
   title: Optimization Increases Lifetime Value of Travel Deal Seekers
   subtitle: Secret Escapes doubled mobile signup rate while optimizing customer acquisition
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-hero-2.jpg
 recommended:
   1:
     story: french-girls
@@ -12,7 +12,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-hero-2-medium.jpg
 ---
 {% include "case-study-box.html"
   {

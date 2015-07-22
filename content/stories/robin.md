@@ -1,4 +1,5 @@
 ---
+short_name:
 title: 12 Million New Students
 category: mobile
 hero:

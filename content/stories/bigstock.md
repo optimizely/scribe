@@ -1,10 +1,10 @@
 ---
+short_name: bigstock
 title: Bigstock Optimizely Case Study
 category: mobile
 hero:
   title: New Search Algorithm Improves Bigstock's Entire Download Funnel
   subtitle: Running a simple test with Optimizely led to a 10% increase in conversions
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/bigstock/bigstock-hero.jpg
 stats:
   1:
     value: 10%
@@ -22,7 +22,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/bigstock/bigstock-hero-medium.jpg
 ---
 {% include "case-study-box.html"
   {

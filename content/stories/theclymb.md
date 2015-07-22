@@ -1,10 +1,10 @@
 ---
+short_name: clymb
 title: The Clymb Lytics Optimizely Case Study
 category: mobile
 hero:
   title: Personalized Merchandising Grows Sales by 12%
   subtitle: How the Clymb uses digital user personas to sell more adventure gear
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/clymb/clymb-hero.jpg
 stats:
   1:
     value: 12%
@@ -22,7 +22,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/nonprofits/hero.png
 
 ---
 {% include "case-study-box.html"

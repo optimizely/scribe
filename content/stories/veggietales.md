@@ -1,10 +1,10 @@
 ---
+short_name: veggietales
 title: VeggieTales Optimizely Case Study
 category: mobile
 hero:
   title: VeggieTales Optimizes Online Sales with Blue Acorn
   subtitle: Continuous testing increased RPV by 38%
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/veggietales/veggietales-hero-temp.png
 stats:
   1:
     value: 38%
@@ -25,7 +25,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/veggietales/veggietales-hero-temp.png
 ---
 {% include "case-study-box.html"
   {

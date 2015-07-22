@@ -4,7 +4,6 @@ var runSequence = require('run-sequence');
 gulp.task('default', function(callback) {
   runSequence('recommended',
     ['build', 'assets','sass','watch'],
-    'cleanup',
     'browser-sync',
     callback);
 });
@@ -12,6 +11,11 @@ gulp.task('default', function(callback) {
 gulp.task('marketing', function(callback) {
   runSequence('recommended',
     ['build', 'assets','sass'],
-    'cleanup',
+    callback);
+});
+
+gulp.task('reload', function(callback) {
+  runSequence('recommended',
+    ['build'],
     callback);
 });

@@ -1,10 +1,10 @@
 ---
+short_name: trunkclub_desktop
 title: Trunk Club Optimizely Case Study Desktop Web
 category: mobile
 hero:
   title: Optimizing Men's Style ... and Sign-Ups
   subtitle: How Trunk Club improved its sign-up flow to increase conversions 133%
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunk-club/trunk-club-hero.png
 recommended:
   1:
     story: french-girls
@@ -12,7 +12,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunk-club/trunk-club-hero.png
 ---
 {% include "case-study-box.html"
   {

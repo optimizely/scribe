@@ -1,10 +1,10 @@
 ---
+short_name: movember
 title: Movember Amplifies Its Annual Campaign
 category: mobile
 hero:
   title: Movember Amplifies Its Annual Campaign
   subtitle: Optimization Brings More Moustache-Lovers to Movember's Cause
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/movember/movember-hero.jpg
 stats:
   1:
     value: 28,000
@@ -25,7 +25,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/movember/movember-hero-medium.jpg
 ---
 
 [[intro]]

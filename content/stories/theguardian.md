@@ -1,10 +1,10 @@
 ---
+short_name: theguardian
 title: The Guardian Optimizely Case Study
 category: mobile
 hero:
   title: The Guardian Tests to Boost Sign-ups to its Online Dating Site
   subtitle: Optimizing landing pages, navigation, and the homepage grew subscriptions
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/theguardian-hero.jpg
 recommended:
   1:
     story: french-girls
@@ -12,7 +12,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/theguardian-hero-medium.jpg
 ---
 {% include "case-study-box.html"
   {

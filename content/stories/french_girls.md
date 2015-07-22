@@ -1,10 +1,10 @@
 ---
+short_name: french_girls
 title: French Girls Optimizely Case Study
 category: mobile
 hero:
   title: French Girls More than Doubles User Activation Rate
   subtitle: Testing user onboarding dramatically improved app engagement and retention
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/french-girls/frenchgirls-hero.jpg
 recommended:
   1:
     story: french-girls
@@ -12,7 +12,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/french-girls/frenchgirls-hero-medium.jpg
 ---
 {% include "case-study-box.html"
   {

@@ -1,10 +1,10 @@
 ---
+short_name: upworthy
 title: Upworthy Optimizely Case Study
 category: mobile
 hero:
   title: Recommended Content Optimization Drives Readership Growth at Upworthy
   subtitle: Testing from wireframe stages paved the way for maximizing reader engagement and social sharing
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/upworthy/upworthy-hero2.jpg
 recommended:
   1:
     story: french-girls
@@ -12,7 +12,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/upworthy/upworthy-hero2-medium.jpg
 ---
 {% include "case-study-box.html"
   {

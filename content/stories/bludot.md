@@ -1,10 +1,10 @@
 ---
+short_name: bludot
 title: Blu Dot Clearhead Optimizely Case Study
 category: mobile
 hero:
   title: Thriving on the Journey of Continuous Optimizaiton
   subtitle: Furniture retailer Blu Dot partners with Clearhead to build a thriving, optimization-driven e-commerce business
-  background: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/bludot/bd_casestudy_strut1.jpg
 stats:
   1:
     value: 8,000
@@ -22,7 +22,6 @@ recommended:
     story: secret-escapes
   3:
     story: obama2012
-recommended_image: https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/nonprofits/hero.png
 ---
 {% include "case-study-box.html"
     {
