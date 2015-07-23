@@ -1900,91 +1900,86 @@ li > ol {
 .lego-tag {
   color: #a6a6a6; }
 
-em, b, strong {
-  font-weight: 600; }
+.scribe {
+  font-size: 18px;
+  background: #fff; }
+  .scribe em, .scribe b, .scribe strong {
+    font-weight: 600; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500; }
+.scribe h1, .scribe h2, .scribe h3, .scribe h4, .scribe h5, .scribe h6 {
+  font-weight: 400; }
 
-h1,
-.alpha {
+.scribe h1,
+.scribe .alpha {
   font-size: 40px; }
 
-h2,
-.beta {
+.scribe h2,
+.scribe .beta {
   font-size: 30px; }
 
-h3,
-.gamma {
+.scribe h3,
+.scribe .gamma {
   font-size: 24px; }
 
-h4,
-.delta {
+.scribe h4,
+.scribe .delta {
   font-size: 20px; }
 
-h5,
-.epsilon {
+.scribe h5,
+.scribe .epsilon {
   font-size: 16px; }
 
-h6,
-.zeta {
+.scribe h6,
+.scribe .zeta {
   font-size: 12px; }
 
-h1 {
+.scribe h1 {
   margin-bottom: 20px;
   line-height: 1.1; }
 
-h2 {
+.scribe h2 {
   padding-top: 30px;
   margin-bottom: 20px;
   line-height: 1.1; }
 
-h3 {
+.scribe h3 {
   padding-top: 20px;
   margin-bottom: 15px;
   line-height: 1.2; }
 
-h4 {
+.scribe h4 {
   margin-bottom: 10px;
   line-height: 1.2; }
 
-h5 {
+.scribe h5 {
   margin-bottom: 15px;
   font-weight: 500;
   line-height: 1.2; }
 
-h6 {
+.scribe h6 {
   margin-bottom: 5px;
   padding-top: 40px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
-hgroup .hn {
+.scribe hgroup .hn {
   margin-bottom: 0; }
 
-.milli {
+.scribe .milli {
   font-size: 14px; }
 
-.micro {
+.scribe .micro {
   font-size: 12px; }
 
-.giga {
+.scribe .giga {
   font-size: 65px; }
 
-.mega {
+.scribe .mega {
   font-size: 50px; }
 
-.kilo {
+.scribe .kilo {
   font-size: 40px; }
-
-footer {
-  background: #222;
-  height: 300px; }
-
-header {
-  background: #222;
-  height: 50px; }
 
 .fence {
   padding-left: 20px;
@@ -1992,7 +1987,7 @@ header {
   margin-left: auto;
   margin-right: auto; }
   .page--stories .fence {
-    max-width: 750px; }
+    max-width: 730px; }
   .page--ebook .fence {
     max-width: 900px; }
 
@@ -2006,13 +2001,13 @@ header {
   margin-right: auto;
   margin-top: 50px; }
   .page--stories .content-wrap {
-    max-width: 750px; }
+    max-width: 730px; }
   .page--ebook .content-wrap {
     max-width: 900px; }
-  .content-wrap h2:first-of-type {
-    padding-top: 0; }
   .content-wrap h6 + h2 {
     padding-top: 10px; }
+  .content-wrap h2 + h3 {
+    padding-top: 0; }
   .content-wrap p, .content-wrap ul, .content-wrap ol {
     margin-bottom: 15px; }
 
@@ -2040,57 +2035,70 @@ header {
   margin-bottom: 40px; }
 
 .customer-stories h2 {
+  color: #888;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  margin-top: 20px; }
 
-table {
+.scribe table {
   margin: 40px 0;
   width: 100%; }
-  table th, table td {
+  .scribe table th, .scribe table td {
     padding: 10px;
     vertical-align: top; }
-    table th:first-child, table td:first-child {
+    .scribe table th:first-child, .scribe table td:first-child {
       padding-left: 0; }
-    table th:last-child, table td:last-child {
+    .scribe table th:last-child, .scribe table td:last-child {
       padding-right: 0; }
-  table th {
+  .scribe table th {
     text-align: left; }
-  table tbody tr {
+  .scribe table tbody tr {
     border-top: 1px solid #e0e0e0; }
 
-blockquote p {
-  font-size: 20px;
-  font-weight: 500; }
-
-blockquote .attribution {
-  font-size: 14px; }
-
-blockquote.half {
-  float: right;
-  clear: right;
-  width: 35%;
-  margin-right: -60px;
-  margin-left: 30px;
-  margin-bottom: 10px;
-  margin-top: 0; }
-  @media (max-width: 1050px) {
-    blockquote.half {
-      margin-right: 0; } }
-  @media (max-width: 650px) {
-    blockquote.half {
-      margin: 40px 0;
-      float: none;
-      width: auto; } }
-  @media (max-width: 650px) {
-    blockquote.half {
-      text-align: center; } }
-
-blockquote.full {
-  margin: 40px 0;
-  border-left: none;
-  text-align: center; }
+blockquote {
+  padding: 0;
+  border: none; }
+  blockquote p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.3; }
+  blockquote .attribution {
+    font-size: 14px; }
+  blockquote.half {
+    float: right;
+    clear: right;
+    width: 35%;
+    margin-right: -60px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 0; }
+    @media (max-width: 1050px) {
+      blockquote.half {
+        margin-right: 0; } }
+    @media (max-width: 650px) {
+      blockquote.half {
+        margin: 40px 0;
+        float: none;
+        width: auto; } }
+    @media (max-width: 650px) {
+      blockquote.half {
+        text-align: center; } }
+    blockquote.half p {
+      font-size: 24px;
+      line-height: 1.6; }
+  blockquote.full {
+    padding: 0;
+    margin: 60px -60px;
+    border-left: none;
+    text-align: center; }
+    @media (max-width: 840px) {
+      blockquote.full {
+        margin-left: 0;
+        margin-right: 0; }
+        blockquote.full p {
+          font-size: 24px; } }
 
 .callout {
   border: 1px solid #e0e0e0;
@@ -2107,15 +2115,15 @@ blockquote.full {
 
 .case-study-box {
   border: 1px solid #e0e0e0;
-  padding: 20px;
-  padding-bottom: 0px;
+  padding: 30px;
+  padding-bottom: 5px;
   border-radius: 2px;
   background: #FFF;
   float: right;
   clear: right;
   width: 35%;
   margin-right: -60px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-bottom: 10px;
   margin-top: 0; }
   @media (max-width: 1050px) {
@@ -2131,17 +2139,18 @@ blockquote.full {
     margin: 0;
     padding: 0; }
     .case-study-box > ul > li {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       line-height: 1; }
-  .case-study-box__value {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 5px; }
   .case-study-box__title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
     font-size: 14px;
-    line-height: 1; }
+    line-height: 1;
+    font-weight: 600; }
   .case-study-box > img {
-    margin-bottom: 15px; }
+    margin-bottom: 35px; }
   @media (max-width: 650px) {
     .case-study-box {
       text-align: center; }
@@ -2172,7 +2181,7 @@ blockquote.full {
     clear: right;
     width: 35%;
     margin-right: -60px;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-bottom: 10px;
     margin-top: 0; }
     @media (max-width: 1050px) {
@@ -2185,15 +2194,19 @@ blockquote.full {
         width: auto; } }
 
 .cta-footer {
-  background: #f7f7f7;
+  background: #eeeeee;
   padding: 50px 0;
   margin-bottom: 60px;
   text-align: center; }
   .cta-footer__title {
-    font-size: 24px;
-    margin-bottom: 20px; }
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #00415d; }
 
 figure {
+  border: 1px solid #eee;
+  padding: 20px;
   margin: 40px 0; }
   figure > img {
     width: 100%; }
@@ -2215,8 +2228,15 @@ figure {
   background-position: center center;
   background-size: cover; }
   .hero .content {
-    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     margin: auto; }
+    .page--stories .hero .content {
+      max-width: 730px; }
+    .page--ebook .hero .content {
+      max-width: 900px; }
     .hero .content h1 {
       font-size: 40px;
       color: #fff;
@@ -2225,6 +2245,7 @@ figure {
       margin-bottom: 10px; }
     .hero .content .subtitle {
       font-size: 24px;
+      line-height: 1.4;
       color: #fff;
       text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
       text-align: center; }
@@ -2234,7 +2255,7 @@ figure {
   clear: right;
   width: 35%;
   margin-right: -60px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-bottom: 10px;
   margin-top: 0;
   width: 140px;
@@ -2265,7 +2286,7 @@ figure {
   margin-right: auto;
   margin-bottom: 60px; }
   .page--stories .recommended {
-    max-width: 750px; }
+    max-width: 730px; }
   .page--ebook .recommended {
     max-width: 900px; }
   .recommended .image {
@@ -2341,8 +2362,8 @@ figure {
 
 .stats {
   background: #eee;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 40px;
+  padding-bottom: 40px; }
   .stats .lego-stat-group {
     padding-left: 20px;
     padding-right: 20px;
@@ -2353,7 +2374,7 @@ figure {
     justify-content: space-between;
     max-width: 900px !important; }
     .page--stories .stats .lego-stat-group {
-      max-width: 750px; }
+      max-width: 730px; }
     .page--ebook .stats .lego-stat-group {
       max-width: 900px; }
     @media (max-width: 500px) {
@@ -2365,6 +2386,8 @@ figure {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-right: 0;
     text-align: center; }
     @media (max-width: 500px) {
@@ -2381,14 +2404,18 @@ figure {
         .stats .lego-stat:nth-last-child(2) {
           margin-bottom: 0; } }
   .stats .stat__value {
+    margin-bottom: 10px;
     font-size: 40px;
-    line-height: 1; }
+    line-height: 1;
+    font-weight: 300;
+    color: #00415d; }
     @media (max-width: 630px) {
       .stats .stat__value {
         font-size: 30px; } }
   .stats .stat__title {
-    color: #a6a6a6;
-    font-size: 14px; }
+    color: #888;
+    font-size: 15px;
+    line-height: 20px; }
 
 .side-by-side {
   margin-bottom: 60px; }
