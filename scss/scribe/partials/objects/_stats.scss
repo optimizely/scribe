@@ -15,6 +15,8 @@
 
   .lego-stat {
     @include flex(1);
+    padding-left: spacer(1);
+    padding-right: spacer(1);
     margin-right: 0;
     text-align: center;
 
@@ -32,9 +34,11 @@
   }
 
   .stat__value {
+    margin-bottom: spacer(1);
     font-size: map-fetch($font, size alpha);
     line-height: 1;
     font-weight: 300;
+    color: #00415d;
 
     @include breakpoint($max: 630px) {
       font-size: 30px;
@@ -42,7 +46,8 @@
   }
 
   .stat__title {
-    color: map-fetch($color, text muted);
-    font-size: 14px;
+    color: #888;
+    font-size: 15px;
+    line-height: 20px;
   }
 }

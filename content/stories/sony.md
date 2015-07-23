@@ -223,16 +223,23 @@ in revenue for Sony.
 
 ## TESTING TAKEAWAYS
 
-* DIVE DEEPER INTO TEST RESULTS WITH SEGMENTATION. No two site visitors are the
+### Dive Deeper Into Test Results with Segmentation
+
+No two site visitors are the
 same. Understanding how specific visitor segments interact with your site will help you
 provide a more personalized experience to maximize conversions. Evelien segmented her
 results based on device type. Segmentation is also available based on a number of other
 parameters, such as browser type, campaign, referral source, custom segments, and more.
-* CHALLENGE ASSUMPTIONS. Sony’s qualitative user research suggested that customers
+
+### Challenge Assumptions
+
+Sony’s qualitative user research suggested that customers
 were not interested in the laptop customization campaign but Evelien’s instinct told her
 otherwise. Testing the options against each other provided clear, quantitative data to
 back up Evelien’s hypothesis and convince her team to keep the campaign running.
-* SOMETIMES LESS IS MORE. REDUCE CHOICES TO INCREASE CONVERSIONS. Evelien’s tests
-on Sony’s webstore revealed that paring down options and information throughout the
+
+### Sometimes Less is More. Reduce Choices to Increase Conversions
+
+Evelien’s tests on Sony’s webstore revealed that paring down options and information throughout the
 checkout funnel can actually provide a more clear path for site visitors. Test different
 options to understand how much information your site visitors prefer.

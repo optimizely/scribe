@@ -7,12 +7,12 @@
   @include layout-fence;
   margin-top: spacer(5);
 
-  h2:first-of-type {
-    padding-top: 0;
-  }
-
   h6 + h2 {
     padding-top: spacer(1);
+  }
+
+  h2 + h3 {
+    padding-top: 0;
   }
 
   p, ul, ol {
@@ -55,11 +55,11 @@
 .customer-stories {
 
   h2 {
-    color: #999;
+    color: #888;
     text-transform: uppercase;
     font-size: map-fetch($font, size epsilon);
     font-weight: 600;
     letter-spacing: 1px;
-    margin-top: spacer(4);
+    margin-top: spacer(2);
   }
 }
