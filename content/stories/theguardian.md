@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/logo-the-guardian.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theguardian/logo-the-guardian.png',
     metadata: {
       1: {
         value: 'Media',
@@ -58,8 +58,8 @@ Kerstin wondered if the current landing page was confusing first time visitors. 
 {% include "side-by-side.html"
   {
     images: [
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/landingpg-control.png',
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/landngpg-variation.png'
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theguardian/landingpg-control.png',
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theguardian/landngpg-variation.png'
     ],
     caption: 'The original landing page displayed the user’s profile with a large yellow call-to-action box in the center of the page. The variation gave site visitors more options by showing the user’s profile, similar profiles, search functionality, and user testimonials.'
   }
@@ -75,7 +75,7 @@ The original navigation bar displayed six default tabs. Because a site visitor�
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/nav-winningvariation.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theguardian/nav-winningvariation.png',
     caption: 'The variation that replaced “Top matches” with “Newly joined members” increased conversions by 137%.',
   }
 %}
@@ -91,8 +91,8 @@ Kerstin pitted the original homepage carousel against one that replaced the quir
 {% include "side-by-side.html"
   {
     images: [
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/guardian-homepg-control.png',
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/the-guardian/guardian-homepg-variation.png'
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theguardian/guardian-homepg-control.png',
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theguardian/guardian-homepg-variation.png'
     ],
     caption: 'The original homepage carousel displayed photos and quirky taglines for several single men and women on the site. The variation homepage carousel replaced the quirky taglines with the age and location of each featured user.'
   }
