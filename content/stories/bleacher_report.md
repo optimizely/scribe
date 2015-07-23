@@ -9,7 +9,7 @@ recommended:
   1:
     story: upworthy
   2:
-    story: the_guardian
+    story: theguardian
   3:
     story: ustream
 ---

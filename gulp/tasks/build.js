@@ -2,6 +2,7 @@ var gulp         = require('gulp')
     wrap         = require('gulp-wrap'),
     frontMatter  = require('gulp-front-matter'),
     folders      = require('gulp-folders'),
+    debug        = require('gulp-debug'),
     md           = require('gulp-remarkable'),
     swig         = require('gulp-swig'),
     argv         = require('yargs').argv,
