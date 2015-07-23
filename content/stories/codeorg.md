@@ -7,15 +7,9 @@ hero:
   subtitle: Testing amplified their cause and boosted visitor engagement
 recommended:
   1:
-<<<<<<< HEAD
-    story: french_girls
-  2:
-    story: secret_escapes
-=======
     story: nypl
   2:
     story: movember
->>>>>>> 49a6847589fe8ef2ea4cdfff2d2267f96d6b24c7
   3:
     story: obama2012
 ---

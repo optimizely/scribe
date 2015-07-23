@@ -7,15 +7,9 @@ hero:
   subtitle: Testing user onboarding dramatically improved app engagement and retention
 recommended:
   1:
-<<<<<<< HEAD:content/stories/french_girls.md
-    story: french_girls
-  2:
-    story: secret_escapes
-=======
     story: secret_escapes
   2:
     story: veggietales
->>>>>>> 49a6847589fe8ef2ea4cdfff2d2267f96d6b24c7:content/stories/french-girls.md
   3:
     story: obama2012
 ---
