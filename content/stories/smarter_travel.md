@@ -1,6 +1,6 @@
 ---
 short_name: smarter_travel
-title: Smarter Travel Optimizely Case Study
+title: Smarter Travel Doubles Revenue with Optimization
 category: travel
 hero:
   title: For Smarter Travel, Speed Wins
@@ -17,28 +17,33 @@ stats:
     title: Tests run each month at present
 recommended:
   1:
-    story: french_girls
-  2:
     story: secret_escapes
+  2:
+    story: liftopia
   3:
-    story: obama2012
+    story: hotwire
 ---
+{% include "case-study-box.html"
+  {
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter_travel/smartertravel_logo.png',
+    metadata: {
+      1: {
+        value: 'Travel',
+        title: 'Industry'
+      },
+      2: {
+        value: 'Boston, MA',
+        title: 'Location'
+      }
+    }
+  }
+%}
 
 [[intro]]
 
 Smarter Travel is a TripAdvisor company that owns and operates leading consumer travel brands, including BookingBuddy.com, AirfareWatchdog, and more. Travelers use Smarter Travel’s web properties to hunt for the best deals when planning upcoming trips.
 
 [[/]]
-
-{% include "case-study-box.html"
-  {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smartertravel/smartertravel_logo.png',
-    value_1: 'Travel',
-    title_1: 'Industry',
-    value_2: 'Boston',
-    title_2: 'Location'
-  }
-%}
 
 ## SPEED WINS
 
@@ -62,7 +67,7 @@ The Smarter Travel team noticed a problem with one of their most important pay p
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smartertravel/smarter-travel-landing-page-control.jpg',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter_travel/smarter-travel-landing-page-control.jpg',
     caption: 'Original Smarter Travel pay per click landing page.',
   }
 %}
@@ -71,7 +76,7 @@ Once a visitor landed on that PPC landing page, the goal was for them to fill ou
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smartertravel/smarter-travel-landing-page-new.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter_travel/smarter-travel-landing-page-new.png',
     caption: 'The variation of the Smarter Travel pay per click landing page.',
   }
 %}

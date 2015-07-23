@@ -1,6 +1,6 @@
 ---
 short_name: codeorg
-title: Code.org Optimizely Case Study
+title: Code.org Generates 15 Million Online Participants in Five Days
 category: nonprofit
 hero:
   title: Code.org Generates 15 Million Online Participants in Five Days
@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
     {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/code-org/code-org-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/codeorg/code-org-logo.png',
     metadata: {
       1: {
         value: 'Nonprofit',

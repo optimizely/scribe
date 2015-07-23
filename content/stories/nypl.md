@@ -1,6 +1,6 @@
 ---
-short_name: Optimizing Century-Old Content at New York Public Library
-title: New York Public Library Optimizes Email Subscriptions
+short_name: nypl
+title: Optimizing Century-Old Content at New York Public Library
 category: Nonprofit
 hero:
   title: Building Awareness of Century-Old Content With Optimization

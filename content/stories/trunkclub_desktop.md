@@ -1,21 +1,21 @@
 ---
 short_name: trunkclub_desktop
-title: Trunk Club Optimizely Case Study Desktop Web
-category: mobile
+title: Trunk Club Tested its Sign-Up Flow to Increase Conversions 133%
+category: E-commerce
 hero:
   title: Optimizing Men's Style ... and Sign-Ups
   subtitle: How Trunk Club improved its sign-up flow to increase conversions 133%
 recommended:
   1:
-    story: french_girls
+    story: theclymb
   2:
-    story: secret_escapes
+    story: spreadshirt
   3:
-    story: obama2012
+    story: soccerloco
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunk-club/trunk-club-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunkclub_desktop/trunk-club-logo.png',
     metadata: {
       1: {
         value: 'Retail',
@@ -68,8 +68,8 @@ Mike has run a number of large tests on Trunk Club’s sign-up process. Initiall
 {% include "side-by-side.html"
   {
     images: [
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunk-club/trunkclub-onboarding-1.png',
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunk-club/trunkclub-onboarding-2.png'
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunkclub_desktop/trunkclub-onboarding-1.png',
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunkclub_desktop/trunkclub-onboarding-2.png'
     ],
     caption: 'Steps from the original Trunk Club onboarding flow.'
   }
@@ -81,7 +81,7 @@ To achieve this, Mike decided to test a different type of sign-up flow. The new 
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunk-club/trunkclub-onboarding-3.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunkclub_desktop/trunkclub-onboarding-3.png',
     caption: 'One of six steps in the variation onboarding flow, which emphasized visuals and smaller, broken-out steps.',
   }
 %}

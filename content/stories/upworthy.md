@@ -1,17 +1,17 @@
 ---
 short_name: upworthy
-title: Upworthy Optimizely Case Study
-category: mobile
+title: Recommended Content Optimization Drives Readership Growth at Upworthy
+category: Media
 hero:
   title: Recommended Content Optimization Drives Readership Growth at Upworthy
   subtitle: Testing from wireframe stages paved the way for maximizing reader engagement and social sharing
 recommended:
   1:
-    story: french_girls
+    story: theguardian
   2:
-    story: secret_escapes
+    story: ustream
   3:
-    story: obama2012
+    story: bleacher_report
 ---
 {% include "case-study-box.html"
   {

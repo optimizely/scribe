@@ -1,7 +1,7 @@
 ---
-short_name: clymb
-title: The Clymb Lytics Optimizely Case Study
-category: mobile
+short_name: theclymb
+title: The Clymb Personalizes Merchandise to Grow Sales 12%
+category: E-commerce
 hero:
   title: Personalized Merchandising Grows Sales by 12%
   subtitle: How the Clymb uses digital user personas to sell more adventure gear
@@ -17,16 +17,16 @@ stats:
     title: Optimizely Technology Integration
 recommended:
   1:
-    story: french_girls
+    story: spreadshirt
   2:
-    story: secret_escapes
+    story: soccerloco
   3:
-    story: obama2012
+    story: chrome_industries
 
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/clymb/clymb_logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theclymb/clymb_logo.png',
     metadata: {
       1: {
         value: 'Retail',
@@ -61,7 +61,7 @@ Lytics is a data hub that lets users create and share segments across all market
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/clymb/lytics-360-view.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theclymb/lytics-360-view.png',
   }
 %}
 
@@ -90,7 +90,7 @@ When the results came in, it was clear: showing users a more personalized increa
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/clymb/clymb-original.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theclymb/clymb-original.png',
     caption: 'Users who were not interested in Oakley products saw a standard view of the homepage, featuring a variety of sales.',
   }
 %}
@@ -98,7 +98,7 @@ When the results came in, it was clear: showing users a more personalized increa
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/clymb/clymb-variation.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theclymb/clymb-variation.png',
     caption: 'Users in the Oakley segment saw a homescreen that prominently featured a sale on Oakley products. Users in this segment made 12% more purchases than users in the non-personalized segment.',
   }
 %}

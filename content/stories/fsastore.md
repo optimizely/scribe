@@ -16,7 +16,7 @@ recommended:
 
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsa-store/fsalogo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsastore/fsalogo.png',
     metadata: {
       1: {
         value: 'Retail',
@@ -58,7 +58,7 @@ Ujjwal and his team believed that site visitors were getting distracted by too m
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsa-store/fsastore-1.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsastore/fsastore-1.png',
     caption: 'The original FSAstore navication experience on a category page.'
   }
 %}
@@ -67,7 +67,7 @@ Ujjwal hypothesized that removing the sub-categories would help site visitors fo
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsa-store/fsastore-2.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsastore/fsastore-2.png',
     caption: 'The variation experience removed the top-level navigation from category pages.'
   }
 %}

@@ -1,7 +1,7 @@
 ---
 short_name: sony
-title: Sony Optimizely Case Study
-category: mobile
+title: Sony Unlocks Suprising Advertising Wins with Segmentation
+category: E-commerce
 hero:
   title: Electronics Giant Unlocks Suprising Wins with Segmentation
   subtitle: Sony optimizes to drive 20% more visitors through the configuration checkout funnel
@@ -17,11 +17,11 @@ stats:
     title: Increase in Checkout Conversions
 recommended:
   1:
-    story: french_girls
+    story: theclymb
   2:
-    story: secret_escapes
+    story: veggietales
   3:
-    story: obama2012
+    story: bigstock
 ---
 
 {% include "case-study-box.html"

@@ -1,7 +1,7 @@
 ---
 short_name: spreadshirt
-title: Spreadshirt Optimizely Case Study
-category: mobile
+title: Spreadshirt Grows Orders 4% with an Optimized Redesign
+category: E-commerce
 hero:
   title: Spreadshirt Optimizes to Get the Most Out of a Redesign
   subtitle: Using data to inform design choices grew t-shirt orders by 4%
@@ -17,11 +17,11 @@ stats:
     title: Improvement in Engagement
 recommended:
   1:
-    story: french_girls
+    story: soccerloco
   2:
-    story: secret_escapes
+    story: bigstock
   3:
-    story: obama2012
+    story: veggietales
 ---
 
 {% include "case-study-box.html"

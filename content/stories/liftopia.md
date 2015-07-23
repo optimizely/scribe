@@ -1,6 +1,6 @@
 ---
 short_name: liftopia
-title: Liftopia Optimizely Case Study
+title: Liftopia Increases SEM Conversions 24% with Targeted Landing Experience
 category: travel
 hero:
   title: Ski Commerce Provider Optimizes for SEM Traffic Conversions

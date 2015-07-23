@@ -1,7 +1,7 @@
 ---
 short_name: ustream
-title: Ustream Optimizely Case Study
-category: mobile
+title: Ustream Increases Video Consumption 12% with Improved CTA
+category: Technology
 hero:
   title: Video Publisher Tests Call-to-Action Broadcast Button
   subtitle: Simple button variation increases clicks by 12%
@@ -31,7 +31,7 @@ recommended:
 
 [[intro]]
 
-Ustream is a leading live interac-tive broadcast platform that aims to bring people together around shared interests for live interactive experiences. The company attracts millions of users from around the globe ranging from artists to celebrities to music enthusiasts to corporate executives.
+Ustream is a leading live interactive broadcast platform that aims to bring people together around shared interests for live interactive experiences. The company attracts millions of users from around the globe ranging from artists to celebrities to music enthusiasts to corporate executives.
 
 [[/]]
 

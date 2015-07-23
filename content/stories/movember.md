@@ -1,6 +1,6 @@
 ---
-short_name: Movember Increases Sharing with Optimization
-title: Movember Amplifies Its Annual Campaign
+short_name: movember
+title: Movember Increases Email Donations 28% with Optimization
 category: Nonprofit
 hero:
   title: Movember Amplifies Its Annual Campaign

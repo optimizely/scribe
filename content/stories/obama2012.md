@@ -19,9 +19,9 @@ recommended:
   1:
     story: movember
   2:
-    story: codeorg
-  3:
     story: romney_campaign
+  3:
+    story: codeorg
 ---
   {% include "case-study-box.html"
       {
