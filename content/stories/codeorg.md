@@ -1,15 +1,21 @@
 ---
 short_name: codeorg
 title: Code.org Optimizely Case Study
-category: mobile
+category: nonprofit
 hero:
   title: Code.org Generates 15 Million Online Participants in Five Days
   subtitle: Testing amplified their cause and boosted visitor engagement
 recommended:
   1:
+<<<<<<< HEAD
     story: french_girls
   2:
     story: secret_escapes
+=======
+    story: nypl
+  2:
+    story: movember
+>>>>>>> 49a6847589fe8ef2ea4cdfff2d2267f96d6b24c7
   3:
     story: obama2012
 ---
@@ -69,17 +75,13 @@ Hadi and Roxanne tested the original messaging against new messaging that emphas
 %}
 
 
-RESULTS: The “community-focused” variation lead to a staggering 29% increase in signups for the Hour of Code.Hadi and Roxanne credit this experiment for generating about 8 million student sign-ups to the campaign.
+##RESULTS
 
+The “community-focused” variation lead to a staggering 29% increase in signups for the Hour of Code.Hadi and Roxanne credit this experiment for generating about 8 million student sign-ups to the campaign.
 
+<script type='text/javascript' id='vidyard_embed_code_JQ9LBASzeB2CEGkofENSkg' src='//play.vidyard.com/JQ9LBASzeB2CEGkofENSkg.js?v=3.1.1&type=inline'></script>
 
-<!-- {% include "video.html"
-  {
-    api_key: 'NwKq3T25SKMK4fLZopFjww'
-  }
-%}
- -->
+## TESTING TAKEAWAYS:
 
-# TESTING TAKEAWAYS:
 * SMALL CHANGES CAN PRODUCE INCREDIBLE RESULTS: You don’t have to revamp your entire website to achieve your conversion goals. Tweaking four short sentences and a call-to-action generated a huge win for Hadi and Roxanne—helping them reach 8 million additional students with their campaign.
-*A/B TESTING IS THE MOST IMPORTANT TOOL FOR ANY GROWTH HACKER: Whether you work at non-profit, small business, or global enterprise, chances are you want to increase efficiency to achieve (and surpass) business goals. Website optimization with Optimizely is quick and easy – saving you time and helping you maximize your reach.
+* A/B TESTING IS THE MOST IMPORTANT TOOL FOR ANY GROWTH HACKER: Whether you work at non-profit, small business, or global enterprise, chances are you want to increase efficiency to achieve (and surpass) business goals. Website optimization with Optimizely is quick and easy – saving you time and helping you maximize your reach.

@@ -1,17 +1,17 @@
 ---
 short_name: hotwire
 title: Hotwire Optimizely Case Study
-category: mobile
+category: travel
 hero:
   title: Hotwire Optimizes Mobile Web Experience to Improve Bookings
   subtitle: Focused prioritization and research generated the biggest win of the year
 recommended:
   1:
-    story: french_girls
+    story: smarter_travel
   2:
     story: secret_escapes
   3:
-    story: obama2012
+    story: liftopia
 ---
 {% include "case-study-box.html"
   {
@@ -45,7 +45,7 @@ Pauline Marol is Hotwire's Lead Product Manager for Site Optimization, and leads
   }
 %}
 
-At Hotwire, mobile apps and mobile web experiences are a core part of how travelers book flights, hotels, and car rentals. Travel customers’ research and booking needs are uniquely mobile, and their on-the-go experience should help them meet their goals quickly and seamlessly. According to a June 2014 study by Google, 45% of leisure travelers and 55% of business travelers completed bookings via a mobile website.
+At Hotwire, mobile apps and mobile web experiences are a core part of how travelers book flights, hotels, and car rentals. Travel customers’ research and booking needs are uniquely mobile, and their on-the-go experience should help them meet their goals quickly and seamlessly.
 
 ## Optimizing for Mobile Web
 
@@ -63,7 +63,7 @@ Many of the friction points on mobile had already been accounted for in the mobi
 
 They kept the experiment simple and tested the control against one redesigned variation. As you can see below, the experiment doesn’t focus on a single element of the experience but instead takes a *big step away from the baseline.* There were no major usability changes on the page, and most of the information presented to the user was the same. However, this was a big overall change, showcasing an example of optimizing for the global maximum.
 
-*Take a look at the control and variation experiences below. Which would you be more excited to engage with?*
+The experiment variation represented a big change in overall look and feel compared to the original:
 
 {% include "side-by-side.html"
   {

@@ -1,17 +1,17 @@
 ---
 short_name: comscore
 title: comScore Optimizely Case Study
-category: mobile
+category: b2b
 hero:
-  title: comScore Tests Brand Validation and Social Proof
+  title: ComScore Tests Brand Validation and Social Proof
   subtitle: Improving customer testimonials on product pages increased conversions by 69%
 recommended:
   1:
-    story: french_girls
+    story: iron_mountain
   2:
-    story: secret_escapes
+    story: ustream
   3:
-    story: obama2012
+    story: 1800_dentist
 ---
 
 {% include "case-study-box.html"
@@ -34,9 +34,10 @@ recommended:
   }
 %}
 
+
 [[intro]]
 
-comScore is an internet analytics company providing marketing data to many of the world’s largest enterprises, publishers, and agencies. Their primary optimization goal is to increase the quantity and quality of enterprise leads for their sales team.
+ComScore is an internet analytics company providing marketing data to many of the world’s largest enterprises, publishers, and agencies. Their primary optimization goal is to increase the quantity and quality of enterprise leads for their sales team.
 
 [[/]]
 

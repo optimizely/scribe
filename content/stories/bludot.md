@@ -17,11 +17,11 @@ stats:
     title: Optimizely Solutions Partner
 recommended:
   1:
-    story: french_girls
+    story: soccerloco
   2:
-    story: secret_escapes
+    story: veggietales
   3:
-    story: obama2012
+    story: sony
 ---
 {% include "case-study-box.html"
     {

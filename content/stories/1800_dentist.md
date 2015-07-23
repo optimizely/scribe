@@ -1,17 +1,17 @@
 ---
 short_name: 1800_dentist
 title: 1 800 Dentist Optimizely Case Study
-category: mobile
+category: healthcare
 hero:
   title: 1-800-DENTIST Optimizes Checkout to Boost Sign-ups 23.3%
   subtitle: Reducing sign-up field friction converts more site visitors to customers
 recommended:
   1:
-    story: french_girls
+    story: move_inc
   2:
-    story: secret_escapes
+    story: electronic_arts
   3:
-    story: obama2012
+    story: smartwool
 ---
 {% include "case-study-box.html"
     {

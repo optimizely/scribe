@@ -7,11 +7,11 @@ hero:
   subtitle: Optimization through A/B testing informs promotions, product pages, a redesign, and more
 recommended:
   1:
-    story: french_girls
+    story: smartwool
   2:
-    story: secret_escapes
+    story: veggietales
   3:
-    story: obama2012
+    story: electronic_arts
 ---
 {% include "case-study-box.html"
   {
@@ -31,9 +31,11 @@ recommended:
 
 [[intro]]
 
-Website optimization is changing the way Chrome Industries does digital marketing. That’s thanks to Chrome’s Director of e-Commerce, Kyle Duford, who brought Optimizely into Chrome’s digital marketing arsenal in early 2013. In a video filmed at Chrome’s office and showroom in downtown San Francisco, Kyle explains why relying on data is critical to the growth of their online business.
+Website optimization is changing the way Chrome Industries does digital marketing. That’s thanks to Chrome’s Director of e-Commerce, Kyle Duford, who brought Optimizely into Chrome’s digital marketing arsenal in early 2013.
 
 [[/]]
+
+In a video filmed at Chrome’s office and showroom in downtown San Francisco, Kyle explains why relying on data is critical to the growth of their online business.
 
 <script type='text/javascript' id='vidyard_embed_code_1A7TKlo7azF1ZxTbFKYQyA' src='//play.vidyard.com/1A7TKlo7azF1ZxTbFKYQyA.js?v=3.1.1&type=inline'></script>
 

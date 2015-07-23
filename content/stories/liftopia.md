@@ -1,17 +1,17 @@
 ---
 short_name: liftopia
 title: Liftopia Optimizely Case Study
-category: mobile
+category: travel
 hero:
   title: Ski Commerce Provider Optimizes for SEM Traffic Conversions
   subtitle: Less content and more personalized experiences increases purchases 23.7%
 recommended:
   1:
-    story: french_girls
+    story: hotwire
   2:
     story: secret_escapes
   3:
-    story: obama2012
+    story: smarter_travel
 ---
 {% include "case-study-box.html"
   {

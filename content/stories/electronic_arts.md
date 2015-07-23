@@ -1,37 +1,28 @@
 ---
 short_name: electronic_arts
 title: Electronic Arts Optimizes SimCity Game Launch
-category: mobile
+category: e-commerce
 hero:
   title: Electronic Arts Optimizes SimCity Game Launch
-  subtitle: Removing Promotional Offer Increases Revenue by 43%
+  subtitle: Removing promotional offer increases revenue by 43%
 stats:
   1:
     value: 43%
-    title: Increase in pre-order revenue from digital downloads
+    title: Increase in Pre-Order Revenue
   2:
-    value: 1.1 Million
-    title: Total copies of SimCity sold during the first two weeks after launch
+    value: 1 Million+
+    title: Copies of SimCity Initially Sold
   3:
     value: 50%
-    title: Of total sales were digital downloads
+    title: Digital Share of Total Downloads
 recommended:
   1:
-    story: french_girls
+    story: smartwool
   2:
-    story: secret_escapes
+    story: sony
   3:
-    story: obama2012
+    story: veggietales
 ---
-
-[[intro]]
-
-Electronic Arts Inc. (EA) is a leading global interactive entertainment software company that develops and distributes interactive software worldwide. Maxis is a division of EA and the creator of The Sims and SimCity video game franchise.
-
-[[/]]
-
-## THE CHALLENGE
-
 {% include "case-study-box.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/ea/ea-logo.png',
@@ -47,6 +38,14 @@ Electronic Arts Inc. (EA) is a leading global interactive entertainment software
     }
   }
 %}
+
+[[intro]]
+
+Electronic Arts Inc. (EA) is a leading global interactive entertainment software company that develops and distributes interactive software worldwide. Maxis is a division of EA and the creator of The Sims and SimCity video game franchise.
+
+[[/]]
+
+## THE CHALLENGE
 
 In March 2013, EA was preparing to release its latest, highly-anticipated version of SimCity. As one of EA’s most popular games – the new SimCity launch was expected to gain a significant attention. Maxis, the division of EA in charge of SimCity, wanted to maximize online revenue from the launch.
 
@@ -94,7 +93,7 @@ The team quickly discovered very surprising results – *the variation with no o
 
 ### Turning a Big Win into a Huge Win
 
-Armed with data-driven knowledge and significant results from their initial test, the team decided to go even bigger. A follow-up test on EA’s paid media creatives that mirrored the initial test (removing promotional text from each ad) also increased conversions from highly-qualified ad traffic.
+Armed with data-driven knowledge and significant results from their initial test, the team decided to go even bigger. A follow-up test on EA’s paid media creatives that mirrored the initial test — removing promotional text from each ad) also increased conversions from highly-qualified ad traffic.
 
 [[/]]
 
