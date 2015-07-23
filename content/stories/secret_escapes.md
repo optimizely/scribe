@@ -1,21 +1,21 @@
 ---
 short_name: secret_escapes
-title: Secret Escapes Optimizely Case Study
-category: mobile
+title: Increasing Mobile App LTV for Travel Deal-Seekers
+category: Travel
 hero:
   title: Optimization Increases Lifetime Value of Travel Deal Seekers
   subtitle: Secret Escapes doubled mobile signup rate while optimizing customer acquisition
 recommended:
   1:
-    story: french_girls
+    story: hotwire
   2:
-    story: secret_escapes
+    story: smarter_travel
   3:
-    story: obama2012
+    story: liftopia
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret_escapes/secret-escapes-logo.png',
     metadata: {
       1: {
         value: 'Travel',
@@ -68,7 +68,7 @@ The product team used Optimizely’s iOS SDK to create and test two different mo
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-app-updated.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret_escapes/secret-escapes-app-updated.png',
     caption: 'The original app signup screen allowed users to skip registering or logging in (Left), while the variation made registration mandatory (Right).',
   }
 %}

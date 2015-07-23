@@ -1,7 +1,7 @@
 ---
 short_name: romney_campaign
-title: Romney 2012 Campaign Optimizely Case Study
-category: mobile
+title: The Romney Campaign’s Six-Figure Fundraising via Optimization
+category: Political Campaign
 hero:
   title: Testing at the Romney 2012 Campaign Drives Voter Engagement and Online Fundraising
   subtitle: Website optimizaiton drove six-figure donation total
@@ -20,16 +20,16 @@ stats:
     title: Increase in State Specific Sign Ups
 recommended:
   1:
-    story: french_girls
+    story: movember
   2:
-    story: secret_escapes
+    story: codeorg
   3:
     story: obama2012
 ---
 
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/romney-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney_campaign/romney-logo.png',
     metadata: {
       1: {
         value: 'Political Campaign',
@@ -74,7 +74,7 @@ The team started optimizing for  donations with a test on the main call-to-actio
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/romney-donate-v-contribute.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney_campaign/romney-donate-v-contribute.png',
   }
 %}
 
@@ -98,7 +98,7 @@ They tested four variations:
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/rommney-carousel-original-winner.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney_campaign/rommney-carousel-original-winner.png',
   }
 %}
 
@@ -112,7 +112,7 @@ Next, the team used geographic location as a pull to encourage visitors to sign 
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/splash-test.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney_campaign/splash-test.png',
   }
 %}
 

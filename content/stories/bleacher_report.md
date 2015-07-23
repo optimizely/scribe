@@ -1,6 +1,6 @@
 ---
 short_name: bleacher_report
-title: Bleacher Report Optimizely Case Study
+title: Bleacher Report Scores with 7x Increase in Social Sharing
 category: media
 hero:
   title: How Bleacher Report Increased Social Shares by 764%
@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
     {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/bleacher-report/bleacher-report-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/bleacher_report/bleacher-report-logo.png',
     metadata: {
       1: {
         value: 'Media',

@@ -1,7 +1,7 @@
 ---
 short_name: fsastore
-title: FSAstore Optimizely Case Study
-category: e-commerce
+title: FSAstore Increases Online RPV by 54%
+category: E-commerce
 hero:
   title: E-commerce Marketing Team Optimizes for Revenue
   subtitle: FSAstore.com increased revenue per visitor by 54%

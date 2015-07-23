@@ -1,7 +1,7 @@
 ---
-short_name: movember
+short_name: Movember Increases Sharing with Optimization
 title: Movember Amplifies Its Annual Campaign
-category: mobile
+category: Nonprofit
 hero:
   title: Movember Amplifies Its Annual Campaign
   subtitle: Optimization Brings More Moustache-Lovers to Movember's Cause
@@ -20,11 +20,11 @@ stats:
     title: More donations requested by participants via email
 recommended:
   1:
-    story: french_girls
-  2:
-    story: secret_escapes
-  3:
     story: obama2012
+  2:
+    story: codeorg
+  3:
+    story: romney_campaign
 ---
 
 [[intro]]

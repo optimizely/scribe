@@ -1,6 +1,6 @@
 ---
 short_name: bigstock
-title: Bigstock Optimizely Case Study
+title: Bistock Engages More Customers by Testing Product Enhancements
 category: e-commerce
 hero:
   title: New Search Algorithm Improves Bigstock's Entire Download Funnel

@@ -1,7 +1,7 @@
 ---
 short_name: veggietales
-title: VeggieTales Optimizely Case Study
-category: mobile
+title: VeggieTales Increases RPV 38%
+category: E-commerce
 hero:
   title: VeggieTales Optimizes Online Sales with Blue Acorn
   subtitle: Continuous testing increased RPV by 38%
@@ -20,11 +20,11 @@ stats:
     title: Optimizely Solutions Partner
 recommended:
   1:
-    story: french_girls
+    story: smartwool
   2:
-    story: secret_escapes
+    story: trunkclub_desktop
   3:
-    story: obama2012
+    story: bigstock
 ---
 {% include "case-study-box.html"
   {
@@ -64,13 +64,6 @@ At a glance, here are the results they produced for the VeggieTales store:
 * 14.3% increase in revenue per checkout page visitor
 * 36.8% increase in revenue per homepage visitor with social media changes
 * 28.1% increase in revenue per mobile visitor
-
-<!-- {% include "video.html"
-  {
-    api_key: 'vdN2hbWk8V8pPVYGb4eSFg'
-  }
-%}
- -->
 
 Let’s look at the hypotheses and variations that produced these results.
 

@@ -1,21 +1,22 @@
 ---
-title: nylp
-category: mobile
+short_name: Optimizing Century-Old Content at New York Public Library
+title: New York Public Library Optimizes Email Subscriptions
+category: Nonprofit
 hero:
   title: Building Awareness of Century-Old Content With Optimization
   subtitle: Testing improved convesions and expanded the reach of email marketing
 recommended:
   1:
-    story: french_girls
+    story: movember
   2:
-    story: secret_escapes
+    story: codeorg
   3:
     story: obama2012
 ---
 
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/new-york-public-library/new-york-public-library-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/nypl/new-york-public-library-logo.png',
     metadata: {
       1: {
         value: 'Nonprofit',

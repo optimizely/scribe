@@ -1,7 +1,7 @@
 ---
 short_name: bludot
-title: Blu Dot Clearhead Optimizely Case Study
-category: mobile
+title: How Blu Dot Designs their Product Roadmap through Testing
+category: E-commerce
 hero:
   title: Thriving on the Journey of Continuous Optimizaiton
   subtitle: Furniture retailer Blu Dot partners with Clearhead to build a thriving, optimization-driven e-commerce business

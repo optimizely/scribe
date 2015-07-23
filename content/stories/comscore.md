@@ -1,15 +1,15 @@
 ---
 short_name: comscore
-title: comScore Optimizely Case Study
-category: b2b
+title: ComScore Tests Brand Validation and Social Proof
+category: Technology
 hero:
   title: ComScore Tests Brand Validation and Social Proof
   subtitle: Improving customer testimonials on product pages increased conversions by 69%
 recommended:
   1:
-    story: iron_mountain
-  2:
     story: ustream
+  2:
+    story: iron_mountain
   3:
     story: 1800_dentist
 ---

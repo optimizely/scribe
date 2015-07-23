@@ -1,7 +1,7 @@
 ---
 short_name: chrome_industries
-title: Chrome Industries Optimizely Case Study
-category: mobile
+title: Chrome Industries Shapes their Business with Optimization Data
+category: e-commerce
 hero:
   title: Chrome Industries Uses Data to Shape the Customer Experience
   subtitle: Optimization through A/B testing informs promotions, product pages, a redesign, and more
@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/chrome-industries/chrome-industries-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/chrome_industries/chrome-industries-logo.png',
     metadata: {
       1: {
         value: 'Retail',

@@ -1,6 +1,6 @@
 ---
 short_name: hotwire
-title: Hotwire Optimizely Case Study
+title: Hotwire Team Optimizes Mobile Web Bookings
 category: travel
 hero:
   title: Hotwire Optimizes Mobile Web Experience to Improve Bookings
