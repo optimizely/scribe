@@ -1,5 +1,5 @@
 ---
-short_name: upworthy
+shortname: upworthy
 title: Recommended Content Optimization Drives Readership Growth at Upworthy
 category: Media
 hero:
@@ -11,7 +11,7 @@ recommended:
   2:
     story: ustream
   3:
-    story: bleacher_report
+    story: bleacher-report
 ---
 {% include "case-study-box.html"
   {

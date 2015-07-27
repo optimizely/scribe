@@ -1,5 +1,5 @@
 ---
-short_name: trunkclub_desktop
+shortname: trunkclub_desktop
 title: Trunk Club Tested its Sign-Up Flow to Increase Conversions 133%
 category: E-commerce
 hero:

@@ -1,5 +1,5 @@
 ---
-short_name: blackanddecker
+shortname: blackanddecker
 title: Stanley Black & Decker Case Study
 category: mobile
 hero:
@@ -20,9 +20,9 @@ stats:
     title: Optimizely Solutions Partner
 recommended:
   1:
-    story: french_girls
+    story: french-girls
   2:
-    story: secret_escapes
+    story: secret-escapes
   3:
     story: obama2012
 ---

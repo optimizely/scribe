@@ -1,5 +1,5 @@
 ---
-short_name: comscore
+shortname: comscore
 title: ComScore Tests Brand Validation and Social Proof
 category: Technology
 hero:
@@ -9,9 +9,9 @@ recommended:
   1:
     story: ustream
   2:
-    story: iron_mountain
+    story: iron-mountain
   3:
-    story: 1800_dentist
+    story: 1800-dentist
 ---
 
 {% include "case-study-box.html"

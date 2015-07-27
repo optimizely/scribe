@@ -1,5 +1,5 @@
 ---
-short_name:
+shortname:
 title: 12 Million New Students
 category: mobile
 hero:
@@ -21,9 +21,9 @@ stats:
     title: Years using Optimizely
 recommended:
   1:
-    story: french_girls
+    story: french-girls
   2:
-    story: secret_escapes
+    story: secret-escapes
   3:
     story: obama2012
 recommended_image: /assets/i/temp-medium.jpg

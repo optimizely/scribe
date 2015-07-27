@@ -1,5 +1,5 @@
 ---
-short_name: liftopia
+shortname: liftopia
 title: Liftopia Increases SEM Conversions 24% with Targeted Landing Experience
 category: travel
 hero:
@@ -9,9 +9,9 @@ recommended:
   1:
     story: hotwire
   2:
-    story: secret_escapes
+    story: secret-escapes
   3:
-    story: smarter_travel
+    story: smarter-travel
 ---
 {% include "case-study-box.html"
   {

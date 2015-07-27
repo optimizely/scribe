@@ -1,5 +1,5 @@
 ---
-short_name: Building an Optimization Team for Scaling Revenue Growth
+shortname: Building an Optimization Team for Scaling Revenue Growth
 title: Move, Inc. Optimizely Case Study
 category: Real Estate
 hero:
@@ -7,9 +7,9 @@ hero:
   subtitle: Meet an in-house optimization team staffed for aggressive optimization
 recommended:
   1:
-    story: french_girls
+    story: french-girls
   2:
-    story: electronic_arts
+    story: electronic-arts
   3:
     story: obama2012
 ---

@@ -1,5 +1,5 @@
 ---
-short_name: lifeproof
+shortname: lifeproof
 title: Lifeproof Builds A Data-Driven Testing Culture From the Ground Up
 category: E-commerce
 hero:

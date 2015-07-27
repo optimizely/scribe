@@ -1,5 +1,5 @@
 ---
-short_name: romney_campaign
+shortname: romney_campaign
 title: The Romney Campaign’s Six-Figure Fundraising via Optimization
 category: Political Campaign
 hero:

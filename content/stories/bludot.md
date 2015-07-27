@@ -1,5 +1,5 @@
 ---
-short_name: bludot
+shortname: bludot
 title: How Blu Dot Designs their Product Roadmap through Testing
 category: E-commerce
 hero:

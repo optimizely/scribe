@@ -1,5 +1,5 @@
 ---
-short_name: soccerloco
+shortname: soccerloco
 title: Data-Driven Redesign Sells 26% More Soccer Gear
 category: E-commerce
 hero:

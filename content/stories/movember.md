@@ -1,5 +1,5 @@
 ---
-short_name: movember
+shortname: movember
 title: Movember Increases Email Donations 28% with Optimization
 category: Nonprofit
 hero:
@@ -24,7 +24,7 @@ recommended:
   2:
     story: codeorg
   3:
-    story: romney_campaign
+    story: romney-campaign
 ---
 
 [[intro]]

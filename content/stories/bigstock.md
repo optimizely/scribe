@@ -1,5 +1,5 @@
 ---
-short_name: bigstock
+shortname: bigstock
 title: Bistock Engages More Customers by Testing Product Enhancements
 category: e-commerce
 hero:
@@ -19,7 +19,7 @@ recommended:
   1:
     story: veggietales
   2:
-    story: chrome_industries
+    story: chrome-industries
   3:
     story: smartwool
 ---

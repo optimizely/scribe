@@ -1,5 +1,5 @@
 ---
-short_name: vacationroost
+shortname: vacationroost
 title: VacationRoost Optimizely Customer Story
 category: mobile
 hero:
@@ -8,9 +8,9 @@ hero:
   background: /assets/i/temp.jpg
 recommended:
   1:
-    story: french_girls
+    story: french-girls
   2:
-    story: secret_escapes
+    story: secret-escapes
   3:
     story: obama2012
 recommended_image:  /assets/i/temp-medium.jpg

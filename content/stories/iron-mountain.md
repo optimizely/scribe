@@ -1,5 +1,5 @@
 ---
-short_name: iron_mountain
+shortname: iron_mountain
 title: Optimization Improves Sales Lead Quality by 140%
 category: Technology
 hero:
@@ -9,7 +9,7 @@ recommended:
   1:
     story: comscore
   2:
-    story: 1800_dentist
+    story: 1800-dentist
   3:
     story: obama2012
 ---

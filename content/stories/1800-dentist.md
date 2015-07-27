@@ -1,5 +1,5 @@
 ---
-short_name: 1800_dentist
+shortname: 1800_dentist
 title: 1-800-DENTIST Optimizes Patient Sign-Up Process
 category: Healthcare
 hero:
@@ -7,9 +7,9 @@ hero:
   subtitle: Reducing sign-up field friction converts more site visitors to customers
 recommended:
   1:
-    story: move_inc
+    story: move-inc
   2:
-    story: electronic_arts
+    story: electronic-arts
   3:
     story: smartwool
 ---

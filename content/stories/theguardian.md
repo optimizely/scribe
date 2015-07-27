@@ -1,5 +1,5 @@
 ---
-short_name: theguardian
+shortname: theguardian
 title: The Guardian Tests to Boost Sign-ups to its Online Dating Site
 category: Media
 hero:
@@ -7,7 +7,7 @@ hero:
   subtitle: Optimizing landing pages, navigation, and the homepage grew subscriptions
 recommended:
   1:
-    story: bleacher_report
+    story: bleacher-report
   2:
     story: ustream
   3:

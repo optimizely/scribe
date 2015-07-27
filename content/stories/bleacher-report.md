@@ -1,5 +1,5 @@
 ---
-short_name: bleacher_report
+shortname: bleacher_report
 title: Bleacher Report Scores with 7x Increase in Social Sharing
 category: media
 hero:

@@ -1,5 +1,5 @@
 ---
-short_name: obama2012
+shortname: obama2012
 title: Obama’s 2012 Campaign Increases Donation Conversions 49%
 category: Political Campaign
 hero:
@@ -19,7 +19,7 @@ recommended:
   1:
     story: movember
   2:
-    story: romney_campaign
+    story: romney-campaign
   3:
     story: codeorg
 ---

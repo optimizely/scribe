@@ -1,5 +1,5 @@
 ---
-short_name: fsastore
+shortname: fsastore
 title: FSAstore Increases Online RPV by 54%
 category: E-commerce
 hero:
@@ -9,9 +9,9 @@ recommended:
   1:
     story: lifeproof
   2:
-    story: electronic_arts
+    story: electronic-arts
   3:
-    story: chrome_industries
+    story: chrome-industries
 ---
 
 {% include "case-study-box.html"

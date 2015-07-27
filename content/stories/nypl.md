@@ -1,5 +1,5 @@
 ---
-short_name: nypl
+shortname: nypl
 title: Optimizing Century-Old Content at New York Public Library
 category: Nonprofit
 hero:

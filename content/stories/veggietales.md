@@ -1,5 +1,5 @@
 ---
-short_name: veggietales
+shortname: veggietales
 title: VeggieTales Increases RPV 38%
 category: E-commerce
 hero:
@@ -22,7 +22,7 @@ recommended:
   1:
     story: smartwool
   2:
-    story: trunkclub_desktop
+    story: trunkclub-desktop
   3:
     story: bigstock
 ---

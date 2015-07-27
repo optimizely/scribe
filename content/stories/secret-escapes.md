@@ -1,5 +1,5 @@
 ---
-short_name: secret_escapes
+shortname: secret_escapes
 title: Increasing Mobile App LTV for Travel Deal-Seekers
 category: Travel
 hero:
@@ -9,7 +9,7 @@ recommended:
   1:
     story: hotwire
   2:
-    story: smarter_travel
+    story: smarter-travel
   3:
     story: liftopia
 ---

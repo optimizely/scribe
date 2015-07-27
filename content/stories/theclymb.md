@@ -1,5 +1,5 @@
 ---
-short_name: theclymb
+shortname: theclymb
 title: The Clymb Personalizes Merchandise to Grow Sales 12%
 category: E-commerce
 hero:
@@ -21,7 +21,7 @@ recommended:
   2:
     story: soccerloco
   3:
-    story: chrome_industries
+    story: chrome-industries
 
 ---
 {% include "case-study-box.html"

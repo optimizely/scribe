@@ -1,5 +1,5 @@
 ---
-short_name: french_girls
+shortname: french_girls
 title: French Girls Doubles Mobile User Activation
 category: mobile
 hero:
@@ -7,7 +7,7 @@ hero:
   subtitle: Testing user onboarding dramatically improved app engagement and retention
 recommended:
   1:
-    story: secret_escapes
+    story: secret-escapes
   2:
     story: veggietales
   3:

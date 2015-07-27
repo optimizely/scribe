@@ -1,5 +1,5 @@
 ---
-short_name: hotwire
+shortname: hotwire
 title: Hotwire Team Optimizes Mobile Web Bookings
 category: travel
 hero:
@@ -7,9 +7,9 @@ hero:
   subtitle: Focused prioritization and research generated the biggest win of the year
 recommended:
   1:
-    story: smarter_travel
+    story: smarter-travel
   2:
-    story: secret_escapes
+    story: secret-escapes
   3:
     story: liftopia
 ---

@@ -1,5 +1,5 @@
 ---
-short_name: sony
+shortname: sony
 title: Sony Unlocks Suprising Advertising Wins with Segmentation
 category: E-commerce
 hero:

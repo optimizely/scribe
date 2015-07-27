@@ -1,5 +1,5 @@
 ---
-short_name: smartwool
+shortname: smartwool
 title: SmartWool Optimizes their Website Redesign for 17% more Revenue
 category: E-commerce
 hero:
@@ -19,7 +19,7 @@ recommended:
   1:
     story: theclymb
   2:
-    story: chrome_industries
+    story: chrome-industries
   3:
     story: bigstock
 ---

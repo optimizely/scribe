@@ -1,5 +1,5 @@
 ---
-short_name: ustream
+shortname: ustream
 title: Ustream Increases Video Consumption 12% with Improved CTA
 category: Technology
 hero:
@@ -7,9 +7,9 @@ hero:
   subtitle: Simple button variation increases clicks by 12%
 recommended:
   1:
-    story: french_girls
+    story: french-girls
   2:
-    story: secret_escapes
+    story: secret-escapes
   3:
     story: obama2012
 ---

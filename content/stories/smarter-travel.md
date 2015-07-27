@@ -1,5 +1,5 @@
 ---
-short_name: smarter_travel
+shortname: smarter_travel
 title: Smarter Travel Doubles Revenue with Optimization
 category: travel
 hero:
@@ -17,7 +17,7 @@ stats:
     title: Tests run each month at present
 recommended:
   1:
-    story: secret_escapes
+    story: secret-escapes
   2:
     story: liftopia
   3:

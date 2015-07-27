@@ -1,5 +1,5 @@
 ---
-short_name: codeorg
+shortname: codeorg
 title: Code.org Generates 15 Million Online Participants in Five Days
 category: nonprofit
 hero:

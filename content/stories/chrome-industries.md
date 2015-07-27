@@ -1,5 +1,5 @@
 ---
-short_name: chrome_industries
+shortname: chrome_industries
 title: Chrome Industries Shapes their Business with Optimization Data
 category: e-commerce
 hero:
@@ -11,7 +11,7 @@ recommended:
   2:
     story: veggietales
   3:
-    story: electronic_arts
+    story: electronic-arts
 ---
 {% include "case-study-box.html"
   {

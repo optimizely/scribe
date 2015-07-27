@@ -1,5 +1,5 @@
 ---
-short_name: spreadshirt
+shortname: spreadshirt
 title: Spreadshirt Grows Orders 4% with an Optimized Redesign
 category: E-commerce
 hero:
