@@ -1,5 +1,5 @@
 ---
-shortname: romney_campaign
+shortname: romney-campaign
 title: The Romney Campaign’s Six-Figure Fundraising via Optimization
 category: Political Campaign
 hero:
@@ -29,7 +29,7 @@ recommended:
 
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney_campaign/romney-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/romney-logo.png',
     metadata: {
       1: {
         value: 'Political Campaign',
@@ -74,7 +74,7 @@ The team started optimizing for  donations with a test on the main call-to-actio
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney_campaign/romney-donate-v-contribute.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/romney-donate-v-contribute.png',
   }
 %}
 
@@ -98,7 +98,7 @@ They tested four variations:
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney_campaign/rommney-carousel-original-winner.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/rommney-carousel-original-winner.png',
   }
 %}
 
@@ -112,7 +112,7 @@ Next, the team used geographic location as a pull to encourage visitors to sign 
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney_campaign/splash-test.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/romney-campaign/splash-test.png',
   }
 %}
 

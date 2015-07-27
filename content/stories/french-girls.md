@@ -1,5 +1,5 @@
 ---
-shortname: french_girls
+shortname: french-girls
 title: French Girls Doubles Mobile User Activation
 category: mobile
 hero:
@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/french_girls/french-girls-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/french-girls/french-girls-logo.png',
     metadata: {
       1: {
         value: 'Mobile App',
@@ -59,14 +59,14 @@ Jeff knew they needed a tutorial to teach people how to use the app but didn’t
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/french_girls/french-girls-a-b-test.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/french-girls/french-girls-a-b-test.png',
     caption: 'In Experience 1, users were directed to take a selfie first and then draw a portrait.',
   }
 %}
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/french_girls/french-girls-a-b-test-2.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/french-girls/french-girls-a-b-test-2.png',
     caption: 'In Experience 2, the steps were flipped: first, draw a selfie, then take a selfie. “It is a high barrier-to-entry method, but makes the user feel invested in the platform,” Farkas said.',
   }
 %}

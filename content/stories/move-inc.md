@@ -1,5 +1,5 @@
 ---
-shortname: Building an Optimization Team for Scaling Revenue Growth
+shortname: move-inc
 title: Move, Inc. Optimizely Case Study
 category: Real Estate
 hero:
@@ -59,7 +59,7 @@ Suma and her team added a module (outlined in red) that highlighted getting pre-
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move_inc/move-inc-right-rail-content-experiment.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move-inc/move-inc-right-rail-content-experiment.png',
   }
 %}
 
@@ -75,7 +75,7 @@ A “Back to search” link was added to the navigation elements, next to a brea
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move_inc/move-inc-navigation-experiment.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move-inc/move-inc-navigation-experiment.png',
   }
 %}
 

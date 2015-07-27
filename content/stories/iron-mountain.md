@@ -1,5 +1,5 @@
 ---
-shortname: iron_mountain
+shortname: iron-mountain
 title: Optimization Improves Sales Lead Quality by 140%
 category: Technology
 hero:
@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
     {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron_mountain/logo_iron_mountain.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron-mountain/logo_iron-mountain.png',
     metadata: {
       1: {
         value: 'Technology',
@@ -66,8 +66,8 @@ They changed the form’s headline from “Contact us today” to “Request a q
 {% include "side-by-side.html"
   {
     images: [
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron_mountain/original.png',
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron_mountain/variation.png'
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron-mountain/original.png',
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron-mountain/variation.png'
     ],
     caption: 'The purpose of the original form was unclear to many site visitors, which caused a decrease in quality of overall leads generated. The variation made the form’s purpose more clear. It displayed a new headline, form field descriptions in each text box, and improved validation functionality.'
   }

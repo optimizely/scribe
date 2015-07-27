@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/chrome_industries/chrome-industries-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/chrome-industries/chrome-industries-logo.png',
     metadata: {
       1: {
         value: 'Retail',

@@ -1,5 +1,5 @@
 ---
-shortname: electronic_arts
+shortname: electronic-arts
 title: Electronic Arts Optimizes SimCity Game Launch for Pre-Order Revenue
 category: e-commerce
 hero:

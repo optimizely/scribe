@@ -1,5 +1,5 @@
 ---
-shortname: smarter_travel
+shortname: smarter-travel
 title: Smarter Travel Doubles Revenue with Optimization
 category: travel
 hero:
@@ -25,7 +25,7 @@ recommended:
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter_travel/smartertravel_logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter-travel/smartertravel_logo.png',
     metadata: {
       1: {
         value: 'Travel',
@@ -67,7 +67,7 @@ The Smarter Travel team noticed a problem with one of their most important pay p
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter_travel/smarter-travel-landing-page-control.jpg',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter-travel/smarter-travel-landing-page-control.jpg',
     caption: 'Original Smarter Travel pay per click landing page.',
   }
 %}
@@ -76,7 +76,7 @@ Once a visitor landed on that PPC landing page, the goal was for them to fill ou
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter_travel/smarter-travel-landing-page-new.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter-travel/smarter-travel-landing-page-new.png',
     caption: 'The variation of the Smarter Travel pay per click landing page.',
   }
 %}

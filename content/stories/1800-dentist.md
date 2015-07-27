@@ -1,5 +1,5 @@
 ---
-shortname: 1800_dentist
+shortname: 1800-dentist
 title: 1-800-DENTIST Optimizes Patient Sign-Up Process
 category: Healthcare
 hero:
@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
     {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800_dentist/1-800-dentist.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800-dentist/1-800-dentist.png',
     metadata: {
       1: {
         value: 'Healthcare',
@@ -49,14 +49,14 @@ To test the hypothesis, the team considered how to best simplify the first step 
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800_dentist/1800d-original.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800-dentist/1800d-original.png',
     caption: 'The original variation of the 1-800-DENTIST funnel includes three form fields on the homepage: ZIP code, dental need, and insurance/payment method.',
   }
 %}
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800_dentist/1800d-variation.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800-dentist/1800d-variation.png',
     caption: 'The winning variation moved fields for dental need and insurance/payment method to pages later in the funnel. Only the ZIP code form field remained on the homepage.',
   }
 %}

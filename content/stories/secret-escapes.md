@@ -1,5 +1,5 @@
 ---
-shortname: secret_escapes
+shortname: secret-escapes
 title: Increasing Mobile App LTV for Travel Deal-Seekers
 category: Travel
 hero:
@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret_escapes/secret-escapes-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-logo.png',
     metadata: {
       1: {
         value: 'Travel',
@@ -68,7 +68,7 @@ The product team used Optimizely’s iOS SDK to create and test two different mo
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret_escapes/secret-escapes-app-updated.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/secret-escapes/secret-escapes-app-updated.png',
     caption: 'The original app signup screen allowed users to skip registering or logging in (Left), while the variation made registration mandatory (Right).',
   }
 %}
