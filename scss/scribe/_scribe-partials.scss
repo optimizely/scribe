@@ -7,6 +7,7 @@
 @import 'partials/common/tables';
 
 @import 'partials/objects/blockquote';
+@import 'partials/objects/buttons';
 @import 'partials/objects/callout';
 @import 'partials/objects/case-study-box';
 @import 'partials/objects/cta-box';
@@ -20,3 +21,6 @@
 @import 'partials/objects/social';
 @import 'partials/objects/toc';
 @import 'partials/objects/video';
+
+// ## Print Styles
+@import 'partials/common/print';

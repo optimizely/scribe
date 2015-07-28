@@ -1,0 +1,27 @@
+@media print {
+
+  .hero {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: auto;
+  }
+
+  .recommended,
+  .case-study-box {
+    display: none;
+  }
+
+  .scribe {
+    font-size: 14px !important;
+    line-height: 1.8;
+  }
+
+  blockquote {
+    border: none !important;
+  }
+
+  .intro p {
+    font-size: 18px;
+  }
+
+}
