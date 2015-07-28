@@ -6,17 +6,30 @@
   height: 400px;
   background-position: center center;
   background-size: cover;
+  position: relative;
+
+  &__shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .5;
+  }
 
   .content {
     @include layout-fence;
     margin: auto;
+    position: relative;
+    z-index: 1;
 
     h1 {
       font-size: 40px;
       color: #fff;
       text-shadow: 0 0 3px rgba(0,0,0,.3);
       text-align: center;
-      margin-bottom: 10px;
+      margin: 0 0 10px;
     }
 
     .subtitle {

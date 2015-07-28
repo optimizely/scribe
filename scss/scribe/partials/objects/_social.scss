@@ -1,0 +1,57 @@
+.social {
+  @include layout-fence;
+  margin-bottom: spacer(10);
+
+  &__icons {
+    @include display(flex);
+    margin: 0;
+    padding: spacer(2);
+    padding-left: 0;
+    list-style: none;
+    border: 1px solid #eee;
+
+    @include breakpoint($max: 600px) {
+      display: block;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    > li {
+      @include flex(1);
+      padding-left: spacer(2);
+
+      a {
+        display: block;
+        color: #00415d;
+        text-decoration: none;
+      }
+
+      .text {
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #222;
+        padding-left: spacer(1);
+      }
+
+      &:not(:first-child) {
+        border-left: 1px solid #eee;
+      }
+
+      @include breakpoint($max: 600px) {
+        margin-left: 20px;
+        padding-left: 0;
+
+        a {
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+
+        &:not(:first-child) {
+          border-left: none;
+          border-top: 1px solid #eee;
+        }
+      }
+    }
+  }
+}
