@@ -25,6 +25,7 @@
     "gulp-folders": "^1.1.0",
     "gulp-front-matter": "^1.2.2",
     "gulp-gh-pages": "^0.5.2",
+    "gulp-local-screenshots": "^2.0.3",
     "gulp-notify": "^2.2.0",
     "gulp-remarkable": "^1.1.2",
     "gulp-replace": "^0.5.3",
@@ -41,4 +42,5 @@
     "run-sequence": "^1.1.2",
     "shelljs": "^0.5.1",
     "yargs": "^3.15.0"
+  }
 }
