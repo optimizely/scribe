@@ -2,6 +2,10 @@
   @include layout-fence;
   margin-bottom: spacer(6);
 
+  a:hover {
+    text-decoration: none;
+  }
+
   .image {
     height: 200px;
     margin-bottom: spacer(1);
