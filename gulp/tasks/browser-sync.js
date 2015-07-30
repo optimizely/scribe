@@ -9,6 +9,7 @@ gulp.task('browser-sync', function() {
     },
     server: {
       baseDir: paths.build
-    }
+    },
+    port: 3020
   });
 });
