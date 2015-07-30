@@ -1981,6 +1981,11 @@ li > ol {
 .scribe .kilo {
   font-size: 40px; }
 
+.scribe {
+  text-align: left; }
+  .scribe h1, .scribe h2, .scribe h3, .scribe h4, .scribe h5, .scribe h6 {
+    text-align: left !important; }
+
 .fence {
   padding-left: 20px;
   padding-right: 20px;
@@ -2099,6 +2104,12 @@ blockquote {
         margin-right: 0; }
         blockquote.full p {
           font-size: 24px; } }
+
+.lego-button {
+  text-decoration: none !important; }
+
+a.lego-button {
+  padding-top: 10px; }
 
 .callout {
   border: 1px solid #e0e0e0;
@@ -2226,23 +2237,34 @@ figure {
   padding-right: 20px;
   height: 400px;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
+  .hero__shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .5; }
   .hero .content {
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin: auto; }
+    margin: auto;
+    position: relative;
+    z-index: 1; }
     .page--stories .hero .content {
       max-width: 730px; }
     .page--ebook .hero .content {
       max-width: 900px; }
     .hero .content h1 {
       font-size: 40px;
+      text-align: center !important;
       color: #fff;
       text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-      text-align: center;
-      margin-bottom: 10px; }
+      margin: 0 0 10px; }
     .hero .content .subtitle {
       font-size: 24px;
       line-height: 1.4;
@@ -2289,6 +2311,8 @@ figure {
     max-width: 730px; }
   .page--ebook .recommended {
     max-width: 900px; }
+  .recommended a:hover {
+    text-decoration: none; }
   .recommended .image {
     height: 200px;
     margin-bottom: 10px;
@@ -2431,6 +2455,58 @@ figure {
     padding-left: 20px;
     margin: 0; }
 
+.social {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px; }
+  .page--stories .social {
+    max-width: 730px; }
+  .page--ebook .social {
+    max-width: 900px; }
+  .social__icons {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    padding-left: 0;
+    list-style: none;
+    border: 1px solid #eee; }
+    @media (max-width: 600px) {
+      .social__icons {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px; } }
+    .social__icons > li {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      padding-left: 20px; }
+      .social__icons > li a {
+        display: block;
+        color: #00415d;
+        text-decoration: none; }
+      .social__icons > li .text {
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #222;
+        padding-left: 10px; }
+      .social__icons > li:not(:first-child) {
+        border-left: 1px solid #eee; }
+      @media (max-width: 600px) {
+        .social__icons > li {
+          margin-left: 20px;
+          padding-left: 0; }
+          .social__icons > li a {
+            padding-top: 5px;
+            padding-bottom: 5px; }
+          .social__icons > li:not(:first-child) {
+            border-left: none;
+            border-top: 1px solid #eee; } }
+
 .toc-block {
   width: 200px;
   margin-right: 50px; }
@@ -2483,6 +2559,22 @@ figure {
   margin-bottom: 40px; }
   .video > .vidyard_player > span {
     width: auto !important; }
+
+@media print {
+  .hero {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: auto; }
+  .recommended,
+  .case-study-box {
+    display: none; }
+  .scribe {
+    font-size: 14px !important;
+    line-height: 1.8; }
+  blockquote {
+    border: none !important; }
+  .intro p {
+    font-size: 18px; } }
 
 .background--white {
   background-color: #FFF !important; }
