@@ -8,5 +8,4 @@ gulp.task('screenshot', function () {
     port: 3020,
     type: 'png'
    }))
-  .pipe(gulp.dest('./screens/'));
 });
