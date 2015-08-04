@@ -25,7 +25,7 @@ recommended:
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/ea/ea-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/electronic-arts/ea-logo.png',
     metadata: {
       1: {
         value: 'Retail',
@@ -70,8 +70,8 @@ The team set up an A/B test pitting the original SimCity pre-order page against 
 {% include "side-by-side.html"
   {
     images: [
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/ea/ea-original.jpg',
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/ea/ea-variation.jpg'
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/electronic-arts/ea-original.jpg',
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/electronic-arts/ea-variation.jpg'
     ],
     caption: 'The original SimCity microsite displayed a pre-order promotional banner that bumped the “Buy Now” button down on the page. They tested several different variations, including one that removed the promotional banner.'
   }
@@ -97,15 +97,13 @@ Armed with data-driven knowledge and significant results from their initial test
 
 [[/]]
 
-[[callout]]
+### Key Takeaways
 
-#### Key Takeaways
+### Question Assumptions 
 
-- *QUESTION ASSUMPTIONS:* A/B testing provides real, actionable data to help you better understand how your web properties are performing. Even if think you’ve optimized your site, test it out. In EA’s case, the common belief was that promotional offers will drive more purchases — this turned out to be false. Testing gave them the information needed to maximize revenue in a way that would not have been otherwise possible.
+A/B testing provides real, actionable data to help you better understand how your web properties are performing. Even if think you’ve optimized your site, test it out. In EA’s case, the common belief was that promotional offers will drive more purchases — this turned out to be false. Testing gave them the information needed to maximize revenue in a way that would not have been otherwise possible.
 
-- *APPLY LEARNS ACROSS CHANNELS:* Testing arms you with information that can increase conversions beyond just your website. EA applied the lessons from the experiment on the SimCity pre-order page to their paid advertising campaigns, yielding exponential results.
+### Apply Learnings Across Channels
 
-[[/]]
-
-
+Testing arms you with information that can increase conversions beyond just your website. EA applied the lessons from the experiment on the SimCity pre-order page to their paid advertising campaigns, yielding exponential results.
 

@@ -71,4 +71,6 @@ Ustream tested the main call-to-action button on the homepage of their opt-in be
 
 ## Takeaway
 
-* *Test new features before rolling them out across the entire site.* With Optimizely, Ustream was able to quickly measure the impacts of two potential designs prior to rolling them out to the entire Ustream user community.  After running the test for four days, they were able to find a clear winner and ensure that the optimal design was being implemented. Rather than acting on hunches or feelings, the team could confidently assess and measure the value of their work.
+### Test New Features Before Rolling them out Across the Entire Site
+
+With Optimizely, Ustream was able to quickly measure the impacts of two potential designs prior to rolling them out to the entire Ustream user community.  After running the test for four days, they were able to find a clear winner and ensure that the optimal design was being implemented. Rather than acting on hunches or feelings, the team could confidently assess and measure the value of their work.

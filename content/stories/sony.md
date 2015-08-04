@@ -1,9 +1,9 @@
 ---
 shortname: sony
-title: Sony Unlocks Suprising Advertising Wins with Segmentation
+title: Sony Unlocks Surprising Advertising Wins with Segmentation
 category: E-commerce
 hero:
-  title: Electronics Giant Unlocks Suprising Wins with Segmentation
+  title: Electronics Giant Unlocks Surprising Wins with Segmentation
   subtitle: Sony optimizes to drive 20% more visitors through the configuration checkout funnel
 stats:
   1:
@@ -196,13 +196,11 @@ Evelien set a pageview goal on the order
 acknowledgment page – where customers
 land after making a successful purchase.
 
-{% include "side-by-side.html"
+
+{% include "figure.html"
   {
-    images: [
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/sony/original-funnel-page.png',
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/sony/variation-funnel-page.png'
-    ],
-    caption: 'The original funnel page (Left) displayed long product descriptions, and did not highlight top-sellers or promotions. The variation funnel page displayed shorter product descriptions. It also changed the term “configuration” to “components”, included top seller tags, and highlighted promotions.'
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/sony/sony-original-variation.jpg',
+    caption: 'The original funnel page (Left) displayed long product descriptions, and did not highlight top-sellers or promotions. The variation funnel page displayed shorter product descriptions. It also changed the term “configuration” to “components”, included top seller tags, and highlighted promotions.',
   }
 %}
 
@@ -243,3 +241,4 @@ back up Evelien’s hypothesis and convince her team to keep the campaign runnin
 Evelien’s tests on Sony’s webstore revealed that paring down options and information throughout the
 checkout funnel can actually provide a more clear path for site visitors. Test different
 options to understand how much information your site visitors prefer.
+
