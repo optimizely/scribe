@@ -6,6 +6,7 @@ gulp.task('screenshot', function () {
   .pipe(localScreenshots({
     server: false,
     port: 3020,
+    timeout: 500,
     type: 'png'
    }))
 });
