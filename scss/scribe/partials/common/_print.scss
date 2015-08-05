@@ -7,7 +7,10 @@
   }
 
   .recommended,
-  .case-study-box {
+  .case-study-box
+  .social,
+  header, // Hides header/footer HTML on optimzely.com
+  footer {
     display: none;
   }
 
