@@ -1,5 +1,5 @@
 ---
-shortname: chrome_industries
+shortname: chrome-industries
 title: Chrome Industries Shapes their Business with Optimization Data
 category: e-commerce
 hero:
