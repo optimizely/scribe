@@ -89,11 +89,12 @@ After running the test for just seven days, a statistically significant result e
 
 Dave and his team used Optimizely to push 100% of SEM traffic to the winning variation while their engineers worked to implement the improved experience into their site code. Using Optimizely’s traffic allocation feature, the team could instantly realize the increase in revenue from their SEM ads.
 
-[[callout]]
+## Testing Takeaways
 
-#### TAKEAWAY
+### Make Ad Dollars More Effective
 
-- *A/B testing makes dollars spent on other marketing initiatives — such as SEM campaigns — more effective.* Testing different purchase funnel variations helped Liftopia better understand how SEM-driven traffic behaves and ultimately convert more visitors into customers. The Liftopia team quickly learned that the more qualified the traffic, the more targeted a page layout can be.
-- *Less is more.* By removing elements from the conversion funnel, the Liftopia visitor was able to remain focused on their search intent and was more likely to complete the conversion at each step of the funnel.
+Testing different purchase funnel variations helped Liftopia better understand how SEM-driven traffic behaves and ultimately convert more visitors into customers. The Liftopia team quickly learned that the more qualified the traffic, the more targeted a page layout can be.
 
-[[/]]
+### Less is More
+
+By removing elements from the conversion funnel, the Liftopia visitor was able to remain focused on their search intent and was more likely to complete the conversion at each step of the funnel.

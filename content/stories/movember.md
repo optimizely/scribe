@@ -3,21 +3,21 @@ shortname: movember
 title: Movember Increases Email Donations 28% with Optimization
 category: Nonprofit
 hero:
-  title: Movember Amplifies Its Annual Campaign
+  title: Movember Amplifies Its Annual Campaign with Optimizely
   subtitle: Optimization Brings More Moustache-Lovers to Movember's Cause
 stats:
   1:
     value: 28,000
-    title: More participant sign-ups
+    title: More Sign-Ups
   2:
-    value: 490%
-    title: Increase in Facebook shares
+    value: 5x
+    title: Increase in Facebook Shares
   3:
     value: 75%
-    title: More email shares
+    title: More Email Shares
   4:
     value: 28%
-    title: More donations requested by participants via email
+    title: More Email Donation Requests
 recommended:
   1:
     story: obama2012
@@ -127,17 +127,16 @@ cause. We all have strong opinions and ideas about how things should be done. Op
   }
 %}
 
-[[callout]]
+## Testing Takeaways
 
-#### KEY TAKEAWAYS
+### Continuous Testing is Critical
 
-- *CONTINOUS TESTING IS CRITICAL:* If all the action happens one month out of the year, you might ask, why does Movember test its website year round? Many types of businesses have a busy season and traffic peak during specific times of the year—like Christmas for online retailers, long weekends for travel sites, November for Movember, etc. Since this timeframe is so paramount to success, testing teams should be optimizing their sites before, during, and after the massive influx of traffic. The most successful sites are ones that are continuously testing.
+If all the action happens one month out of the year, you might ask, why does Movember test its website year round? Many types of businesses have a busy season and traffic peak during specific times of the year—like Christmas for online retailers, long weekends for travel sites, November for Movember, etc. Since this timeframe is so paramount to success, testing teams should be optimizing their sites before, during, and after the massive influx of traffic. The most successful sites are ones that are continuously testing.
 
-- *KNOW WHAT METRICS MATTER:* Like Movember, the business objectives of your website may change or evolve over time. Keep this in mind when building your testing strategy and always ensure you’re optimizing for the most important metric.
+### Know Which Metrics Matter
 
-- *APPLY WINS TO FUTURE TESTS:* The Movember team learned that particpants were more compelled to click on a CTA if there was a human-centric image displayed alongside it. If you find a variation that resonates well with site visitors – don’t stop there. Apply those findings to other aspects of your site and test it out. A small win on one page could mean a huge win sitewide.
+Like Movember, the business objectives of your website may change or evolve over time. Keep this in mind when building your testing strategy and always ensure you’re optimizing for the most important metric.
 
-[[/]]
+### Apply Wins to Future Tests
 
-
-
+The Movember team learned that particpants were more compelled to click on a CTA if there was a human-centric image displayed alongside it. If you find a variation that resonates well with site visitors – don’t stop there. Apply those findings to other aspects of your site and test it out. A small win on one page could mean a huge win sitewide.

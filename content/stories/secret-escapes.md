@@ -89,11 +89,12 @@ At any time, Secret Escapes has around ten experiments running across their webs
 
 Upcoming tests, Fallert said, will focus on the purchase conversion funnel to answer questions like: How much information do you need to disclose in each step of the funnel? Is percent discount more effective than absolute discount price? Do you show prices at all? The team previously tested all of these questions on the website but will now try on mobile “because it might be different.”
 
-[[callout]]
+## Testing Takeaways
 
-#### TAKEAWAYS
+### Question Conventional Wisdom 
 
-- *FOCUS ON ACQUISITION METRICS*: The cost to acquire a customer can have a dramatic impact on the profitability of your business. By making customer acquisition more efficient, the health of your key business metrics will improve. Landing pages, sign-up flows, and new user experiences are key points to optimize.
-- *QUESTION CONVENTIONAL WISDOM*: Assumptions should be tested. What works well for many other apps, websites, or peers in your industry may not work best for you and you visitors or users.
+Assumptions should be tested. What works well for many other apps, websites, or peers in your industry may not work best for you and you visitors or users.
 
-[[/]]
+### Focus on Acquisition Metrics 
+
+The cost to acquire a customer can have a dramatic impact on the profitability of your business. By making customer acquisition more efficient, the health of your key business metrics will improve. Landing pages, sign-up flows, and new user experiences are key points to optimize.

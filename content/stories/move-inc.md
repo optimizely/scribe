@@ -91,7 +91,7 @@ As Move’s optimization program has become more visible and successful, many ot
 {% include "blockquote.html"
   {
     size: 'full',
-    quote: 'WMany teams come to us with ideas that either are something they’re stuck on, or a small change they want to make. We take a step back and look at the big picture, help them to unpack the problem and design a meaningful experiment.',
+    quote: 'Many teams come to us with ideas that either are something they’re stuck on, or a small change they want to make. We take a step back and look at the big picture, help them to unpack the problem and design a meaningful experiment.',
     attribution: 'Suma Warrier, Senior Optimization Manager, Move, Inc.'
   }
 %}

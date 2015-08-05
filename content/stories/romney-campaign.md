@@ -126,11 +126,12 @@ The data clearly showed success in personalizing the message. With this test as 
   }
 %}
 
-[[callout]]
+## Testing Takeaways
 
-#### TAKEAWAYS
+### Focus on Time-to-Test
 
-- *FOCUS ON TIME-TO-TEST AND TIME-TO-RESULTS:* When the stakes are incredibly high, waiting for results or for bottlenecks incurred by the software is not an option for presidential campaign teams. In a matter of days, the Romneyteam had conclusive results about which variations won. Without relying on the creative or engineering team, the analysts themselves used the tools within Optimizely to create huge gains in email sign-ups.
-- *DELIVER A PERSONALIZED EXPERIENCE:* Using Optimizely, the team delivered a unique one-to-one experience for every visitor to the site from September 2012 to election day. Personalization proved to be a powerful tool for the Romney campaign. They saw greater signups on the splash page and more interaction with local events advertised on the site, especially as voting started.
+When the stakes are incredibly high, waiting for results or for bottlenecks incurred by the software is not an option for presidential campaign teams. In a matter of days, the Romneyteam had conclusive results about which variations won. Without relying on the creative or engineering team, the analysts themselves used the tools within Optimizely to create huge gains in email sign-ups.
 
-[[/]]
+### Deliver a Personalized Experience
+
+Using Optimizely, the team delivered a unique one-to-one experience for every visitor to the site from September 2012 to election day. Personalization proved to be a powerful tool for the Romney campaign. They saw greater signups on the splash page and more interaction with local events advertised on the site, especially as voting started.

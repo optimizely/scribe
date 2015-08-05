@@ -116,9 +116,14 @@ The team then proved their hypotheses were correct through testing. Breaking the
 
 The team successfully identified a usability issue, implemented a solution, and proved that their solution worked through testing. To squeeze out a 5% lift on the campaign’s primary donation form was a big accomplishment for a matured testing organization and roadmap. It’s an important reminder that with a little creativity and effort, there are always conversion improvements to be found on your own site.
 
-## Takeaways
+## Testing Takeaways
 
-* Be prepared: The Obama Digital team always had a test running, and always had a backlog of experiment ideas. The traffic coming to the campaign website was a tremendous opportunity for testing, just like the traffic coming to your site right now.
-* Focus on understanding user psychology: Instead of adopting a “test everything” mentality, encourage members of your testing organization to craft hypotheses that draw on a deep understanding of your user’s motivations, desires, and behavioral quirks.
+### Be Prepared
+
+The Obama Digital team always had a test running, and always had a backlog of experiment ideas. The traffic coming to the campaign website was a tremendous opportunity for testing, just like the traffic coming to your site right now.
+
+### Understand User Psychology
+
+Instead of adopting a “test everything” mentality, encourage members of your testing organization to craft hypotheses that draw on a deep understanding of your user’s motivations, desires, and behavioral quirks.
 
 
