@@ -97,7 +97,7 @@ This test also sparked a major shift in feature development at French Girls.
 {% include "blockquote.html"
   {
     size: 'full',
-    quote: 'Optimization had always taken a back seat over features in terms of priority,” Jeff said. “Since the proven success of Optimizely, optimization is no longer an afterthought, but a necessary part of every feature. It forces us to consider not only how users use a feature, but why they use it and what value it offers to them.',
+    quote: 'Optimization had always taken a back seat over features in terms of priority. Since the proven success of Optimizely, optimization is no longer an afterthought, but a necessary part of every feature. It forces us to consider not only how users use a feature, but why they use it and what value it offers to them.',
     attribution: 'Jeff Farkas, Developer and Backend Architect, French Girls'
   }
 %}
@@ -106,11 +106,12 @@ Today, every product decision the team makes is based on user feedback backed by
 
 “Optimizely has played a huge part in opening our eyes to how important analytics and optimization is to the success of our app,” Jeff said.
 
-[[callout]]
+## TAKEAWAYS
 
-#### TAKEAWAYS
+### Focus on Education 
 
-- *FOCUS ON EDUCATION*: Architect a new user experience that educates the user on how to get the most out of your app. Consider tours, onboarding flows, and other tips that will help engage users the first time so they continue to return to the app.
-- *ALLOCATE TIME FOR OPTIMIZATION*: Building an optimized app is a balance between creating new features and testing them. Introduce optimization as a framework for understanding how your team is making measurable improvements to your app in order to meet your goals.
+Architect a new user experience that educates the user on how to get the most out of your app. Consider tours, onboarding flows, and other tips that will help engage users the first time so they continue to return to the app.
 
-[[/]]
+### Allocate Time for Optimization 
+
+Building an optimized app is a balance between creating new features and testing them. Introduce optimization as a framework for understanding how your team is making measurable improvements to your app in order to meet your goals.

@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
     {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron-mountain/logo_iron-mountain.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/iron-mountain/logo-iron-mountain.png',
     metadata: {
       1: {
         value: 'Technology',
@@ -83,5 +83,10 @@ The variation form resulted in a *140% improvement in lead quality, representing
 
 ## Takeaways
 
-* Think beyond traditional conversions. Define the ultimate goal you’re trying to achieve with your website and keep this in mind when formulating your hypotheses. While many businesses focus on the quantity of leads, measuring the quality of leads had an even greater impact on Iron Mountain’s business. According to Nimesh Parmar, Iron Mountain’s online manager, “The impressive and immediate jump in lead quality has more than repaid the resources we invested to get this right.”
-* Tighten your testing strategy with each test. Use insights from past tests to develop follow-up tests that will continue to boost conversions. After seeing a major increase in lead quality from their initial test, iProspect and Iron Mountain are building follow-ups to improve other key lead generation areas on the site, including the contact information page.
+### Think Beyond Traditional Conversions
+
+Define the ultimate goal you’re trying to achieve with your website and keep this in mind when formulating your hypotheses. While many businesses focus on the quantity of leads, measuring the quality of leads had an even greater impact on Iron Mountain’s business. According to Nimesh Parmar, Iron Mountain’s online manager, “The impressive and immediate jump in lead quality has more than repaid the resources we invested to get this right.”
+
+### Tighten your Testing Strategy with Each Test
+
+Use insights from past tests to develop follow-up tests that will continue to boost conversions. After seeing a major increase in lead quality from their initial test, iProspect and Iron Mountain are building follow-ups to improve other key lead generation areas on the site, including the contact information page.

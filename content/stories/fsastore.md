@@ -1,6 +1,6 @@
 ---
 shortname: fsastore
-title: FSAstore Increases Online RPV by 54%
+title: Optimizely Helps FSAstore Increases Online RPV by 54%
 category: E-commerce
 hero:
   title: E-commerce Marketing Team Optimizes for Revenue
@@ -86,11 +86,12 @@ In building their testing culture, Ujjwal has found one thing to be particularly
 
 Now, FSAstore.com’s culture is focused on optimizing each customer touch point, whether it’s outbound phone calls, postcards and emails to customers, copy and landing pages for PPC campaigns, or their website.
 
-[[callout]]
+## Takeaways
 
-#### Takeaways
+### Communication is Key 
 
-- *COMMUNICATION IS KEY:* Like Ujjwal and his team, successful testing organizations put a high focus on information sharing, communicating goals, strategy, and outcomes to their colleagues on a regular basis. This helps validate optimization spend, secure buy-in from stakeholders, and engrain experimentation and data into company culture.
-- *TEST FOR HIGH IMPACT:* When it comes to optimization, the possibilities of what to test are endless. Buy taking stock of key challenges in the purchase funnel and assessing which changes will drive the most impact, Ujjwal and his team were able to prioritize in a smart way and garner some critical wins for their business. They also take into account how long it will take to build and run each experiment, ensuring they’re spending time and resources on optimization initiatives that will move the needle.
+Like Ujjwal and his team, successful testing organizations put a high focus on information sharing, communicating goals, strategy, and outcomes to their colleagues on a regular basis. This helps validate optimization spend, secure buy-in from stakeholders, and engrain experimentation and data into company culture.
 
-[[/]]
+### Test for High Impact 
+
+When it comes to optimization, the possibilities of what to test are endless. Buy taking stock of key challenges in the purchase funnel and assessing which changes will drive the most impact, Ujjwal and his team were able to prioritize in a smart way and garner some critical wins for their business. They also take into account how long it will take to build and run each experiment, ensuring they’re spending time and resources on optimization initiatives that will move the needle.

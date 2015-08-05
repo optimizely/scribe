@@ -109,7 +109,7 @@ After only 5 days, it became clear that pre-checking TWP was causing more harm t
   }
 %}
 
-Pre-checking TWP equated to an 11% decrease in monthly revenue projections.
+Pre-checking Total Water Protection on the product page equated to an *11% decrease in monthly revenue projections*.
 
 ## RESULTS
 
@@ -117,12 +117,12 @@ After several months of regular testing with Optimizely, the culture at LifeProo
 
 “Both in regular status meetings and with on-the-fly site changes, the folks at Lifeproof almost always ask ‘can we test that?’,” says Eric. “Testing is used to validate requests to upper management and aesthetic design choices on a regular basis.”
 
-[[callout]]
+## TAKEAWAYS
 
-#### TAKEAWAYS
+### Focus on Early Wins 
 
-- *FOCUS ON EARLY WINS*: To validate the decision to begin optimizing, focus on straightforward opportunities to run tests that have a good chance of demonstrating lift. In the first month, aim to have one winner to showcase to the rest of the organization and promote buy-in.
-- *TESTS CAN HELP CHOOSING NOT TO ACT*: Sometimes, testing can help to ensure that there's not a missed opportunity in not taking action. Running an A/B test is a low-overhead way to try out new ideas, determine the impact, and then decide to build it. In the case of a neutral result, the decision to not build that idea becomes much easier.
+To validate the decision to begin optimizing, focus on straightforward opportunities to run tests that have a good chance of demonstrating lift. In the first month, aim to have one winner to showcase to the rest of the organization and promote buy-in.
 
-[[/]]
+### Tests can Help Choose not to Act 
 
+Sometimes, testing can help to ensure that there's not a missed opportunity in not taking action. Running an A/B test is a low-overhead way to try out new ideas, determine the impact, and then decide to build it. In the case of a neutral result, the decision to not build that idea becomes much easier.
