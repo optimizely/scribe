@@ -75,9 +75,9 @@ Optimizely provided the platform for Bigstock to set up an A/B test that buckete
 
 ## Results
 
-On Optimizely’s results page, Bigstock could clearly see that visitors selected results from the the fuzzy auto suggest 9.6% more often.
+On Optimizely’s results page, Bigstock could clearly see that *visitors selected results from the the fuzzy auto suggest 9.6% more often*.
 
-With Google Analytics, they were also able to see significant improvements throughout, including a 6.52% increase in the number of images added to the cart, and a 3.2% increase in downloaded images. In under a week, Bigstock used Optimizely to solve a business challenge that enhanced user experience and increased revenue.
+With Google Analytics, they were also able to see significant improvements throughout, including a *6.52% increase in the number of images added to the cart, and a 3.2% increase in downloaded images*. In under a week, Bigstock used Optimizely to solve a business challenge that enhanced user experience and increased revenue.
 
 {% include "blockquote.html"
   {
@@ -87,12 +87,12 @@ With Google Analytics, they were also able to see significant improvements throu
   }
 %}
 
-[[callout]]
+## Testing Takways
 
-#### Takways
+### Plan to Test Continuously 
 
-- *TEST CONTINUOUSLY:* Each change, improvement or new feature roll-out on your site presents an opportunity to test and measure.
-- *EXPLORE, THEN REFINE:* Test the big pieces first and do exploratory work before optimization work. For example, try out entirely new algorithms or page layouts first, and then do smaller tests like tweaking buttons.
+Each change, improvement or new feature roll-out on your site presents an opportunity to test and measure.
 
-[[/]]
+### Explore, then Refine
 
+Test the big pieces first and do exploratory work before optimization work. For example, try out entirely new algorithms or page layouts first, and then do smaller tests like tweaking buttons.

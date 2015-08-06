@@ -59,7 +59,7 @@ Faced with contradicting opinions, Evelien
 turned to Optimizely to let data make
 the final decision.
 
-## Test
+#### Test
 
 Using Optimizely, Evelien built an A/B/C test to test two different variations of the banner against the original. With
 Optimizely’s targeting feature, Evelien targeted the experiment only to site visitors from the Netherlands and the United Kingdom – two of Sony’s largest
@@ -97,21 +97,23 @@ Evelien’s goal was to measure how each banner impacted the number of visitors 
   }
 %}
 
-## Results
+#### Results
 
-*Variation 1, the banner focused
-on customization, saw a 6% increase
+Variation 1, the banner focused
+on customization, saw a *6% increase
 in banner click-throughs and an uplift
 of 21.3% in visitors that reached the
-shopping cart compared to the original
-banner.* Variation 2, the banner focused
+shopping cart* compared to the original
+banner. 
+
+Variation 2, the banner focused
 on the sitewide promotion, only increased
 click-throughs by 1.8% and actually
 performed worse than the original in
 terms of shopping cart views, decreasing
 conversions by 2.9%.
 
-## Post-Test Segmentation
+#### Post-Test Segmentation
 
 As the data came in, Evelien used Optimizely’s segmentation
 feature to dig deeper – breaking down
@@ -172,7 +174,7 @@ customizable components for each laptop
 process. She hoped to find a way to keep
 these users from bouncing.
 
-## Hypothesis
+#### Hypothesis
 
 Evelien believed that shorter
 product descriptions would make it
@@ -181,7 +183,7 @@ an informed choice on the customizable components page. This, in turn, would
 drive more visitors to continue through the
 checkout funnel.
 
-## Test
+#### Test
 
 Using Optimizely, Evelien set up an
 A/B test, pitting the original funnel page
@@ -204,7 +206,9 @@ land after making a successful purchase.
   }
 %}
 
-RESULTS: The variation page outperformed
+#### Results
+
+The variation page outperformed
 the original – with *20.6% more visitors
 reaching the order acknowledgement page.*
 This meant a measurable increase

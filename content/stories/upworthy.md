@@ -84,12 +84,16 @@ The right sidebar, paired with a minimal design, *increased shares by 2.7% and e
 
 Now, the team is focused on capitalizing on their win in order to continue to fuel readership growth and engagement. The success from this type of feature development and testing demonstrated the value to the team of taking the time to work through different variations to determine the optimal version.
 
-[[callout]]
+## KEY TAKEAWAYS
 
-#### TAKEAWAYS
+### Optimize for Maximum Shareability 
 
-- *OPTIMIZE FOR MAXIMUM SHAREABILITY*: “We’re very focused on creating the best pos-sible experience for our users and the Upworthy community,” explains Peter. “We want people on our site to really enjoy a piece of content and share it in huge numbers. Part of this is about curating great content. But it’s also about taking the time to optimize every part of the experience for maximum shareability and satisfaction.”
-- *TEST AND ITERATE*: Peter’s two-phased approach first solidified the strongest place-ment for the content module and then honed in on design specifics. By finding what module actually performed best and then dialing in on the details, Peter was able to find the best possible user experience.
-- *QUESTION ASSUMPTIONS*: Peter and his team believed that adding distractions to their site’s pages would decrease social sharing. “We care about testing because, we think we’re clever and all, but whenever we think we know what’s going to win a test, we’re almost always wrong,” says Peter. Without Optimizely, they would not have learned that the recommended content module was actually a valuable addition to their site – both in terms of sharing and engagement.
+“We’re very focused on creating the best pos-sible experience for our users and the Upworthy community,” explains Peter. “We want people on our site to really enjoy a piece of content and share it in huge numbers. Part of this is about curating great content. But it’s also about taking the time to optimize every part of the experience for maximum shareability and satisfaction.”
 
-[[/]]
+### Test and Iterate 
+
+Peter’s two-phased approach first solidified the strongest place-ment for the content module and then honed in on design specifics. By finding what module actually performed best and then dialing in on the details, Peter was able to find the best possible user experience.
+
+### Question Assumptions 
+
+Peter and his team believed that adding distractions to their site’s pages would decrease social sharing. “We care about testing because, we think we’re clever and all, but whenever we think we know what’s going to win a test, we’re almost always wrong,” says Peter. Without Optimizely, they would not have learned that the recommended content module was actually a valuable addition to their site – both in terms of sharing and engagement.

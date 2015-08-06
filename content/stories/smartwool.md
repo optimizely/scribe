@@ -64,11 +64,12 @@ The results were quite a surprise. Despite its more ordinary aesthetic, *the var
 
 So what do these findings mean? Making a product image bigger may lead to more clicks on the product, but that doesn’t always guarantee checkout. More visitors might end up on product pages for products they don’t necessarily want to purchase, which means getting to the product page of a product they do want will require  extra clicks and extra time, or added friction. The key word, though, is might. It was always possible for A to perform better, which is why testing is essential.
 
-[[callout]]
+## KEY TAKEAWAYS
 
-#### TAKEAWAYS
+### A Redesign is Not the End State 
 
-- *A REDESIGN IS NOT THE END STATE*: Use a redesigned look and feel as one benchmark on a continual process of optimization. Learn how your visitors are reacting to the new user experience, and strive to improve key points in the conversion funnel on an ongoing basis.
-- *BRANDING AND OPTIMIZATION GO TOGETHER*: It's important to strike a balance between company brand principles and optimization. Make sure to test variations on an experience that play well with your brand guidelines and values, and that would have a strong chance of being implemented if they prove winners.
+Use a redesigned look and feel as one benchmark on a continual process of optimization. Learn how your visitors are reacting to the new user experience, and strive to improve key points in the conversion funnel on an ongoing basis.
 
-[[/]]
+### Branding and Optimization Go Together 
+
+It's important to strike a balance between company brand principles and optimization. Make sure to test variations on an experience that play well with your brand guidelines and values, and that would have a strong chance of being implemented if they prove winners.

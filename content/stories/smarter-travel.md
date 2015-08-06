@@ -4,17 +4,17 @@ title: Smarter Travel Doubles Revenue with Optimization
 category: travel
 hero:
   title: For Smarter Travel, Speed Wins
-  subtitle: Travel Company Doubles Revenue in First Month of Optimization
+  subtitle: Travel Company Doubles Revenue in First Month Leveraging Optimizely
 stats:
   1:
     value: 8
-    title: Tests run in first month of testing
+    title: Tests Run in First Month
   2:
     value: 2x
-    title: Increase in revenue
+    title: Increase in Revenue
   3:
     value: 30+
-    title: Tests run each month at present
+    title: Tests Currently Run per Month
 recommended:
   1:
     story: secret-escapes
@@ -25,7 +25,7 @@ recommended:
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter-travel/smartertravel_logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smarter-travel/smartertravel-logo.png',
     metadata: {
       1: {
         value: 'Travel',
@@ -56,7 +56,7 @@ Today, the team runs, on average, a total of 30 campaigns per month. The velocit
 {% include "blockquote.html"
   {
     size: 'full',
-    quote: 'There’s a sign on my door: Speed wins. It’s the informal internal motto and was handwritten by me 10 years ago and as the office has moved so has the sign.',
+    quote: 'There’s a sign on my door: Speed wins. It’s the informal internal motto and was handwritten by me 10 years ago, and as the office has moved so has the sign.',
     attribution: 'Stephen Kaufer, Founder and CEO, TripAdvisor'
   }
 %}
@@ -87,18 +87,18 @@ The original landing page experience was stark. The team hypothesized that build
 
 The results of their month of optimization on the landing page made a tremendous impact on Smarter Travel's bottom line revenue.
 
-With a higher converting page and data to back them up, the team pushed for more budget to invest in display ads, sending traffic to the optimized BookingBuddy.com landing page. With more traffic hitting a better performing page, the impact this series of tests had on Smarter Travel’s bottom line revenue grew even further. Not only did they boost revenue from improved conversions on the landing page, they were also able to proportionately increase the amount of business driven through search. Overall, these changes resulted in doubled revenue per visitor from the BookingBuddy.com landing page.
+With a higher converting page and data to back them up, the team pushed for more budget to invest in display ads, sending traffic to the optimized BookingBuddy.com landing page. With more traffic hitting a better performing page, the impact this series of tests had on Smarter Travel’s bottom line revenue grew even further. Not only did they boost revenue from improved conversions on the landing page, they were also able to proportionately increase the amount of business driven through search. *Overall, these changes resulted in doubled revenue per visitor from the BookingBuddy.com landing page*.
 
 Taking an iterative approach to testing, and being able to test and implement the optimized experience so quickly, helped Smarter Travel reap enormous benefits and have a greater impact.
 
-[[callout]]
+## KEY TAKEAWAYS
 
-#### KEY TAKEAWAYS
+### Speed Wins
 
-- *SPEED WINS:* Getting up-and-running fast was key to Smarter Travel's experience optimization success – and was made easy with Optimizely. From day one, the team were able to build and run multiple optimization campaigns on a weekly basis. After getting everyone trained on the product, they quickly moved from 2-3 campaigns per week to 5-6 campaigns per week, in just their first month. Today, they
+Getting up and running fast was key to Smarter Travel's experience optimization success – and was made easy with Optimizely. From day one, the team were able to build and run multiple optimization campaigns on a weekly basis. After getting everyone trained on the product, they quickly moved from 2-3 campaigns per week to 5-6 campaigns per week, in just their first month. Today, they
 average 30+ campaigns per month.
 
-- *TEST ITERATIVELY FOR GREATEST IMPACT:* Rather than taking a “one and done” approach, Smarter Travel tested multiple elements of the BookingBuddy.com landing page to drive the greatest impact. By focusing on sever key elements, rather than just one test, the team was able to double revenue.
+### Test Iteratively for Greatest Impact 
 
-[[/]]
+Rather than taking a “one and done” approach, Smarter Travel tested multiple elements of the BookingBuddy.com landing page to drive the greatest impact. By focusing on sever key elements, rather than just one test, the team was able to double revenue.
 

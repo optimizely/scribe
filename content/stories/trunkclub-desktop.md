@@ -35,8 +35,6 @@ Trunk Club is a men’s clothing service where the number one focus is style. Tr
 
 [[/]]
 
-## Background
-
 At Trunk Club, testing is built into the company’s DNA. They’ve been testing everything from their digital experiences to their product packaging since they launched in 2009.
 
 A cross-functional team keeps tabs on the optimization process at Trunk Club. They meet a few times each month to generate ideas and see how current tests are stacking up. Representatives from each part of the company participate: Sales, Product, Merch, Creative and Design.
@@ -44,7 +42,7 @@ A cross-functional team keeps tabs on the optimization process at Trunk Club. Th
 {% include "blockquote.html"
   {
     size: 'full',
-    quote: 'Testing fits in almost everywhere at Trunk Club. We test everything from box sizes and packaging, to taglines on our homepage. We’re constantly trying to improve our service and we validate success through qualitative feedback and data.',
+    quote: 'Testing fits in almost everywhere at Trunk Club. We test everything from box sizes and packaging to taglines on our homepage. We’re constantly trying to improve our service and we validate success through qualitative feedback and data.',
     attribution: 'Mike Wolf, Product Design Lead, Trunk Club'
   }
 %}
@@ -94,17 +92,20 @@ Mike coded and created a separate URL for the new sign-up flow. Then, using Opti
 
 ## The Results
 
-When the results came in, there was a clear winner. The longer, more visual, sign-up flow increased conversions by 133%.
+When the results came in, there was a clear winner. *The longer, more visual, sign-up flow increased conversions by 133%.*
 
 “It blew away our expectations!” says Mike. “It actually lead to a new problem … too many leads for our stylists! We weren’t expecting that.”
 
+## Takeaways
 
-[[callout]]
+### Challenge Assumptions 
 
-#### Takeaways
+Industry best practices assume a shorter sign-up flow is better for converting visitors. But Mike learned that’s not always the case. Use industry standards as a benchmark or starting point, and then test from there to learn what drives your visitors to convert and what works best for you site.
 
-- *CHALLENGE ASSUMPTIONS:* Industry best practices assume a shorter sign-up flow is better for converting visitors. But Mike learned that’s not always the case. Use industry standards as a benchmark or starting point, and then test from there to learn what drives your visitors to convert and what works best for you site.
-- *DESIGN AND OPTIMIZATION GO HAND-IN-HAND:* Optimizing your site does not mean design takes a back-burner. Rather, it’s a way for your designers to to focus on building beautiful experiences that delight your visitors. “Testing made us realize that a well thought-out experience with a beautiful visual design plays a large role in the success of a feature,” explains Mike.
-- *GET EVERYONE INVOLVED:* Optimization teams come in all shapes and sizes, but having buy-in and excitement throughout your organization is key for testing success. At Trunk Club, representatives from every part of the company are tuned in to the testing process. “Testing is basically built into our DNA,” says Mike. “It’s something everyone in the company believes in and knows is important to our success.” Company-wide involvement has helped drive Trunk Club’s testing success.
+### Design and Optimization Go Hand-in-Hand 
 
-[[/]]
+Optimizing your site does not mean design takes a back-burner. Rather, it’s a way for your designers to to focus on building beautiful experiences that delight your visitors. “Testing made us realize that a well thought-out experience with a beautiful visual design plays a large role in the success of a feature,” explains Mike.
+
+### Get Everyone Involved 
+
+Optimization teams come in all shapes and sizes, but having buy-in and excitement throughout your organization is key for testing success. At Trunk Club, representatives from every part of the company are tuned in to the testing process. “Testing is basically built into our DNA,” says Mike. “It’s something everyone in the company believes in and knows is important to our success.” Company-wide involvement has helped drive Trunk Club’s testing success.

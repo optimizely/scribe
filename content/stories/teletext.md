@@ -32,7 +32,7 @@ recommended:
 
 [[intro]]
 
-With more than 20 years in business, Teletext Holidays has evolved into one of the UK’s favorite travel brands. Featuring thousands of holiday packages, Teletext keeps a great user experience at the heart of its mission.
+With more than 20 years in business, [Teletext Holidays](http://www.teletextholidays.co.uk/) has evolved into one of the UK’s favorite travel brands. Featuring thousands of holiday packages, Teletext keeps a great user experience at the heart of its mission.
 
 [[/]]
 

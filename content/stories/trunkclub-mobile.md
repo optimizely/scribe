@@ -57,12 +57,16 @@ The Trunk Club stylists need to provide top-notch, personal service efficiently 
 
 So they wondered: As the company grows, how can they scale their customer-stylist interactions and make them as efficient as possible? And what are the mobile-specific behaviors that Trunk Club can incorporate into their data-driven portrait of a qualified customer? With these questions in mind, Justin and the Trunk Club engineering team used Optimizely to run two experiments on their mobile app experience. 
 
-*These experiments generated the following results:* 
+[[callout callout--big]]
+
+#### Business Impact of Experiments:
 
 * *43% increased likelihood* that a member and stylist would connect and ship a trunk
 * *90% increase* in Trunk Club stylists' efficiency
 * Safely introduced a “liking” user behavior that *engaged 10% of active users*
 * Increased featured merchandise requests *by 8.6%*
+
+[[/]]
 
 ## Credit Card Gating Experiment
 
@@ -70,18 +74,10 @@ Since mobile users are often in more of an exploratory state, the Trunk Club tea
 
 This experiment tested requiring credit card information versus not requiring credit card information at all before requesting a trunk. In either case, the card isn’t charged until a member decides to keep an item of clothing in their trunk.
 
-*Hypotheses:*
+#### Hypotheses
 
 1. Would stylists would be quicker to respond if they received fewer leads that were better qualified and purchase-ready? 
 2. Would requiring members to take the extra step of entering their credit card information before requesting a ‘trunk’ lead to more productive leads for the stylists to pursue?
-
-*Results:*
-
-Requiring credit card information led to fewer overall conversions, but the users that requested a trunk were more qualified and converted to purchases at a higher rate—the stylist and customer were 43% more likely to connect and ship a trunk of clothing, a key step in Trunk Club’s customer conversion funnel.
-
-The experiment provided stylists with more productive leads. “We saw about half as many trunk requests come through—but then *we were twice as likely to actually convert those trunk requests [to shipments]*,” says Hughes. 
-
-This was a tremendous win both for the stylists, who are focused on offering a high level of service to thousands of new members each day, and for the Trunk Club customer, who was more likely to understand that requesting a trunk was an action that required a purchase intent, and more likely to move further down the purchase funnel after requesting a trunk in the app.
 
 {% include "side-by-side.html"
   {
@@ -94,6 +90,15 @@ This was a tremendous win both for the stylists, who are focused on offering a h
   }
 %}
 
+#### Results
+
+* The stylist and customer were *43% more likely to connect and ship a trunk of clothing*, a key step in Trunk Club’s customer conversion funnel
+* Due to higher quality of leads from the app, *stylist productivity improved 90%*
+
+Requiring credit card information led to fewer overall conversions, but the users that requested a trunk were more qualified and converted to purchases at a higher rate. The experiment provided stylists with more productive leads. “We saw about half as many trunk requests come through—but then *we were twice as likely to actually convert those trunk requests [to shipments]*,” says Hughes. 
+
+This was a tremendous win both for the stylists, who are focused on offering a high level of service to thousands of new members each day, and for the Trunk Club customer, who was more likely to understand that requesting a trunk was an action that required a purchase intent, and more likely to move further down the purchase funnel after requesting a trunk in the app.
+
 ## The Liking Experiment
 
 Just like with the credit card experiment, the Trunk Club mobile team wanted to find a way to allow users to engage with the app in a way that wouldn’t inundate stylists with requests—but that also wouldn’t reduce the number of qualified trunk requests they were receiving through the app.
@@ -102,18 +107,10 @@ They wanted to experiment with how users could indicate style preferences. Trunk
 
 Using Optimizely, the team was able to validate the introduction of a new “like” button feature. They first tested the feature a limited amount of their app traffic to ensure that key metrics like trunk requests remained stable. 
 
-*Hypotheses:*
+#### Hypotheses
 
 1. Would a softer form of preference indication—likes—be used?
 2. Would like cannibalize purchase requests in the app? 
-
-*Results:*
-
-The new like button was an immediate success, and the Trunk Club team began to “double up” on the amount of traffic included in the “like” treatment of the app. *10% of users in the experimental treatment engaged with the feature, and merchandise requests increased by almost 9%.*
-
-Members would “like” products 10-12 times in a sitting, shattering engagement expectations and offering a great window into the member’s wardrobe preferences and style. “We also found that people were more likely to submit a trunk request when we got them to like things in the app,” says Hughes. 
-
-By testing the introduction of the “like” feature, the team was able to ensure that clothing requests were not cannibalized by the new behavior, and proved that introducing liking was actually beneficial for both user engagement and trunk requests, the team’s top-line metric.
 
 {% include "side-by-side.html"
   {
@@ -126,6 +123,17 @@ By testing the introduction of the “like” feature, the team was able to ensu
 '
   }
 %}
+
+#### Results
+
+* *10% of users in the experimental treatment engaged with the feature*
+* Merchandise requests *increased by almost 9%*
+
+The new like button was an immediate success, and the Trunk Club team began to “double up” on the amount of traffic included in the “like” treatment of the app.
+
+Members would “like” products 10-12 times in a sitting, shattering engagement expectations and offering a great window into the member’s wardrobe preferences and style. “We also found that people were more likely to submit a trunk request when we got them to like things in the app,” says Hughes. 
+
+By testing the introduction of the “like” feature, the team was able to ensure that clothing requests were not cannibalized by the new behavior, and proved that introducing liking was actually beneficial for both user engagement and trunk requests, the team’s top-line metric.
 
 ## Business Impact
 

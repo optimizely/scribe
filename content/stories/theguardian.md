@@ -102,13 +102,20 @@ The homepage test provided surprising insights. After running the test for just 
 
 Rather than archive this as a failed test, however, Kerstin found the learnings to be just as valuable as those from the two prior experiments. The negative and insignificant results helped her plan for future tests by honing in on new ways to increase conversions.
 
-[[callout]]
+## Takeaways
 
-#### Takeaways
+### Agree on a Hypothesis and Goals Before the Test
 
-- *COMMUNICATION IS KEY:* Like Ujjwal and his team, successful testing organizations put a high focus on information sharing, communicating goals, strategy, and outcomes to their colleagues on a regular basis. This helps validate optimization spend, secure buy-in from stakeholders, and engrain experimentation and data into company culture.
+Setting a hypothesis before building
+each test makes executing and interpreting experiment results much easier. According to
+Kerstin, agreeing on clear goals upfront helps remove the debate aspect when her team
+looks at test results and also influences ideas for future experiments. 
 
-- *TEST FOR HIGH IMPACT:* When it comes to optimization, the possibilities of what to test are endless. Buy taking stock of key challenges in the purchase funnel and assessing which changes will drive the most impact, Ujjwal and his team were able to prioritize in a smart way and garner some critical wins for their business. They also take into account how long it will take to build and run each experiment, ensuring they’re spending time and resources on optimization initiatives that will move the needle.
+### Every Test is a Learning Opportunity 
 
-[[/]]
-
+ “Of the 14 tests we have run so far on Soulmates, seven
+have been successful, three have been negative, and four have been inconclusive, in that
+the differences did not generate big enough changes to reach statistical significance.
+To know what doesn’t work has been just as informative as to know what does work.
+A negative test is just a challenge to improve on what has failed and test it again,” says
+Kerstin. 

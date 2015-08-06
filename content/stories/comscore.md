@@ -1,6 +1,6 @@
 ---
 shortname: comscore
-title: ComScore Tests Brand Validation and Social Proof
+title: ComScore Tests Brand Validation and Social Proof with Optimizely
 category: Technology
 hero:
   title: ComScore Tests Brand Validation and Social Proof
@@ -16,7 +16,7 @@ recommended:
 
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/comscore/comscore_logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/comscore/comscore-logo.png',
     metadata: {
       1: {
         value: 'Technology',
@@ -95,12 +95,18 @@ The vertical testimonial that included a logo outperformed all the other variati
   }
 %}
 
-[[callout]]
+## TESTING TAKEAWAYS
 
-#### TAKEAWAYS
+### Use Segmentation to Hone in on Results 
 
-- *USE SEGMENTATION TO HONE IN ON RESULTS:* Ferry applied user segments to zoom in on experiment results for the target group for his test – new leads. “We wanted to filter out all existing clients who only use the page to login to the product and focus on the effects the changes had on prospective customers,” he said. Drilling into specific user groups can provide more detailed insights from test results and can shape ideas for future tests.
-- *SMALL CHANGES CAN OFFER A BIG LIFT:* Not every test needs to be drastic, like a website redesign. Testing minor differences to the social proof display on comScore’s product pages yielded a significant lift in conversions. When building experiments, test both large and small aspects of your site to maximize conversion rates across the board.
-- *TRACK WHAT MATTERS:* Ferry used Optimizely to track several types of conversions on comScore’s site, setting goals around engagement, click-throughs, and pageviews. Tracking both macroconversions (actions that directly drove comScore’s lead generation, like views of the “demo requested” page) and microconversions (actions that revealed more nuanced information about site visitors’ behaviors, like engagement) for each experiment can help paint a fuller picture of how users interact with your site and inform future experiments.
+Ferry applied user segments to zoom in on experiment results for the target group for his test – new leads. “We wanted to filter out all existing clients who only use the page to login to the product and focus on the effects the changes had on prospective customers,” he said. Drilling into specific user groups can provide more detailed insights from test results and can shape ideas for future tests.
+
+### Small Changes can Offer a Big Lift
+
+Not every test needs to be drastic, like a website redesign. Testing minor differences to the social proof display on comScore’s product pages yielded a significant lift in conversions. When building experiments, test both large and small aspects of your site to maximize conversion rates across the board.
+
+### Track What Matters
+
+Ferry used Optimizely to track several types of conversions on comScore’s site, setting goals around engagement, click-throughs, and pageviews. Tracking both macroconversions (actions that directly drove comScore’s lead generation, like views of the “demo requested” page) and microconversions (actions that revealed more nuanced information about site visitors’ behaviors, like engagement) for each experiment can help paint a fuller picture of how users interact with your site and inform future experiments.
 
 [[/]]

@@ -97,7 +97,7 @@ Armed with data-driven knowledge and significant results from their initial test
 
 [[/]]
 
-### Key Takeaways
+## Testing Takeaways
 
 ### Question Assumptions 
 

@@ -42,11 +42,11 @@ recommended:
 
 [[intro]]
 
-The Clymb is the largest daily deals provider in the outdoor goods, apparel, and adventure travel market, with 5 million members, $60 million in annual revenue, 3 million monthly visits, and over 800 brands represented.
+The Clymb is the largest daily deals provider in the outdoor goods, apparel, and adventure travel market, with 5 million members, $60 million in annual revenue, 3 million MUVs, and over 800 brands represented.
 
 [[/]]
 
-Like many e-commerce companies, The Clymb tracks metrics about its members across a number of touchpoints – email, web, social media, mobile, and more. What makes The Clymb so successful is how it pools all this data together, using Lytics, to build digital customer personas (called unified User Profiles in the Lytics UI).
+Like many e-commerce companies, The Clymb tracks metrics about its members across a number of touchpoints – email, web, social media, mobile, and more. What makes The Clymb so successful is how it pulls all this data together, using Lytics, to build digital customer personas (called unified User Profiles in the Lytics UI).
 
 Digital personas paint a highly granular and constantly evolving picture of each member. They start from day one – collecting information when a member registers, tracking each time a they engage across any number of touchpoints, and monitoring every purchase they make.
 

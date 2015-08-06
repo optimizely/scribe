@@ -67,7 +67,12 @@ To measure the success of each variation, the product team set up two types of g
 
 In less than a week, the team found that *shortening the first step of the checkout funnel increased conversions by 23.3%.*
 
-## Takeaways
+## Testing Takeaways
 
-* *Test your information collection process.* Site visitors’ behaviors may change as they travel down the funnel. 1-800-DENTIST found that limiting inputs during the first step of the sign-up process and moving them to steps later in the funnel ultimately helped more users reach their end goal.
-* *Consider micro- vs. macro-goals.* Defining clear goals can set you up for future testing success. The ability to identify and measure their primary business goal — “Thank you” pageviews — while using micro-goals to understanding where users dropped out in the funnel, helped 1-800-DENTIST maximize revenue and shape hypotheses for future tests.
+### Test your Information Collection Process.
+
+Site visitors’ behaviors may change as they travel down the funnel. 1-800-DENTIST found that limiting inputs during the first step of the sign-up process and moving them to steps later in the funnel ultimately helped more users reach their end goal.
+
+### Consider Micro- vs. Macro- Goals
+
+Defining clear goals can set you up for future testing success. The ability to identify and measure their primary business goal — “Thank you” pageviews — while using micro-goals to understanding where users dropped out in the funnel, helped 1-800-DENTIST maximize revenue and shape hypotheses for future tests.

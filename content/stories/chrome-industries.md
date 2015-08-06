@@ -44,6 +44,14 @@ In a video filmed at Chrome’s office and showroom in downtown San Francisco, K
 
 But for Kyle’s team, the benefits of testing go well beyond clicks and conversions. Optimizely helps Chrome Industries save time and resources, and deploy changes to their website quickly.
 
+{% include "blockquote.html"
+  {
+    size: 'full',
+    quote: 'Understanding data with Optimizely is the best way to quickly and effectively create a page which is the best experience for our overall user.',
+    attribution: 'Kyle Duford, Director of E-Commerce, Chrome Industries'
+  }
+%}
+
 “E-Commerce is a 24-hour business and the needs change every day. When we launched our new website, we were able to use Optimizely as a response tactic,” explains Eddie Castillo, User Experience Manager at Chrome. “For instance, we had products go out of stock and hadn’t completely thought out the functionality of our site to update that messaging. We were able to update the “out of stock” product page with Optimizely on the fly, directing customers to similar products that were still available.”
 
 From deploying quick fixes to maximizing online revenue streams, website optimization has changed the way Chrome Industries does business.
