@@ -41,6 +41,7 @@
 
 .content-text {
   @include flex(1);
+  max-width: 100%;
   margin-bottom: spacer(6);
 
   ul {

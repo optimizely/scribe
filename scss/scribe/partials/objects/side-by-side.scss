@@ -2,7 +2,7 @@
   margin-bottom: spacer(6);
 
   &__items {
-    display: flex;
+    @include display(flex);
     list-style: none !important;
     margin: 0 0 0 spacer(-2) !important;
     padding: 0;
@@ -14,4 +14,7 @@
     margin: 0;
   }
 
+  img {
+    width: 100%;
+  }
 }
