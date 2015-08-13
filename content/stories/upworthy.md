@@ -41,13 +41,13 @@ Founded in 2012, Upworthy is an online media company built upon one key principl
 
 But as Upworthy’s audience grew, Peter realized that the site’s design was not keeping up with the needs of frequent visitors. Engagement was growing and people were spending more time on the site – but it was difficult to find additional content after landing on the site.
 
-“Our users wanted to dig deeper, but there was no obvious way to get to a second piece of content,” says Peter. Peter’s goal was to increase sitewide engagement, while maintaining the share-optimized user experience.
+“Our users wanted to dig deeper, but there was no obvious way to get to a second piece of content,” says Peter. Peter’s goal was to increase sitewide engagement, while maintaining the sharing-optimized user experience.
 
 ## HYPOTHESIS
 
 Peter believed that adding a recommended content module would decrease the number of social shares for each article on average. “We had already done a lot of testing around our content and we found that when we added distractions, user sharing went down,” says Peter. “We were actually hesitant about adding the module at all.”
 
-So his team decided to test it out, exper-imenting with variety of recommended content module designs and layouts. They hoped to find an option that would provide users with more content while still having a minimal effect on social sharing.
+So his team decided to test it out, experimenting with variety of recommended content module designs and layouts. They hoped to find an option that would provide users with more content while still having a minimal effect on social sharing.
 
 ## TEST
 
@@ -64,11 +64,11 @@ Peter and his team opted to take a two-phased approach. For phase one, they buil
 %}
 
 
-They tested content nuggets above and below the featured content, as well as left and right sidebars, and combina-tions that included a footer. Each variation used Javascript to pull in a selection of Upworthy’s most popular content. After running the test for just a few days, Peter uncovered some surprising results. *In each variation, the recommended content module actually increased both engagement and user sharing.* “With recommended content, it turns out that users would eventually land on something they wanted to share if they didn’t feel like sharing that first piece of content they landed on,” explains Peter.
+They tested content nuggets above and below the featured content, as well as left and right sidebars, and combinations that included a footer. Each variation used Javascript to pull in a selection of Upworthy’s most popular content. After running the test for just a few days, Peter uncovered some surprising results. *In each variation, the recommended content module actually increased both engagement and user sharing.* “With recommended content, it turns out that users would eventually land on something they wanted to share if they didn’t feel like sharing that first piece of content they landed on,” explains Peter.
 
 The team adopted the placement for the recommended content that performed best – the right sidebar displaying three recommended content options. Then, it was on to phase 2, during which the team used Optimizely to hone in on the module’s design.
 
-“One we decided on that location, we wire-framed different designs and tested them out,” says Peter. “We were testing in order to figure out the right design concept.” They tested different image sizes, fonts, text layouts, and spacing.
+“One we decided on that location, we wireframed different designs and tested them out,” says Peter. “We were testing in order to figure out the right design concept.” They tested different image sizes, fonts, text layouts, and spacing.
 
 ## RESULTS
 
@@ -88,11 +88,11 @@ Now, the team is focused on capitalizing on their win in order to continue to fu
 
 ### Optimize for Maximum Shareability 
 
-“We’re very focused on creating the best pos-sible experience for our users and the Upworthy community,” explains Peter. “We want people on our site to really enjoy a piece of content and share it in huge numbers. Part of this is about curating great content. But it’s also about taking the time to optimize every part of the experience for maximum shareability and satisfaction.”
+“We’re very focused on creating the best possible experience for our users and the Upworthy community,” explains Peter. “We want people on our site to really enjoy a piece of content and share it in huge numbers. Part of this is about curating great content. But it’s also about taking the time to optimize every part of the experience for maximum shareability and satisfaction.”
 
 ### Test and Iterate 
 
-Peter’s two-phased approach first solidified the strongest place-ment for the content module and then honed in on design specifics. By finding what module actually performed best and then dialing in on the details, Peter was able to find the best possible user experience.
+Peter’s two-phased approach first solidified the strongest placement for the content module and then honed in on design specifics. By finding what module actually performed best and then dialing in on the details, Peter was able to find the best possible user experience.
 
 ### Question Assumptions 
 

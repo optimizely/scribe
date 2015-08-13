@@ -53,7 +53,7 @@ The team hypothesized that revamping the lead generation form would improve lead
 
 Challenge  | Hypothesis
 ---------- | -------------
-Form completion is unclear; users are leaving required fields incomplete. | Visual form validation will guide users to complete the form correctly.
+Form completion requirements are unclear; users are leaving required fields incomplete. | Visual form validation will guide users to complete the form correctly.
 Phone numbers are incompatible with Salesforce.com, the platform Iron Mountain’s sales team uses to capture lead information. | A modified phone number field will ensure numbers match the correct format.
 Site visitors do not understand the overall purpose of the form – to inquire about Iron Mountain’s business solutions. | Changes to the headline will help visitors understand the form’s purpose.
 

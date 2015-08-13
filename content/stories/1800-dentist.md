@@ -75,4 +75,4 @@ Site visitors’ behaviors may change as they travel down the funnel. 1-800-DENT
 
 ### Consider Micro- vs. Macro- Goals
 
-Defining clear goals can set you up for future testing success. The ability to identify and measure their primary business goal — “Thank you” pageviews — while using micro-goals to understanding where users dropped out in the funnel, helped 1-800-DENTIST maximize revenue and shape hypotheses for future tests.
+Defining clear goals can set you up for future testing success. The ability to identify and measure their primary business goal — “Thank you” pageviews — while using micro-goals to understand where users dropped out in the funnel, helped 1-800-DENTIST maximize revenue and shape hypotheses for future tests.

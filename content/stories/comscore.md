@@ -101,7 +101,7 @@ The vertical testimonial that included a logo outperformed all the other variati
 
 Ferry applied user segments to zoom in on experiment results for the target group for his test – new leads. “We wanted to filter out all existing clients who only use the page to login to the product and focus on the effects the changes had on prospective customers,” he said. Drilling into specific user groups can provide more detailed insights from test results and can shape ideas for future tests.
 
-### Small Changes can Offer a Big Lift
+### Small Changes Can Offer a Big Lift
 
 Not every test needs to be drastic, like a website redesign. Testing minor differences to the social proof display on comScore’s product pages yielded a significant lift in conversions. When building experiments, test both large and small aspects of your site to maximize conversion rates across the board.
 

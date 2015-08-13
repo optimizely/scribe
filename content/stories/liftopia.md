@@ -1,10 +1,10 @@
 ---
 shortname: liftopia
-title: Liftopia Increases SEM Conversions 24% with Targeted Landing Experience
+title: Liftopia Increased SEM Conversions 24% with Targeted Landing Experience
 category: travel
 hero:
   title: Ski Commerce Provider Optimizes for SEM Traffic Conversions
-  subtitle: Less content and more personalized experiences increases purchases 23.7%
+  subtitle: Less content and more personalized experiences increased purchases 23.7%
 recommended:
   1:
     story: hotwire

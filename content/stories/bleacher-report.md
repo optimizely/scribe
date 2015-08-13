@@ -35,7 +35,7 @@ Bleacher Report is a sports media brand, in a race to become the ‘ESPN of digi
 
 [[/]]
 
-The Bleacher Report team has spent the last year iterating over various redesigns to their social media popups. Using Optimizely, they were able to quickly test new versions of their promos and closely monitor their effects on conversion rates. This ultimately led to a complete redesign of their social promos from an intrusive popup to a more subtle flyin, increasing impressions and a *boosting social conversions a whopping 764%*.
+The Bleacher Report team has spent the last year iterating over various redesigns to their social media pop-ups. Using Optimizely, they were able to quickly test new versions of their promos and closely monitor their effects on conversion rates. This ultimately led to a complete redesign of their social promos from an intrusive popup to a more subtle fly-in, increasing impressions and a *boosting social conversions a whopping 764%*.
 
 Take an insider look at how the Bleacher Report team approaches optimization:
 
