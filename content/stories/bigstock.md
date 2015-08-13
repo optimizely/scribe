@@ -75,7 +75,7 @@ Optimizely provided the platform for Bigstock to set up an A/B test that buckete
 
 ## Results
 
-On Optimizely’s results page, Bigstock could clearly see that *visitors selected results from the the fuzzy auto suggest 9.6% more often*.
+On Optimizely’s results page, Bigstock could clearly see that *visitors selected results from the fuzzy auto suggest 9.6% more often*.
 
 With Google Analytics, they were also able to see significant improvements throughout, including a *6.52% increase in the number of images added to the cart, and a 3.2% increase in downloaded images*. In under a week, Bigstock used Optimizely to solve a business challenge that enhanced user experience and increased revenue.
 
