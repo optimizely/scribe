@@ -10,8 +10,8 @@ stats:
     value: 12%
     title: Increase in Sales
   2:
-    value: 3
-    title: Team members
+    value: $60 Million
+    title: Annual Online Sales
   3:
     value: Lytics
     title: Optimizely Technology Integration
