@@ -1,7 +1,7 @@
 {% if headless %}---
 layout: wrapper
-TR_seo_title: "Case Studies"
-TR_visible_title: "Case Studies"
+TR_seo_title: {{ title }}
+TR_visible_title: {{ title }}
 no_container: true
 page_css:
 - scribe.css
@@ -11,6 +11,9 @@ page_script: customer-stories.js
 body_class:
 - scribe
 - page--stories
+og_title: {{ title }}
+og_description: {{ hero.subtitle }}
+og_image: {{ cdn.customer_stories + shortname }}/{{ shortname }}-hero-medium.jpg
 ---{% endif %}
 
 {% if !headless %}
