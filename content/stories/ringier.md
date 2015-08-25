@@ -22,7 +22,7 @@ recommended:
         title: 'Industry'
       },
       3: {
-        value: 'Zürich, DE',
+        value: 'Zürich, CH',
         title: 'Location'
       }
     }
@@ -35,7 +35,7 @@ The Swiss Ringier Group, which pro­duces over 120 news­papers and mag­a­zine
 
 [[/]]
 
-Testing at Rignier allows the media organization to build a data-driven testing muscle. For one month, a team of editors, product managers and web analysts started three article experiments every day with Optimizely and tested several teaser images, headlines and sub-headlines against each other. The results were an average increase in CTR of almost 20% and almost 5% more page impressions per visitor.
+Testing at Ringier allows the media organization to build a data-driven testing muscle. For one month, a team of editors, product managers and web analysts started three article experiments every day with Optimizely and tested several teaser images, headlines and sub-headlines against each other. The results were an average increase in CTR of almost 20% and almost 5% more page impressions per visitor.
 
 Learn more about how Rignier is affecting business results and building a data-driven culture:
 
