@@ -8,9 +8,6 @@ page_css:
 external_stylesheets:
 - //maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css
 page_script: customer-stories.js
-body_class:
-- scribe
-- page--stories
 og_title: {{ title }}
 og_description: {{ hero.subtitle }}
 og_image: {{ cdn.customer_stories + shortname }}/{{ shortname }}-hero-medium.jpg
@@ -22,6 +19,7 @@ og_image: {{ cdn.customer_stories + shortname }}/{{ shortname }}-hero-medium.jpg
     }
   %}
 {% endif %}
+<div class="scribe page--stories">
 {% include 'hero.html' %}
 {% include 'stats.html' %}
 
@@ -34,6 +32,7 @@ og_image: {{ cdn.customer_stories + shortname }}/{{ shortname }}-hero-medium.jpg
 {% include 'social.html' %}
 {% include 'cta-footer.html' %}
 {% include 'recommended.html' %}
+</div>
 {% if !headless %}
   {% include 'common/foot.html' %}
 {% endif %}
