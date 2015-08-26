@@ -72,7 +72,7 @@ The team adopted the placement for the recommended content that performed best â
 
 ## RESULTS
 
-The right sidebar, paired with a minimal design, *increased shares by 2.7% and engagement by 7.4%*.
+The right sidebar, paired with a minimal design, *increased social shares by 28%*.
 
 {% include "blockquote.html"
   {
