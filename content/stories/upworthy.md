@@ -1,10 +1,10 @@
 ---
 shortname: upworthy
-title: Recommended Content Optimization Drives Readership Growth at Upworthy
+title: How Upworthy Increased Social Shares 28% Through A Recommended Content Test
 category: Media
 hero:
-  title: Recommended Content Optimization Drives Readership Growth at Upworthy
-  subtitle: Testing from wireframe stages paved the way for maximizing reader engagement and social sharing
+  title: How Upworthy Increased Social Shares 28% Through A Recommended Content Experiment
+  subtitle: Testing from wireframe stages paved the way for maximizing reader engagement
 recommended:
   1:
     story: theguardian
