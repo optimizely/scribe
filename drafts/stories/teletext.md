@@ -52,7 +52,7 @@ Teletext relies on Optimizely to monitor offline conversions and connect them to
 
 * *On the frontend:* Teletext uses Optimizely to consistently run website experiments and identify areas of improvement. The company tests everything from design concepts to phone number placements on pages where holidays are being featured.
 
-* *On the backend:* Teletext collects data surrounding customer conversations and conversion events. The process begins with a system that generates phone numbers that are unique to each user’s session. The company then uses Optimizely’s API to integrate offline conversion event data into a trackable, ‘custom event goal’ that’s available in the Optimizely Experiment Results Dashboard.
+* *On the backend:* Teletext collects data surrounding customer conversations and conversion events. The process begins with using multiple data points that are unique to each user’s session. The company then uses Optimizely’s API to integrate offline conversion event data into a trackable ‘custom event goal’ that’s available in the Optimizely Experiment Results Dashboard.
 
 Equally important to these frontend and backend processes are the incremental steps in between. In addition to monitoring sales as conversions, Teletext also monitors leads generated and offers redeemed.
 
@@ -64,7 +64,7 @@ Equally important to these frontend and backend processes are the incremental st
   }
 %}
 
-“With Optimizely, we can measure the impact of our initiatives and connect them to our marketing KPIs,” says Graham. “We now have the infrastructure that we need to change the way the site looks, change the wording, change the arrangement, and do lots of different things to make the user experience better.”
+“With Optimizely, we can measure the impact of our initiatives and connect them to our marketing KPIs,” says Graham. “We now have the infrastructure that we need to change the way the site looks and feels, change the messaging, personalise the experience, and do lots of different things to make the users’ experience with Teletextholidays.co.uk better.”
 
 ## The Outcome: Data-backed Decisions, Higher Conversions, and Better User Experiences
 
