@@ -37,7 +37,7 @@ The Swiss Ringier Group, which pro­duces over 120 news­papers and mag­a­zine
 
 Testing at Ringier allows the media organization to build a data-driven testing muscle. For one month, a team of editors, product managers and web analysts started three article experiments every day with Optimizely and tested several teaser images, headlines and sub-headlines against each other. The results were an average increase in CTR of almost 20% and almost 5% more page impressions per visitor.
 
-Learn more about how Rignier is affecting business results and building a data-driven culture:
+Learn more about how Ringier is affecting business results and building a data-driven culture:
 
 <iframe src="//fast.wistia.net/embed/iframe/6525fan07x?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="700" height="394"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
 
