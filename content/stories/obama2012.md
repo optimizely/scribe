@@ -47,7 +47,7 @@ The 2012 presidential election was a tight race. To fuel the campaign, the Obama
 
 Their optimization success is a testament to the perseverance and iteration required to achieve huge conversion gains. The team focused on cultivating a detailed understanding of their users’ behavior, looking for influences in variables like imagery, copy, design, usability, and website performance.
 
-Kyle Rush, Obama for America’s Deputy Director of Frontend Web Development, steered the team’s testing roadmap, ensuring that there was always a queue of ideas and experiments waiting to be tested. Optimizely was their A/B testing platform of choice.
+Kyle Rush, Obama for America’s Deputy Director of Frontend Web Development, steered the team’s testing roadmap, ensuring that there was always a queue of ideas and experiments waiting to be tested. Optimizely was their [A/B testing](/ab-testing/) platform of choice.
 
 {% include "blockquote.html"
   {

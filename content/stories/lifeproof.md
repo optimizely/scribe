@@ -125,4 +125,4 @@ To validate the decision to begin optimizing, focus on straightforward opportuni
 
 ### Tests can Help Choose not to Act 
 
-Sometimes, testing can help to ensure that there's not a missed opportunity in not taking action. Running an A/B test is a low-overhead way to try out new ideas, determine the impact, and then decide to build it. In the case of a neutral result, the decision to not build that idea becomes much easier.
+Sometimes, testing can help to ensure that there's not a missed opportunity in not taking action. Running an [A/B test](/ab-testing/) is a low-overhead way to try out new ideas, determine the impact, and then decide to build it. In the case of a neutral result, the decision to not build that idea becomes much easier.

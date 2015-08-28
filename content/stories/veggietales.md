@@ -50,7 +50,7 @@ VeggieTales is an animated children’s TV series, hugely popular with pre-schoo
 
 VeggieTales wanted to systematically optimize the design of their entire e-commerce site, store.veggietales.com, so they got in touch with my optimization strategy team at Blue Acorn for direction and results.
 
-Their initial research initated experiments with subtle design changes that, after reaching statistical significance through A/B testing, now receive 100% of the traffic as permanent design changes. All together, these subtle changes led to significant changes in revenue and growth:
+Their initial research initated experiments with subtle design changes that, after reaching statistical significance through [A/B testing](/ab-testing/), now receive 100% of the traffic as permanent design changes. All together, these subtle changes led to significant changes in revenue and growth:
 
 * 38% increase year-over-year in sitewide revenue per visitor
 * 42% increase year-over-year in sitewide conversion rate

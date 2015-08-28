@@ -45,7 +45,7 @@ Since founding the nonprofit in 2013, Hadi has focused on website optimization a
   }
 %}
 
-The Hour of Code campaign aims to introduce millions of students across the country to computer science in just one hour. To say the campaign had a phenomenal turnout rate is an understatement. Code.org signed up 15 million users in five days—over half of which Hadi and Roxanne credit to A/B testing. Here’s how they did it.
+The Hour of Code campaign aims to introduce millions of students across the country to computer science in just one hour. To say the campaign had a phenomenal turnout rate is an understatement. Code.org signed up 15 million users in five days—over half of which Hadi and Roxanne credit to [A/B testing](/ab-testing/). Here’s how they did it.
 
 ## Challenge: Engaging More Teachers and Students
 

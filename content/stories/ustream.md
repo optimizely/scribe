@@ -47,7 +47,7 @@ The team was divided on how to garner the most broadcast sessions with a button 
 
 ## Test
 
-Using Optimizely, Ustream set up an A/B test pitting each of the proposed button designs against each other.  The Ustream team set up a click goal on both buttons in order to measure the number of broadcast sessions that each button design yielded.
+Using Optimizely, Ustream set up an [A/B test](/ab-testing/) pitting each of the proposed button designs against each other.  The Ustream team set up a click goal on both buttons in order to measure the number of broadcast sessions that each button design yielded.
 
 After exposing the test to just over 12,000 visitors, a statistically significant winner emerged, and the uncertainty could be resolved with data.
 

@@ -71,7 +71,7 @@ One of their developers created a “fuzzy autosuggest” algorithm that predict
 
 ## Solution
 
-Optimizely provided the platform for Bigstock to set up an A/B test that bucketed all their live site visitors onto either the fuzzy or exact search page. They were then able to set up a tracking goal with Optimizely to measure how many times a visitor in each bucket selected a search result. Whichever algorithm received more result selections would be the winning variation, taking the guesswork completely out of the equation. Integrating Optimizely with Bigstock’s Google Analytics account provided even deeper insight about how each algorithm impacted conversions further down the down-load funnel.
+Optimizely provided the platform for Bigstock to set up an [A/B test](/ab-testing/) that bucketed all their live site visitors onto either the fuzzy or exact search page. They were then able to set up a tracking goal with Optimizely to measure how many times a visitor in each bucket selected a search result. Whichever algorithm received more result selections would be the winning variation, taking the guesswork completely out of the equation. Integrating Optimizely with Bigstock’s Google Analytics account provided even deeper insight about how each algorithm impacted conversions further down the down-load funnel.
 
 ## Results
 
