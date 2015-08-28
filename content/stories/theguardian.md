@@ -35,7 +35,7 @@ With more than 6 million weekly readers, The Guardian is the third most popular 
 
 [[/]]
 
-The Guardian uses A/B testing across many of its webpages and properties. Product managers like Kerstin Exner are encouraged to run A/B tests whenever possible, as long as a strong business case can be made for each experiment.
+The Guardian uses [A/B testing](/ab-testing/) across many of its webpages and properties. Product managers like Kerstin Exner are encouraged to run A/B tests whenever possible, as long as a strong business case can be made for each experiment.
 
 One property The Guardian optimizes frequently is its dating site, Soulmates. Launched in 2004, Soulmates monetizes via paid monthly subscriptions that allow members to interact with other members.
 
