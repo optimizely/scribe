@@ -102,7 +102,7 @@ The Spreadshirt team tracked 25 different types of conversions on the redesigned
 
 ### Learn from Past Experiments 
 
-When planning tests for the redesign, Kil looked to the team’s previous A/B tests for inspiration. Analyzing learnings from past tests is a great way to draw inspiration for the future. For instance, if a particular variation worked well on your site’s homepage, try testing a similar change in paid search ads or on your product pages. Or try honing in on those results even further, testing a smaller aspect of a bigger win to boost conversions further.
+When planning tests for the redesign, Kil looked to the team’s previous [A/B tests](/ab-testing/) for inspiration. Analyzing learnings from past tests is a great way to draw inspiration for the future. For instance, if a particular variation worked well on your site’s homepage, try testing a similar change in paid search ads or on your product pages. Or try honing in on those results even further, testing a smaller aspect of a bigger win to boost conversions further.
 
 ### Complement Great Design with Strong Data 
 
