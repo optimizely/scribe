@@ -101,7 +101,7 @@ Armed with data-driven knowledge and significant results from their initial test
 
 ### Question Assumptions 
 
-A/B testing provides real, actionable data to help you better understand how your web properties are performing. Even if think you’ve optimized your site, test it out. In EA’s case, the common belief was that promotional offers will drive more purchases — this turned out to be false. Testing gave them the information needed to maximize revenue in a way that would not have been otherwise possible.
+[A/B testing](/ab-testing/) provides real, actionable data to help you better understand how your web properties are performing. Even if think you’ve optimized your site, test it out. In EA’s case, the common belief was that promotional offers will drive more purchases — this turned out to be false. Testing gave them the information needed to maximize revenue in a way that would not have been otherwise possible.
 
 ### Apply Learnings Across Channels
 
