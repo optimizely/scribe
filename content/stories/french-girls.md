@@ -35,7 +35,7 @@ recommended:
 
 [[/]]
 
-The app has risen in popularity, surpassing 1 million downloads in July 2014. With A/B testing, French Girls’ lean team is turning the majority of those downloads into engaged, activated users.
+The app has risen in popularity, surpassing 1 million downloads in July 2014. With [A/B testing](/ab-testing/), French Girls’ lean team is turning the majority of those downloads into engaged, activated users.
 
 Through iOS A/B testing, French Girls increased activation from 25% to 66.5% and fundamentally changed how they develop features.
 
