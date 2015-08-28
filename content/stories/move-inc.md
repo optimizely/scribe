@@ -37,7 +37,7 @@ Move, Inc. (operator of Realtor.com), a News Corp company, is a provider of onli
 
 The company takes action on these insights and measures the impact of changes via a robust optimization program. Suma Warrier leads digital optimization for Move, Inc., and has spent her time at the company building out a robust team and process to enable high-velocity testing.
 
-At the end of 2013 after Suma joined the company, the revenue goal was set and communicated across the company. 2014 would become a year where A/B testing and optimization contributed to a portion of the company’s revenue. The goal was a stretch, which drove strong focus and prioritization. They chose a new optimization platform (Optimizely), and began to staff a new team focused on optimization.
+At the end of 2013 after Suma joined the company, the revenue goal was set and communicated across the company. 2014 would become a year where [A/B testing](/ab-testing/) and optimization contributed to a portion of the company’s revenue. The goal was a stretch, which drove strong focus and prioritization. They chose a new optimization platform (Optimizely), and began to staff a new team focused on optimization.
 
 At Move, the Optimization team is housed within the Analytics department. For the team to be successful, they needed cross-functional support from Research, Design, Product, QA and Engineering.  The core Optimization team included Suma, Roger, and Hima to manage the test prioritization, building and running tests, and post-experiment analysis. Two key technical assets that they focused on assigning immediately were QA and developer resources.
 
