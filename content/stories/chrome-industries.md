@@ -42,7 +42,7 @@ In a video filmed at Chrome’s office and showroom in downtown San Francisco, K
 
 “The end-game for us is to get people to engage more with our brand and ultimately purchase some products,” he says. “Understanding data with Optimizely is the best way to quickly and effectively create a page which is the best experience for our overall user.”
 
-But for Kyle’s team, the benefits of testing go well beyond clicks and conversions. Optimizely helps Chrome Industries save time and resources, and deploy changes to their website quickly.
+But for Kyle’s team, the benefits of [testing](/ab-testing/) go well beyond clicks and conversions. Optimizely helps Chrome Industries save time and resources, and deploy changes to their website quickly.
 
 {% include "blockquote.html"
   {
