@@ -13,7 +13,11 @@ In this article, we’ll look at the five tools that, when combined, can lay the
 
 ## 1. A/B Testing Platform
 
+[[float--right push-triple--left]]
+
 ![A/b testing tool](https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/seo-pages/ab-icon.png)
+
+[[/]]
 
 [A/B testing](/ab-testing/) is the bread and butter of conversion rate optimization (CRO). In a nutshell, an A/B test allows you to pit multiple versions of a web page against one another and funnel your site traffic into each version to determine which design results in a more successful user experience. Do more people click the “Add to cart button” in version A or version B, for example.
 
@@ -23,7 +27,11 @@ A/B testing platforms thrive and ignite your CRO strategies when integrated with
 
 ## 2. Analytics Services
 
+[[float--right push-triple--left]]
+
 ![Analytics services](https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/seo-pages/analytics-icon.png)
+
+[[/]]
 
 Analytics services are some of the most well-developed tools of web marketing, and as such, most analytics tools have become extremely comprehensive. Even a free tool can usually provide comprehensive data on where your traffic comes from, the path visitors take through the site, how long they stay on each page, and much more. The sheer amount of data can be overwhelming so don’t worry about tracking everything at once — build slowly!
 
@@ -31,7 +39,11 @@ Once integrated with your A/B testing platform, you can see how the traffic segm
 
 ## 3. Marketing Automation Platform
 
+[[float--right push-triple--left]]
+
 ![Marketing automation platforms](https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/seo-pages/marketing-icon.png)
+
+[[/]]
 
 The Marketing Automation Platform is the engine that fuels the process of turning a simple lead into a new client. An automated marketing machine involves automating and measuring all of the communication between you and your prospect customer. A new lead can be classified and added to an email program automatically, sent to the correct member of the sales team, and much more.
 
@@ -41,7 +53,11 @@ Keeping track of both of these metrics, lead quality and lead quantity, is impor
 
 ## 4. Heat Mapping Service
 
+[[float--right push-triple--left]]
+
 ![Heatmapping service](https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/seo-pages/heatmap-icon.png)
+
+[[/]]
 
 Heat mapping tools provide possibly the most direct insight into how visitors interact with your website. By monitoring mouse clicks and other manipulations of the page (such as scrolling), a heat map provides you with a clear picture of where users spend the most time on your page and where they don’t.
 
@@ -49,7 +65,11 @@ Heat maps can help you decide which elements on your page to optimize. Before yo
 
 ## 5. Social Customer Relationship Manager (CRM)
 
+[[float--right push-triple--left]]
+
 ![Social customer relationship manager](https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/seo-pages/crm-icon.png)
+
+[[/]]
 
 Social CRM is the last tool in our toolkit, and also the “newest,” in the sense that mature tools for executing a Social CRM strategy have only recently begun to emerge. However, the potential for customer engagement presented by these tools has quickly made them pivotal for conversion optimization.
 

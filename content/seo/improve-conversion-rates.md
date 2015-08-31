@@ -10,7 +10,11 @@ In online marketing, a conversion rate is the ratio of total visitors to visitor
 
 ## Tip 1: Focus on your call to action.
 
+[[float--right push-triple--left]]
+
 ![Focus on your call to action](https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/seo-pages/click-me.png)
+
+[[/]]
 
 In online marketing lingo, a call to action refers to a button or link that directs visitors to take a certain action like “Add to Cart” or “Register Now.” One way to potentially improve conversion rates is to experiment with different calls to action. Vary not only the position on the page. Try new CTA text or icon on the button as well.
 
@@ -20,7 +24,11 @@ By testing the CTA on your pages, you may reveal how much impact just three word
 
 ## Tip 2: Experiment with Layout, Content, Style and Functionality on Landing Pages
 
+[[float--right push-triple--left]]
+
 ![Experiment with layout](https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/seo-pages/layout-icon.png)
+
+[[/]]
 
 Landing pages typically do three things:
 
@@ -32,7 +40,11 @@ In other words, landing pages give enough information to motivate users to want 
 
 ## Tip 3: Track multiple page elements.
 
+[[float--right push-triple--left]]
+
 ![Track multiple page elements](https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/seo-pages/track-icon.png)
+
+[[/]]
 
 Keep in mind the reason you’re testing: you want to achieve a certain goal or goals. Many factors may affect the success of achieving your goal whether it be increasing views, sign-ups, leads, revenue, downloads or a combination of these. Tracking multiple elements on the pages you’re testing helps measure how your tests impact the different ways a visitor could achieve the goal. You will not only be able to learn which experience was better by tracking multiple elements, but also possibly learn why it was better for your site visitors.
 
@@ -47,13 +59,21 @@ The company runs A/B tests to hopefully increase the number visitors who convert
 
 ## Tip 4: Test the right visitors.
 
+[[float--right push-triple--left]]
+
 ![Test the right visitors](https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/seo-pages/test-icon.png)
+
+[[/]]
 
 Different visitors behave differently. For example, organic visitors tend to spend more time on websites, view more pages, and have lower bounce rates than visitors that come from paid campaigns. Similarly, returning visitors tend to browse sites differently from new visitors. These behavioral differences should be reflected in your testing parameters. Design tests that are aimed at the right people.
 
 ## Tip 5: Iterate, iterate, and iterate.
 
+[[float--right push-triple--left]]
+
 ![Iterate](https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/seo-pages/iterate-icon.png)
+
+[[/]]
 
 This tip is also known as “always be testing.” The nature of experimentation dictates that some tests succeed and some fail: both outcomes present opportunities for growth. The road to improved conversion rates is paved with lots of tests. Use testing as a chance to explore new design possibilities then refine. The more you integrate [A/B testing](/ab-testing/) and [multivariate testing](/resources/multivariate-test-vs-ab-test/) as a core part of your company culture, the more your decisions will be driven by data rather than by feelings.
 
