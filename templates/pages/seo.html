@@ -1,0 +1,32 @@
+{% if headless %}---
+layout: wrapper
+TR_seo_title: {{ title }}
+TR_visible_title: {{ title }}
+no_container: true
+page_css:
+- scribe.css
+external_stylesheets:
+- //maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css
+og_title: {{ title }}
+og_description: {{ description }}
+---{% endif %}
+
+{% if !headless %}
+  {% include 'common/head.html' {
+      page: 'stories'
+    }
+  %}
+{% endif %}
+<div class="scribe page--stories">
+<div class="content-wrap customer-stories">
+  <div class="content-text">
+    <%= contents %>
+  </div>
+</div>
+
+{% include 'social.html' %}
+{% include 'cta-footer.html' %}
+</div>
+{% if !headless %}
+  {% include 'common/foot.html' %}
+{% endif %}
