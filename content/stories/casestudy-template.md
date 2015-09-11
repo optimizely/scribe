@@ -55,7 +55,7 @@ Keep going, describe what their challenges are and why Optimizely is their favor
 {% include "blockquote.html"
   {
     size: 'full',
-    quote: 'Maybe you'll want to use a block quote to describe just how painful their life was before Optimizely.',
+    quote: 'Maybe you’ll want to use a block quote to describe just how painful their life was before Optimizely.',
     attribution: 'Johnny Personalization, Head Honcho, Fortune XXX Company'
   }
 %}
@@ -83,11 +83,10 @@ You can use the side-by-side module for 2 or 3 images, or you can use the figure
 {% include "figure.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/obama2012/mobile-donate-test.png',
-    caption: 'The variation experience (Right) tested adding imagery of the president to the mobile experience to try to increase donations.
-',
+    caption: 'The variation experience (Right) tested adding imagery of the president to the mobile experience to try to increase donations.'
   }
 %}
 
 ## Results
 
-Keep the results section short and to the point, and try to *bold the key findings*. 
+Keep the results section short and to the point, and try to *bold the key findings*.
