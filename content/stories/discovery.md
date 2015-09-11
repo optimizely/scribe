@@ -13,8 +13,8 @@ stats:
     value: 6%
     title: Lift in Video Engagement
   3:
-    value: Moat Integration
-    title: Increased Ad Viewability
+    value: Increased Ad Viewability
+    title: Moat Integration
 recommended:
   1:
     story: bleacher-report
