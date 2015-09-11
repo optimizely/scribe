@@ -4,7 +4,7 @@ title: What Is Bucket Testing?
 description: Bucket testing (sometimes referred to as A/B testing or split testing) is a term used to describe the method testing two versions of a website against one another to see which one performs better on specified key metrics (such as clicks, downloads or purchases).
 ---
 
-Bucket testing (sometimes referred to as A/B testing or split testing) is a term used to describe the method testing two versions of a website against one another to see which one performs better on specified key metrics (such as clicks, downloads or purchases).
+Bucket testing (sometimes referred to as [A/B testing](/ab-testing/) or [split testing](/split-testing/)) is a term used to describe the method testing two versions of a website against one another to see which one performs better on specified key metrics (such as clicks, downloads or purchases).
 
 There are at least two variations in each test, a Variation A and a Variation B. Metrics from each page variation are measured and visitors are randomly placed into respective ‘buckets’ where the data can be recorded and analyzed to determine which performs best.
 
@@ -20,7 +20,7 @@ Because you have an ad campaign driving several thousand visitors a day to your 
 
 ## Bucket Tests & Conversion Optimization
 
-Bucket testing plays a big role in conversion rate optimization. Running a bucket test allows you to test any hypothesis that can improve a page’s conversions. You can continue to try higher-converting button text for Eat Raw Foods and Live Longer or you can go on to test other hypotheses, such as bolder headline copy, more colorful imagery or arrows pointing to the sign-up button that will get more people to convert.
+Bucket testing plays a big role in [conversion rate optimization](/optimization-glossary/conversion-rate-optimization/). Running a bucket test allows you to test any hypothesis that can improve a page’s conversions. You can continue to try higher-converting button text for Eat Raw Foods and Live Longer or you can go on to test other hypotheses, such as bolder headline copy, more colorful imagery or arrows pointing to the sign-up button that will get more people to convert.
 
 Companies spend millions of dollars to drive traffic to landing pages and websites that promote their product or service. With simple variations to page copy, imagery, and layouts, you can conduct a series of bucket tests to gather data and to iterate towards your highest-performing version of the page. You simply create variations of the page, changing one element at a time and measuring key metrics, then collect the results until reaching statistically significant results for each experiment.
 
