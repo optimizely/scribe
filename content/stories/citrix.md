@@ -1,7 +1,7 @@
 ---
 shortname: citrix
 title: Citrix Personalizes Homepage to Accelerate the Buyer’s Journey
-category: High Tech
+category: Technology
 hero:
   title: Citrix Personalizes Homepage to Accelerate the Buyer’s Journey
   subtitle: Personalizing content for strategic verticals leads to tremendous results
@@ -13,7 +13,7 @@ stats:
     value: 10%
     title: Lift in Pageviews per Session
   3:
-    value: Account-based Marketing
+    value: Account-Based Marketing
     title: Demandbase Integration
 recommended:
   1:
@@ -23,20 +23,12 @@ recommended:
   3:
     story: sony
 ---
-
-[[intro]]
-
-Citrix is a global technology company that empowers more than 330,000 enterprise customers worldwide with best-in-class tools to work and collaborate together. Founded in 1989, Citrix generated $3.1B+ in revenue in 2014 and continues to grow its business using its website as a central part of this strategy. 
-
-The Citrix team’s vision is to personalize its digital experiences to each individual visitor. They use Optimizely and Demandbase to power that vision. 
-[[/]]
-
 {% include "case-study-box.html"
   {
     image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/citrix/citrix-logo.png',
     metadata: {
       1: {
-        value: 'High Tech / B2B',
+        value: 'Technology',
         title: 'Industry'
       },
       2: {
@@ -51,7 +43,18 @@ The Citrix team’s vision is to personalize its digital experiences to each ind
   }
 %}
 
+[[intro]]
+
+Citrix is a global technology company that empowers more than 330,000 enterprise customers worldwide with best-in-class tools to work and collaborate together. Founded in 1989, Citrix generated $3.1B+ in revenue in 2014 and continues to grow its business using its website as a central part of this strategy. 
+
+The Citrix team’s vision is to personalize its digital experiences to each individual visitor. They use Optimizely and Demandbase to power that vision. 
+[[/]]
+
 ## PERSONALIZATION IN THE B2B INDUSTRY
+
+Prospects in the B2B industry spend a great deal of time researching products and solutions before making a purchase. During this process, a company’s website becomes a critical tool in influencing and accelerating the buyer’s journey, with 70% of buyers indicating that this channel is the most influential in their purchase decision, according to a recent DemandGen report. 
+
+For Citrix, personalized content delivers a more relevant experience to visitors that accelerates the buyer’s journey from awareness to sale. 
 
 {% include "blockquote.html"
   {
@@ -60,10 +63,6 @@ The Citrix team’s vision is to personalize its digital experiences to each ind
     attribution: 'Jessica Collier, Web Conversion Strategist, Citrix'
   }
 %}
-
-Prospects in the B2B industry spend a great deal of time researching products and solutions before making a purchase. During this process, a company’s website becomes a critical tool in influencing and accelerating the buyer’s journey, with 70% of buyers indicating that this channel is the most influential in their purchase decision, according to a recent DemandGen report. 
-
-For Citrix, personalized content delivers a more relevant experience to visitors that accelerates the buyer’s journey from awareness to sale. 
 
 ## FINDING THE RIGHT AUDIENCE
 
