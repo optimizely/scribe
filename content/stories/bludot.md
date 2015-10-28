@@ -13,7 +13,7 @@ stats:
     value: 124%
     title: Lift in catalog requests
   3:
-    value: Clearhead
+    value: <a href="https://www.optimizely.com/partners/solutions/clearhead/">Clearhead</a>
     title: Optimizely Solutions Partner
 recommended:
   1:
