@@ -17,7 +17,7 @@ stats:
     title: Annual Revenue
 recommended:
   1:
-    story: blu-dot
+    story: bludot
   2:
     story: sony
   3:
