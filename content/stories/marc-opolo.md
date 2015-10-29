@@ -19,7 +19,7 @@ recommended:
   1:
     story: sony
   2:
-    story: trunk-club
+    story: trunkclub-desktop
   3:
     story: ringier
 
@@ -62,7 +62,7 @@ Then, set up the variations in the experiment and describe them before dropping 
   {
     images: [
       'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/marc-opolo/marc-opolo-1.png',
-      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/marc-opolo/marc-opolo-2.png'
+      'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/marc-opolo/marc-opolo-2.png',
       'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/marc-opolo/marc-opolo-3.png'
     ],
   }

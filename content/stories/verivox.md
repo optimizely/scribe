@@ -1,9 +1,9 @@
 ---
 shortname: verivox
-title: Testing at Verivox: Small Team, Big Impact
+title: "Testing at Verivox: Small Team, Big Impact"
 category: Energy / Telecommunications
 hero:
-  title: Testing at Verivox: Small Team, Big Impact
+  title: "Testing at Verivox: Small Team, Big Impact"
   subtitle: Nimble, efficient optimization strategy helped increase cross-sells by 70%
 recommended:
   1:
@@ -12,7 +12,6 @@ recommended:
     story: citrix
   3:
     story: ringier
-
 ---
 {% include "case-study-box.html"
   {
@@ -53,7 +52,7 @@ Frank works with product managers across divisions to build the company’s test
 {% include "blockquote.html"
   {
     size: 'full',
-    quote: 'It's surprising just how much can be achieved using Optimizely’s visual editor.',
+    quote: 'It’s surprising just how much can be achieved using Optimizely’s visual editor.',
     attribution: 'Frank Herberg, Conversion Architect, Verivox'
   }
 %}
