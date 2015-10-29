@@ -1,6 +1,6 @@
 ---
 shortname: verivox
-title: "Testing at Verivox - Small Team, Big Impact"
+title: "Testing at Verivox: Small Team, Big Impact"
 category: Energy / Telecommunications
 hero:
   title: "Testing at Verivox: Small Team, Big Impact"
