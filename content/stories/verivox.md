@@ -15,7 +15,7 @@ recommended:
 ---
 {% include "case-study-box.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/discovery/discovery-logo.png',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/verivox/verivox-logo.png',
     metadata: {
       1: {
         value: 'Energy / Telecommunications',
