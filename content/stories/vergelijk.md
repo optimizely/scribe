@@ -34,6 +34,8 @@ recommended:
 
 Vergelijk.nl, a subsidiary of the Dutch Compare Group, is one of the largest product and price comparison websites in the Netherlands, with prices and reviews on over four million consumer products from 2600+ stores. Founded to help make purchasing decisions easier for customers, a straightforward and friendly user experience is central to their e-commerce site and is an important trademark of their brand. Vergelijk.nl uses A/B testing to evaluate site enhancements and continually improve their overall user experience.
 
+[[/]]
+
 ## Using Optimizely to increase business agility
 
 For Vergelijk.nl.nl, Optimizely has proven to be an extremely efficient way to make site improvements, as it saves them from relying on their IT team to build features and layouts that may never get implemented. According to User Experience Researcher, Inge Nachtegaal, “using Optimizely to A/B test features and site enhancements before making them live, saves us a lot of time and potential revenue loss if they turn out to not be working well.” Vergelijk.nl puts a big emphasis on improving their user experience to increase their competitive advantage, and Optimizely is a central part of their strategy to drive that forward.

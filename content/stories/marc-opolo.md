@@ -44,6 +44,8 @@ recommended:
 
 Marc O’Polo is a leading global retail brand, focused on premium, casual clothing and accessories for men and women. The brand sells its merchandise in brick-and-mortar stores, via partner retailers, and through it’s website. In recent years, Marc O’Polo has placed a major focus on optimizing its online store in order to maximize revenue from this growing channel.
 
+[[/]]
+
 ## Challenge: Shopping cart abandonment 
 
 For online retailers, identifying the factors that turn shopping cart abandoners into buying customers is often a challenge – no two shoppers are alike, the data can be messy, and buyer behaviors change over time. When identified correctly, however, these factors present a tremendous opportunity. So when Marc O’Polo set out to redesign and relaunch their website, this was the primary challenge they hoped to solve for. The Marc O’Polo team utilized A/B testing to experiment with different versions of its landing pages and product detail pages to determine which would convert more existing visitors into customers. 
