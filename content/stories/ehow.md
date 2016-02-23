@@ -4,7 +4,7 @@ title: eHow Grows Ad Revenue by Optimizing Viewability Metrics
 category: Media
 hero:
   title: eHow Grows Ad Revenue by Optimizing Viewability Metrics
-  subtitle: Improved ad viewability helps eHow provide great digital experiences: Both for consumers and for advertisers
+  subtitle: "Improved ad viewability helps eHow provide great digital experiences: Both for consumers and for advertisers"
 recommended:
   1:
     story: bleacher-report
@@ -17,6 +17,7 @@ recommended:
 [[intro]]
 
 eHow, a Demand Media company, is an online how-to guide with a large library of instructional articles and videos on a variety of topics. Its website receives more than 74 million unique visitors each month.
+
 [[/]]
 
 {% include "case-study-box.html"
@@ -46,7 +47,7 @@ Today, online publishers like eHow have to balance the demands of two very diffe
 {% include "blockquote.html"
   {
     size: 'full',
-    quote: 'It's essential for any publisher to care about viewability and pay attention to this metric.',
+    quote: 'It’s essential for any publisher to care about viewability and pay attention to this metric.',
     attribution: 'A.R. Tabrizi, Optimization Manager, Demand Media'
   }
 %}
@@ -85,6 +86,6 @@ As the results came in, eHow was met with another challenge. While the sticky ba
 
 eHow used this information to iterate, testing a second option. In this iteration, they still opted for the sticky banner, but controlled its display based on time, rather than scroll depth. After a reader had been on the page for a certain amount of time, the sticky banner would disappear. They hypothesized that this option would better meet the needs of both advertisers and readers. The idea being that the ad would disappear more quickly in this case (as soon as it met the appropriate attention requirements), giving readers a undisrupted experience earlier on, while their interest in the article was still piqued. 
 
-##Results
+## Results
 
 The results for the iterated variation of the sticky banner were overwhelmingly positive, greatly improving ad viewability metrics without disrupting engagement, scroll depth, or pageviews. These results helped inform changes made across eHow’s content pages. eHow was able to use higher viewability metrics to increase the value of its display inventory to advertisers. <b>The end result? Significant gains in ad revenue for eHow, better viewability for its advertisers, and a high-quality experience for readers.</b> 
