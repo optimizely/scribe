@@ -51,8 +51,8 @@ Based on customer feedback, Lee decided to run a test on their product page. Mos
 
 {% include "figure.html"
   {
-    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/1800-dentist/1800d-original.png',
-    caption: 'The original variation of the 1-800-DENTIST funnel includes three form fields on the homepage: ZIP code, dental need, and insurance/payment method.',
+    image: 'https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/evans-cycles-ab-test.png',
+    caption: 'The original experience didn't show whether or not bicycles were in stock at physical stores; the variation added this information for visitors.',
   }
 %}
 
